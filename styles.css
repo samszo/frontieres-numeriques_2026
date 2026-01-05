@@ -1,0 +1,101 @@
+/* css styles */
+.navbar-logo {
+    max-height: 64px;
+}
+.hero-container {
+  overflow: hidden;
+  position: relative;
+  max-height: 52vh;
+  height: 52vh;
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  background-image: url(assets/img/Gemini_Generated_Image_vkmcquvkmcquvkmc.png);
+  background-size: cover;
+  height: auto;
+  width: 100vw;
+  background-color: #141c25;
+  display: flex; /* Change to `display: none` for no hero image */
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding: 21vh 0;
+}
+
+.bannniere-top {
+  position: relative;
+  text-align: center;
+  font-size: 64px;
+  color: #ffffff;
+  /*
+  padding-right: 133px;
+  margin-bottom: -4.7rem;
+  */
+  font-weight: bold;
+}
+
+.bannniere-bottom {
+  position: relative;
+  text-align: center;
+  font-size: 64px;
+  color: #EEECEA;
+  /*padding-left: 105px;*/
+  font-weight: bold;
+}
+
+.bannniere-byline {
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0px;
+}
+
+.credit-text {
+  position: absolute;
+  text-align: left;
+  left: 2%;
+  bottom: 5%;
+}
+
+.image-credit {
+  text-align: left;
+  font-size: 14px;
+  color: white;
+}
+
+@media (min-width: 992px){
+  .credit-text {
+    position: absolute;
+    bottom: 3%;
+  }
+}
+
+@media (max-height: 876px) {
+  .hero-container {
+    max-height: 75vh;
+    height: 66vh;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 952px){
+  /*--    --*/
+  .hero-container {
+    max-height: 75vh;
+    /*height: 66vh;*/
+    display: flex;
+  }
+  .hero-image {
+    position: relative;
+    background-attachment: scroll;
+    background-position: 84% center;
+    display: block;
+    padding: none;
+    align-content: center;
+    object-fit: cover;
+    padding: 6vh 0;
+  }
+
+}

@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: ./docs
+
+website:
+  title: "Frontières Numériques 7 : Analogies et technologies"
+  description: "Site Web de la conférence Frontières numériques 7"
+
+  navbar:
+    background: "black"
+    search: true
+    logo: assets/img/logo-paragraphe-blanc.svg
+    left:
+      - href: index.qmd
+        text: Accueil
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - darkly
+      - brand
+    css: styles.css
+    toc: true
+
+
+

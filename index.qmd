@@ -1,0 +1,50 @@
+---
+title: "Frontières Numériques 7 : 2-3 juin 2026"
+
+format: 
+  html: 
+    include-in-header: banniere.html
+    include-after-body: footer.html
+
+---
+
+Description
+La frontière est une notion multidisciplinaire que l’on retrouve en informatique, en sciences humaines et sociales, ainsi qu’en science de l’information et de la communication. Elle est déjà présente en tant que telle, dans les interrogations de recherche des différentes disciplines et en tant qu’objet d’étude, perméable aux apports des uns et des autres ! Le Web a révolutionné l’accès à l’information, bien au-delà des frontières locales des populations, une révolution qui ne touche pas tout le monde, et met en évidence la dure réalité de la fracture numérique, une sorte de frontières économiques et sociales qui s’ajoutent à celles des territoires. Cette séparation symbolique/physique a tendance à s’estomper à petits pas, et de manière « mécanique », elle génère plus d’usagers, de données, d’archives, etc. La généralisation de l’usage des TIC redessine de nouvelles frontières pour un accès à l’enseignement et à la connaissance, à un plus grand nombre de demandeurs ! Pour dépasser les frontières physiques et celles des sélections d’accès aux formations, le développement des MOOC et l’enseignement à distance sont les meilleurs exemples. La masse importante des données numériques est un autre champ où la notion de frontière est assez présente, et pose de nouvelles problématiques sur la protection de la vie privée. Avec les innovations technologiques, nouveaux services, il est question souvent de cette frontière très mince, entre les données de la vie privée et celles de la vie publique, que ces nouveaux services sont amenés à explorer et à exploiter.
+
+Frontières numériques entre narrations et interprétations
+Dans ce colloque, nous nous interrogeons sur les limites numériques des rapports entre narrations et interprétations.
+
+Quels frontières numériques pour quels narrations et quelles interprétations ?
+Comment les narrations et les interpréations sont impactées par les technologies numérique comme les IAs symboliques, statististiques, génératives ?
+Quels sont les enjeux pour les pratiques éditoriales dans les sciences, l'administration, la littérature ?
+Un monde sans frontière est-il une utopie vers laquelle il faut tendre ou bien une illusion qu’il faut redouter ?
+Le travail artistique, souvent visionnaire, nous permet-il de dialectiser, de problématiser et d’enrichir la notion de frontières numériques ?
+L’inscription transversale du numérique dans les activités humaines demanderait à repenser les rapports humains en prenant compte des effets, des contraintes, des ressources et des modes d’organisation que le numérique révèle.
+
+Perspectives d'analyses
+Plusieurs angles d’analyses sont proposés pour réfléchir sur l’impact du numérique et d’internet, en particulier sur les frontières classiques ainsi que sur l’ensemble des activités humaines :
+
+Frontière numériques, sécurité, cybercriminalité & cryptage : les enjeux de sécurité dans les réseaux d'information touchent désormais tous les acteurs de la société qu'ils soient de simples individus protégeant leurs données intimes , des entreprises ou des institutions dont les systèmes d'informations sont les proies de cybercriminels rançonneurs. Comment des frontières numériques cryptent et sécurisent les échanges de données ? Comment s'assurer que les données passent bien par ces frontières ? Qui contrôlent et valident ces frontières ?
+Frontières numériques, manipulation de l'information et des réseaux : entre une information fiable, une désinformation, une post-vérité ou une fake news, les frontières sont souvent subtiles car les trucages et manipulations sont de plus en plus efficaces pour se rendre invisibles. Difficile de tracer les frontières entres ces informations pour communiquer sereinement et en toute confiance. Comment les technologies définissent des territoires informationnels aux frontières claires et distinctes ou opaques et transparentes ? Quelles frontières établir pour se prémunir des usages malveillants ?
+Frontières numériques, blockchain & NFT : les méthodes de cryptages décentralisés sans tiers de confiance établissent des principes qui bousculent les frontières par une appropriation collective des moyens de production et des moyens financiers, par la fin d'une division hiérarchique du travail , par l’internationalisme sans patrie , par des procédures de décisions collectives, moins étatiques, autoritaires et centralisées. Les frontières numériques ne sont-elles pas en train de disparaître ?
+Frontières numériques de l’information & Big Data : Les enjeux des données numériques dépassent largement les frontières des entreprises. Les Big Data commencent timidement à s’étendre et à s’imposer comme une innovation dans beaucoup d’entreprises, à la frontière entre le management et la technique, bien au-delà des systèmes informatiques. Les technologies du numérique transforment les frontières habituelles, particulièrement celles qui innovent dans la collecte, l’exploitation, et le traitement des données produites et dispersées sur le web, par exemple dans la gestion des données en « nuages » ou Cloud computing.
+Frontières et fractures numériques : La notion de fracture numérique est liée étroitement à l’idée d’appartenir ou pas à la « société de l’information ». Une frontière imperceptible qui sépare bel et bien deux réalités, symbolisées par l’usage ou pas des nouvelles technologies, TIC. Una attention particulière sera portée sur les aspects générationnels que la fracture induite par les différences de culture informationnelle et numérique fortement marquées socialement en termes de Catégories Sociaux Professionnelles. De même concernant la question de la fracture entre les pays du Sud et ceux du Nord, les info-riches vs les info-pauvres... Qui produits les informations, notamment en IST ? Quels liens de dépendance existent-ils entre les régions du globe, etc... Ces analyses pourront se conduire d'un point de sociologique mais aussi macro-économique ou en termes de pratiques informationnelles...
+Frontières numériques, médias numériques & pratiques rédactionnelles : Il est question de débordement permanent des frontières, de circulation des formes et des processus de construction symbolique qui caractérisent les pratiques rédactionnelles, communicationnelles et créatives sur des dispositifs complexes, comme les dispositifs d’écriture et de création : blog de voyage, le carnet moleskine, etc..
+Frontières numériques et télétravail : La situation sanitaire impose aux entreprises et aux universités le télétravail pour tous. Ce basculement a le mérite de voir les obstacles dressés auparavant diminuer, malgré́ ce constat largement partagé, force est de constater que la frontière entre la vie privée et la vie professionnelle est devenue imbriquée avec des conséquences sociétales.
+Dates importantes
+30 juin 2025 : Date limite d’inscription
+2 - 3 octobre 2025 : Colloque à Hammamet - Tunisie
+Publication
+Les meilleurs présentations du colloque feront l’objet d’une seconde évaluation afin d’étendre chaque article pour une publication spécifique :
+
+This is a Quarto website.
+{{< qrcode https://jmbuhr.de >}}
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
