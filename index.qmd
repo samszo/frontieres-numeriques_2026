@@ -1,50 +1,334 @@
 ---
-title: "Frontières Numériques 7 : 2-3 juin 2026"
+title: "Frontières Numériques 7 : Analogies & Technologies"
 
 format: 
   html: 
     include-in-header: banniere.html
     include-after-body: footer.html
-
+bibliography: references.bib
 ---
 
-Description
-La frontière est une notion multidisciplinaire que l’on retrouve en informatique, en sciences humaines et sociales, ainsi qu’en science de l’information et de la communication. Elle est déjà présente en tant que telle, dans les interrogations de recherche des différentes disciplines et en tant qu’objet d’étude, perméable aux apports des uns et des autres ! Le Web a révolutionné l’accès à l’information, bien au-delà des frontières locales des populations, une révolution qui ne touche pas tout le monde, et met en évidence la dure réalité de la fracture numérique, une sorte de frontières économiques et sociales qui s’ajoutent à celles des territoires. Cette séparation symbolique/physique a tendance à s’estomper à petits pas, et de manière « mécanique », elle génère plus d’usagers, de données, d’archives, etc. La généralisation de l’usage des TIC redessine de nouvelles frontières pour un accès à l’enseignement et à la connaissance, à un plus grand nombre de demandeurs ! Pour dépasser les frontières physiques et celles des sélections d’accès aux formations, le développement des MOOC et l’enseignement à distance sont les meilleurs exemples. La masse importante des données numériques est un autre champ où la notion de frontière est assez présente, et pose de nouvelles problématiques sur la protection de la vie privée. Avec les innovations technologiques, nouveaux services, il est question souvent de cette frontière très mince, entre les données de la vie privée et celles de la vie publique, que ces nouveaux services sont amenés à explorer et à exploiter.
+## 4-6 juin 2026, Djerba, Tunisie
 
-Frontières numériques entre narrations et interprétations
-Dans ce colloque, nous nous interrogeons sur les limites numériques des rapports entre narrations et interprétations.
+## Introduction
 
-Quels frontières numériques pour quels narrations et quelles interprétations ?
-Comment les narrations et les interpréations sont impactées par les technologies numérique comme les IAs symboliques, statististiques, génératives ?
-Quels sont les enjeux pour les pratiques éditoriales dans les sciences, l'administration, la littérature ?
-Un monde sans frontière est-il une utopie vers laquelle il faut tendre ou bien une illusion qu’il faut redouter ?
-Le travail artistique, souvent visionnaire, nous permet-il de dialectiser, de problématiser et d’enrichir la notion de frontières numériques ?
-L’inscription transversale du numérique dans les activités humaines demanderait à repenser les rapports humains en prenant compte des effets, des contraintes, des ressources et des modes d’organisation que le numérique révèle.
+*La frontière est une notion multidisciplinaire que l’on retrouve en informatique, en sciences humaines et sociales, ainsi qu’en science de l’information et de la communication. Elle est déjà présente en tant que telle, dans les interrogations de recherche des différentes disciplines et en tant qu’objet d’étude, perméable aux apports des uns et des autres.*
 
-Perspectives d'analyses
-Plusieurs angles d’analyses sont proposés pour réfléchir sur l’impact du numérique et d’internet, en particulier sur les frontières classiques ainsi que sur l’ensemble des activités humaines :
+Le Web a révolutionné l’accès, l'analyse et la production de l’information en déplaçant les frontières habituelles et en définissant de nouveaux territoires physiques, symboliques, politiques.
 
-Frontière numériques, sécurité, cybercriminalité & cryptage : les enjeux de sécurité dans les réseaux d'information touchent désormais tous les acteurs de la société qu'ils soient de simples individus protégeant leurs données intimes , des entreprises ou des institutions dont les systèmes d'informations sont les proies de cybercriminels rançonneurs. Comment des frontières numériques cryptent et sécurisent les échanges de données ? Comment s'assurer que les données passent bien par ces frontières ? Qui contrôlent et valident ces frontières ?
-Frontières numériques, manipulation de l'information et des réseaux : entre une information fiable, une désinformation, une post-vérité ou une fake news, les frontières sont souvent subtiles car les trucages et manipulations sont de plus en plus efficaces pour se rendre invisibles. Difficile de tracer les frontières entres ces informations pour communiquer sereinement et en toute confiance. Comment les technologies définissent des territoires informationnels aux frontières claires et distinctes ou opaques et transparentes ? Quelles frontières établir pour se prémunir des usages malveillants ?
-Frontières numériques, blockchain & NFT : les méthodes de cryptages décentralisés sans tiers de confiance établissent des principes qui bousculent les frontières par une appropriation collective des moyens de production et des moyens financiers, par la fin d'une division hiérarchique du travail , par l’internationalisme sans patrie , par des procédures de décisions collectives, moins étatiques, autoritaires et centralisées. Les frontières numériques ne sont-elles pas en train de disparaître ?
-Frontières numériques de l’information & Big Data : Les enjeux des données numériques dépassent largement les frontières des entreprises. Les Big Data commencent timidement à s’étendre et à s’imposer comme une innovation dans beaucoup d’entreprises, à la frontière entre le management et la technique, bien au-delà des systèmes informatiques. Les technologies du numérique transforment les frontières habituelles, particulièrement celles qui innovent dans la collecte, l’exploitation, et le traitement des données produites et dispersées sur le web, par exemple dans la gestion des données en « nuages » ou Cloud computing.
-Frontières et fractures numériques : La notion de fracture numérique est liée étroitement à l’idée d’appartenir ou pas à la « société de l’information ». Une frontière imperceptible qui sépare bel et bien deux réalités, symbolisées par l’usage ou pas des nouvelles technologies, TIC. Una attention particulière sera portée sur les aspects générationnels que la fracture induite par les différences de culture informationnelle et numérique fortement marquées socialement en termes de Catégories Sociaux Professionnelles. De même concernant la question de la fracture entre les pays du Sud et ceux du Nord, les info-riches vs les info-pauvres... Qui produits les informations, notamment en IST ? Quels liens de dépendance existent-ils entre les régions du globe, etc... Ces analyses pourront se conduire d'un point de sociologique mais aussi macro-économique ou en termes de pratiques informationnelles...
-Frontières numériques, médias numériques & pratiques rédactionnelles : Il est question de débordement permanent des frontières, de circulation des formes et des processus de construction symbolique qui caractérisent les pratiques rédactionnelles, communicationnelles et créatives sur des dispositifs complexes, comme les dispositifs d’écriture et de création : blog de voyage, le carnet moleskine, etc..
-Frontières numériques et télétravail : La situation sanitaire impose aux entreprises et aux universités le télétravail pour tous. Ce basculement a le mérite de voir les obstacles dressés auparavant diminuer, malgré́ ce constat largement partagé, force est de constater que la frontière entre la vie privée et la vie professionnelle est devenue imbriquée avec des conséquences sociétales.
-Dates importantes
-30 juin 2025 : Date limite d’inscription
-2 - 3 octobre 2025 : Colloque à Hammamet - Tunisie
-Publication
+> « Les sociétés se forment et se déforment en fonction des relations entre les groupes. Les frontières, qui leur confèrent leurs individualités territoriales, résultent, toujours et partout de l’action des forces sociales, d’un équilibre instable de la violence. » [@pomian1976, p.13]
+
+Ces nouveaux espaces d'informations et de communications sont accessibles à celles et ceux qui développent les compétences nécessaires pour les trouver, les comprendre, les construire. Ces personnes sont de plus en plus nombreuses et contribuent à faire du Web et de l'Internet une dimension omniprésente de nos vie quotidiennes, personnelles et professionnelles. Dans ces espaces numériques, les frontières se fixes non sans violence selon des stratégies sémiologiques :
+
+> « En ce lieu ou cette boite, de force ou de droit, chacun habite chez soi. Or désormais, dans un espace logiciel, la bataille à lieu autour des signes. Or, pour s'approprier ces nouveaux enclos, on peut débattre quant au sens : prouver, démontrer, convaincre, au niveau du contenu des messages, de leur vérité ; deuxièmement, s'en prendre au sujet même dont la bouche énonce : l'anathémiser, le bâillonner, l'emprisonner, le tuer ; en troisième ligne, on peut mettre la main sur le canal ou s'approprier le support du signal : le son et le bruit, les lignes ou les ondes ; du coup ce qui transite sur lui appartient à qui le tient. »[@serres1997, p. 165]
+
+Pour explorer ces nouveaux territoires et les manières d'y exister, le colloque Frontières Numériques propose une réflexion pluridisciplinaire sur les médiations que les dispositifs numériques induisent dans nos sociétés en décrivant, analysant, proposant des frontières qui définissent des axes de transformation passés, présents et futurs... Ainsi pensées, les frontières ont pour vocation de définir les conditions d'une interopérabilité entre les territoires :
+
+> « il s'agit moins de "laisser passer" ceux qui voudraient circuler librement d'un champ à l'autre, que de construire les passerelles et les tunnels capables de mettre les disciplines en communication (non triviale) entre elles. » [@citton2010, p. 94]
+
+La frontière n'est pas un mur mais une passoire [@debray2013], elle est là pour filtrer et réguler et par la même elle est un crible :
+
+> « dans tous les registres des cribles se constituent en interface entre 1) les virtualités virulentes du chaos, les proliférations stochastiques et 2) les potentialités actuelles dûment répertoriables et consolidables. » [@guattari1992, p. 140]
+
+Dans cette septième édition du colloque Frontières numériques, nous interrogerons plus particulièrement les rapports entre analogies et technologies pour comprendre en quoi ils définissent, transforment, créent des frontières numériques.
+
+## Frontières numériques : analogies et technologies
+
+Les rapports entre analogies et technologies s'expriment dans de nombreux domaines et peuvent s'analyser suivant une multitudes d'axes. Par exemple dans la conception de nouveaux dispositifs qui puissent leurs inspirations dans un domaine pour le mettre en pratique dans un autre domaine. On pense par exemple à l'analogie de l'urbanisme mis en pratique dans la conception de système d'information [@bidan2017]. Dans cette exemple, l'analogie oriente la conception en créant des cadres interprétatifs utiles pour définir des axes de conception et communiquer les cohérences d'un projet. Le monde de l'ingénieurie fourni de nombreux exemples d'utilisation de l'analogie sous la forme d'un mimétisme avec le vivant [@provost2020], par exemple celle des écosystèmes pour modéliser les connaissances [@szoniecky2024].
+
+D'un autre point de vue, en reprenant le concept que Philippe Descola forge à partir de ces matrices ontologiques [@descola2005], Michel Serres estime que « les technologies de la pensée algorithmiques » [@serres2009, p. 72], sont à vivre dans une ontologie analogiste qu'il définie par la possibilité de mettre en rapport toutes « physicalités » avec toutes « intériorités ». L'ontologie analogiste présente un monde chaotique, imprévisible, en transformation continue où seule l'analogie fait émerger une cohérence. C'est le cas par exemple du Yi King [@jung1979] qui utilise une base binaire (yin - yang) pour construire un réseau d'analogies élémentaires décrivant un état du monde interprétable. Dans les environnements numériques où tous les rapports et toutes les transformations sont possibles, l'analogie vectorise le sens en limitant les possibilités interprétatives et les possibilités d'intéraction comme le fait l'analogie du bureau sur nos ordinateurs ou celle de la page dans nos processus éditoriaux [@delannay2025, p. 72]. Dans ces environnements, nous avons besoin de nouveaux dispositifs mieux adaptés à leurs exploration :
+
+> « la dernière question concerne la gestion, représentation des processus et des morphogenèses qui expriment des dynamiques et des « éthologies conceptuelles » formant le milieu associé, plus ou moins mouvant, de ces savoirs. Cette dernière interrogation porte la question des frontières à un nouveau point critique, ces dernières étant envisagées comme des zones fluctuantes, comme croisements de trajectoires, de problèmes ou de concepts. En permettant l’exhibition partielle des dimensions processuelles des documents issus de la recherche, les nouveaux dispositifs éditoriaux devraient aussi rendre possible l’appréhension de ces zones frontières » [@noyer2016]
+
+A partant de l'intuition fondamentale de Leroi-Gourhan d'un « parallélisme entre le langage et l'outil » [@leroi-gourhan1964], il apparaît évident qu'analogies et technologies entretiennent des rapports privilégiés depuis l'aube de l'humanité notamment parce que l'analogie est une dimension importante, voir même indispensable, du langage comme le souligne Humboldt :
+
+> « Sans analogie, il n’y aurait pas de langue. » [@hamans2023, p. 19].
+
+L'analogie n'est pas seulement une des bases du langage, elle est aussi fondamentale dans le processus d'apprentissage comme mécanisme de catégorisation :
+
+> « ...les catégories naissent petites, souvent à partir d'un seul exemplaire, puis noyaux et halos se développent : les catégories croissent en accueillant de nouveaux membres, parfois centraux, parfois périphériques. Pour les accueillir, il faut "pousser les murs" ou bien créer de nouvelles catégories. Le moteur de cette extension est l'analogie. » [@hofstadter2013, p. 233]
+
+A partir du questionnement sur les rapports entre analogies et technologies, nous proposons plusieurs angles d’analyses pour réfléchir à la notion de frontières numériques et leurs impacts sur l’ensemble des activités humaines.
+
+## Perspectives d'analyses
+
+-   Axe 1 : L'analogie comme source d'inspiration technologique
+
+    -   Thématique 1 : Bio-inspiration et Computing : Quand le vivant aide à concevoir les environnements numériques.
+
+        Cette thématique interroge la manière dont les systèmes biologiques (évolution, essaims d'insectes, systèmes immunitaires) servent d'analogies structurelles pour développer de nouveaux algorithmes (algos génétiques, intelligence en essaim) et architectures matérielles (computing neuromorphique).
+
+    -   Thématique 2 : L'Analogie Cerveau-Machine : Des neurones biologiques aux réseaux de neurones profonds.
+
+        Nous proposons de mener une exploration critique de l'analogie fondatrice de l'IA moderne. Jusqu'où l'analogie entre le fonctionnement cortical et le Deep Learning est-elle féconde, et où devient-elle trompeuse ?
+
+-   Axe 2 : L'Analogie comme outil cognitif et explicatif
+
+    -   Thématique 3 : Métaphores numériques et médiation scientifique.
+
+        Comment utilisons-nous des analogies pour comprendre des concepts technologiques abstraits (le "nuage" (Cloud), le "virus" informatique, l'"apprentissage" machine) ? Cette thématique propose d'analyser l'efficacité et des biais induits par ces métaphores dans le débat public.
+
+    -   Thématique 4 : Raisonnement analogique en intelligence artificielle.
+
+        Les IA actuelles sont fortes en reconnaissance de motifs, mais faibles en raisonnement analogique (transférer une connaissance d'un domaine A vers un domaine B totalement différent). Cette thématique aborde les recherches visant à comprendre pourquoi cette capacité cognitive humaine fondamentale n'est pas accessibles aux machines.
+
+-   Axe 3 : Modélisation et simulation : créer des analogues du réel
+
+    -   Thématique 5 : Jumeaux Numériques et Mondes Miroirs : L'analogie comme outil prédictif.
+
+        Cette thématique interroge l'utilisation de doubles numériques (industrie, santé, urbanisme) qui fonctionnent comme des analogues parfaits des systèmes physiques pour la simulation, la prédiction et la maintenance. En quoi ces jumeaux numériques, deviennent des interlocuteurs pertinents pour mener des recherches, analyser des corpus, concevoir des documents ? Peut-on imaginer des agents artificiels à la manière de personnages conceptuels développant des points de vues et des manières d'être spécifiques ?
+
+    -   Thématique 6 : Réalités Mixtes (VR/AR) et Interfaces : Traduire le monde physique dans le virtuel.
+
+        Comment les interfaces homme-machine utilisent des analogies spatiales et physiques (le "bureau", saisir un objet en VR) pour rendre le numérique plus intuitif et vecteur de nouvelles connaissances. Pourquoi est-il nécessaire d'ornementer les abstractions symboliques (rôle du skeuomorphisme) pour les rendre plus accessible ?
+
+-   Axe 4 : Limites, Éthique et Créativité
+
+    -   Thématique 7 : Les pièges de l'anthropomorphisme technologique.
+
+        Nous proposons d'analyser notre tendance innée à projeter des analogies humaines (conscience, émotion, intention) sur des systèmes technologiques inanimés (robots sociaux, chatbots), et les conséquences éthiques de ces "fausses analogies".
+
+![Architecture de la perception par Yan LeCun [@lecun2022]](https://samszo.jardindesconnaissances.fr/HDR/images/LeCunArchitecturePerceptionAction.jpg){#fig-architecturPerceptionLecun fig-align="center" width="533"}
+
+```         
+-   Thématique 8 : Créativité générative et transfert de style : L'analogie esthétique.
+
+    Nous nous interrogeons sur les capacités des IA génératives (DALL-E, Midjourney, GPT) d'utiliser des formes de "raisonnement" analogique pour fusionner des concepts ou transférer le style d'un artiste sur une nouvelle image. En précisant dans la demande "A la manière de" l'IA utilisent l'analogie comme moteur de création artificielle et par la même s'approprie le style d'un auteur, ce qui n'est pas sans conséquence :
+```
+
+> « L’apprentissage, l’invention, l’innovation, la création artistique qui possèdent des caractéristiques des biens publics tels que les définit l’économie deviennent le cœur de la valeur économique. Ils ne peuvent cependant être transformés en biens marchands que par l’attribution juridique d’un monopole de détention à une entité privée (marque, brevet, droit d’auteur). » [@moulierboutang2010, p. 72]
+
+```         
+-   Thématique 9 : Modèles analogiques en Humanités Numériques.
+
+    Comment les outils numériques permettent de créer de nouvelles analogies pour comprendre les phénomènes sociaux. Par exemple en modélisant la propagation d'une rumeur comme une épidémie, ou concevoir les réseaux sociaux comme des structures physiques.
+```
+
+-   Axe 5 : Ruptures
+
+    -   Thématique 10 : Au-delà de l'Analogie : L'informatique quantique et les nouvelles frontières.
+
+        Que se passe-t-il lorsque nos analogies classiques issues du monde macroscopique ne fonctionnent plus ? Le cas de l'informatique quantique où la superposition et l'intrication défient nos métaphores habituelles et impose une démarche qui en excluant la métaphysique au profit de la statistique remet en cause la notion même de frontière :
+
+> « La séparation de toute question métaphysique prive les théories expérimentales-déductives d'une véritable 'clôture'. En langage topologique l'on pourrait dire que ces théories restent dépourvues de points d'accumulation qui en trace une frontière définie. » [@mugur-schächter2009, p. 54]
+
+## Dates importantes
+
+-   30 mars 2026 : Date limite d’inscription
+
+    Les inscriptions se font en ligne à cette adresse :
+
+    <https://frontieresnum7.sciencesconf.org/registration> {{< qrcode https://frontieresnum7.sciencesconf.org/registration >}}
+
+-   4 - 5 juin 2026 : Colloque à Djerba - Tunisie
+
+## Publication
+
 Les meilleurs présentations du colloque feront l’objet d’une seconde évaluation afin d’étendre chaque article pour une publication spécifique :
 
-This is a Quarto website.
-{{< qrcode https://jmbuhr.de >}}
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Thématiques
 
-```{mermaid}
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
-```
+### Générales
+
+-   Les frontières d’internet
+-   Sécurité et protection des frontières numériques
+-   Cybercriminalité sans frontières
+-   Internet et les frontières physiques
+-   Les frontières des objets connectés
+-   Les frontières invisibles d’internet, Dark Web
+-   Réalité et virtualité des frontières
+-   Les identités numériques
+-   Traces et traçabilité numériques
+-   Big Data et Data center
+-   Les frontières des intelligences
+-   Les frontières des connaissances
+-   Internet Nomade
+-   Éthique et pouvoirs de l’information
+
+### Spécifiques
+
+-   Analogies & technologies
+-   Biomimétisme
+-   Analogie Cerveau-Machine
+-   Métaphores Numériques et Médiation Scientifique
+-   Raisonnement Analogique
+-   Jumeaux Numériques et Mondes Miroirs
+-   Réalités Mixtes (VR/AR) et Interfaces
+-   Anthropomorphisme Technologique
+-   Créativité Générative et Transfert de Style
+-   Informatique quantique et nouvelles frontières
+
+## Comités
+
+### Président du colloque
+
+-   Imad SALEH, Université Paris 8, France
+-   Samuel SZONIECKY, Université Paris 8, France
+
+### Comité de programme
+
+-   Malek GHENIMA, Université de la Manouba, Tunisie
+-   Olivier NANNIPIERI, Université de Toulon, France
+-   Imad SALEH, Université Paris 8, France
+-   Samuel SZONIECKY, Université Paris 8, France
+-   Lise VERLAET, Université Montpellier 3, France
+
+### Comité d'organisation
+
+-   Malek GHENIMA, Université de la Manouba, Tunisie
+-   Samuel SZONIECKY, Université Paris 8, France
+
+### Comité scientifique (en cours de constitution)
+
+-   Adda ALI PACHA, University of Sciences and Technology of Oran, Algérie
+
+-   Mathieu ANDRO, Direction des services administratifs et financiers du Premier ministre, France
+
+-   Bruno BACHIMONT, UTC Compiègne, France
+
+-   Narjès BELLAMINE BEN SAOUD, Ecole Nationale des Sciences de l'Informatique, Tunisie
+
+-   Mohamed BENABID, Faculté de Gouvernance Sciences Economiques et Sociales, Rabat, Maroc
+
+-   Sami BEN AMOR, Université de Toulon, France
+
+-   Saber BENHARZALLAH, Université de Batna, Algérie
+
+-   Nesrine BEN YAHIA, Ecole Nationale des Sciences de l'Informatique, Tunisie
+
+-   Philippe BONFILS, Université de Toulon, France
+
+-   Larbi BOUBCHIR, Université Paris 8, France
+
+-   Serge BOUCHARDON, UTC Compiègne, France
+
+-   Renée BOURASSA, Université Laval, Canada
+
+-   Alain CAPO CHICHI, Université Abomey Calavi/Institut Cerco, Bénin
+
+-   Stéphane CARO, IUT Bordeaux Montaigne, France
+
+-   Stéphane CHAUDIRON, Université de Lilles 3, France
+
+-   Richard CHBEIR, IUT de Bayonne et du Pays Basque, Anglet, France
+
+-   Chu-Yin CHEN, Université Paris 8, France
+
+-   Isabelle CHOQUET, ICHEC, Bruxelles, Belgique
+
+-   Abderrezak DOURARI, Université Alger 2, Algérie
+
+-   Michel DURAMPART, Université de Toulon, France
+
+-   Anja HABACHA, Ecole Nationale des Sciences de l'Informatique, Tunisie
+
+-   Mabrouka EL HACHANI, Université Jean Moulin Lyon 3, France
+
+-   Imed Riadh FARAH, Université de la Manouba, Tunisie
+
+-   Laurence FAVIER, Université de Lille 3, France
+
+-   Mohamed Mohsen GAMMOUDI, Université de la Manouba, Tunisie
+
+-   Faiez GARGOURI, University of Sfax, Tunisie
+
+-   Pierre GEDEON, Notre Dame University, Liban
+
+-   Fanny GEORGES, Université Paris 3, France
+
+-   Khaled GHEDIRA, Université Ibn Khaldoun, Tunisie
+
+-   Nouria HARBI, Université Lyon 2, France
+
+-   Abderrazak JEMAI, Université de Carthage Tunisie
+
+-   Maroun JNEID, Laboratoire Paragraphe
+
+-   Brigitte JUANALS, Université Aix Marseille, France
+
+-   Mohammed KARIM, Université Sidi Mohamed Ben Abdellah, Maroc
+
+-   Okba KAZAR, Université de Biskra, Algérie
+
+-   Ouajdi KORBAA, Université de Sousse, Tunisie
+
+-   Gerald KEMBELLEC, Conservatoire Nationale des Arts et Métiers, France
+
+-   Alain KIYINDOU, Université Bordeaux Montaigne, France
+
+-   Panayiotis KYRIAKOULOS, Université of the Aegean, Grèce
+
+-   Michel LABOUR, Université Polytechnique Haut de France, France
+
+-   Jean-Marc LARRUE, Université de Montréal, France
+
+-   Mariannig LE BÉCHEC, Université de Poitiers, France
+
+-   Benoît LE BLANC, École nationale supérieure de cognitique, Bordeaux, France
+
+-   Sylvie LELEU-MERVIEL, Arenberg Creative Mine, France
+
+-   Benoit LELONG, Université Paris 8, France
+
+-   Pascal MARTIN, Ecole nationale supérieure Louis-Lumière, France
+
+-   Luc MASSOU, Université de Lorraine, France
+
+-   Abderrazak MKADMI, Sultan Qaboos University, Oman
+
+-   Khaled MEKOUAR, ESISA Fès, Maroc
+
+-   Vincent MEYER, Université Nice Sophia Antipolis, France
+
+-   Claire NOY, Université Paul Valéry, France
+
+-   Cedric PLESSIET, Université Paris 8, France
+
+-   Mathieu QUINIOU, Université Paris 8, France
+
+-   Franck RENUCCI, Université de Toulon, France
+
+-   Fabien RICHERT, Université UQAM, Canada
+
+-   Ioan ROXIN, Université de Franche-Comté, France
+
+-   Alexandra SALOU, Université Aix-Marseille, France
+
+-   Nicolas SAURET, Université Paris 8, France
+
+-   Laura SHACKELFORD, Rochester Institute of Technology, USA
+
+-   Sahbi SIDHOM, Université de Lorraine, France
+
+-   Modestos STAVRAKIS, University of the Aegean
+
+-   Federico TAJARIOL, University de Franche-Comté, France
+
+-   Manuel ZACKLAD, Conservatoire Nationale des Arts et Métiers, France
+
+-   Khaldoun ZREIK, Université Paris 8, France
+
+## Historique
+
+Cette réflexion sur les frontières numériques s’est engagée à la suite de la recherche menée par Imad Saleh, Nasreddine Bouhaï et Hakim Hachour au sein du laboratoire Paragraphe.
+
+Ce colloque est le prolongement des six colloques suivants :
+
+-   Octobre 2025, tenu à Hammamet, Tunisie
+
+-   Juin 2023, tenu à Hammamet, Tunisie
+
+-   Novembre 2022, tenu à L'université Paris 8 , France
+
+-   Octobre 2019 dans le cadre de la conférence H2PTM’2019, tenu à Montbéliard, France
+
+-   Juin 2016, tenu à Toulon, France - Novembre 2014, tenu à Fès, Maroc
+
+L’ensemble des contributions des colloques sont publiés :
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![Frontières numériques 2023](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques2023.jpg "Frontières numériques 2023"){width="200"} | ![](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques2.jpg){width="185"} |
+| *Frontières numériques 2023* | *Frontières numériques et savoir* |
+| ![](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques-et-artefacts.jpg){width="184"} | ![](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques.jpg){width="185"} |
+| *Frontières numériques et artefacts* | *Les frontières numériques* |
