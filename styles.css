@@ -12,7 +12,7 @@
 .hero-image {
   position: absolute;
   bottom: 0;
-  background-image: url(assets/img/Gemini_Generated_Image_vkmcquvkmcquvkmc.png);
+  background-image: url(assets/img/banniereFrontNum26.png);
   background-size: cover;
   height: auto;
   width: 100vw;
@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  padding: 21vh 0;
+  padding: 11vh 0;
 }
 
 .bannniere-top {
@@ -29,6 +29,7 @@
   text-align: center;
   font-size: 64px;
   color: #ffffff;
+  margin-top: 40px;
   /*
   padding-right: 133px;
   margin-bottom: -4.7rem;

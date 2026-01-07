@@ -162,7 +162,7 @@ Les meilleurs présentations du colloque feront l’objet d’une seconde évalu
 
 ## Comités
 
-### Président du colloque
+### Présidents du colloque
 
 -   Imad SALEH, Université Paris 8, France
 -   Samuel SZONIECKY, Université Paris 8, France
@@ -173,11 +173,11 @@ Les meilleurs présentations du colloque feront l’objet d’une seconde évalu
 -   Olivier NANNIPIERI, Université de Toulon, France
 -   Imad SALEH, Université Paris 8, France
 -   Samuel SZONIECKY, Université Paris 8, France
--   Lise VERLAET, Université Montpellier 3, France
 
 ### Comité d'organisation
 
 -   Malek GHENIMA, Université de la Manouba, Tunisie
+-   Youssef MEKOUAR, ESISA Fès, Maroc
 -   Samuel SZONIECKY, Université Paris 8, France
 
 ### Comité scientifique (en cours de constitution)
