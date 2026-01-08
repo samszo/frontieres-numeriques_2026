@@ -5,7 +5,21 @@ format:
   html: 
     include-in-header: banniere.html
     include-after-body: footer.html
-    
+
+  pdf: 
+    papersize: A4    
+    geometry:
+          - top=40mm
+          - left=10mm
+          - heightrounded
+    toc: false
+    number-sections: false         
+    include-in-header: 
+         text: |
+            \usepackage{scrlayer-scrpage}
+            \clearpairofpagestyles
+            \cohead[{\includegraphics[width=5cm]{assets/img/logo_paris8_Couleurs officielles.png}}]{}
+
 bibliography: references.bib
 ---
 
@@ -110,224 +124,3 @@ A partir du questionnement sur les rapports entre analogies et technologies, nou
         Que se passe-t-il lorsque nos analogies classiques issues du monde macroscopique ne fonctionnent plus ? Le cas de l'informatique quantique où la superposition et l'intrication défient nos métaphores habituelles et impose une démarche qui en excluant la métaphysique au profit de la statistique remet en cause la notion même de frontière :
 
 > « La séparation de toute question métaphysique prive les théories expérimentales-déductives d'une véritable 'clôture'. En langage topologique l'on pourrait dire que ces théories restent dépourvues de points d'accumulation qui en trace une frontière définie. » [@mugur-schächter2009, p. 54]
-
-## Dates importantes
-
--   30 mars 2026 : Date limite d’inscription
-
-    Les inscriptions se font en ligne à cette adresse :
-
-    <https://frontieresnum7.sciencesconf.org/registration> {{< qrcode https://frontieresnum7.sciencesconf.org/registration >}}
-
--   4 - 5 juin 2026 : Colloque à Djerba - Tunisie
-
-## Publication
-
-Les meilleurs présentations du colloque feront l’objet d’une seconde évaluation afin d’étendre chaque article pour une publication spécifique :
-
-## Thématiques
-
-### Générales
-
--   Les frontières d’internet
--   Sécurité et protection des frontières numériques
--   Cybercriminalité sans frontières
--   Internet et les frontières physiques
--   Les frontières des objets connectés
--   Les frontières invisibles d’internet, Dark Web
--   Réalité et virtualité des frontières
--   Les identités numériques
--   Traces et traçabilité numériques
--   Big Data et Data center
--   Les frontières des intelligences
--   Les frontières des connaissances
--   Internet Nomade
--   Éthique et pouvoirs de l’information
-
-### Spécifiques
-
--   Analogies & technologies
--   Biomimétisme
--   Analogie Cerveau-Machine
--   Métaphores Numériques et Médiation Scientifique
--   Raisonnement Analogique
--   Jumeaux Numériques et Mondes Miroirs
--   Réalités Mixtes (VR/AR) et Interfaces
--   Anthropomorphisme Technologique
--   Créativité Générative et Transfert de Style
--   Informatique quantique et nouvelles frontières
-
-## Comités
-
-### Présidents du colloque
-
--   Imad SALEH, Université Paris 8, France
--   Samuel SZONIECKY, Université Paris 8, France
-
-### Comité de programme
-
--   Malek GHENIMA, Université de la Manouba, Tunisie
--   Olivier NANNIPIERI, Université de Toulon, France
--   Imad SALEH, Université Paris 8, France
--   Samuel SZONIECKY, Université Paris 8, France
-
-### Comité d'organisation
-
--   Malek GHENIMA, Université de la Manouba, Tunisie
--   Youssef MEKOUAR, ESISA Fès, Maroc
--   Samuel SZONIECKY, Université Paris 8, France
-
-### Comité scientifique (en cours de constitution)
-
--   Adda ALI PACHA, University of Sciences and Technology of Oran, Algérie
-
--   Mathieu ANDRO, Direction des services administratifs et financiers du Premier ministre, France
-
--   Bruno BACHIMONT, UTC Compiègne, France
-
--   Narjès BELLAMINE BEN SAOUD, Ecole Nationale des Sciences de l'Informatique, Tunisie
-
--   Mohamed BENABID, Faculté de Gouvernance Sciences Economiques et Sociales, Rabat, Maroc
-
--   Sami BEN AMOR, Université de Toulon, France
-
--   Saber BENHARZALLAH, Université de Batna, Algérie
-
--   Nesrine BEN YAHIA, Ecole Nationale des Sciences de l'Informatique, Tunisie
-
--   Philippe BONFILS, Université de Toulon, France
-
--   Larbi BOUBCHIR, Université Paris 8, France
-
--   Serge BOUCHARDON, UTC Compiègne, France
-
--   Renée BOURASSA, Université Laval, Canada
-
--   Alain CAPO CHICHI, Université Abomey Calavi/Institut Cerco, Bénin
-
--   Stéphane CARO, IUT Bordeaux Montaigne, France
-
--   Stéphane CHAUDIRON, Université de Lilles 3, France
-
--   Richard CHBEIR, IUT de Bayonne et du Pays Basque, Anglet, France
-
--   Chu-Yin CHEN, Université Paris 8, France
-
--   Isabelle CHOQUET, ICHEC, Bruxelles, Belgique
-
--   Abderrezak DOURARI, Université Alger 2, Algérie
-
--   Michel DURAMPART, Université de Toulon, France
-
--   Anja HABACHA, Ecole Nationale des Sciences de l'Informatique, Tunisie
-
--   Mabrouka EL HACHANI, Université Jean Moulin Lyon 3, France
-
--   Imed Riadh FARAH, Université de la Manouba, Tunisie
-
--   Laurence FAVIER, Université de Lille 3, France
-
--   Mohamed Mohsen GAMMOUDI, Université de la Manouba, Tunisie
-
--   Faiez GARGOURI, University of Sfax, Tunisie
-
--   Pierre GEDEON, Notre Dame University, Liban
-
--   Fanny GEORGES, Université Paris 3, France
-
--   Khaled GHEDIRA, Université Ibn Khaldoun, Tunisie
-
--   Nouria HARBI, Université Lyon 2, France
-
--   Abderrazak JEMAI, Université de Carthage Tunisie
-
--   Maroun JNEID, Laboratoire Paragraphe
-
--   Brigitte JUANALS, Université Aix Marseille, France
-
--   Mohammed KARIM, Université Sidi Mohamed Ben Abdellah, Maroc
-
--   Okba KAZAR, Université de Biskra, Algérie
-
--   Ouajdi KORBAA, Université de Sousse, Tunisie
-
--   Gerald KEMBELLEC, Conservatoire Nationale des Arts et Métiers, France
-
--   Alain KIYINDOU, Université Bordeaux Montaigne, France
-
--   Panayiotis KYRIAKOULOS, Université of the Aegean, Grèce
-
--   Michel LABOUR, Université Polytechnique Haut de France, France
-
--   Jean-Marc LARRUE, Université de Montréal, France
-
--   Mariannig LE BÉCHEC, Université de Poitiers, France
-
--   Benoît LE BLANC, École nationale supérieure de cognitique, Bordeaux, France
-
--   Sylvie LELEU-MERVIEL, Arenberg Creative Mine, France
-
--   Benoit LELONG, Université Paris 8, France
-
--   Pascal MARTIN, Ecole nationale supérieure Louis-Lumière, France
-
--   Luc MASSOU, Université de Lorraine, France
-
--   Abderrazak MKADMI, Sultan Qaboos University, Oman
-
--   Khaled MEKOUAR, ESISA Fès, Maroc
-
--   Vincent MEYER, Université Nice Sophia Antipolis, France
-
--   Claire NOY, Université Paul Valéry, France
-
--   Cedric PLESSIET, Université Paris 8, France
-
--   Mathieu QUINIOU, Université Paris 8, France
-
--   Franck RENUCCI, Université de Toulon, France
-
--   Fabien RICHERT, Université UQAM, Canada
-
--   Ioan ROXIN, Université de Franche-Comté, France
-
--   Alexandra SALOU, Université Aix-Marseille, France
-
--   Nicolas SAURET, Université Paris 8, France
-
--   Laura SHACKELFORD, Rochester Institute of Technology, USA
-
--   Sahbi SIDHOM, Université de Lorraine, France
-
--   Modestos STAVRAKIS, University of the Aegean
-
--   Federico TAJARIOL, University de Franche-Comté, France
-
--   Manuel ZACKLAD, Conservatoire Nationale des Arts et Métiers, France
-
--   Khaldoun ZREIK, Université Paris 8, France
-
-## Historique
-
-Cette réflexion sur les frontières numériques s’est engagée à la suite de la recherche menée par Imad Saleh, Nasreddine Bouhaï et Hakim Hachour au sein du laboratoire Paragraphe.
-
-Ce colloque est le prolongement des six colloques suivants :
-
--   Octobre 2025, tenu à Hammamet, Tunisie
-
--   Juin 2023, tenu à Hammamet, Tunisie
-
--   Novembre 2022, tenu à L'université Paris 8 , France
-
--   Octobre 2019 dans le cadre de la conférence H2PTM’2019, tenu à Montbéliard, France
-
--   Juin 2016, tenu à Toulon, France - Novembre 2014, tenu à Fès, Maroc
-
-L’ensemble des contributions des colloques sont publiés :
-
-|  |  |
-|------------------------------------|------------------------------------|
-| ![Frontières numériques 2023](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques2023.jpg "Frontières numériques 2023"){width="200"} | ![](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques2.jpg){width="185"} |
-| *Frontières numériques 2023* | *Frontières numériques et savoir* |
-| ![](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques-et-artefacts.jpg){width="184"} | ![](https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques.jpg){width="185"} |
-| *Frontières numériques et artefacts* | *Les frontières numériques* |
