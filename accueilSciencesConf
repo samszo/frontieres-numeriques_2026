@@ -1,0 +1,772 @@
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar" style="min-height: calc(-109px + 100vh);">
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Frontières Numériques 7 : Analogies &amp; Technologies</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="juin-2026-djerba-tunisie" class="level2">
+<h2 class="anchored" data-anchor-id="juin-2026-djerba-tunisie">4-6 juin 2026, Djerba, Tunisie<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#juin-2026-djerba-tunisie" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#introduction" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p><em>La frontière est une notion multidisciplinaire que l’on retrouve en informatique, en sciences humaines et sociales, ainsi qu’en science de l’information et de la communication. Elle est déjà présente en tant que telle, dans les interrogations de recherche des différentes disciplines et en tant qu’objet d’étude, perméable aux apports des uns et des autres.</em></p>
+<p>Le Web a révolutionné l’accès, l’analyse et la production de l’information en déplaçant les frontières habituelles et en définissant de nouveaux territoires physiques, symboliques, politiques.</p>
+<blockquote class="blockquote">
+<p>« Les sociétés se forment et se déforment en fonction des relations entre les groupes. Les frontières, qui leur confèrent leurs individualités territoriales, résultent, toujours et partout de l’action des forces sociales, d’un équilibre instable de la violence. » <span class="citation" data-cites="pomian1976">(<a href="#ref-pomian1976" role="doc-biblioref" data-original-href="#ref-pomian1976" aria-expanded="false">Pomian 1976, 13</a>)</span></p>
+</blockquote>
+<p>Ces nouveaux espaces d’informations et de communications sont accessibles à celles et ceux qui développent les compétences nécessaires pour les trouver, les comprendre, les construire. Ces personnes sont de plus en plus nombreuses et contribuent à faire du Web et de l’Internet une dimension omniprésente de nos vie quotidiennes, personnelles et professionnelles. Dans ces espaces numériques, les frontières se fixent non sans violence selon des stratégies sémiologiques :</p>
+<blockquote class="blockquote">
+<p>« En ce lieu ou cette boite, de force ou de droit, chacun habite chez soi. Or désormais, dans un espace logiciel, la bataille à lieu autour des signes. Or, pour s’approprier ces nouveaux enclos, on peut débattre quant au sens : prouver, démontrer, convaincre, au niveau du contenu des messages, de leur vérité ; deuxièmement, s’en prendre au sujet même dont la bouche énonce : l’anathémiser, le bâillonner, l’emprisonner, le tuer ; en troisième ligne, on peut mettre la main sur le canal ou s’approprier le support du signal : le son et le bruit, les lignes ou les ondes ; du coup ce qui transite sur lui appartient à qui le tient. »<span class="citation" data-cites="serres1997">(<a href="#ref-serres1997" role="doc-biblioref" data-original-href="#ref-serres1997" aria-expanded="false">Serres 1997, 165</a>)</span></p>
+</blockquote>
+<p>Face à la complexité croissante de ces environnements numériques, nous avons besoin de nouveaux dispositifs mieux adaptés à leurs explorations :</p>
+<blockquote class="blockquote">
+<p>« la dernière question concerne la gestion et la représentation des processus et des morphogenèses qui expriment des dynamiques et des « éthologies conceptuelles » formant le milieu associé, plus ou moins mouvant, de ces savoirs. Cette dernière interrogation porte la question des frontières à un nouveau point critique, ces dernières étant envisagées comme des zones fluctuantes, comme croisements de trajectoires, de problèmes ou de concepts. En permettant l’exhibition partielle des dimensions processuelles des documents issus de la recherche, les nouveaux dispositifs éditoriaux devraient aussi rendre possible l’appréhension de ces zones frontières&nbsp;» <span class="citation" data-cites="noyer2016">(<a href="#ref-noyer2016" role="doc-biblioref" data-original-href="#ref-noyer2016" aria-expanded="false">Noyer 2016</a>)</span></p>
+</blockquote>
+<p>Pour explorer ces nouveaux territoires et les manières d’y exister, le colloque Frontières Numériques propose une réflexion pluridisciplinaire sur les médiations que les dispositifs numériques induisent dans nos sociétés en décrivant, analysant, proposant des frontières qui définissent des axes de transformation passés, présents et futurs… Ainsi pensées, les frontières ont pour vocation de définir les conditions d’une interopérabilité entre les territoires :</p>
+<blockquote class="blockquote">
+<p>« il s’agit moins de “laisser passer” ceux&nbsp;qui voudraient circuler librement d’un champ à l’autre, que de construire les passerelles et les tunnels capables de mettre les disciplines en communication (non triviale) entre elles. » <span class="citation" data-cites="citton2010">(<a href="#ref-citton2010" role="doc-biblioref" data-original-href="#ref-citton2010" aria-expanded="false">Citton 2010, 94</a>)</span></p>
+</blockquote>
+<p>La frontière n’est pas un mur mais une passoire <span class="citation" data-cites="debray2013">(<a href="#ref-debray2013" role="doc-biblioref" data-original-href="#ref-debray2013" aria-expanded="false">Debray 2013</a>)</span>, elle est là pour filtrer, réguler et par la même elle est un crible :</p>
+<blockquote class="blockquote">
+<p>« dans tous les registres des cribles se constituent en interface entre 1) les virtualités virulentes du chaos, les proliférations stochastiques et 2) les potentialités actuelles dûment répertoriables et consolidables. » <span class="citation" data-cites="guattari1992">(<a href="#ref-guattari1992" role="doc-biblioref" data-original-href="#ref-guattari1992" aria-expanded="false">Guattari 1992, 140</a>)</span></p>
+</blockquote>
+<p>Dans cette septième édition du colloque Frontières numériques, nous interrogerons plus particulièrement les rapports entre analogies et technologies pour comprendre en quoi ils définissent, transforment, créent des frontières numériques.</p>
+</section>
+<section id="frontières-numériques-analogies-et-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="frontières-numériques-analogies-et-technologies">Frontières numériques : analogies et technologies<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#frontières-numériques-analogies-et-technologies" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>Les rapports entre analogies et technologies s’expriment dans de nombreux domaines et peuvent s’analyser suivant une multitudes d’axes. Par exemple dans la conception de nouveaux dispositifs qui puisent leurs inspirations dans un domaine pour le mettre en pratique dans un autre domaine. On pense par exemple à l’analogie de l’urbanisme mis en pratique dans la conception de système d’information <span class="citation" data-cites="bidan2017">(<a href="#ref-bidan2017" role="doc-biblioref" data-original-href="#ref-bidan2017" aria-expanded="false">Bidan and Godé 2017</a>)</span>. Dans cette exemple, l’analogie oriente la conception en créant des cadres interprétatifs utiles pour définir des axes de conception et communiquer les cohérences d’un projet. Le monde de l’ingénieurie fournit de nombreux exemples d’utilisation de l’analogie sous la forme d’un mimétisme avec le vivant <span class="citation" data-cites="provost2020">(<a href="#ref-provost2020" role="doc-biblioref" data-original-href="#ref-provost2020" aria-expanded="false">Provost, Kamili, and Pitrou 2020</a>)</span>, par exemple celle des écosystèmes pour modéliser les connaissances <span class="citation" data-cites="szoniecky2024">(<a href="#ref-szoniecky2024" role="doc-biblioref" data-original-href="#ref-szoniecky2024" aria-expanded="false">Szoniecky 2024</a>)</span>.</p>
+<p>D’un autre point de vue, en reprenant le concept que Philippe Descola forge à partir de ces matrices ontologiques <span class="citation" data-cites="descola2005">(<a href="#ref-descola2005" role="doc-biblioref" data-original-href="#ref-descola2005" aria-expanded="false">Descola 2005</a>)</span>, Michel Serres estime que « les technologies de la pensée algorithmiques » <span class="citation" data-cites="serres2009">(<a href="#ref-serres2009" role="doc-biblioref" data-original-href="#ref-serres2009" aria-expanded="false">Serres 2009, 72</a>)</span>, sont à vivre dans une ontologie analogiste qu’il définie par la possibilité de mettre en rapport toutes « physicalités » avec toutes « intériorités ». L’ontologie analogiste présente un monde chaotique, imprévisible, en transformation continue où seule l’analogie fait émerger une cohérence. C’est le cas par exemple du Yi King <span class="citation" data-cites="jung1979">(<a href="#ref-jung1979" role="doc-biblioref" data-original-href="#ref-jung1979" aria-expanded="false">Jung 1979</a>)</span> qui utilise une base binaire (yin - yang) pour construire un réseau d’analogies élémentaires décrivant un état du monde interprétable. Dans les environnements numériques où tous les rapports et toutes les transformations sont possibles, l’analogie vectorise le sens en limitant les possibilités interprétatives et les intéractions comme le fait l’analogie du bureau sur nos ordinateurs ou celle de la page dans nos processus éditoriaux <span class="citation" data-cites="delannay2025">(<a href="#ref-delannay2025" role="doc-biblioref" data-original-href="#ref-delannay2025" aria-expanded="false">Delannay 2025, 72</a>)</span>.</p>
+<p>A partant de l’intuition fondamentale de Leroi-Gourhan d’un « parallélisme entre le langage et l’outil » <span class="citation" data-cites="leroi-gourhan1964">(<a href="#ref-leroi-gourhan1964" role="doc-biblioref" data-original-href="#ref-leroi-gourhan1964" aria-expanded="false">Leroi-Gourhan 1964</a>)</span>, il apparaît évident qu’analogies et technologies entretiennent des rapports privilégiés depuis l’aube de l’humanité notamment parce que l’analogie est une dimension importante, voir même indispensable, du langage comme le souligne Humboldt :</p>
+<blockquote class="blockquote">
+<p>« Sans analogie, il n’y aurait pas de langue. » <span class="citation" data-cites="hamans2023">(<a href="#ref-hamans2023" role="doc-biblioref" data-original-href="#ref-hamans2023" aria-expanded="false">Hamans 2023, 19</a>)</span>.</p>
+</blockquote>
+<p>L’analogie n’est pas seulement une des bases du langage, elle est aussi fondamentale dans le processus d’apprentissage comme mécanisme de catégorisation :</p>
+<blockquote class="blockquote">
+<p>« …les catégories naissent petites, souvent à partir d’un seul exemplaire, puis noyaux et halos se développent : les catégories croissent en accueillant de nouveaux membres, parfois centraux, parfois périphériques. Pour les accueillir, il faut “pousser les murs” ou bien créer de nouvelles catégories. Le moteur de cette extension est l’analogie. » <span class="citation" data-cites="hofstadter2013">(<a href="#ref-hofstadter2013" role="doc-biblioref" data-original-href="#ref-hofstadter2013" aria-expanded="false">Hofstadter and Sander 2013, 233</a>)</span></p>
+</blockquote>
+<p>A partir du questionnement sur les rapports entre analogies et technologies, nous proposons plusieurs angles d’analyses pour réfléchir à la notion de frontières numériques et leurs impacts sur l’ensemble des activités humaines.</p>
+</section>
+<section id="perspectives-danalyses" class="level2">
+<h2 class="anchored" data-anchor-id="perspectives-danalyses">Perspectives d’analyses<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#perspectives-danalyses" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<ul>
+<li><p>Axe 1 : L’analogie comme source d’inspiration technologique</p>
+<ul>
+<li><p>Thématique 1 : Bio-inspiration et Computing : Quand le vivant aide à concevoir les environnements numériques.</p>
+<p>Cette thématique interroge la manière dont les systèmes biologiques (évolution, essaims d’insectes, systèmes immunitaires) servent d’analogies structurelles pour développer de nouveaux algorithmes (algos génétiques, intelligence en essaim) et architectures matérielles (computing neuromorphique).</p></li>
+<li><p>Thématique 2 : L’Analogie Cerveau-Machine : Des neurones biologiques aux réseaux de neurones profonds.</p>
+<p>Nous proposons de mener une exploration critique de l’analogie fondatrice de l’IA moderne. Jusqu’où l’analogie entre le fonctionnement cortical et le Deep Learning est-elle féconde, et où devient-elle trompeuse ?</p></li>
+</ul></li>
+<li><p>Axe 2 : L’Analogie comme outil cognitif et explicatif</p>
+<ul>
+<li><p>Thématique 3 : Métaphores numériques et médiation scientifique.</p>
+<p>Comment utilisons-nous des analogies pour comprendre des concepts technologiques abstraits (le “nuage” (Cloud), le “virus” informatique, l’“apprentissage” machine) ? Cette thématique propose d’analyser l’efficacité et des biais induits par ces métaphores dans le débat public.</p></li>
+<li><p>Thématique 4 : Raisonnement analogique en intelligence artificielle.</p>
+<p>Les IA actuelles sont fortes en reconnaissance de motifs, mais faibles en raisonnement analogique (transférer une connaissance d’un domaine A vers un domaine B totalement différent). Cette thématique aborde les recherches visant à comprendre pourquoi cette capacité cognitive humaine fondamentale n’est pas accessible aux machines.</p></li>
+</ul></li>
+<li><p>Axe 3 : Modélisation et simulation : créer des analogues du réel</p>
+<ul>
+<li><p>Thématique 5 : Jumeaux Numériques et Mondes Miroirs : L’analogie comme outil prédictif.</p>
+<p>Cette thématique interroge l’utilisation de doubles numériques (industrie, santé, urbanisme) qui fonctionnent comme des analogues parfaits des systèmes physiques pour la simulation, la prédiction et la maintenance. En quoi ces jumeaux numériques, deviennent des interlocuteurs pertinents pour mener des recherches, analyser des corpus, concevoir des documents ? Peut-on imaginer des agents artificiels à la manière de personnages conceptuels développant des points de vues et des manières d’être spécifiques ?</p></li>
+<li><p>Thématique 6 : Réalités Mixtes (VR/AR) et Interfaces : Traduire le monde physique dans le virtuel.</p>
+<p>Comment les interfaces homme-machine utilisent des analogies spatiales et physiques (le “bureau”, saisir un objet en VR) pour rendre le numérique plus intuitif et vecteur de nouvelles connaissances. Pourquoi est-il nécessaire d’ornementer les abstractions symboliques (rôle du skeuomorphisme) pour les rendre plus accessible ?</p></li>
+</ul></li>
+<li><p>Axe 4 : Limites, Éthique et Créativité</p>
+<ul>
+<li><p>Thématique 7 : Les pièges de l’anthropomorphisme technologique.</p>
+<p>Nous proposons d’analyser notre tendance innée à projeter des analogies humaines (conscience, émotion, intention) sur des systèmes technologiques inanimés (robots sociaux, chatbots), et les conséquences éthiques de ces “fausses analogies”.</p>
+<div id="fig-architecturPerceptionLecun" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-architecturPerceptionLecun-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://samszo.jardindesconnaissances.fr/HDR/images/LeCunArchitecturePerceptionAction.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="533">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-architecturPerceptionLecun-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Architecture de la perception par Yan LeCun <span class="citation" data-cites="lecun2022">(<a href="#ref-lecun2022" role="doc-biblioref" data-original-href="#ref-lecun2022" aria-expanded="false">LeCun 2022</a>)</span>
+</figcaption>
+</figure>
+<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#fig-architecturPerceptionLecun" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></div></li>
+<li><p>Thématique 8 : Modèles analogiques en Humanités Numériques.</p>
+<p>Comment les outils numériques permettent de créer de nouvelles analogies pour comprendre les phénomènes sociaux. Par exemple en modélisant la propagation d’une rumeur comme une épidémie, ou concevoir les réseaux sociaux comme des structures physiques.</p></li>
+<li><p>Thématique 9 : Créativité générative et transfert de style : L’analogie esthétique.</p>
+<p>Nous nous interrogeons sur les capacités des IA génératives (DALL-E, Midjourney, GPT) d’utiliser des formes de “raisonnement” analogique pour fusionner des concepts ou transférer le style d’un artiste sur une nouvelle image. En précisant dans la demande “A la manière de” l’IA utilisent l’analogie comme moteur de création artificielle et par la même s’approprie le style d’un auteur, ce qui n’est pas sans conséquence :</p></li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p>« L’apprentissage, l’invention, l’innovation, la création artistique qui possèdent des caractéristiques des biens publics tels que les définit l’économie deviennent le cœur de la valeur économique. Ils ne peuvent cependant être transformés en biens marchands que par l’attribution juridique d’un monopole de détention à une entité privée (marque, brevet, droit d’auteur). » <span class="citation" data-cites="moulierboutang2010">(<a href="#ref-moulierboutang2010" role="doc-biblioref" data-original-href="#ref-moulierboutang2010" aria-expanded="false">Moulier Boutang 2010, 72</a>)</span></p>
+</blockquote>
+<ul>
+<li><p>Axe 5 : Ruptures</p>
+<ul>
+<li><p>Thématique 10 : Au-delà de l’Analogie : L’informatique quantique et les nouvelles frontières.</p>
+<p>Que se passe-t-il lorsque nos analogies classiques issues du monde macroscopique ne fonctionnent plus ? Le cas de l’informatique quantique où la superposition et l’intrication défient nos métaphores habituelles et impose une démarche qui en excluant la métaphysique au profit de la statistique remet en cause la notion même de frontière :</p></li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p>« La séparation de toute question métaphysique prive les théories expérimentales-déductives d’une véritable ‘clôture’. En langage topologique l’on pourrait dire que ces théories restent dépourvues de points d’accumulation qui en trace une frontière définie. » <span class="citation" data-cites="mugur-schächter2009">(<a href="#ref-mugur-sch%C3%A4chter2009" role="doc-biblioref" data-original-href="#ref-mugur-sch%C3%A4chter2009" aria-expanded="false">Mugur-Schächter 2009, 54</a>)</span></p>
+</blockquote>
+</section>
+<section id="dates-importantes" class="level2">
+<h2 class="anchored" data-anchor-id="dates-importantes">Dates importantes<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#dates-importantes" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<ul>
+<li><p>30 mars 2026 : Date limite d’inscription</p>
+<p>Les inscriptions se font en ligne à cette adresse :</p>
+<p><a href="https://frontieresnum7.sciencesconf.org/registration" class="uri" data-original-href="https://frontieresnum7.sciencesconf.org/registration">https://frontieresnum7.sciencesconf.org/registration</a> </p><div id="" class="qrcode" title="https://frontieresnum7.sciencesconf.org/registration"><canvas width="128" height="128" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,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" style="display: block;"></div>
+
+    <p></p></li>
+<li><p>4 - 5 juin 2026 : Colloque à Djerba - Tunisie</p></li>
+</ul>
+</section>
+<section id="publication" class="level2">
+<h2 class="anchored" data-anchor-id="publication">Publication<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#publication" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>Les meilleurs présentations du colloque feront l’objet d’une seconde évaluation afin d’étendre chaque article pour une publication spécifique :</p>
+</section>
+<section id="thématiques" class="level2">
+<h2 class="anchored" data-anchor-id="thématiques">Thématiques<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#thématiques" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<section id="générales" class="level3">
+<h3 class="anchored" data-anchor-id="générales">Générales<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#générales" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li>Les frontières d’internet</li>
+<li>Sécurité et protection des frontières numériques</li>
+<li>Cybercriminalité sans frontières</li>
+<li>Internet et les frontières physiques</li>
+<li>Les frontières des objets connectés</li>
+<li>Les frontières invisibles d’internet, Dark Web</li>
+<li>Réalité et virtualité des frontières</li>
+<li>Les identités numériques</li>
+<li>Traces et traçabilité numériques</li>
+<li>Big Data et Data center</li>
+<li>Les frontières des intelligences</li>
+<li>Les frontières des connaissances</li>
+<li>Internet Nomade</li>
+<li>Éthique et pouvoirs de l’information</li>
+</ul>
+</section>
+<section id="spécifiques" class="level3">
+<h3 class="anchored" data-anchor-id="spécifiques">Spécifiques<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#spécifiques" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li>Analogies &amp; technologies</li>
+<li>Biomimétisme</li>
+<li>Analogie Cerveau-Machine</li>
+<li>Métaphores Numériques et Médiation Scientifique</li>
+<li>Raisonnement Analogique</li>
+<li>Jumeaux Numériques et Mondes Miroirs</li>
+<li>Réalités Mixtes (VR/AR) et Interfaces</li>
+<li>Anthropomorphisme Technologique</li>
+<li>Créativité Générative et Transfert de Style</li>
+<li>Informatique quantique et nouvelles frontières</li>
+</ul>
+</section>
+</section>
+<section id="comités" class="level2">
+<h2 class="anchored" data-anchor-id="comités">Comités<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#comités" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<section id="présidents-du-colloque" class="level3">
+<h3 class="anchored" data-anchor-id="présidents-du-colloque">Présidents du colloque<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#présidents-du-colloque" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li>Imad SALEH, Université Paris 8, France</li>
+<li>Samuel SZONIECKY, Université Paris 8, France</li>
+</ul>
+</section>
+<section id="comité-de-programme" class="level3">
+<h3 class="anchored" data-anchor-id="comité-de-programme">Comité de programme<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#comité-de-programme" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li>Malek GHENIMA, Université de la Manouba, Tunisie</li>
+<li>Olivier NANNIPIERI, Université de Toulon, France</li>
+<li>Imad SALEH, Université Paris 8, France</li>
+<li>Samuel SZONIECKY, Université Paris 8, France</li>
+</ul>
+</section>
+<section id="comité-dorganisation" class="level3">
+<h3 class="anchored" data-anchor-id="comité-dorganisation">Comité d’organisation<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#comité-dorganisation" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li>Malek GHENIMA, Université de la Manouba, Tunisie</li>
+<li>Youssef MEKOUAR, ESISA Fès, Maroc</li>
+<li>Samuel SZONIECKY, Université Paris 8, France</li>
+</ul>
+</section>
+<section id="comité-scientifique-en-cours-de-constitution" class="level3">
+<h3 class="anchored" data-anchor-id="comité-scientifique-en-cours-de-constitution">Comité scientifique (en cours de constitution)<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#comité-scientifique-en-cours-de-constitution" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li><p>Adda ALI PACHA, University of Sciences and Technology of Oran, Algérie</p></li>
+<li><p>Mathieu ANDRO, Direction des services administratifs et financiers du Premier ministre, France</p></li>
+<li><p>Bruno BACHIMONT, UTC Compiègne, France</p></li>
+<li><p>Narjès BELLAMINE BEN SAOUD, Ecole Nationale des Sciences de l’Informatique, Tunisie</p></li>
+<li><p>Mohamed BENABID, Faculté de Gouvernance Sciences Economiques et Sociales, Rabat, Maroc</p></li>
+<li><p>Sami BEN AMOR, Université de Toulon, France</p></li>
+<li><p>Saber BENHARZALLAH, Université de Batna, Algérie</p></li>
+<li><p>Nesrine BEN YAHIA, Ecole Nationale des Sciences de l’Informatique, Tunisie</p></li>
+<li><p>Philippe BONFILS, Université de Toulon, France</p></li>
+<li><p>Larbi BOUBCHIR, Université Paris 8, France</p></li>
+<li><p>Serge BOUCHARDON, UTC Compiègne, France</p></li>
+<li><p>Renée BOURASSA, Université Laval, Canada</p></li>
+<li><p>Alain CAPO CHICHI, Université Abomey Calavi/Institut Cerco, Bénin</p></li>
+<li><p>Stéphane CARO, IUT Bordeaux Montaigne, France</p></li>
+<li><p>Stéphane CHAUDIRON, Université de Lilles 3, France</p></li>
+<li><p>Richard CHBEIR, IUT de Bayonne et du Pays Basque, Anglet, France</p></li>
+<li><p>Chu-Yin CHEN, Université Paris 8, France</p></li>
+<li><p>Isabelle CHOQUET, ICHEC, Bruxelles, Belgique</p></li>
+<li><p>Abderrezak DOURARI, Université Alger 2, Algérie</p></li>
+<li><p>Michel DURAMPART, Université de Toulon, France</p></li>
+<li><p>Anja HABACHA, Ecole Nationale des Sciences de l’Informatique, Tunisie</p></li>
+<li><p>Mabrouka EL HACHANI, Université Jean Moulin Lyon 3, France</p></li>
+<li><p>Imed Riadh FARAH, Université de la Manouba, Tunisie</p></li>
+<li><p>Laurence FAVIER, Université de Lille 3, France</p></li>
+<li><p>Mohamed Mohsen GAMMOUDI, Université de la Manouba, Tunisie</p></li>
+<li><p>Faiez GARGOURI, University of Sfax, Tunisie</p></li>
+<li><p>Pierre GEDEON, Notre Dame University, Liban</p></li>
+<li><p>Fanny GEORGES, Université Paris 3, France</p></li>
+<li><p>Khaled GHEDIRA, Université Ibn Khaldoun, Tunisie</p></li>
+<li><p>Nouria HARBI, Université Lyon 2, France</p></li>
+<li><p>Abderrazak JEMAI, Université de Carthage Tunisie</p></li>
+<li><p>Maroun JNEID, Laboratoire Paragraphe</p></li>
+<li><p>Brigitte JUANALS, Université Aix Marseille, France</p></li>
+<li><p>Mohammed KARIM, Université Sidi Mohamed Ben Abdellah, Maroc</p></li>
+<li><p>Okba KAZAR, Université de Biskra, Algérie</p></li>
+<li><p>Ouajdi KORBAA, Université de Sousse, Tunisie</p></li>
+<li><p>Gerald KEMBELLEC, Conservatoire Nationale des Arts et Métiers, France</p></li>
+<li><p>Alain KIYINDOU, Université Bordeaux Montaigne, France</p></li>
+<li><p>Panayiotis KYRIAKOULOS, Université of the Aegean, Grèce</p></li>
+<li><p>Michel LABOUR, Université Polytechnique Haut de France, France</p></li>
+<li><p>Jean-Marc LARRUE, Université de Montréal, France</p></li>
+<li><p>Mariannig LE BÉCHEC, Université de Poitiers, France</p></li>
+<li><p>Benoît LE BLANC, École nationale supérieure de cognitique, Bordeaux, France</p></li>
+<li><p>Sylvie LELEU-MERVIEL, Arenberg Creative Mine, France</p></li>
+<li><p>Benoit LELONG, Université Paris 8, France</p></li>
+<li><p>Pascal MARTIN, Ecole nationale supérieure Louis-Lumière, France</p></li>
+<li><p>Luc MASSOU, Université de Lorraine, France</p></li>
+<li><p>Abderrazak MKADMI, Sultan Qaboos University, Oman</p></li>
+<li><p>Khaled MEKOUAR, ESISA Fès, Maroc</p></li>
+<li><p>Vincent MEYER, Université Nice Sophia Antipolis, France</p></li>
+<li><p>Claire NOY, Université Paul Valéry, France</p></li>
+<li><p>Cedric PLESSIET, Université Paris 8, France</p></li>
+<li><p>Mathieu QUINIOU, Université Paris 8, France</p></li>
+<li><p>Franck RENUCCI, Université de Toulon, France</p></li>
+<li><p>Fabien RICHERT, Université UQAM, Canada</p></li>
+<li><p>Ioan ROXIN, Université de Franche-Comté, France</p></li>
+<li><p>Alexandra SALOU, Université Aix-Marseille, France</p></li>
+<li><p>Nicolas SAURET, Université Paris 8, France</p></li>
+<li><p>Laura SHACKELFORD, Rochester Institute of Technology, USA</p></li>
+<li><p>Sahbi SIDHOM, Université de Lorraine, France</p></li>
+<li><p>Modestos STAVRAKIS, University of the Aegean</p></li>
+<li><p>Federico TAJARIOL, University de Franche-Comté, France</p></li>
+<li><p>Manuel ZACKLAD, Conservatoire Nationale des Arts et Métiers, France</p></li>
+<li><p>Khaldoun ZREIK, Université Paris 8, France</p></li>
+</ul>
+</section>
+</section>
+<section id="historique" class="level2">
+<h2 class="anchored" data-anchor-id="historique">Historique<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#historique" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>Cette réflexion sur les frontières numériques s’est engagée à la suite de la recherche menée par Imad Saleh, Nasreddine Bouhaï et Hakim Hachour au sein du laboratoire Paragraphe.</p>
+<p>Ce colloque est le prolongement des six colloques suivants :</p>
+<ul>
+<li><p>Octobre 2025, tenu à Hammamet, Tunisie</p></li>
+<li><p>Juin 2023, tenu à Hammamet, Tunisie</p></li>
+<li><p>Novembre 2022, tenu à L’université Paris 8 , France</p></li>
+<li><p>Octobre 2019 dans le cadre de la conférence H2PTM’2019, tenu à Montbéliard, France</p></li>
+<li><p>Juin 2016, tenu à Toulon, France - Novembre 2014, tenu à Fès, Maroc</p></li>
+</ul>
+<p>L’ensemble des contributions des colloques sont publiés :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques2023.jpg" title="Frontières numériques 2023" class="img-fluid" width="200" alt="Frontières numériques 2023"></td>
+<td><img src="https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques2.jpg" class="img-fluid" width="185"></td>
+</tr>
+<tr class="even">
+<td><em>Frontières numériques 2023</em></td>
+<td><em>Frontières numériques et savoir</em></td>
+</tr>
+<tr class="odd">
+<td><img src="https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques-et-artefacts.jpg" class="img-fluid" width="184"></td>
+<td><img src="https://samszo.github.io/frontieres-numeriques_2025/assets/Frontieres-numeriques.jpg" class="img-fluid" width="185"></td>
+</tr>
+<tr class="even">
+<td><em>Frontières numériques et artefacts</em></td>
+<td><em>Les frontières numériques</em></td>
+</tr>
+</tbody>
+</table>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading" id="references">References<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#references" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bidan2017" class="csl-entry" role="listitem">
+Bidan, Marc, and Cécile Godé. 2017. <span>“Chapitre 3. Urbanisation (évolution) des systèmes d<span>’</span>information.”</span> <em>Expertise comptable</em>, 51–81. <a href="https://shs.cairn.info/dscg-5-management-des-systemes-d-information--9782311404357-page-51" data-original-href="https://shs.cairn.info/dscg-5-management-des-systemes-d-information--9782311404357-page-51">https://shs.cairn.info/dscg-5-management-des-systemes-d-information--9782311404357-page-51</a>.
+</div>
+<div id="ref-citton2010" class="csl-entry" role="listitem">
+Citton, Yves. 2010. <em>L’avenir Des Humanités : Economie de La Connaissance Ou Cultures de l’interprétation ?</em> Paris: Editions La Découverte.
+</div>
+<div id="ref-debray2013" class="csl-entry" role="listitem">
+Debray, Régis. 2013. <em>Éloge Des Frontières</em>. Paris: Folio.
+</div>
+<div id="ref-delannay2025" class="csl-entry" role="listitem">
+Delannay, Roch. 2025. <span>“Environnements d’écriture numérique et production du sens.”</span> PhD thesis, Université Paris Nanterre.
+</div>
+<div id="ref-descola2005" class="csl-entry" role="listitem">
+Descola, Philippe. 2005. <em>Par-Delà Nature Et Culture</em>. Paris: NRF : Gallimard.
+</div>
+<div id="ref-guattari1992" class="csl-entry" role="listitem">
+Guattari, Félix. 1992. <em>Chaosmose</em>. Paris: Galilée.
+</div>
+<div id="ref-hamans2023" class="csl-entry" role="listitem">
+Hamans, Camiel. 2023. <span>“L<span>’</span>importance changeante de l<span>’</span>analogie.”</span> <em>Cahiers Ferdinand de Saussure</em> 76: 9–40. <a href="https://doi.org/10.47421/CFS_76_9-40" data-original-href="https://doi.org/10.47421/CFS_76_9-40">https://doi.org/10.47421/CFS_76_9-40</a>.
+</div>
+<div id="ref-hofstadter2013" class="csl-entry" role="listitem">
+Hofstadter, Douglas, and Emmanuel Sander. 2013. <em>L’analogie : Coeur de La Pensée</em>. Odile Jacob.
+</div>
+<div id="ref-jung1979" class="csl-entry" role="listitem">
+Jung, Carl Gustav. 1979. <span>“Préface à l’édition Anglaise Du Yi King.”</span> In. Albin Michel.
+</div>
+<div id="ref-lecun2022" class="csl-entry" role="listitem">
+LeCun, Yann. 2022. <span>“A Vision to Make AI Systems Learn and Reason Like Animals and Humans.”</span> <a href="https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/" data-original-href="https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/">https://ai.meta.com/blog/yann-lecun-advances-in-ai-research/</a>.
+</div>
+<div id="ref-leroi-gourhan1964" class="csl-entry" role="listitem">
+Leroi-Gourhan, André. 1964. <em>Le Geste Et La Parole, Tome 1 : Technique Et Langage</em>. Albin Michel.
+</div>
+<div id="ref-moulierboutang2010" class="csl-entry" role="listitem">
+Moulier Boutang, Yann. 2010. <span>“Droits de Propriété Intellectuelle, Terra&nbsp;Nullius Et&nbsp;Capitalisme Cognitif.”</span> <em>Multitudes</em> 41 (2): 66. <a href="https://doi.org/10.3917/mult.041.0066" data-original-href="https://doi.org/10.3917/mult.041.0066">https://doi.org/10.3917/mult.041.0066</a>.
+</div>
+<div id="ref-mugur-schächter2009" class="csl-entry" role="listitem">
+Mugur-Schächter, Mioara. 2009. <em>L’infra-Mécanique Quantique : Une Révolution Épistémologique Révélée Dans Les Descriptions de Microétats</em>. Dianoia.
+</div>
+<div id="ref-noyer2016" class="csl-entry" role="listitem">
+Noyer, Jean-Max. 2016. <em>Transformation of Collective Intelligences: Perspective of Transhumanism</em>. Hoboken, NJ: ISTE Ltd; John Wiley &amp; Sons Inc.
+</div>
+<div id="ref-pomian1976" class="csl-entry" role="listitem">
+Pomian, Krzysztof. 1976. <span>“Les Limites Écologiques Des Civilisations.”</span> <em>Social Science Information</em> 15 (1): 7–31.
+</div>
+<div id="ref-provost2020" class="csl-entry" role="listitem">
+Provost, Fabien, Lauren Kamili, and Perig Pitrou. 2020. <span>“Enquêter sur l<span>’</span>imitation du vivant.”</span> <em>Techniques Culture</em> n° 73 (1): 208–21. <a href="https://www.cairn.info/revue-techniques-et-culture-2020-1-page-208.htm" data-original-href="https://www.cairn.info/revue-techniques-et-culture-2020-1-page-208.htm">https://www.cairn.info/revue-techniques-et-culture-2020-1-page-208.htm</a>.
+</div>
+<div id="ref-serres1997" class="csl-entry" role="listitem">
+Serres, Michel. 1997. <em>Atlas</em>. Flammarion.
+</div>
+<div id="ref-serres2009" class="csl-entry" role="listitem">
+———. 2009. <em>Ecrivains, Savants Et Philosophes Font Le Tour Du Monde</em>. Les Essais Du Pommier. Paris: Pommier.
+</div>
+<div id="ref-szoniecky2024" class="csl-entry" role="listitem">
+Szoniecky, Samuel. 2024. <span>“Modéliser Des Écosystèmes de Connaissance.”</span> <a href="https://hal.science/tel-05063347" data-original-href="https://hal.science/tel-05063347">https://hal.science/tel-05063347</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div>
