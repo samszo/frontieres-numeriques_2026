@@ -13,6 +13,8 @@ website:
     left:
       - href: index.qmd
         text: Accueil
+      - href: programme.qmd
+        text: Programme
       - about.qmd
 
 format:

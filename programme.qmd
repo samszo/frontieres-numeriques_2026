@@ -1,0 +1,53 @@
+---
+title: "Programme"
+subtitle: "Frontières Numériques 2026"
+---
+
+## Programme de la conférence
+
+**Lieu :** Djerba, Tunisie  
+**Dates :** 4, 5 et 6 juin 2026
+
+> Programme prévisionnel – les horaires et intitulés pourront être ajustés.
+
+## Jeudi 4 juin 2026 — Ouverture
+
+| Horaire | Session |
+|---|---|
+| 08:30 – 09:30 | Accueil des participant·es et retrait des badges |
+| 09:30 – 10:00 | Ouverture institutionnelle |
+| 10:00 – 11:00 | Conférence inaugurale |
+| 11:00 – 11:30 | Pause-café |
+| 11:30 – 13:00 | Session 1 — Analogies et technologies (communications) |
+| 13:00 – 14:30 | Déjeuner |
+| 14:30 – 16:00 | Session 2 — Métaphores numériques et médiation |
+| 16:00 – 16:30 | Pause-café |
+| 16:30 – 18:00 | Table ronde — Frontières numériques : enjeux contemporains |
+
+## Vendredi 5 juin 2026 — Sessions thématiques
+
+| Horaire | Session |
+|---|---|
+| 09:00 – 10:30 | Session 3 — IA, raisonnement analogique et créativité |
+| 10:30 – 11:00 | Pause-café |
+| 11:00 – 12:30 | Session 4 — Jumeaux numériques et mondes miroirs |
+| 12:30 – 14:00 | Déjeuner |
+| 14:00 – 15:30 | Session 5 — VR/AR, interfaces et médiations |
+| 15:30 – 16:00 | Pause-café |
+| 16:00 – 17:30 | Session 6 — Éthique, anthropomorphisme et limites |
+
+## Samedi 6 juin 2026 — Ateliers et clôture
+
+| Horaire | Session |
+|---|---|
+| 09:00 – 10:30 | Ateliers méthodologiques |
+| 10:30 – 11:00 | Pause-café |
+| 11:00 – 12:30 | Restitution des ateliers |
+| 12:30 – 14:00 | Déjeuner |
+| 14:00 – 15:30 | Perspectives de recherche et collaborations |
+| 15:30 – 16:00 | Clôture du colloque |
+
+## Informations pratiques
+
+- Les salles et les interventions détaillées seront publiées prochainement.
+- Pour toute question logistique : [frontieresnum7.sciencesconf.org](https://frontieresnum7.sciencesconf.org/)
