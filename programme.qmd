@@ -12,11 +12,31 @@ subtitle: "Frontières Numériques 2026"
 
 ## Jeudi 4 juin 2026 — Ouverture
 
+### 08:30 – 09:30 | Accueil des participant·es et retrait des badges 
+
+### 09:30 – 10:00 | Ouverture institutionnelle
+Samuel Szoniecky, Malek Ghenima, Imad Saleh
+
+### 10:00 – 11:00 | Conférence inaugurale
+
+#### Imad Saleh
+De l’hypertexte à l’hyper-objet : l'analogie des réseaux au cœur des écosystèmes de savoir
+
+*Résumé : *> Pionnier des réflexions sur les frontières numériques et l'évolution des H2PTM, Imad Saleh analyse la transition de l'hypertexte vers l'Internet des Objets à travers l'analogie des réseaux sociaux et sémantiques. Ses travaux sur les bibliothèques numériques et les ENT mobilisent le crowdsourcing, le crowdfunding et l'innovation frugale pour repenser la numérisation et l'apprentissage à distance. En s'appuyant sur des ontologies et des systèmes de recommandation, il démontre comment les TIC, l'OCR participatif et les nouveaux standards technologiques redéfinissent l'accès collectif à la connaissance.
+
+*Mots-clés :* H2PTM Hypertexte Hypermédias Crowdsourcing Crowdfunding Numérisation ENT Bibliothèques numériques Innovation frugale Apprentissage à distance TIC Ontologies Système de recommandation Standards OCR
+
+
+#### Samuel Szoniecky
+L'analogie écosystémique au service du design des connaissances et de l'intelligence collective
+
+*Résumé :* > Samuel Szoniecky explore les frontières numériques en modélisant des écosystèmes de connaissances où l’analogie du vivant sert de moteur à l'intelligence collective. Ses travaux mobilisent des ontologies sémantiques et des dispositifs de captation pour transformer les archives numériques en espaces dynamiques de co-création et de médiation. À travers l'usage de chatbots, de la génération automatique et des humanités numériques, il interroge la capacité des technologies à simuler des processus cognitifs humains pour une gestion éthique et participative de l'information.
+
+*Mots-clés :* Écosystème de connaissances Ontologie Intelligence collective Archives numériques Humanités numériques Chatbot Numérisation Captation
+
 | Horaire | Session |
 |---|---|
-| 08:30 – 09:30 | Accueil des participant·es et retrait des badges |
-| 09:30 – 10:00 | Ouverture institutionnelle |
-| 10:00 – 11:00 | Conférence inaugurale |
+
 | 11:00 – 11:30 | Pause-café |
 | 11:30 – 13:00 | Session 1 — Analogies et technologies (communications) |
 | 13:00 – 14:30 | Déjeuner |

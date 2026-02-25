@@ -1,0 +1,9 @@
+---
+title: "Intervenants"
+listing:
+  contents: auteurs_quarto
+  type: grid
+  sort: "title"
+  categories: true
+---
+Découvrez les contributions scientifiques au colloque.

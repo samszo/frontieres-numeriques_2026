@@ -1,0 +1,4 @@
+body { font-family: sans-serif; }
+.quarto-grid-item { border-radius: 12px; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.quarto-grid-item:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+.callout-note { border-left: 5px solid #3498db; background: #f8fbfe; padding: 1em; }
