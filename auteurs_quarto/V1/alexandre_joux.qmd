@@ -1,0 +1,26 @@
+```yaml
+title: "Alexandre Joux : Autorité journalistique et plateformisation"
+categories:
+  - Journalisme
+  - Big Data
+  - IA
+  - Économie des médias
+```
+
+## Alexandre Joux
+[{{< fa brands github >}} GitHub](https://www.idref.fr/078868270) [{{< fa brands github >}} GitHub](https://orcid.org/0000-0003-4886-6949) [{{< fa brands github >}} GitHub](https://hal.science/search/index/?q=authIdHal_s:alexandre-joux) 
+
+
+[Projet : Les représentations du traitement médiatique de la guerre sanitaire](https://festivaljeudeloie.fr/projet/les-representations-du-traitement-mediatique-de-la-guerre-sanitaire-par-ceux-qui-lont-couverte-16-mars-13-avril-2020)
+
+**Résumé**
+
+Alexandre Joux analyse les mutations structurelles du champ journalistique confronté à l'hégémonie des données massives et à l'automatisation. Ses travaux interrogent la redéfinition de l'autorité informationnelle à l'ère de l'intelligence artificielle (ChatGPT) et des désordres informatifs, tout en scrutant les stratégies économiques des médias et la régulation des Big Tech pour préserver la diversité culturelle.
+
+**Résonances Bibliographiques**
+
+*   *Big data et data journalisme : des prétentions épistémologiques irréconciliables*
+*   *ChatGPT ou la question de l'autorité*
+*   *L’information d’actualité au prisme des fake news* (L’Harmattan)
+*   *Chine / États-Unis : réguler et protéger les Big Tech*
+*   *Le streaming musical, un révélateur des enjeux de la diversité culturelle*

@@ -1,0 +1,34 @@
+---
+title: Olivier Nannipieri
+categories:
+  - Réalité virtuelle
+  - Réalité augmentée
+  - Presence
+  - Environnements immersifs
+  - Measurement Scales
+  - Phénoménologie
+  - Immersion
+subtitle:"Au-delà de l'analogie mimétique : redéfinir la mesure de la présence dans les espaces immersifs"
+bibliography: referenceAuteurs.bib
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/177559748](https://www.idref.fr/177559748) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri](https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux d'Olivier Nannipieri interrogent la validité des mesures de la présence au sein des environnements immersifs, en mettant en évidence les limites méthodologiques des échelles actuelles via des modèles d'équations structurelles [@nannipieri:hal-04404674; @nannipieri:hal-03175298]. Il explore également la nature phénoménologique de la "réalité du virtuel" [@nannipieri:hal-04396912] tout en appliquant ces réflexions aux taxonomies techniques et aux expériences utilisateurs en réalité augmentée [@fuchs:hal-00536787; @muratore:hal-01453221].
+:::
+
+### Proposition
+
+**Titre : Au-delà de l'analogie mimétique : redéfinir la mesure de la présence dans les espaces immersifs**
+
+**Résumé :**
+Dans le cadre de Frontières Numériques 7, cette intervention propose de déconstruire l'analogie souvent simplificatrice entre perception du réel et expérience virtuelle qui sous-tend la conception des échelles de mesure de la présence. En s'appuyant sur une critique rigoureuse de la littérature et la modélisation par équations structurelles [@nannipieri:hal-04404674], nous démontrerons que la présence ne peut se résumer à une métrique de fidélité technologique. L'intervention explorera la tension phénoménologique entre la "réalité du virtuel" et l'absence physique [@nannipieri:hal-04396912], pour proposer une nouvelle approche où la technologie n'est plus vue comme un substitut du réel, mais comme un générateur de nouvelles formes de significations et d'expériences [@muratore:hal-01453221]. Nous discuterons ainsi des implications de ces "vides" de mesure pour la conception future des dispositifs immersifs.
+
+### Résonances Bibliographiques
+
+La démarche d'Olivier Nannipieri s'articule autour d'une critique fondamentale de l'évaluation de l'expérience utilisateur. Sa remise en question des outils de mesure de la présence [@nannipieri:hal-04404674] entre en résonance directe avec ses travaux antérieurs sur la classification fonctionnelle des dispositifs [@fuchs:hal-00536787], suggérant que la technique seule ne suffit pas à définir l'immersion. De plus, l'approche phénoménologique qu'il développe pour comprendre la substance du virtuel [@nannipieri:hal-04396912] fournit un cadre théorique indispensable pour interpréter les résultats empiriques observés dans des contextes d'application comme le marketing expérientiel ou les jeux en réalité augmentée [@muratore:hal-01453221].

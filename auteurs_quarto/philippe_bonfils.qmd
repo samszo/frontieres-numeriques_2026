@@ -1,0 +1,33 @@
+---
+title: Philippe Bonfils
+categories:
+  - Droit pénal
+  - Identité numérique
+  - Justice des mineurs
+  - Procédure pénale
+
+subtitle:"Du masque au profil : Le pseudonyme et la responsabilité pénale aux frontières du numérique"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/052595269](https://www.idref.fr/052595269) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Philippe Bonfils est un spécialiste reconnu du droit pénal et de la procédure pénale [@pin:hal-04981504], dont les travaux analysent en profondeur les mutations de la justice des mineurs [@bonfils:halshs-02450224; @bonfils:halshs-02245029]. Ses recherches interrogent les frontières de la personnalité juridique, notamment à travers le statut ambigu du pseudonyme [@bonfils:halshs-02205937], tout en défendant la fonction éducative de la peine [@bonfils:hal-01467481] face aux évolutions contemporaines de la délinquance.
+:::
+
+### Proposition
+
+**Titre : Du masque au profil : Le pseudonyme et la responsabilité pénale aux frontières du numérique**
+
+**Résumé :**
+Dans le cadre de la conférence *Frontières Numériques*, cette intervention propose d'explorer l'analogie entre le pseudonyme classique et l'identité numérique contemporaine. En s'appuyant sur l'analyse du pseudonyme comme signe distinctif oscillant entre personnalité et propriété [@bonfils:halshs-02205937], il s'agira de déterminer comment le droit pénal peut appréhender les infractions commises sous couvert d'anonymat technologique. L'intervention examinera également les défis posés à la procédure pénale [@pin:hal-04981504] par la dématérialisation des preuves et des acteurs. Enfin, une attention particulière sera portée à la justice des mineurs [@bonfils:halshs-02450224], pour questionner la pertinence et l'adaptabilité de la fonction éducative de la peine [@bonfils:hal-01467481] face à la cyber-délinquance, où la frontière entre le réel et le virtuel tend à s'effacer.
+
+### Résonances Bibliographiques
+
+Les travaux de Philippe Bonfils sur les grands arrêts de la procédure pénale [@pin:hal-04981504] offrent un socle rigoureux pour penser l'intégration des preuves numériques dans le procès équitable. Ses réflexions sur le statut du pseudonyme [@bonfils:halshs-02205937] résonnent particulièrement avec les problématiques actuelles de gestion des identités en ligne et de droit à l'oubli. Par ailleurs, son expertise sur la protection de l'enfance et les disparitions de mineurs [@bonfils:hal-02083768] constitue un point d'entrée essentiel pour analyser les risques technologiques (cyber-harcèlement, prédation) pesant sur les plus jeunes, tout en réaffirmant la nécessité d'une justice restaurative et éducative [@bonfils:hal-01467481].

@@ -1,0 +1,27 @@
+```yaml
+---
+title: "La 'réinformation' : frontière algorithmique du journalisme"
+categories: [Désinformation, Journalisme, Réseaux Socionumériques, Méthodes Mixtes, IA]
+---
+```
+
+## Alexandra Salou
+
+**Liens**
+*   [Profil académique / Publications](https://cv.hal.science/alexandra-salou) *(Lien suggéré)*
+
+**Résumé**
+Les travaux d'Alexandra Salou interrogent la porosité croissante entre journalisme et militantisme numérique à travers le concept de "réinformation". En mobilisant des méthodes mixtes, ses recherches analysent comment les algorithmes des réseaux socionumériques et les "newsinfluencers" reconfigurent la pluralité des opinions et les pratiques professionnelles en France, au Canada et au Luxembourg. Elle explore également les implications éducatives de l'IA face à ces défis informationnels.
+
+**Proposition d'intervention**
+**Titre : De la ligne éditoriale au code source : Analogies de la prescription informationnelle**
+
+Dans le cadre de *Frontières Numériques 7*, cette intervention propose d'examiner la technologie des plateformes sociales non plus comme un simple canal de diffusion, mais comme un agent actif de confusion sémantique et structurelle.
+L'analogie centrale explorée sera celle de la "prescription" : comment l'autorité traditionnelle du journaliste est-elle mimée, puis supplantée, par la figure du "réinformateur" et du "newsinfluencer" ? Nous analyserons comment les dispositifs techniques de recommandation créent une homologie structurelle entre information vérifiée et désinformation, effaçant les frontières déontologiques au profit de métriques d'engagement. L'intervention s'appuiera sur l'étude comparative internationale (France, Luxembourg, Canada) pour démontrer comment la technologie universalise ces biais tout en s'adaptant aux contextes locaux.
+
+**Résonances Bibliographiques**
+*   **Salou, A.** (2020). *Homogénéisation des opinions politiques via les dispositifs de recommandation sur les réseaux socionumériques au prisme des élections municipales à Marseille*.
+*   **Salou, A.** & al. *Quand la réinformation reconfigure les pratiques journalistiques : Une analyse comparative de trois pays francophones (Luxembourg, France et Canada)*.
+*   **Salou, A.** *Existe-t-il encore une frontière entre les newsinfluenceurs et les journalistes ?*
+*   **Salou, A.** *Les méthodes mixtes en SIC : une articulation entre quantitatif et qualitatif*.
+*   **Salou, A.** *Usages et Pratiques de l’IA en éducation : le cas des étudiants en informatique*.

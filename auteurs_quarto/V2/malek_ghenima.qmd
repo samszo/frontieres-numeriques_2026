@@ -1,0 +1,29 @@
+```yaml
+title: "Intelligence Économique et Humanités Numériques : Vers une Symbiose Cognitive"
+categories:
+  - Intelligence Économique
+  - Knowledge Management
+  - Humanités Numériques
+  - Systèmes d'Information
+```
+
+## Malek Ghenima
+[{{< fa brands github >}} GitHub](https://www.idref.fr/236912232) 
+
+
+**Liens** : [Google Scholar](https://scholar.google.com/) | [ResearchGate](https://www.researchgate.net/)
+
+**Résumé**
+Malek Ghenima explore les dynamiques complexes entre les systèmes d'information et l'intelligence économique, en focalisant ses recherches sur la méthodologie de transformation de l'information brute en décision stratégique. Ses travaux tissent des liens étroits entre l'ingénierie des connaissances (ontologies, veille) et les humanités numériques, mettant en exergue le rôle central de l'acteur humain et la capitalisation patrimoniale dans les écosystèmes numériques.
+
+**Proposition d'intervention**
+*Titre : L'analogie de la "Mémoire Organisationnelle" : Quand la technologie modélise la cognition humaine*
+
+Dans le cadre de Frontières Numériques 7, cette intervention propose d'interroger l'analogie entre les processus cognitifs humains (mémoire, apprentissage, décision) et les architectures technologiques de gestion des connaissances (Knowledge Management). En s'appuyant sur ses travaux en Intelligence Économique et en Humanités Numériques, Malek Ghenima examinera comment les systèmes de veille et de modélisation ontologique tentent de répliquer la sémantique humaine pour structurer le chaos informationnel. L'intervention analysera spécifiquement comment les outils numériques ne sont plus de simples supports de stockage, mais deviennent des extensions analogiques de notre capacité à capitaliser le patrimoine et à prendre des décisions dans un environnement complexe.
+
+**Résonances Bibliographiques**
+*   *From information to decision: information management methodology in decisional process.*
+*   *Knowledge Organization in the perspective of Digital Humanities: Researches and Applications (ISKO-Maghreb'2015).*
+*   *Modélisation centrée sur l'acteur dans une approche e-veille : analyse de corpus sur les nanotechnologies.*
+*   *Capitalisation des connaissances sur l'objet image du patrimoine : acception de partage et de communication par les acteurs.*
+*   *Natural ontology representation based on NP's properties and semantic relations.*

@@ -1,0 +1,40 @@
+---
+title: Lise Verlaet
+categories:
+  - humanités numériques
+  - Science ouverte
+  - l’édition scientifique
+  - l’information et de la communication
+  - Constructivisme
+  - acculturation
+
+subtitle:"De l'objet au système : analogies structurelles entre héritage technoscientifique et intelligence numérique"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/127453865](https://www.idref.fr/127453865) [{{< fa solid globe >}} https://orcid.org/0000-0002-3909-0184](https://orcid.org/0000-0002-3909-0184) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:lise-verlaet](https://hal.science/search/index/?q=authIdHal_s:lise-verlaet) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Lise Verlaet explore les mutations des systèmes d'information en articulant les enjeux de la science ouverte et de l'édition scientifique [@verlaet:hal-01676350] avec les pratiques rédactionnelles des chercheurs [@dillaerts:hal-04152903]. Ses travaux récents, menés notamment avec Bruno Bachimont, théorisent le passage du numérique comme objet au numérique comme système [@verlaet:hal-04916571], tout en interrogeant la littératie nécessaire à la co-construction de notre héritage technoscientifique [@verlaet:hal-04821635].
+:::
+
+### Proposition
+
+**Titre : De l'objet au système : analogies structurelles entre héritage technoscientifique et intelligence numérique**
+
+**Résumé :**
+Cette intervention se propose d'examiner les analogies fonctionnelles entre la structuration formelle des connaissances par le Web sémantique et la dynamique sociétale de la science ouverte. En s'appuyant sur l'idée que le numérique doit être appréhendé non plus seulement comme une collection d'objets techniques mais comme un système global de pensée [@verlaet:hal-04916571], nous analyserons comment les modèles de connaissances évolutives [@verlaet:hal-01676493] transforment radicalement notre rapport à l'héritage scientifique. Nous questionnerons la manière dont les dispositifs socio-techniques actuels réagencent les pratiques de rédaction et de diffusion académiques [@dillaerts:hal-04152903], créant une nouvelle forme de littératie en co-construction [@verlaet:hal-04821635]. L'objectif est de démontrer que l'ouverture des données et les modèles économiques associés [@verlaet:hal-01676350] ne sont pas de simples vecteurs de transmission, mais des résonances profondes modifiant la structure même de la production des savoirs et leur inscription dans la mémoire collective face aux promesses de performance des organisations [@verlaet:hal-04821734].
+
+### Résonances Bibliographiques
+
+Les travaux de Lise Verlaet s'inscrivent au cœur de la thématique *Analogies & Technologies* en reliant l'architecture technique de l'information à ses implications culturelles et cognitives.
+
+*   **L'analogie structurelle du savoir :** En étudiant le Web sémantique et le balisage des connaissances évolutives [@verlaet:hal-01676493], l'auteure pose les bases d'une réflexion sur la manière dont la technologie mime et étend les capacités cognitives de classification, préfigurant les systèmes actuels d'intelligence artificielle.
+*   **Systémique et Humanités Numériques :** La transition vers une vision du numérique comme "système" [@verlaet:hal-04916571] et les regards multidimensionnels sur les humanités numériques [@barats:hal-03260449] permettent de dépasser l'outil pour analyser les analogies entre écosystèmes biologiques et écosystèmes numériques d'information.
+*   **Transformation des pratiques :** L'analyse des pratiques rédactionnelles [@dillaerts:hal-04152903] et des modèles d'affaires de l'Open Access [@verlaet:hal-01676350] illustre la friction entre l'analogie de la "bibliothèque universelle" et les réalités économiques et techniques de la diffusion du savoir.
+*   **Héritage et Littératie :** Enfin, la notion d'héritage en co-construction [@verlaet:hal-04821635] résonne avec l'idée que nos technologies ne sont pas de simples supports, mais des miroirs actifs de notre évolution culturelle, nécessitant une gestion critique du capital humain face aux dispositifs techniques [@verlaet:hal-04821734].

@@ -1,0 +1,31 @@
+---
+title: Alexandre Joux
+categories:
+  - journalisme
+  - Fact-checking
+  - Fake news
+  - Big Data
+  - streaming musical
+  - société de l'information
+bibliography: referenceAuteurs.bib
+---
+
+#### Alexandre Joux
+[{{< fa solid globe >}} https://www.idref.fr/078868270](https://www.idref.fr/078868270) [{{< fa solid globe >}} https://orcid.org/0000-0003-4886-6949](https://orcid.org/0000-0003-4886-6949) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:alexandre-joux](https://hal.science/search/index/?q=authIdHal_s:alexandre-joux) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Alexandre Joux analyse les mutations épistémologiques du journalisme confronté au Big Data et aux nouvelles stratégies éditoriales numériques [@joux:hal-03507883; @joux:hal-01921848]. Ses recherches explorent la reconfiguration de l'autorité et de la vérité en période de crise et face à l'intelligence artificielle [@joux:hal-04054754; @joux:hal-04445932], tout en questionnant l'impact des plateformes de streaming sur la diversité culturelle [@joux:hal-02935508].
+:::
+
+### Proposition
+
+Dans le cadre de *Frontières Numériques 7*, l'intervention d'Alexandre Joux pourrait s'intituler **« L'autorité disloquée : du gatekeeper à l'algorithme génératif »**. Cette communication interrogerait la frontière de plus en plus tenue entre la médiation journalistique humaine et la production automatisée de sens. En s'appuyant sur l'inconciliabilité entre les prétentions de vérité du Big Data et celles du journalisme [@joux:hal-03507883], l'auteur proposerait une analogie entre la gestion des flux culturels (streaming, SVOD) et celle des flux d'information : comment la logique de plateforme, qui a déjà bouleversé l'exception culturelle [@joux:hal-03668022], redéfinit-elle aujourd'hui la notion d'expertise et de source face à des outils comme ChatGPT [@joux:hal-04445932] ? Il s'agirait de comprendre comment la technologie déplace la confiance du public, de la figure du journaliste vers celle de la machine, notamment dans des contextes d'incertitude majeure comme les crises sanitaires [@joux:hal-04054754].
+
+### Résonances Bibliographiques
+
+Les travaux d'Alexandre Joux s'articulent autour de la tension entre pratiques traditionnelles et disruptions technologiques :
+
+*   **L'Information face à la Donnée :** Il met en perspective l'intégration du *Data Management* dans les groupes de presse [@joux:hal-01921848] avec les conflits épistémologiques que le Big Data impose au journalisme [@joux:hal-03507883].
+*   **La Vérité en Crise(s) :** Ses études sur le traitement de la Covid-19 [@grondeau:hal-03612257; @joux:hal-03052016] soulignent la fragilité du consensus professionnel et de la vérité factuelle [@joux:hal-04054754] face à la prolifération des discours et à la contestation de l'expertise, une problématique réactivée par l'émergence des IA génératives [@joux:hal-04445932].
+*   **Algorithmes et Diversité :** Il étend cette réflexion aux industries culturelles, analysant comment les algorithmes de recommandation et les modèles économiques du streaming reconfigurent l'accès à la diversité musicale [@joux:hal-02935508] et cinématographique [@joux:hal-03668022], posant la question de l'uniformisation versus le multiple [@joux:hal-05008261].

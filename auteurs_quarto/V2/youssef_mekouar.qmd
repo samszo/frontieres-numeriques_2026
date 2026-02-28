@@ -1,0 +1,24 @@
+```yaml
+title: "Youssef Mekouar : L'Intelligence Artificielle au service de la Respiration Urbaine"
+categories: [Smart City, Deep Learning, Visualisation, Écologie]
+```
+
+## Youssef MEKOUAR
+[{{< fa brands github >}} GitHub](https://www.idref.fr/268466238) [{{< fa brands github >}} GitHub](https://orcid.org/0009-0001-9493-9777) 
+
+
+[Google Scholar](https://scholar.google.com/) | [ResearchGate](https://www.researchgate.net/)
+
+**Résumé**
+Youssef Mekouar se situe au carrefour de la science des données, de l'IoT et de l'écologie urbaine, développant des modèles d'apprentissage profond hybrides (CNN-LSTM) pour prédire et visualiser la pollution spatio-temporelle. Ses travaux transforment les flux de données brutes du trafic routier en outils décisionnels pour les "Smart Cities". Parallèlement, il explore l'organisation sémantique des connaissances, allant de la visualisation d'articles scientifiques aux applications médicales.
+
+**Proposition d'intervention**
+*Titre :* **L'Analogie des Flux : Capter l'invisible urbain par la modélisation hybride**
+
+Dans le cadre de "Frontières Numériques 7", cette intervention propose d'explorer comment les technologies de Deep Learning (notamment les réseaux hybrides CNN-LSTM) permettent de modéliser la "physiologie" d'une ville. En traitant la ville comme un organisme dont les flux de trafic et d'émissions de CO2 peuvent être prédits et visualisés, Youssef Mekouar démontrera comment l'analogie entre réseaux de neurones artificiels et dynamiques environnementales permet de rendre tangible l'invisible (la pollution). L'intervention abordera également l'apport de la visualisation augmentée pour naviguer dans la complexité de ces données massives, du capteur IoT à la prise de décision écologique.
+
+**Résonances Bibliographiques**
+*   **GreenNav: Spatiotemporal Prediction of CO2 Emissions in Paris Road Traffic Using a Hybrid CNN-LSTM Model** (Focus : L'IA comme outil prédictif environnemental).
+*   **Integration of Data Acquisition and Modeling for Ecological Simulation of CO2 Emissions in Urban Traffic** (Focus : La chaîne de valeur de la donnée, de l'IoT à la simulation).
+*   **Visualisation augmentée d'articles scientifiques s'appuyant sur un index sémantique** (Focus : Structuration et représentation de la connaissance complexe).
+*   **Modelling and simulation of an ecological route in smart cities towards a green trajectory** (Focus : Application concrète pour la mobilité durable).

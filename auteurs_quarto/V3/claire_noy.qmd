@@ -1,0 +1,31 @@
+---
+title: Claire NOY
+categories:
+  - carte conceptuelle
+  - contextualisation
+  - point de vue
+  - médiation scientifique
+  - frontières numériques
+  - appropriation
+bibliography: referenceAuteurs.bib
+---
+
+#### Claire NOY
+[{{< fa solid globe >}} https://www.idref.fr/091622409](https://www.idref.fr/091622409) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:claire-noy](https://hal.science/search/index/?q=authIdHal_s:claire-noy) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux de Claire Noy explorent les mutations de la transmission des savoirs à l'ère du numérique, interrogeant la porosité des frontières entre experts et profanes [@noy:hal-03920721; @noy:hal-03920792]. Elle analyse la phénoménologie de l'acte créatif et des usages numériques [@noy:hal-03901403], tout en examinant la construction du sens par la carte conceptuelle et la négociation de la réalité au sein des réseaux sociaux [@noy:hal-04138013; @noy:hal-04441423].
+:::
+
+### Proposition
+
+Dans le cadre de "Frontières Numériques 7 : Analogies & Technologies", cette intervention se propose d'examiner la "frontière" non comme une limite, mais comme une interface analogique de traduction des savoirs. En s'appuyant sur une nouvelle topographie des savoirs universitaires [@noy:hal-03920792], nous questionnerons comment les technologies numériques reconfigurent le rapport au temps connecté [@noy:hal-04291720] et transforment la médiation scientifique [@noy:hal-02116491]. L'objectif est d'analyser comment l'acte créatif et la phénoménologie sociale [@noy:hal-03901403] permettent de dépasser la simple consultation de données pour aller vers une appropriation active du sens. Nous aborderons la manière dont les cartes conceptuelles [@noy:hal-04138013] servent d'outils technologiques pour naviguer dans ces écosystèmes complexes, facilitant le passage d'un débat médiatique polarisé [@noy:hal-04441423] à une véritable construction collective de la connaissance.
+
+### Résonances Bibliographiques
+
+Les recherches de l'auteure s'articulent autour de trois axes qui résonnent avec la thématique des analogies technologiques :
+
+1.  **La Spatialisation du Savoir :** L'analogie du territoire est centrale pour comprendre comment le numérique redessine les hiérarchies académiques. Cette approche topographique [@noy:hal-03920792] permet de repenser l'accès et l'identification des données scientifiques par les publics profanes [@noy:hal-03920721].
+2.  **La Phénoménologie de l'Outil :** Au-delà de la technique, la technologie est vécue. L'auteure lie l'acte créatif aux usages numériques [@noy:hal-03901403], suggérant que l'apprentissage dans une société de communication [@noy:hal-04293906] repose sur une expérience sensible et un "temps connecté" spécifique [@noy:hal-04291720].
+3.  **La Représentation et la Négociation du Sens :** Face au flux informationnel, la structuration de la pensée devient technologique via la carte conceptuelle [@noy:hal-04138013]. Cette structuration est indispensable pour naviguer dans les débats sur les réseaux sociaux, où la réalité elle-même fait l'objet d'une négociation collective permanente [@noy:hal-04441423].

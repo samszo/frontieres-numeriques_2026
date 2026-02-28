@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Intervenants – Frontières Numériques 7 : Analogies et technologies</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e8b5e97cfa53a8666767279c87389fb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/img/logo-paragraphe-blanc.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/img/logo-paragraphe-blanc.svg" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Frontières Numériques 7 : Analogies et technologies</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./programme.html"> 
+<span class="menu-text">Programme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./auteurs.html" aria-current="page"> 
+<span class="menu-text">Auteurs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(24)</span></div><div class="category" data-category="YWNjdWx0dXJhdGlvbg==">acculturation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXBwcmVudGlzc2FnZQ==">Apprentissage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJjaGl0ZWN0dXJlJTIwZGUlMjBsJ2luZm9ybWF0aW9u">architecture de l'information <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXJ0JTIwaW50ZXJhY3RpZg==">Art interactif <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXJ0JTIwbnVtJUMzJUE5cmlxdWU=">Art numérique <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YXVkaW92aXN1YWw=">audiovisual <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXVkaW92aXN1ZWw=">audiovisuel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXV0aGVudGljaXQlQzMlQTk=">Authenticité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXZhdGFycw==">avatars <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXZhdGFycw==">Avatars <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlnJTIwRGF0YQ==">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QklN">BIM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2FydGUlMjBjb25jZXB0dWVsbGU=">carte conceptuelle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2hhJUMzJUFFbmVzJTIwJUMzJUE5ZGl0b3JpYWxlcw==">chaînes éditoriales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xhc3NpZmljYXRpb24lMjAlQzMlQTAlMjBmYWNldHRlcw==">Classification à facettes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xvdWQlMjBjb21wdXRpbmc=">cloud computing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q05O">CNN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y28tZGVzaWdu">co-design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q08y">CO2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29jciVDMyVBOWF0aW9u">Cocréation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29sbGVjdGl2ZSUyMEludGVsbGlnZW5jZQ==">Collective Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29tbXVuaWNhdGlvbg==">communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uY2VwdGlvbg==">Conception <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29ubmVjdGVkJTIwT2JqZWN0cw==">Connected Objects <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uc3RydWN0aXZpc21l">Constructivisme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29udGV4dHVhbGlzYXRpb24=">contextualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJvdmVyc2llcw==">Controversies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvd2Rzb3VyY2luZw==">Crowdsourcing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3liZXJuJUMzJUE5dGlxdWU=">Cybernétique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHNlY3VyaXR5">data security <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHdhcmVob3VzZQ==">data warehouse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YS12aXN1YWxpemF0aW9u">Data-visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YXZpc3VhbGlzYXRpb24=">Datavisualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVjaXNpb24lMjBTdXBwb3J0">Decision Support <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RCVDMyVBOXNpbmZvcm1hdGlvbg==">Désinformation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlhZ3JhbW1hdGlxdWU=">diagrammatique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlnaXRhbA==">Digital <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlnaXRhbCUyMEh1bWFuaXRpZXM=">Digital Humanities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlnaXRhbCUyMElubm92YXRpb24=">Digital Innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZG9jdW1lbnRz">documents <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RHJvaXQlMjBwJUMzJUE5bmFs">Droit pénal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RS1KdXN0aWNl">E-Justice <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZS1sZWFybmluZw==">e-learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9taWMlMjBJbnRlbGxpZ2VuY2U=">Economic Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJUE5Y29zeXN0JUMzJUE4bWUlMjBkZSUyMGNvbm5haXNzYW5jZXM=">écosystème de connaissances <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJUE5Y3JpdHVyZSUyMG51bSVDMyVBOXJpcXVl">écriture numérique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTg5ZGl0b3JpYWxpc2F0aW9u">Éditorialisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTg5ZHVjYXRpb24=">Éducation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW52aXJvbm1lbnQ=">Environment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW52aXJvbm5lbWVudHMlMjBpbW1lcnNpZnM=">Environnements immersifs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJUE5cGlzdCVDMyVBOW1vbG9naWU=">épistémologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXNwcml0JTIwY3JpdGlxdWU=">Esprit critique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXN0aCVDMyVBOXRpcXVl">Esthétique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTg5dGhpcXVlJTIwZGUlMjBsJ2luZm9ybWF0aW9u">Éthique de l'information <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhwZXJpZW5jZQ==">Experience <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmFjdC1jaGVja2luZw==">Fact-checking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmFrZSUyMG5ld3M=">Fake news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmljdGlvbg==">Fiction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHVtYW5pdCVDMyVBOXMlMjBOdW0lQzMlQTlyaXF1ZXM=">Humanités Numériques <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXM=">humanités numériques <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXM=">Humanités numériques <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SHlwZXJtJUMzJUE5ZGlhcw==">Hypermédias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHlwZXJVcmJhaW4=">HyperUrbain <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SWRlbnRpdCVDMyVBOSUyMG51bSVDMyVBOXJpcXVl">Identité numérique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SWxsdXNpb24=">Illusion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW1tZXJzaW9u">Immersion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW5kaXZpZHVhdGlvbg==">Individuation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mb3JtYXRpb24=">information <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW5mb3JtYXRpb24lMjBTeXN0ZW1z">Information Systems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW50ZWxsaWdlbmNlJTIwQXJ0aWZpY2llbGxl">Intelligence Artificielle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50ZWxsaWdlbmNlJTIwY29sbGVjdGl2ZQ==">intelligence collective <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW50ZXJ2ZW50aW9ucw==">Interventions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50cnVzaW9uJTIwZGV0ZWN0aW9u">intrusion detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW9U">IoT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="amV1JTIwdmlkJUMzJUE5bw==">jeu vidéo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sm91cm5hbGlzbWU=">Journalisme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="am91cm5hbGlzbWU=">journalisme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SnVzdGljZSUyMGRlcyUyMG1pbmV1cnM=">Justice des mineurs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="S25vd2xlZGdlJTIwTWFuYWdlbWVudA==">Knowledge Management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bCVFMiU4MCU5OSVDMyVBOWRpdGlvbiUyMHNjaWVudGlmaXF1ZQ==">l’édition scientifique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bCVFMiU4MCU5OWluZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg==">l’information et de la communication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGl0ZXJhY3k=">Literacy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGl0dCVDMyVBOXJhdHVyZSUyMG51bSVDMyVBOXJpcXVl">littérature numérique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGl2cmUlMjBudW0lQzMlQTlyaXF1ZQ==">Livre numérique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TFNUTQ==">LSTM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVhc3VyZW1lbnQlMjBTY2FsZXM=">Measurement Scales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TSVDMyVBOXRob2RlcyUyMG1peHRlcw==">Méthodes mixtes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWl4ZWQlMjByZWFsaXR5">mixed reality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW9uZGVzJTIwaW1hZ2luYWlyZXM=">Mondes imaginaires <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW90aW9uJTIwY2FwdHVyZQ==">Motion capture <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVsdGltJUMzJUE5ZGlh">multimédia <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVzJUMzJUE5YWxl">muséale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVzJUMzJUE5ZQ==">Musée <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmFycmF0aW9u">Narration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmFycmF0aW9uJTIwZGVzJTIwY29ubmFpc3NhbmNlcw==">Narration des connaissances <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV1cmFsJTIwTmV0d29ya3M=">Neural Networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TnVtJUMzJUE5cmlxdWU=">Numérique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b250b2xvZ2llcw==">ontologies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b250b2xvZ3k=">ontology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3JnYW5pc2F0aW9uJTIwZGVzJTIwY29ubmFpc3NhbmNlcw==">Organisation des connaissances <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0ZW50cw==">Patents <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGF0cmltb2luZSUyMGN1bHR1cmVs">patrimoine culturel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGVyZm9ybWluZyUyMGFydHM=">Performing arts <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGglQzMlQTlub20lQzMlQTlub2xvZ2ll">Phénoménologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9pbnQlMjBkZSUyMHZ1ZQ==">point de vue <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9zdC1OdW0lQzMlQTlyaXF1ZQ==">Post-Numérique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VuY2U=">Presence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvYyVDMyVBOWR1cmUlMjBwJUMzJUE5bmFsZQ==">Procédure pénale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UiVDMyVBOWFsaXQlQzMlQTklMjBhdWdtZW50JUMzJUE5ZQ==">Réalité augmentée <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UiVDMyVBOWFsaXQlQzMlQTklMjBNaXh0ZQ==">Réalité Mixte <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UiVDMyVBOWFsaXQlQzMlQTklMjB2aXJ0dWVsbGU=">Réalité virtuelle <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVjaGVyY2hlLUNyJUMzJUE5YXRpb24=">Recherche-Création <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UiVDMyVBOWluZm9ybWF0aW9u">Réinformation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UiVDMyVBOXNlYXV4JTIwc29jaW9udW0lQzMlQTlyaXF1ZXM=">Réseaux socionumériques <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2NpZW5jZSUyMG91dmVydGU=">Science ouverte <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cyVDMyVBOW1pb3RpcXVl">sémiotique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21hcnQlMjBDaXR5">Smart City <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21hcnQlMjBIZXJpdGFnZQ==">Smart Heritage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21hcnQtQ2l0eQ==">Smart-City <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29jaWFsJTIwbWVkaWE=">social media <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29jaSVDMyVBOXQlQzMlQTklMjBkZSUyMGwnaW5mb3JtYXRpb24=">société de l'information <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaG5vbG9naWVzJTIwZGUlMjBsJ2luZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg==">Technologies de l'information et de la communication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VGglQzMlQTklQzMlQTJ0cmU=">Théâtre <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dHJhY2VhYmlsaXR5">traceability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJhbnNtJUMzJUE5ZGlhbGl0JUMzJUE5">Transmédialité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW5yZWFsJTIwRW5naW5l">Unreal Engine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmVyYWNpdHk=">veracity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmllJTIwYXJ0aWZpY2llbGxl">Vie artificielle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlzdWFsaXphdGlvbg==">visualization <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Intervenants</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Découvrez les contributions scientifiques au colloque.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="RmljdGlvbiUyQ1NtYXJ0JTIwQ2l0eSUyQ0VzdGglQzMlQTl0aXF1ZSUyQ1RyYW5zbSVDMyVBOWRpYWxpdCVDMyVBOSUyQ01vbmRlcyUyMGltYWdpbmFpcmVzJTJDQ3liZXJuJUMzJUE5dGlxdWU=" data-listing-file-modified-sort="1772214239630" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
+<div class="thumbnail"><a href="./auteurs_quarto/alessandro_leiduan.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/alessandro_leiduan.html" class="no-external">Alessandro Leiduan</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmljdGlvbg=='); return false;">Fiction</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U21hcnQlMjBDaXR5'); return false;">Smart City</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXN0aCVDMyVBOXRpcXVl'); return false;">Esthétique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VHJhbnNtJUMzJUE5ZGlhbGl0JUMzJUE5'); return false;">Transmédialité</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TW9uZGVzJTIwaW1hZ2luYWlyZXM='); return false;">Mondes imaginaires</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q3liZXJuJUMzJUE5dGlxdWU='); return false;">Cybernétique</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/alessandro_leiduan.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/096205121
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/alessandro_leiduan.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="RCVDMyVBOXNpbmZvcm1hdGlvbiUyQ1IlQzMlQTlpbmZvcm1hdGlvbiUyQ1IlQzMlQTlzZWF1eCUyMHNvY2lvbnVtJUMzJUE5cmlxdWVzJTJDSm91cm5hbGlzbWUlMkNNJUMzJUE5dGhvZGVzJTIwbWl4dGVz" data-listing-file-modified-sort="1772214224477" data-listing-reading-time-sort="3" data-listing-word-count-sort="407">
+<div class="thumbnail"><a href="./auteurs_quarto/alexandra_salou.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/alexandra_salou.html" class="no-external">Alexandra Salou</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RCVDMyVBOXNpbmZvcm1hdGlvbg=='); return false;">Désinformation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiVDMyVBOWluZm9ybWF0aW9u'); return false;">Réinformation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiVDMyVBOXNlYXV4JTIwc29jaW9udW0lQzMlQTlyaXF1ZXM='); return false;">Réseaux socionumériques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbGlzbWU='); return false;">Journalisme</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TSVDMyVBOXRob2RlcyUyMG1peHRlcw=='); return false;">Méthodes mixtes</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/alexandra_salou.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/280728492
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/alexandra_salou.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="am91cm5hbGlzbWUlMkNCaWclMjBEYXRhJTJDRmFjdC1jaGVja2luZyUyQ3NvY2klQzMlQTl0JUMzJUE5JTIwZGUlMjBsJ2luZm9ybWF0aW9uJTJDJUMzJUE5cGlzdCVDMyVBOW1vbG9naWU=" data-listing-file-modified-sort="1772214224022" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
+<div class="thumbnail"><a href="./auteurs_quarto/alexandre_joux.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/alexandre_joux.html" class="no-external">Alexandre Joux</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('am91cm5hbGlzbWU='); return false;">journalisme</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlnJTIwRGF0YQ=='); return false;">Big Data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmFjdC1jaGVja2luZw=='); return false;">Fact-checking</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29jaSVDMyVBOXQlQzMlQTklMjBkZSUyMGwnaW5mb3JtYXRpb24='); return false;">société de l'information</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUMzJUE5cGlzdCVDMyVBOW1vbG9naWU='); return false;">épistémologie</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/alexandre_joux.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/078868270 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0003-4886-6949 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:alexandre-joux
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/alexandre_joux.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="ZG9jdW1lbnRzJTJDb250b2xvZ2llcyUyQ3MlQzMlQTltaW90aXF1ZSUyQ211bHRpbSVDMyVBOWRpYSUyQ2NoYSVDMyVBRW5lcyUyMCVDMyVBOWRpdG9yaWFsZXMlMkNhdWRpb3Zpc3VhbCUyQ0luZGl2aWR1YXRpb24lMkNkaWFncmFtbWF0aXF1ZSUyQ05hcnJhdGlvbiUyQ051bSVDMyVBOXJpcXVlJTJDcGF0cmltb2luZSUyMGN1bHR1cmVs" data-listing-file-modified-sort="1772214227309" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
+<div class="thumbnail"><a href="./auteurs_quarto/bruno_bachimont.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/bruno_bachimont.html" class="no-external">Bruno Bachimont</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZG9jdW1lbnRz'); return false;">documents</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b250b2xvZ2llcw=='); return false;">ontologies</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cyVDMyVBOW1pb3RpcXVl'); return false;">sémiotique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVsdGltJUMzJUE5ZGlh'); return false;">multimédia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2hhJUMzJUFFbmVzJTIwJUMzJUE5ZGl0b3JpYWxlcw=='); return false;">chaînes éditoriales</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXVkaW92aXN1YWw='); return false;">audiovisual</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5kaXZpZHVhdGlvbg=='); return false;">Individuation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlhZ3JhbW1hdGlxdWU='); return false;">diagrammatique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmFycmF0aW9u'); return false;">Narration</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TnVtJUMzJUE5cmlxdWU='); return false;">Numérique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGF0cmltb2luZSUyMGN1bHR1cmVs'); return false;">patrimoine culturel</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/bruno_bachimont.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/031892744 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0003-2066-0586
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/bruno_bachimont.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="UiVDMyVBOWFsaXQlQzMlQTklMjB2aXJ0dWVsbGUlMkNBcnQlMjBudW0lQzMlQTlyaXF1ZSUyQ0FydCUyMGludGVyYWN0aWYlMkNDb2NyJUMzJUE5YXRpb24lMkNWaWUlMjBhcnRpZmljaWVsbGU=" data-listing-file-modified-sort="1772214236743" data-listing-reading-time-sort="2" data-listing-word-count-sort="332">
+<div class="thumbnail"><a href="./auteurs_quarto/chu-yin_chen.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/chu-yin_chen.html" class="no-external">Chu-Yin Chen</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiVDMyVBOWFsaXQlQzMlQTklMjB2aXJ0dWVsbGU='); return false;">Réalité virtuelle</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0JTIwbnVtJUMzJUE5cmlxdWU='); return false;">Art numérique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0JTIwaW50ZXJhY3RpZg=='); return false;">Art interactif</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29jciVDMyVBOWF0aW9u'); return false;">Cocréation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VmllJTIwYXJ0aWZpY2llbGxl'); return false;">Vie artificielle</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/chu-yin_chen.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/068750897
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/chu-yin_chen.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Y2FydGUlMjBjb25jZXB0dWVsbGUlMkNjb250ZXh0dWFsaXNhdGlvbiUyQ3BvaW50JTIwZGUlMjB2dWUlMkNjby1kZXNpZ24=" data-listing-file-modified-sort="1772214209447" data-listing-reading-time-sort="2" data-listing-word-count-sort="323">
+<div class="thumbnail"><a href="./auteurs_quarto/claire_noy.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/claire_noy.html" class="no-external">Claire NOY</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2FydGUlMjBjb25jZXB0dWVsbGU='); return false;">carte conceptuelle</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGV4dHVhbGlzYXRpb24='); return false;">contextualisation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9pbnQlMjBkZSUyMHZ1ZQ=='); return false;">point de vue</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y28tZGVzaWdu'); return false;">co-design</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/claire_noy.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/091622409 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:claire-noy
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/claire_noy.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="amV1JTIwdmlkJUMzJUE5byUyQ2F2YXRhcnMlMkNNb3Rpb24lMjBjYXB0dXJlJTJDUGVyZm9ybWluZyUyMGFydHMlMkNUaCVDMyVBOSVDMyVBMnRyZSUyQ21peGVkJTIwcmVhbGl0eSUyQ0FydCUyMG51bSVDMyVBOXJpcXVl" data-listing-file-modified-sort="1772214233933" data-listing-reading-time-sort="2" data-listing-word-count-sort="336">
+<div class="thumbnail"><a href="./auteurs_quarto/c_dric_plessiet.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/c_dric_plessiet.html" class="no-external">Cédric Plessiet</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('amV1JTIwdmlkJUMzJUE5bw=='); return false;">jeu vidéo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXZhdGFycw=='); return false;">avatars</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TW90aW9uJTIwY2FwdHVyZQ=='); return false;">Motion capture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGVyZm9ybWluZyUyMGFydHM='); return false;">Performing arts</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGglQzMlQTklQzMlQTJ0cmU='); return false;">Théâtre</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWl4ZWQlMjByZWFsaXR5'); return false;">mixed reality</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0JTIwbnVtJUMzJUE5cmlxdWU='); return false;">Art numérique</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/c_dric_plessiet.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/145033902 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0003-1208-4961
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/c_dric_plessiet.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="VGglQzMlQTklQzMlQTJ0cmUlMkNNb3Rpb24lMjBjYXB0dXJlJTJDQXZhdGFycyUyQ1IlQzMlQTlhbGl0JUMzJUE5JTIwTWl4dGUlMkNSZWNoZXJjaGUtQ3IlQzMlQTlhdGlvbiUyQ1VucmVhbCUyMEVuZ2luZQ==" data-listing-file-modified-sort="1772214235125" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
+<div class="thumbnail"><a href="./auteurs_quarto/georges_gagner_.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/georges_gagner_.html" class="no-external">Georges Gagneré</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGglQzMlQTklQzMlQTJ0cmU='); return false;">Théâtre</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TW90aW9uJTIwY2FwdHVyZQ=='); return false;">Motion capture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXZhdGFycw=='); return false;">Avatars</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiVDMyVBOWFsaXQlQzMlQTklMjBNaXh0ZQ=='); return false;">Réalité Mixte</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVjaGVyY2hlLUNyJUMzJUE5YXRpb24='); return false;">Recherche-Création</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VW5yZWFsJTIwRW5naW5l'); return false;">Unreal Engine</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/georges_gagner_.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/071395016 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0002-3930-1236
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/georges_gagner_.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="SHlwZXJtJUMzJUE5ZGlhcyUyQ0lvVCUyQ0Nyb3dkc291cmNpbmclMkNFLUp1c3RpY2UlMkNIdW1hbml0JUMzJUE5cyUyME51bSVDMyVBOXJpcXVlcw==" data-listing-file-modified-sort="1772214216018" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
+<div class="thumbnail"><a href="./auteurs_quarto/imad_saleh.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/imad_saleh.html" class="no-external">Imad SALEH</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHlwZXJtJUMzJUE5ZGlhcw=='); return false;">Hypermédias</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW9U'); return false;">IoT</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q3Jvd2Rzb3VyY2luZw=='); return false;">Crowdsourcing</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RS1KdXN0aWNl'); return false;">E-Justice</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHVtYW5pdCVDMyVBOXMlMjBOdW0lQzMlQTlyaXF1ZXM='); return false;">Humanités Numériques</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/imad_saleh.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/031975607 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0001-5093-6497 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:imad-saleh
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/imad_saleh.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="UG9zdC1OdW0lQzMlQTlyaXF1ZSUyQ1NtYXJ0JTIwSGVyaXRhZ2UlMkNDb25jZXB0aW9uJTJDSHlwZXJVcmJhaW4lMkNIdW1hbml0JUMzJUE5cyUyME51bSVDMyVBOXJpcXVlcyUyQ0JJTQ==" data-listing-file-modified-sort="1772214214504" data-listing-reading-time-sort="2" data-listing-word-count-sort="378">
+<div class="thumbnail"><a href="./auteurs_quarto/khaldoun_zreik.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/khaldoun_zreik.html" class="no-external">Khaldoun ZREIK</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdC1OdW0lQzMlQTlyaXF1ZQ=='); return false;">Post-Numérique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U21hcnQlMjBIZXJpdGFnZQ=='); return false;">Smart Heritage</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uY2VwdGlvbg=='); return false;">Conception</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHlwZXJVcmJhaW4='); return false;">HyperUrbain</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHVtYW5pdCVDMyVBOXMlMjBOdW0lQzMlQTlyaXF1ZXM='); return false;">Humanités Numériques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QklN'); return false;">BIM</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/khaldoun_zreik.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/030064880 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0002-6307-1717
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/khaldoun_zreik.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="aHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXMlMkNTY2llbmNlJTIwb3V2ZXJ0ZSUyQ2wlRTIlODAlOTklQzMlQTlkaXRpb24lMjBzY2llbnRpZmlxdWUlMkNsJUUyJTgwJTk5aW5mb3JtYXRpb24lMjBldCUyMGRlJTIwbGElMjBjb21tdW5pY2F0aW9uJTJDQ29uc3RydWN0aXZpc21lJTJDYWNjdWx0dXJhdGlvbg==" data-listing-file-modified-sort="1772214232071" data-listing-reading-time-sort="3" data-listing-word-count-sort="441">
+<div class="thumbnail"><a href="./auteurs_quarto/lise_verlaet.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/lise_verlaet.html" class="no-external">Lise Verlaet</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXM='); return false;">humanités numériques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZSUyMG91dmVydGU='); return false;">Science ouverte</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bCVFMiU4MCU5OSVDMyVBOWRpdGlvbiUyMHNjaWVudGlmaXF1ZQ=='); return false;">l’édition scientifique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bCVFMiU4MCU5OWluZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg=='); return false;">l’information et de la communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uc3RydWN0aXZpc21l'); return false;">Constructivisme</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWNjdWx0dXJhdGlvbg=='); return false;">acculturation</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/lise_verlaet.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/127453865 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0002-3909-0184 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:lise-verlaet
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/lise_verlaet.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="RWNvbm9taWMlMjBJbnRlbGxpZ2VuY2UlMkNLbm93bGVkZ2UlMjBNYW5hZ2VtZW50JTJDRGlnaXRhbCUyMEh1bWFuaXRpZXMlMkNJbmZvcm1hdGlvbiUyMFN5c3RlbXMlMkNDb2xsZWN0aXZlJTIwSW50ZWxsaWdlbmNl" data-listing-file-modified-sort="1772214232775" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
+<div class="thumbnail"><a href="./auteurs_quarto/malek_ghenima.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/malek_ghenima.html" class="no-external">Malek Ghenima</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9taWMlMjBJbnRlbGxpZ2VuY2U='); return false;">Economic Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('S25vd2xlZGdlJTIwTWFuYWdlbWVudA=='); return false;">Knowledge Management</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbCUyMEh1bWFuaXRpZXM='); return false;">Digital Humanities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW5mb3JtYXRpb24lMjBTeXN0ZW1z'); return false;">Information Systems</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sbGVjdGl2ZSUyMEludGVsbGlnZW5jZQ=='); return false;">Collective Intelligence</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/malek_ghenima.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/236912232
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/malek_ghenima.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="TmV1cmFsJTIwTmV0d29ya3MlMkNEZWNpc2lvbiUyMFN1cHBvcnQlMkNGb3JlY2FzdGluZyUyQ0RpZ2l0YWwlMjBJbm5vdmF0aW9uJTJDUGF0ZW50cyUyQ0UtSnVzdGljZQ==" data-listing-file-modified-sort="1772214237119" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
+<div class="thumbnail"><a href="./auteurs_quarto/maroun_jneid.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/maroun_jneid.html" class="no-external">Maroun Jneid</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmV1cmFsJTIwTmV0d29ya3M='); return false;">Neural Networks</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVjaXNpb24lMjBTdXBwb3J0'); return false;">Decision Support</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Rm9yZWNhc3Rpbmc='); return false;">Forecasting</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbCUyMElubm92YXRpb24='); return false;">Digital Innovation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGF0ZW50cw=='); return false;">Patents</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RS1KdXN0aWNl'); return false;">E-Justice</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/maroun_jneid.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/190074108
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/maroun_jneid.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="VGVjaG5vbG9naWVzJTIwZGUlMjBsJ2luZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbiUyQ0FwcHJlbnRpc3NhZ2UlMkNjb21tdW5pY2F0aW9uJTJDbCVFMiU4MCU5OWluZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg==" data-listing-file-modified-sort="1772214218663" data-listing-reading-time-sort="2" data-listing-word-count-sort="337">
+<div class="thumbnail"><a href="./auteurs_quarto/michel_durampart.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/michel_durampart.html" class="no-external">Michel Durampart</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9naWVzJTIwZGUlMjBsJ2luZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg=='); return false;">Technologies de l'information et de la communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXBwcmVudGlzc2FnZQ=='); return false;">Apprentissage</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tbXVuaWNhdGlvbg=='); return false;">communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bCVFMiU4MCU5OWluZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg=='); return false;">l’information et de la communication</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/michel_durampart.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/060850728 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:michel-durampart
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/michel_durampart.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="ZGF0YSUyMHdhcmVob3VzZSUyQ2Nsb3VkJTIwY29tcHV0aW5nJTJDZGF0YSUyMHNlY3VyaXR5JTJDaW50cnVzaW9uJTIwZGV0ZWN0aW9uJTJDc29jaWFsJTIwbWVkaWElMkN2ZXJhY2l0eSUyQ3RyYWNlYWJpbGl0eQ==" data-listing-file-modified-sort="1772214238487" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
+<div class="thumbnail"><a href="./auteurs_quarto/nouria_harbi.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/nouria_harbi.html" class="no-external">Nouria Harbi</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHdhcmVob3VzZQ=='); return false;">data warehouse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xvdWQlMjBjb21wdXRpbmc='); return false;">cloud computing</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHNlY3VyaXR5'); return false;">data security</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW50cnVzaW9uJTIwZGV0ZWN0aW9u'); return false;">intrusion detection</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29jaWFsJTIwbWVkaWE='); return false;">social media</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmVyYWNpdHk='); return false;">veracity</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhY2VhYmlsaXR5'); return false;">traceability</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/nouria_harbi.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/18011915X
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/nouria_harbi.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="UiVDMyVBOWFsaXQlQzMlQTklMjB2aXJ0dWVsbGUlMkNSJUMzJUE5YWxpdCVDMyVBOSUyMGF1Z21lbnQlQzMlQTllJTJDUHJlc2VuY2UlMkNFbnZpcm9ubmVtZW50cyUyMGltbWVyc2lmcyUyQ01lYXN1cmVtZW50JTIwU2NhbGVzJTJDUGglQzMlQTlub20lQzMlQTlub2xvZ2llJTJDSW1tZXJzaW9u" data-listing-file-modified-sort="1772214225225" data-listing-reading-time-sort="2" data-listing-word-count-sort="310">
+<div class="thumbnail"><a href="./auteurs_quarto/olivier_nannipieri.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/olivier_nannipieri.html" class="no-external">Olivier Nannipieri</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiVDMyVBOWFsaXQlQzMlQTklMjB2aXJ0dWVsbGU='); return false;">Réalité virtuelle</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UiVDMyVBOWFsaXQlQzMlQTklMjBhdWdtZW50JUMzJUE5ZQ=='); return false;">Réalité augmentée</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VuY2U='); return false;">Presence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW52aXJvbm5lbWVudHMlMjBpbW1lcnNpZnM='); return false;">Environnements immersifs</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVhc3VyZW1lbnQlMjBTY2FsZXM='); return false;">Measurement Scales</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGglQzMlQTlub20lQzMlQTlub2xvZ2ll'); return false;">Phénoménologie</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW1tZXJzaW9u'); return false;">Immersion</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/olivier_nannipieri.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/177559748 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/olivier_nannipieri.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="SHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXMlMkNPcmdhbmlzYXRpb24lMjBkZXMlMjBjb25uYWlzc2FuY2VzJTJDRXNwcml0JTIwY3JpdGlxdWUlMkNEYXRhdmlzdWFsaXNhdGlvbiUyQ0NsYXNzaWZpY2F0aW9uJTIwJUMzJUEwJTIwZmFjZXR0ZXMlMkNDb250cm92ZXJzaWVz" data-listing-file-modified-sort="1772214210760" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
+<div class="thumbnail"><a href="./auteurs_quarto/or_lie_desfriches_doria.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/or_lie_desfriches_doria.html" class="no-external">Orélie DESFRICHES DORIA</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXM='); return false;">Humanités numériques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3JnYW5pc2F0aW9uJTIwZGVzJTIwY29ubmFpc3NhbmNlcw=='); return false;">Organisation des connaissances</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXNwcml0JTIwY3JpdGlxdWU='); return false;">Esprit critique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YXZpc3VhbGlzYXRpb24='); return false;">Datavisualisation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2xhc3NpZmljYXRpb24lMjAlQzMlQTAlMjBmYWNldHRlcw=='); return false;">Classification à facettes</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29udHJvdmVyc2llcw=='); return false;">Controversies</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/or_lie_desfriches_doria.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/178282154
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/or_lie_desfriches_doria.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="RHJvaXQlMjBwJUMzJUE5bmFsJTJDSWRlbnRpdCVDMyVBOSUyMG51bSVDMyVBOXJpcXVlJTJDSnVzdGljZSUyMGRlcyUyMG1pbmV1cnMlMkNQcm9jJUMzJUE5ZHVyZSUyMHAlQzMlQTluYWxl" data-listing-file-modified-sort="1772214222036" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<div class="thumbnail"><a href="./auteurs_quarto/philippe_bonfils.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/philippe_bonfils.html" class="no-external">Philippe Bonfils</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RHJvaXQlMjBwJUMzJUE5bmFs'); return false;">Droit pénal</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SWRlbnRpdCVDMyVBOSUyMG51bSVDMyVBOXJpcXVl'); return false;">Identité numérique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SnVzdGljZSUyMGRlcyUyMG1pbmV1cnM='); return false;">Justice des mineurs</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvYyVDMyVBOWR1cmUlMjBwJUMzJUE5bmFsZQ=='); return false;">Procédure pénale</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/philippe_bonfils.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/052595269
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/philippe_bonfils.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="SHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXMlMkNBdXRoZW50aWNpdCVDMyVBOSUyQ0Zha2UlMjBuZXdzJTJDTXVzJUMzJUE5ZSUyQ0RpZ2l0YWwlMkNJbGx1c2lvbiUyQ0xpdnJlJTIwbnVtJUMzJUE5cmlxdWU=" data-listing-file-modified-sort="1772214219353" data-listing-reading-time-sort="2" data-listing-word-count-sort="380">
+<div class="thumbnail"><a href="./auteurs_quarto/ren_e_bourassa.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/ren_e_bourassa.html" class="no-external">Renée Bourassa</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXM='); return false;">Humanités numériques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXV0aGVudGljaXQlQzMlQTk='); return false;">Authenticité</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmFrZSUyMG5ld3M='); return false;">Fake news</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TXVzJUMzJUE5ZQ=='); return false;">Musée</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlnaXRhbA=='); return false;">Digital</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SWxsdXNpb24='); return false;">Illusion</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl2cmUlMjBudW0lQzMlQTlyaXF1ZQ=='); return false;">Livre numérique</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/ren_e_bourassa.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/060604344
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/ren_e_bourassa.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="SW50ZWxsaWdlbmNlJTIwQXJ0aWZpY2llbGxlJTJDJUMzJTg5dGhpcXVlJTIwZGUlMjBsJ2luZm9ybWF0aW9uJTJDJUMzJTg5ZHVjYXRpb24lMkNOYXJyYXRpb24lMjBkZXMlMjBjb25uYWlzc2FuY2Vz" data-listing-file-modified-sort="1772214219777" data-listing-reading-time-sort="2" data-listing-word-count-sort="323">
+<div class="thumbnail"><a href="./auteurs_quarto/sami_ben_amor.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/sami_ben_amor.html" class="no-external">Sami Ben Amor</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZWxsaWdlbmNlJTIwQXJ0aWZpY2llbGxl'); return false;">Intelligence Artificielle</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUMzJTg5dGhpcXVlJTIwZGUlMjBsJ2luZm9ybWF0aW9u'); return false;">Éthique de l'information</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUMzJTg5ZHVjYXRpb24='); return false;">Éducation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmFycmF0aW9uJTIwZGVzJTIwY29ubmFpc3NhbmNlcw=='); return false;">Narration des connaissances</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/sami_ben_amor.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/032001924
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/sami_ben_amor.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="b250b2xvZ3klMkNodW1hbml0JUMzJUE5cyUyMG51bSVDMyVBOXJpcXVlcyUyQ2ludGVsbGlnZW5jZSUyMGNvbGxlY3RpdmUlMkMlQzMlQTljb3N5c3QlQzMlQThtZSUyMGRlJTIwY29ubmFpc3NhbmNlcyUyQ3Zpc3VhbGl6YXRpb24lMkNJbnRlcnZlbnRpb25z" data-listing-file-modified-sort="1772214212791" data-listing-reading-time-sort="2" data-listing-word-count-sort="375">
+<div class="thumbnail"><a href="./auteurs_quarto/samuel_szoniecky.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/samuel_szoniecky.html" class="no-external">Samuel SZONIECKY</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('b250b2xvZ3k='); return false;">ontology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aHVtYW5pdCVDMyVBOXMlMjBudW0lQzMlQTlyaXF1ZXM='); return false;">humanités numériques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW50ZWxsaWdlbmNlJTIwY29sbGVjdGl2ZQ=='); return false;">intelligence collective</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUMzJUE5Y29zeXN0JUMzJUE4bWUlMjBkZSUyMGNvbm5haXNzYW5jZXM='); return false;">écosystème de connaissances</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">visualization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJ2ZW50aW9ucw=='); return false;">Interventions</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/samuel_szoniecky.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/182295591 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0002-7643-3342 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:samuel-szoniecky
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/samuel_szoniecky.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="JUMzJUE5Y3JpdHVyZSUyMG51bSVDMyVBOXJpcXVlJTJDbGl0dCVDMyVBOXJhdHVyZSUyMG51bSVDMyVBOXJpcXVlJTJDTmFycmF0aW9uJTJDJUMzJTg5ZGl0b3JpYWxpc2F0aW9uJTJDTGl0ZXJhY3klMkNUZWNobm9sb2dpZXMlMjBkZSUyMGwnaW5mb3JtYXRpb24lMjBldCUyMGRlJTIwbGElMjBjb21tdW5pY2F0aW9u" data-listing-file-modified-sort="1772214230775" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
+<div class="thumbnail"><a href="./auteurs_quarto/serge_bouchardon.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/serge_bouchardon.html" class="no-external">Serge Bouchardon</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUMzJUE5Y3JpdHVyZSUyMG51bSVDMyVBOXJpcXVl'); return false;">écriture numérique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGl0dCVDMyVBOXJhdHVyZSUyMG51bSVDMyVBOXJpcXVl'); return false;">littérature numérique</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmFycmF0aW9u'); return false;">Narration</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('JUMzJTg5ZGl0b3JpYWxpc2F0aW9u'); return false;">Éditorialisation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGl0ZXJhY3k='); return false;">Literacy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9naWVzJTIwZGUlMjBsJ2luZm9ybWF0aW9uJTIwZXQlMjBkZSUyMGxhJTIwY29tbXVuaWNhdGlvbg=='); return false;">Technologies de l'information et de la communication</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/serge_bouchardon.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/101521693 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0002-4430-7130 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/serge_bouchardon.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="aW5mb3JtYXRpb24lMkNtdWx0aW0lQzMlQTlkaWElMkNhcmNoaXRlY3R1cmUlMjBkZSUyMGwnaW5mb3JtYXRpb24lMkNlLWxlYXJuaW5nJTJDbXVzJUMzJUE5YWxlJTJDRXhwZXJpZW5jZSUyQ2F1ZGlvdmlzdWVs" data-listing-file-modified-sort="1772214229478" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
+<div class="thumbnail"><a href="./auteurs_quarto/sylvie_leleu-merviel.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/sylvie_leleu-merviel.html" class="no-external">Sylvie Leleu-Merviel</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW5mb3JtYXRpb24='); return false;">information</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVsdGltJUMzJUE5ZGlh'); return false;">multimédia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXJjaGl0ZWN0dXJlJTIwZGUlMjBsJ2luZm9ybWF0aW9u'); return false;">architecture de l'information</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZS1sZWFybmluZw=='); return false;">e-learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVzJUMzJUE5YWxl'); return false;">muséale</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwZXJpZW5jZQ=='); return false;">Experience</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXVkaW92aXN1ZWw='); return false;">audiovisuel</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/sylvie_leleu-merviel.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/035258748 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0000-0003-0972-2563 <i class="fa-solid fa-globe" aria-label="globe"></i> https://hal.science/search/index/?q=authIdHal_s:sylvie-leleu-merviel
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/sylvie_leleu-merviel.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="Q05OJTJDTFNUTSUyQ0lvVCUyQ1NtYXJ0LUNpdHklMkNEYXRhLXZpc3VhbGl6YXRpb24lMkNFbnZpcm9ubWVudCUyQ0NPMiUyQ0Nvbm5lY3RlZCUyME9iamVjdHM=" data-listing-file-modified-sort="1772214216375" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
+<div class="thumbnail"><a href="./auteurs_quarto/youssef_mekouar.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./auteurs_quarto/youssef_mekouar.html" class="no-external">Youssef MEKOUAR</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q05O'); return false;">CNN</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TFNUTQ=='); return false;">LSTM</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW9U'); return false;">IoT</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U21hcnQtQ2l0eQ=='); return false;">Smart-City</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YS12aXN1YWxpemF0aW9u'); return false;">Data-visualization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW52aXJvbm1lbnQ='); return false;">Environment</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q08y'); return false;">CO2</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29ubmVjdGVkJTIwT2JqZWN0cw=='); return false;">Connected Objects</div>
+
+</div>
+<div class="delink listing-description"><a href="./auteurs_quarto/youssef_mekouar.html" class="no-external">
+<i class="fa-solid fa-globe" aria-label="globe"></i> https://www.idref.fr/268466238 <i class="fa-solid fa-globe" aria-label="globe"></i> https://orcid.org/0009-0001-9493-9777
+</a></div>
+</div>
+<div class="metadata">
+<a href="./auteurs_quarto/youssef_mekouar.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

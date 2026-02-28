@@ -1,0 +1,31 @@
+```yaml
+title: "Olivier Nannipieri : Paradoxes et Mesures de la Présence Immersive"
+categories:
+  - Réalité Virtuelle
+  - Présence
+  - Épistémologie
+  - Immersion
+```
+
+## Olivier Nannipieri
+[{{< fa brands github >}} GitHub](https://www.idref.fr/177559748) [{{< fa brands github >}} GitHub](https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri) 
+
+
+[Google Scholar](https://scholar.google.com/citations?user=Start&hl=fr) | [HAL](https://hal.science/search/index/q/*/authFullName_s/Olivier+Nannipieri)
+
+**Résumé**
+
+Les travaux d'Olivier Nannipieri interrogent la validité épistémologique et psychométrique du concept de « présence » au sein des environnements immersifs (VR/AR). En confrontant les approches phénoménologiques aux limites des échelles de mesure quantitatives, il met en lumière les paradoxes de l'expérience virtuelle, située entre simulation technique et réalité sensible, pour redéfinir la nature de l'« être-là » numérique.
+
+**Proposition d'intervention : L'analogie de la présence à l'épreuve de la mesure**
+
+Dans le cadre de *Frontières Numériques 7*, cette intervention propose d'explorer la "Présence" comme l'analogie fondamentale des technologies immersives : la promesse que l'expérience virtuelle est analogue à l'expérience physique. Olivier Nannipieri déconstruira cette promesse en analysant l'écart entre la sofistication technologique des dispositifs (visiocasques, haptique) et la difficulté persistante à capturer scientifiquement le sentiment de présence.
+
+L'intervention s'articulera autour de la critique des échelles de mesure actuelles, souvent incapables de saisir la complexité phénoménologique de l'immersion. Il s'agira de dépasser la simple équation technique pour aborder la « réalité du virtuel », où l'analogie ne sert plus à imiter le réel, mais à créer une nouvelle forme d'espace-temps et d'identité (du paradoxe de l'environnement à l'avatar). Cette approche remet en question la pertinence de nos outils méthodologiques classiques face aux ontologies numériques émergentes.
+
+**Résonances Bibliographiques**
+
+*   *Do Presence Questionnaires Actually Measure Presence? A Content Analysis of Presence Measurement Scales* (Critique méthodologique).
+*   *La réalité du virtuel - Apports et limites de l'approche phénoménologique* (Ancrage théorique).
+*   *Du paradoxe de la présence au paradoxe des environnements immersifs* (Tension entre technique et ressenti).
+*   *Quand les dispositifs socio-techniques créent de nouveaux territoires : une analyse de la spatio-temporalité des environnements virtuels* (Dimension spatiale de l'analogie).

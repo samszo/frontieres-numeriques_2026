@@ -1,0 +1,38 @@
+```yaml
+title: "Chu-Yin Chen : Symbiose Énactive et Poétique du Virtuel"
+categories:
+  - Réalité Virtuelle
+  - Art Numérique
+  - Énaction
+  - Robotique
+  - Phénoménologie
+```
+
+## Chu-Yin Chen
+[{{< fa brands github >}} GitHub](https://www.idref.fr/068750897) 
+
+
+**Liens** : [Publications & Recherche](https://scholar.google.com/scholar?q=Chu-Yin+Chen)
+
+**Résumé**
+Les recherches de Chu-Yin Chen s'articulent autour d'une approche symbiotique de la création numérique, fusionnant vie artificielle, robotique et réalité virtuelle. En s'appuyant sur les concepts d'énaction et de vécus pré-réflexifs, elle explore comment les dispositifs interactifs peuvent induire des états de « lâcher prise » et de fluidité de la conscience. Son travail redéfinit l'interface homme-machine comme un espace poétique de co-création où le corps en mouvement dialogue avec des systèmes autonomes.
+
+**Résonances Bibliographiques**
+
+*Phénoménologie de l'immersion et Conscience*
+- **Être en apesanteur** : une exploration des états corporels modifiés par le virtuel.
+- **« Lâcher prise » et fluidité de la conscience** : mise au point d’un questionnaire d’évaluation d’inspiration phénoménologique.
+- **L’accès aux vécus pré-réflexifs** : perspectives pour la médecine, la psychiatrie et l'expérience esthétique.
+- **Exploring the Virtuality Continuum Frontiers** : expériences multisensorielles et magiques dans l'art interactif.
+
+*Symbiose et Co-création Homme-Machine*
+- **A Performance Co-Created with an Autonomous Virtual System** : une approche symbiotique de la performance.
+- **Towards a dance co-creation with robots** : vers une chorégraphie partagée entre humains et machines.
+- **Dance, Dance, Dance With My Hands** : interactions tierces homme-robot-humain.
+- **Du second ordre en création artistique numérique** : de "l'automatisme psychique" à la vie artificielle in situ.
+
+*Poïétique des Espaces Numériques*
+- **Ouvrir l’espace poétique potentiel des jeux vidéo** : repenser le *gameplay* comme vecteur artistique.
+- **Le rôle de l'effacement dans l'activité d'esquisse en réalité virtuelle** : analyse du geste créatif en environnement immersif.
+- **Deaf Poetry** : dire tout sans parler (publié dans actes de colloque).
+- **Une nouvelle frontière numérique pour la cocréation 3D**.

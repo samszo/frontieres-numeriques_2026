@@ -1,0 +1,34 @@
+---
+title: Sylvie Leleu-Merviel
+categories:
+  - information
+  - multimédia
+  - architecture de l'information
+  - Design du care
+  - patrimoine numérique
+
+bibliography: referenceAuteurs.bib
+
+---
+
+#### Sylvie Leleu-Merviel
+[{{< fa solid globe >}} https://www.idref.fr/035258748](https://www.idref.fr/035258748) [{{< fa solid globe >}} https://orcid.org/0000-0003-0972-2563](https://orcid.org/0000-0003-0972-2563) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:sylvie-leleu-merviel](https://hal.science/search/index/?q=authIdHal_s:sylvie-leleu-merviel) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux de Sylvie Leleu-Merviel explorent l'ingénierie qualimétrique de l'information, évoluant des fondamentaux de la création multimédia [@huart:hal-00526521] vers la complexité de la médiation patrimoniale numérique [@chaudiron:hal-03822013]. Ses recherches récentes marquent un tournant éthique, passant du *Design for All* au *Design of Care* pour répondre aux besoins spécifiques, notamment dans le cadre des troubles du spectre de l'autisme [@taisne:hal-04289306].
+:::
+
+### Proposition
+
+**Titre : De la bistabilité du sens à l'analogie du Care : technologies de la médiation.**
+
+Cette intervention propose d'interroger les frontières numériques sous l'angle de la construction du sens (le *construing*), en posant la technologie non comme une fin, mais comme un révélateur de modèles de médiation. En s'appuyant sur le concept de bistabilité visuelle et informationnelle, l'auteure analysera comment les dispositifs numériques — de la tablette au musée [@leleumerviel:hal-03683735] jusqu'aux plateformes de valorisation du patrimoine minier [@chaudiron:hal-03822013] — opèrent une analogie entre la mémoire collective et sa représentation virtuelle. L'intervention mettra particulièrement l'accent sur le passage nécessaire d'une logique fonctionnelle à une logique de sollicitude (*Care Design*), illustrée par l'application des technologies aux publics neuroatypiques [@taisne:hal-04289306], démontrant que la qualité de l'information réside dans sa capacité à faire "résonance" avec l'humain.
+
+### Résonances Bibliographiques
+
+Les travaux de Sylvie Leleu-Merviel s'articulent autour de trois axes majeurs qui lient l'humain à la trace numérique :
+
+*   **Médiation Patrimoniale et Mémorielle :** L'auteure étudie comment le numérique permet la persistance et la transmission du sens, notamment à travers le projet MémoMines sur le patrimoine minier [@chaudiron:hal-03822013] et les dispositifs de visite augmentée [@leleumerviel:hal-03683735].
+*   **Design du Care et Accessibilité :** Dépassant l'accessibilité standard, elle explore des approches inclusives où la technologie devient un support de vie et d'apprentissage pour des publics fragiles, comme les enfants avec TSA [@taisne:hal-04289306] ou dans des contextes sanitaires critiques [@leleumerviel:hal-03659226].
+*   **Ingénierie et Qualité de l'Information :** Ses recherches fondatrices posent les bases d'une rigueur méthodologique dans la création multimédia [@huart:hal-00526521] et l'évaluation des besoins en e-learning [@leleumerviel:hal-03659493], cherchant toujours à qualifier l'expérience utilisateur.

@@ -1,0 +1,27 @@
+```yaml
+title: "Philosophie du support numérique : De l'archive au sens"
+categories:
+  - Epistémologie
+  - Humanités Numériques
+  - Ontologies
+  - Archivage
+  - Sémiotique
+```
+
+## Bruno Bachimont
+[{{< fa brands github >}} GitHub](https://www.idref.fr/031892744) [{{< fa brands github >}} GitHub](https://orcid.org/0000-0003-2066-0586) 
+
+
+**Liens**
+*   [Publications sur HAL](https://cv.hal.science/bruno-bachimont)
+*   [Google Scholar](https://scholar.google.com/citations?user=BrunoBachimont)
+
+**Résumé**
+Bruno Bachimont articule une philosophie de la technique et une ingénierie des connaissances, interrogeant la transformation du support matériel en intelligibilité numérique. Ses travaux, allant des ontologies médicales à l'archivage audiovisuel, explorent la tension critique entre la "décision calculée" des algorithmes et la faculté de juger humaine. Il théorise la préservation patrimoniale et la lecture savante non comme de simples sauvegardes de données, mais comme des processus de réinvention du sens conditionnés par la matérialité des formats et des dispositifs techniques.
+
+**Résonances Bibliographiques**
+
+*   **Du Calcul au Jugement :** L'article *Une décision calculée peut-elle tenir lieu de jugement ?* entre en résonance directe avec *Le sens de la technique*, posant les bases d'une critique de la raison computationnelle où le numérique, en tant que système de manipulation symbolique formelle, doit être confronté à l'interprétation sémantique humaine.
+*   **Matérialité et Mémoire :** Les textes sur l'archivage du Web et la préservation de la musique (avec dispositif électronique) illustrent le concept de *support* cher à l'auteur. Ils démontrent que la pérennité du patrimoine culturel (tags: *patrimoine culturel*, *multimédia*) ne réside pas dans la donnée brute, mais dans la capacité à réactiver des processus de lecture via des chaînes éditoriales spécifiques.
+*   **Structuration des Connaissances :** Les travaux sur les ontologies médicales (*Building medical ontologies...*) et l'analyse paradigmatique des partitions dialoguent avec les concepts de *sémiotique* et de *diagrammatique*. Ils révèlent comment la formalisation informatique (UMLS, graphes conceptuels) tente de capturer, parfois difficilement, la complexité du réel et de l'individuation.
+*   **L'Instrumentation de la Lecture :** *Instrumenter la lecture savante* et *MEDIA-REPERES* soulignent l'apport de Bachimont à l'étude du *document* audiovisuel. Il ne s'agit plus seulement de visionner, mais d'annoter, de segmenter et de restructurer le flux temporel pour en expliciter les construits de sens, transformant l'outil technique en un organon pour l'esprit critique.

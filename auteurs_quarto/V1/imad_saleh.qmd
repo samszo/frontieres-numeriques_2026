@@ -1,0 +1,23 @@
+```yaml
+---
+title: "Imad Saleh"
+categories: [Bibliothèques numériques, Hypertexte, Web Sémantique, Crowdsourcing, IoT]
+---
+```
+
+## Imad Saleh
+[{{< fa brands github >}} GitHub](https://www.idref.fr/031975607) [{{< fa brands github >}} GitHub](https://orcid.org/0000-0001-5093-6497) [{{< fa brands github >}} GitHub](https://hal.science/search/index/?q=authIdHal_s:imad-saleh) 
+
+
+**Liens** : [Contribution BBF](http://bbf.enssib.fr/contributions/lacorrection-participative-de-l-ocr-par-crowdsourcing-au-profit-des-bibliotheques-numeriques-0)
+
+**Résumé**  
+Imad Saleh explore l'évolution structurelle et collaborative du numérique, passant de l'ingénierie de l'hypertexte et des hypermédias aux enjeux complexes du Web sémantique et de l'Internet des objets. Ses recherches se focalisent sur la valorisation du patrimoine via les bibliothèques numériques (notamment par la correction participative et l'OCR), tout en interrogeant les mutations sociotechniques dans l'éducation et la justice à l'ère des frontières numériques.
+
+**Résonances Bibliographiques**  
+
+*   **Andro M., Saleh I.** (2015) *La correction participative de l’OCR par crowdsourcing au profit des bibliothèques numériques*, Bulletin des bibliothèques de France.
+*   **Bouhaï N. et Saleh I.** (2017) *Internet des objets : évolution ou révolution*, ISTE.
+*   **Saleh I.** *De HyWebMap à K-Web Organizer : d'une application auteur à un système collaboratif*.
+*   **Saleh I.** *Les frontières numériques*.
+*   **Saleh I.** *Recherche collaborative d'informations : repenser l'architecture des SRIs à l'ère du numérique*.

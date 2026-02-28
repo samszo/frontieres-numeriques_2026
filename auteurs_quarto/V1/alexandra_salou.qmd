@@ -1,0 +1,26 @@
+```yaml
+---
+title: "Désinformation, Réinformation et Reconfigurations Journalistiques"
+categories:
+  - Désinformation
+  - Réinformation
+  - Journalisme
+  - Réseaux Socionumériques
+  - Méthodes Mixtes
+---
+```
+
+## Alexandra Salou
+[{{< fa brands github >}} GitHub](https://www.idref.fr/280728492) 
+
+
+**Liens**
+*(Non fournis dans le contexte)*
+
+**Résumé**
+Les travaux d'Alexandra Salou interrogent les frontières mouvantes entre journalisme professionnel, « newsinfluenceurs » et dispositifs de **réinformation** dans un contexte transnational (France, Canada, Luxembourg). À travers l'usage de **méthodes mixtes**, elle analyse l'impact des réseaux socionumériques et de leurs algorithmes sur la **formation de l'opinion** publique et la pluralité politique. Ses recherches s'étendent également aux défis éducatifs posés par l'IA et la littératie numérique face aux désordres informationnels.
+
+**Résonances**
+*   **La bulle de filtres et l'homophilie :** Ses travaux sur l'homogénéisation des opinions via les algorithmes (notamment lors des élections municipales) dialoguent avec les concepts d'**Eli Pariser** (The Filter Bubble) et de **Cass Sunstein** sur les chambres d'écho, questionnant la fragmentation de l'espace public numérique.
+*   **L'influence et le flux de communication :** En revisitant la figure du leader d'opinion, sa recherche s'inscrit dans une actualisation du modèle du *Two-Step Flow of Communication* de **Katz et Lazarsfeld**, adapté aux dynamiques virales des plateformes contemporaines.
+*   **Sociologie du journalisme et frontières professionnelles :** L'analyse de la « réinformation » comme objet frontière fait écho aux travaux sur l'identité journalistique face à l'amateurisme et aux médias alternatifs, explorant comment la profession tente de rétablir son autorité face à la concurrence cognitive des acteurs de la désinformation.

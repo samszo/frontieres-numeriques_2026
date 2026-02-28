@@ -1,0 +1,29 @@
+---
+title: Serge Bouchardon
+categories: [écriture numérique, littérature numérique, Narration, Éditorialisation, Digital literature]
+
+bibliography: referenceAuteurs.bib
+
+---
+
+#### Serge Bouchardon
+[{{< fa solid globe >}} https://www.idref.fr/101521693](https://www.idref.fr/101521693) [{{< fa solid globe >}} https://orcid.org/0000-0002-4430-7130](https://orcid.org/0000-0002-4430-7130) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon](https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Serge Bouchardon interroge la matérialité de l'écriture numérique en articulant approche communicationnelle et création littéraire. Ses travaux analysent les dispositifs d'éditorialisation en accès ouvert [@valluy:hal-03790580] ainsi que les enjeux didactiques liés à l'introduction du récit interactif dans l'enseignement secondaire [@bouchardon:hal-03091085], explorant les tensions entre contraintes techniques et figures de sens.
+:::
+
+### Proposition
+
+**Titre : L'analogie du geste : traduire et enseigner la littérature n-dimensionnelle**
+
+Dans le cadre de "Frontières Numériques 7 : Analogies & Technologies", cette intervention se propose d'examiner la littérature numérique non plus seulement comme un objet esthétique, mais comme un laboratoire des analogies entre geste technique et figure rhétorique. En s'appuyant sur l'étude des Récits Interactifs Numériques (IDN), Serge Bouchardon questionnera les frontières de l'intelligibilité : comment l'analogie entre le code (technologie) et le texte (sens) se reconfigure-t-elle lors de la traduction d'une œuvre numérique ou de sa transposition didactique ? L'intervention montrera comment l'enseignement de ces formes hybrides nécessite une nouvelle littératie qui dépasse la dichotomie technique/culture, transformant l'interaction machine en une expérience herméneutique signifiante.
+
+### Résonances Bibliographiques
+
+Les recherches de Serge Bouchardon entrent en résonance avec les axes de la conférence par leur double ancrage dans l'analyse des dispositifs et la pratique créative :
+
+*   **Éditorialisation et Dispositifs :** L'analyse des plateformes de publication en SHS, telle que développée dans @valluy:hal-03790580, fait écho aux problématiques de structuration technique du savoir et de l'influence des outils sur le contenu (analogie structurelle).
+*   **Didactique et Littératie Numérique :** L'étude sur l'introduction de la littérature numérique dans le secondaire [@bouchardon:hal-03091085] souligne l'importance d'appréhender la technologie non comme un outil transparent, mais comme un milieu nécessitant des compétences interprétatives spécifiques (analogie cognitive).
+*   **Frontières de la Traduction :** Ses travaux sur la traduction des œuvres numériques ("Traversing Boundaries...") illustrent parfaitement la thématique des frontières, où la technologie impose des limites sémiotiques que l'analogie littéraire tente de franchir.

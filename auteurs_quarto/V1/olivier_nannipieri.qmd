@@ -1,0 +1,37 @@
+```yaml
+---
+title: "La Présence dans les Environnements Immersifs : Mesures et Paradoxes"
+categories:
+  - Réalité Virtuelle
+  - Présence
+  - Épistémologie
+  - Immersion
+---
+```
+
+## Olivier Nannipieri
+[{{< fa brands github >}} GitHub](https://www.idref.fr/177559748) [{{< fa brands github >}} GitHub](https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri) 
+
+
+**Liens** : [Page auteur](#)
+
+**Résumé**
+Olivier Nannipieri interroge les fondements épistémologiques et méthodologiques du sentiment de "présence" au sein des réalités virtuelles et augmentées. À travers une critique des échelles de mesure traditionnelles et une approche phénoménologique, il explore comment les dispositifs immersifs reconfigurent notre rapport à l'espace, au temps et à la construction identitaire du sujet numérique.
+
+**Résonances Bibliographiques**
+
+*   **Critique de la mesure et Paradoxe de la Présence**
+    *   *Do Presence Questionnaires Actually Measure Presence? A Content Analysis of Presence Measurement Scales*
+    *   *Les limites des mesures de la présence dans les environnements immersifs : analyse de la littérature et modélisation par les équations structurelles*
+    *   *Du paradoxe de la présence au paradoxe des environnements immersifs*
+
+*   **Phénoménologie et Ontologie du Virtuel**
+    *   *La réalité du virtuel - Apports et limites de l'approche phénoménologique*
+    *   *Virtual environments, reality and absence : modelling by structural equations*
+    *   *Quand les dispositifs socio-techniques créent de nouveaux territoires : une analyse de la spatio-temporalité des environnements virtuels*
+
+*   **Identité, Immersion et Applications (Marketing & Ludique)**
+    *   *L’internaute qui n’existait pas : De l’homme moyen au digividual*
+    *   *L’expérience immersive créée par un jeu promotionnel en réalité augmentée destiné aux enfants*
+    *   *Interactions et présences dans les communautés de joueurs en ligne*
+    *   *Proposition d'une Taxonomie Fonctionnelle des Environnements de Réalité Augmentée*

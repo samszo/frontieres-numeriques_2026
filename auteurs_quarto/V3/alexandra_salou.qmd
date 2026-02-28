@@ -1,0 +1,36 @@
+Voici la proposition de curation pour Alexandra Salou dans le cadre de Frontières Numériques 7.
+
+---
+title: Alexandra Salou
+categories:
+  - Réinformation
+  - Désinformation
+  - Pratiques journalistiques
+  - Réseaux socionumériques
+  - Méthodes mixtes
+
+bibliography: referenceAuteurs.bib
+
+---
+
+#### Alexandra Salou
+[{{< fa solid globe >}} https://www.idref.fr/280728492](https://www.idref.fr/280728492) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Alexandra Salou étudie les dynamiques d'opinion sur les réseaux socionumériques en mobilisant des méthodologies mixtes [@salou:hal-03175210; @salou:hal-04870814]. Ses travaux, souvent comparatifs entre la France, le Luxembourg et le Canada, analysent comment la « réinformation » et les dispositifs algorithmiques reconfigurent les frontières entre pratiques journalistiques et réception citoyenne face à la désinformation [@lukasik:hal-04442482; @lukasik:hal-04827795].
+:::
+
+### Proposition
+
+**Titre : La réinformation comme analogie dévoyée du journalisme : frontières algorithmiques et mimétisme technologique.**
+
+Cette intervention propose d'explorer la thématique « Analogies & Technologies » en analysant la « réinformation » comme un objet frontière [@lukasik:hal-04151434]. Nous examinerons comment les acteurs de la désinformation utilisent les technologies numériques pour créer une analogie structurelle et visuelle avec le journalisme légitime, brouillant ainsi les lignes pour les usagers-récepteurs. En s'appuyant sur des études comparatives (France, Luxembourg, Canada) [@lukasik:hal-04442482], il s'agira de démontrer comment les dispositifs de recommandation technique favorisent une homogénéisation des opinions [@salou:hal-03695063], enfermant les publics dans des écosystèmes clos. L'intervention questionnera enfin si l'IA et la digitalisation, notamment dans l'éducation et la pratique de l'information, agissent comme des outils de clarification ou des vecteurs d'opacité supplémentaire [@salou:hal-04827953].
+
+### Résonances Bibliographiques
+
+Les travaux d'Alexandra Salou entrent en résonance avec les axes de la conférence par l'étude des frontières mouvantes entre vérité et manipulation technique :
+
+*   **L'analogie structurelle Information/Réinformation :** Ses recherches définissent la réinformation non seulement comme une opposition, mais comme une pratique qui *imite* les codes journalistiques pour mieux les subvertir, créant un « objet frontière » complexe à identifier pour le public [@lukasik:hal-04151434; @lukasik:hal-04827795].
+*   **La technologie comme vecteur de frontières hermétiques :** L'auteure démontre comment les algorithmes de recommandation ne se contentent pas de diffuser l'information, mais tracent des frontières invisibles qui homogénéisent les opinions politiques et polarisent les débats, notamment en période électorale [@salou:hal-03695063; @salou:halshs-03195189].
+*   **Approches méthodologiques et nouvelles frontières :** En défendant l'usage des méthodes mixtes en Sciences de l'Information et de la Communication [@salou:hal-04870814], elle propose des outils pour appréhender la complexité des hybridations technologiques, s'étendant désormais aux perceptions de l'Intelligence Artificielle chez les étudiants [@salou:hal-04827953].

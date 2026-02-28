@@ -1,0 +1,49 @@
+```yaml
+---
+title: "Samuel SZONIECKY : Écosystèmes Sémantiques et Architectures Allégoriques"
+categories: [Humanités Numériques, Ontologie, Visualisation, Intelligence Collective, IoT]
+---
+```
+
+## Samuel SZONIECKY
+
+[Laboratoire Paragraphe - Université Paris 8](https://www.univ-paris8.fr/) | [Profil Google Scholar](https://scholar.google.fr/)
+
+**Résumé**
+Samuel Szoniecky explore la conception et la modélisation des connaissances en transposant des concepts biologiques et philosophiques vers le numérique. Ses recherches mobilisent des analogies structurantes—du "jardinage numérique" aux "monades" et "écosystèmes"—pour développer des outils d'interprétation sémantique, de visualisation de données et d'intelligence collective, appliqués tant aux archives patrimoniales qu'à l'Internet des Objets.
+
+**Proposition d'intervention**
+**Titre : De la Métaphore au Modèle : Concevoir des Écosystèmes de Connaissances par l'Analogie**
+
+Dans le cadre de "Frontières Numériques 7", cette intervention interrogera la fonction opératoire de l'analogie dans l'ingénierie des connaissances. Comment passons-nous de la métaphore du "jardin" ou de l'"écosystème" à une architecture technique concrète (blockchain, ontologies, graphes sémantiques) ?
+L'intervention se focalisera sur :
+1.  **L'analogie du vivant** : L'archive numérique vue non comme un stock inerte mais comme un écosystème en métamorphose et hybridation constante.
+2.  **L'analogie spatio-temporelle** : L'usage des "monades" et de la topologie pour cartographier les humanités urbaines et les flux de réseaux sociaux (Tweet Palette).
+3.  **L'analogie de l'agentivité** : La conception d'agents allégoriques pour médier l'interprétation des données massives.
+
+Cette présentation démontrera que l'analogie n'est pas seulement une figure de style, mais un outil méthodologique indispensable pour rendre intelligibles et manipulables les complexités du Big Data et des Humanités Numériques.
+
+**Résonances Bibliographiques**
+
+*Analogie et Modélisation Écosystémique*
+- *Cultiver son jardin numérique : métaphore et dispositifs éditoriaux* (Interview)
+- *Modéliser des écosystèmes de connaissance*
+- *Métamorphoses et hybridations d’une archive numérique pour sa valorisation : vers des écosystèmes de connaissances*
+- *Écosystème d'information pour la création, l'édition et l'évaluation de ressources pédagogiques numériques*
+
+*Topologie Sémantique et Visualisation*
+- *Tweet Palette : cartographie sémantique pour l'interprétation d'un événement*
+- *Générateur hypertextuel pour l’interprétation des médias sociaux dans une topologie sémantique*
+- *Outillages numériques pour les humanités : cartographier des réseaux d’influences*
+- *Monades numériques pour une modélisation spatio-temporelle des humanités urbaines*
+
+*Technologies Émergentes (IoT & Blockchain) et Ontologies*
+- *Agent allégorique - Matrices ontologiques*
+- *Knowledge Design in the Internet of Things: Blockchain and Connected Refrigerator*
+- *Blockchain et Intelligence Collective pour le Design des Connaissances de l'Internet des Objets*
+- *Prétopologie et protection de la vie privée dans l’Internet des Objets*
+
+*Outils et Méthodes*
+- *Tools for Modeling Digital Archive Interpretation*
+- *Designing a sieve for collectively measuring the ecological impacts of the activity*
+- *Perspectives scientifiques des frontières numériques*

@@ -1,0 +1,33 @@
+```yaml
+title: "Médiations Organisationnelles et Mutations Numériques : De la Santé à l'Éducation"
+categories:
+  - Communication Organisationnelle
+  - Santé Numérique
+  - IA & Éducation
+  - Médiation Sociotechnique
+```
+
+## Michel Durampart
+
+[Google Scholar](https://scholar.google.com/scholar?q=Michel+Durampart) | [Laboratoire IMSIC](https://www.imsic.fr/)
+
+**Résumé**  
+Les travaux de Michel Durampart explorent les mutations des organisations sous le prisme des technologies de l'information et de la communication, avec un ancrage fort dans les domaines de la santé et de l'éducation. Il analyse comment les dispositifs techniques (de l'IA diagnostique aux environnements d'apprentissage) reconfigurent les médiations sociales, transformant les enjeux cognitifs en stratégies organisationnelles. Son approche interroge la littératie numérique nécessaire pour naviguer entre innovation frugale, récits institutionnels et réalités de terrain.
+
+**Proposition d'intervention**  
+**Titre :** *L'analogie de l'expert et la lecture de la machine : Médiations et ruptures dans les dispositifs de santé et d'éducation.*
+
+Dans le cadre de "Frontières Numériques 7 : Analogies & Technologies", cette intervention propose d'examiner la tension entre l'expertise humaine et la "lecture" algorithmique. En s'appuyant sur ses recherches concernant l'IA dans l'analyse de tissus prostatiques ou la surveillance de cathéters, Michel Durampart questionnera la validité de l'analogie entre le diagnostic médical humain et le traitement de données par l'IA.
+
+L'intervention élargira ensuite ce questionnement aux sphères éducatives et managériales :
+1.  **De l'outil au tiers :** Comment l'IA et les systèmes d'information passent-ils du statut d'instrument à celui d'acteurs de la régulation organisationnelle ?
+2.  **Littératie et Acculturation :** Face à ces technologies, comment "former à l'IA" ne signifie pas seulement apprendre le code, mais comprendre les nouvelles formes de récits et de représentations qu'elle génère ?
+3.  **L'Innovation Frugale et Sociale :** Contre le déterminisme technologique, comment les usages (notamment via le mobile ou les réseaux sociaux) réinventent-ils les liens dans les organisations sanitaires et sociales ?
+
+**Résonances Bibliographiques**
+
+*   *IA et lecture de tissu prostatique* (Projet Incubateur Laboratoire IMSIC) – Une étude clé sur la frontière entre vision humaine et vision machine.
+*   *Binding communication to improve peripheral venous catheter monitoring* – L'importance de la communication dans la médiation technique en santé.
+*   *Ce que former à l’IA peut/veut dire pour l’intégration de la littératie numérique dans les formations en communication* – Analyse critique des enjeux pédagogiques actuels.
+*   *Régulation et médiation organisationnelles : le réseau local, enjeu d'une médiation sociale et technique* – Le cadre théorique liant technique et structure sociale.
+*   *Esquisse d'une vision du récit à l'épreuve de ses mutations* – Réflexion sur la transformation de la narration à l'ère numérique.

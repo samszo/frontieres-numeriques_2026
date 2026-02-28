@@ -1,0 +1,32 @@
+Voici la proposition de curation pour Renée Bourassa dans le cadre de Frontières Numériques 7.
+
+---
+title: Renée Bourassa
+categories: [Humanités numériques, Authenticité, Fake news, Musée, Digital]
+
+bibliography: referenceAuteurs.bib
+
+---
+
+#### Renée Bourassa
+[{{< fa solid globe >}} https://www.idref.fr/060604344](https://www.idref.fr/060604344) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Renée Bourassa explore les intersections entre les technologies de simulation et les régimes de vérité, en analysant notamment la « magicalité » des interfaces et de l'intelligence artificielle [@bourassa:hal-05196056]. Ses travaux interrogent la persistance des arts trompeurs à l'ère du numérique, des *deepfakes* aux stratégies de manipulation [@bourassa:hal-05194869], tout en proposant des méthodologies d'authenticité pour les humanités numériques et les espaces muséaux [@bourassa:hal-02299777].
+:::
+
+### Proposition
+
+**Titre : L'analogie de l'illusion : Des arts trompeurs aux simulacres de l'IA**
+
+Cette intervention se propose d'investiguer l'analogie fonctionnelle et historique entre les arts de la magie de scène et les technologies numériques contemporaines, en particulier l'intelligence artificielle générative. En s'appuyant sur le concept de "magicalité", nous analyserons comment les dispositifs techniques actuels réinvestissent des stratégies d'occultation et de simulation pour produire des effets de présence et d'émerveillement. Il s'agira de questionner la frontière poreuse entre l'authenticité documentaire et la puissance du faux, notamment dans la manière dont les *deepfakes* et les agents conversationnels redéfinissent notre rapport à la preuve. Cette réflexion s'étendra aux espaces liminaires des humanités numériques, où la médiation culturelle doit désormais composer avec ces nouvelles rhétoriques de l'illusion pour garantir une éthique de la transmission des savoirs.
+
+### Résonances Bibliographiques
+
+Les travaux de Renée Bourassa s'articulent autour de plusieurs axes qui résonnent avec la thématique « Analogies & Technologies » :
+
+*   **Illusion et Simulation :** L'auteure établit un lien direct entre les mécanismes de la prestidigitation et le fonctionnement des assistants virtuels ou de l'IA, soulignant comment la technologie masque sa complexité pour opérer une forme de "magie" sociale [@bourassa:hal-05196056].
+*   **Vérité et Tromperie :** Face à la montée de la post-vérité, elle analyse les "arts trompeurs" numériques (tels que les *deepfakes*) non comme de simples faussetés, mais comme des structures complexes de manipulation du réel [@bourassa:hal-05194869].
+*   **Authenticité et Patrimoine :** Dans le contexte des institutions de mémoire, elle propose des cadres pour naviguer dans l'espace liminaire entre l'archive authentique et sa remédiation numérique, un enjeu crucial pour les humanités numériques [@bourassa:hal-02299777].
+*   **Éditorialisation Numérique :** Ses réflexions sur le livre numérique participent également à cette redéfinition des supports de connaissance face à l'instabilité des formats digitaux [@audet:hal-01922682].

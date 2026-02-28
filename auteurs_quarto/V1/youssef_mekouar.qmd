@@ -1,0 +1,38 @@
+```yaml
+---
+title: "Youssef Mekouar : IA et Modélisation pour la Ville Durable"
+categories:
+  - Smart City
+  - Deep Learning (CNN-LSTM)
+  - Environnement
+  - IoT
+  - Data Visualization
+---
+```
+
+## Youssef MEKOUAR
+[{{< fa brands github >}} GitHub](https://www.idref.fr/268466238) [{{< fa brands github >}} GitHub](https://orcid.org/0009-0001-9493-9777) 
+
+
+**Liens** : [Google Scholar] | [ResearchGate]
+
+**Résumé**
+Youssef Mekouar se spécialise dans l'application de la science des données et de l'intelligence artificielle (modèles hybrides CNN-LSTM) pour résoudre les défis de la ville intelligente, notamment la prédiction spatio-temporelle des émissions de CO2 et l'optimisation du trafic routier. Ses travaux sur le projet "GreenNav" et l'IoT démontrent une volonté de coupler acquisition de données et modélisation écologique pour une mobilité urbaine durable. Son profil polyvalent s'étend également à la visualisation de données complexes, touchant parfois à des domaines connexes comme l'analyse socio-économique ou médicale.
+
+**Résonances Bibliographiques**
+
+*   **GreenNav: Spatiotemporal Prediction of CO2 Emissions in Paris Road Traffic Using a Hybrid CNN-LSTM Model**
+    *   *Une approche de Deep Learning combinant réseaux de neurones convolutifs et mémoire à long terme pour anticiper la pollution urbaine.*
+*   **Integration of Data Acquisition and Modeling for Ecological Simulation of CO2 Emissions in Urban Traffic: The Case of the City of Paris**
+    *   *Étude de cas centrée sur l'acquisition de données réelles pour simuler l'impact écologique du trafic parisien.*
+*   **Modelling and simulation of an ecological route in smart cities towards a green trajectory**
+    *   *Développement d'algorithmes pour le calcul d'itinéraires écologiques ("Green Routing").*
+*   **Analyse et visualisation des données du trafic routier. Une carte interactive pour comprendre l'évolution et la répartition du taux d'émission de CO2 dans la ville de Paris**
+    *   *Outils de visualisation pour la compréhension spatiale des polluants.*
+*   **L’apport de data Science à l’internet des Objets (Ido)**
+    *   *Perspective sur la convergence entre Big Data et objets connectés.*
+*   **Visualisation augmentée d'articles scientifiques s'appuyant sur un index sémantique**
+    *   *Recherche sur l'interface homme-machine et l'accès à la connaissance.*
+*   *Autres travaux (Contexte socio-économique et médical)* :
+    *   L'inclusion financière au Moyen-Orient et au Maghreb : défis et opportunités.
+    *   À propos d’un cas de paralysie du nerf abducens.

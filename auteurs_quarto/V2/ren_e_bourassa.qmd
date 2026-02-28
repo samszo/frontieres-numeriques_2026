@@ -1,0 +1,22 @@
+```yaml
+title: "Renée Bourassa : La magicalité des interfaces et les puissances du faux"
+categories: [Humanités numériques, Illusion, Avatar, Post-vérité, Édition numérique]
+```
+
+## Renée Bourassa
+[{{< fa brands github >}} GitHub](https://www.idref.fr/060604344) 
+
+
+[Page institutionnelle](https://www.flsh.ulaval.ca/personnel/renee-bourassa) | [Google Scholar](https://scholar.google.com/citations?user=renee-bourassa)
+
+**Résumé**
+Renée Bourassa interroge les frontières poreuses entre le réel et la simulation à travers le prisme de la "magicalité" technologique et des arts trompeurs. Ses recherches explorent comment les dispositifs numériques — des avatars aux intelligences artificielles — réactualisent les stratégies de l'illusionnisme pour construire de nouvelles formes d'authenticité et de fiction, redéfinissant ainsi notre rapport à la vérité et à la présence dans les espaces médiatiques et muséaux.
+
+**Proposition d'intervention : L'analogie de l'illusionniste : Des automates à l'IA générative**
+Dans le cadre de *Frontières Numériques 7*, l'intervention proposée s'intitulerait **"Technologies de l'enchantement : L'analogie magique comme clé de lecture du virtuel"**.
+Cette communication examinerait comment les technologies contemporaines (IA, réalité étendue) fonctionnent sur une analogie structurelle avec la magie de scène et le spiritisme du XIXe siècle. En s'appuyant sur ses travaux *Machines. Magie. Médias* et *Magicalité, simulation et intelligence artificielle*, Renée Bourassa pourrait démontrer que l'opacité des algorithmes réactive une pensée magique, où l'avatar devient une marionnette spectrale et où le "deepfake" s'inscrit dans une longue généalogie des "arts trompeurs". L'objectif serait de déconstruire ces dispositifs pour comprendre comment ils fabriquent une "authenticité simulée" et comment les humanités numériques peuvent offrir une critique de ces nouvelles puissances du faux.
+
+**Résonances Bibliographiques**
+*   **Analogie de la Magie :** *Machines. Magie. Médias* et *Magicalité, simulation et intelligence artificielle* établissent un parallèle direct entre les effets spéciaux numériques et les traditions de l'illusionnisme, cadrant la technologie comme une performance de l'invisible.
+*   **Analogie du Double :** *Figures de l’avatar* et *Le Sujet Digital* explorent la relation métonymique entre l'utilisateur et sa représentation graphique, questionnant les effets de présence et l'interpellation comme formes de possession numérique.
+*   **Analogie du Faux :** *Des arts trompeurs à la post-vérité* et *Espace liminaire de l’authenticité* ancrent les problématiques actuelles de la désinformation (Fake news) dans l'histoire des simulacres, montrant comment le numérique brouille la distinction entre l'original et la copie, le fait et la fiction.

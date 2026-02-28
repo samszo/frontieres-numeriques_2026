@@ -1,0 +1,33 @@
+```yaml
+---
+title: "Claire Noy : Médiation des savoirs et complexité numérique"
+categories:
+  - "Sciences de l'Information et de la Communication"
+  - "Épistémologie"
+  - "Co-design"
+  - "Humanités Numériques"
+  - "Data Science & Société"
+---
+```
+
+## Claire NOY
+[{{< fa brands github >}} GitHub](https://www.idref.fr/091622409) [{{< fa brands github >}} GitHub](https://hal.science/search/index/?q=authIdHal_s:claire-noy) 
+
+
+**Liens :** [Google Scholar] | [ResearchGate]
+
+**Résumé**
+Les travaux de Claire Noy explorent les mutations de la médiation scientifique et des savoirs universitaires à l'aune des transformations numériques. Ses recherches articulent une réflexion épistémologique sur la structuration des connaissances (cartes conceptuelles, frontières des données) avec une analyse des pratiques collaboratives (co-design, enseignement à distance). Elle interroge ainsi la manière dont les dispositifs techniques, du Big Data aux réseaux sociaux, reconfigurent l'apprentissage, la temporalité et la négociation de la réalité sociale.
+
+**Résonances Bibliographiques**
+
+L'œuvre de Claire Noy se déploie à travers une approche constructiviste, reliant la structuration technique de l'information aux dynamiques humaines d'apprentissage et de collaboration.
+
+*   **Épistémologie et Architecture des Savoirs**
+    Ses écrits sur la **constitution de cartes conceptuelles** et les **approches constructivistes** témoignent d'une volonté de modéliser la pensée scientifique. Elle questionne les **frontières et l'identification des données scientifiques**, proposant une **nouvelle topographie des savoirs universitaires** adaptée à la complexité des environnements informationnels modernes (NoSQL, Big Data, données manquantes).
+
+*   **Médiation, Communication et Société**
+    L'auteure analyse les **ressorts de l'apprentissage dans une société de la communication**, scrutant le **débat médiatique** et la **négociation collective de la réalité**. Elle porte un regard critique sur le **temps connecté** et les mutations engendrées par les réseaux sociaux, tout en explorant les **usages créatifs du numérique** dans la médiation scientifique.
+
+*   **Pratiques Collaboratives et Terrains d'Application**
+    De l'éducation (**technologies éducatives**, **travail collaboratif à distance**) à l'urbanisme (**narrer et repenser l'écosystème urbain**, **crowdsourcing spatial**), Claire Noy valorise le **co-design**. Ses recherches s'étendent jusqu'au domaine de la santé, étudiant les **dynamiques motivationnelles** dans la **réhabilitation cardiaque**, illustrant une approche phénoménologique appliquée.

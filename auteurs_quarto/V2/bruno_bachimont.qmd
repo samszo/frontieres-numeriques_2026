@@ -1,0 +1,42 @@
+```yaml
+title: "Bruno Bachimont : Du calcul au sens, l'analogie à l'épreuve du numérique"
+categories: [sémiotique, documents, ontologies, Numérique, patrimoine culturel]
+```
+
+## Bruno Bachimont
+
+[Google Scholar](https://scholar.google.com/scholar?q=Bruno+Bachimont) | [ResearchGate](https://www.researchgate.net/search/publication?q=Bruno+Bachimont)
+
+**Résumé**
+Bruno Bachimont interroge la condition numérique en articulant philosophie de la technique et ingénierie documentaire. Ses travaux explorent comment le support matériel du numérique, fondé sur le calcul discret, transforme nos capacités d'interprétation, de jugement et de mémorisation patrimoniale. Il propose une approche où la technique n'est pas une fin, mais une médiation nécessitant une "instrumentation" pour restituer du sens aux données.
+
+**Proposition d'intervention**
+**Titre : Le numérique comme pharmakon : entre calcul algorithmique et jugement analogique**
+
+Dans le cadre de *Frontières Numériques 7*, cette intervention se propose d'examiner la tension fondamentale entre la logique binaire du support numérique et la nature analogique de la pensée humaine. Bruno Bachimont pourrait y développer la thèse selon laquelle le numérique, en tant que système de manipulation formelle de symboles, opère une "désémantisation" (réduction au calcul) qui nécessite une "resémantisation" active par l'usager (interprétation).
+L'intervention questionnerait :
+1.  **L'analogie vs le calcul :** Comment "Une décision calculée peut-elle tenir lieu de jugement ?" L'algorithme procède par identité formelle, là où l'esprit humain procède par analogie contextuelle.
+2.  **L'instrumentation de la lecture :** Comment les outils de lecture savante (multimédia, temporels) peuvent servir de prothèses cognitives pour rétablir une intelligibilité face au flux de données.
+3.  **La préservation comme acte de sens :** L'archivage (web, musique) n'est pas un simple stockage de fichiers, mais une reconstruction intellectuelle visant à préserver l'accès au contenu sensible au-delà de l'obsolescence technique.
+
+**Résonances Bibliographiques**
+
+*Sur la philosophie du numérique et le jugement :*
+- *Le sens de la technique : le numérique et le calcul*
+- *Une décision calculée peut-elle tenir lieu de jugement ? Considérations sur la faculté de juger et son instrumentation*
+- *Le numérique comme objet, le numérique comme système*
+
+*Sur l'ingénierie documentaire et la lecture savante :*
+- *Instrumenter la lecture savante de documents multimédia temporels*
+- *A model and environment for improving multimedia scholarly reading practices*
+- *MEDIA-REPERES : Une méthode pour l'explicitation des construits de sens au visionnage*
+
+*Sur les ontologies et l'organisation des connaissances :*
+- *Structuration and acquisition of medical knowledge. Using UMLS in the conceptual graph formalism*
+- *Enjeux et technologies : des données au sens*
+- *Building medical ontologies by terminology extraction from texts*
+
+*Sur la mémoire, l'archivage et le patrimoine :*
+- *Quelle documentation pour l'archivage du Web?*
+- *Préservation de la musique avec dispositif électronique : l'intérêt des processus de production sonore*
+- *Between Formats and Data: When Communication Becomes Recording*

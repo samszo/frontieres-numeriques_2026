@@ -1,0 +1,39 @@
+---
+title: Khaldoun ZREIK
+categories:
+  - Post-Numérique
+  - Smart Heritage
+  - Conception
+  - HyperUrbain
+  - Humanités Numériques
+  - BIM
+
+subtitle:"L'analogie du "Smart" : Du territoire hyperurbain au patrimoine post-numérique"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/030064880](https://www.idref.fr/030064880) [{{< fa solid globe >}} https://orcid.org/0000-0002-6307-1717](https://orcid.org/0000-0002-6307-1717) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Khaldoun Zreik interroge les mutations sociétales et cognitives induites par les technologies de l'information, naviguant de la conception hypermédia vers les enjeux de la "Data City" et du post-numérique [@zreik:hal-04440700]. Ses recherches récentes articulent la dématérialisation des relations territoriales [@zreik:hal-04436908] avec la valorisation du patrimoine via le concept de "Smart Heritage" [@bouhai:hal-04427437], tout en explorant les méthodologies numériques appliquées aux corpus complexes [@torresyepez:hal-04450083].
+:::
+
+### Proposition
+
+**Titre : L'analogie du "Smart" : Du territoire hyperurbain au patrimoine post-numérique**
+
+**Résumé :**
+Cette intervention propose d'explorer les frontières entre la modélisation technologique et l'expérience humaine située, à travers le prisme de l'ère post-numérique. En dépassant la simple numérisation de l'existant, nous analyserons comment les analogies computationnelles transforment notre rapport au temps et à l'espace, marquant le passage de la ville intelligente à une ville de données omniprésentes. Nous aborderons spécifiquement la tension entre la préservation du patrimoine culturel (matériel et immatériel) et sa "biopiraterie" ou réappropriation algorithmique potentielle. Il s'agira de démontrer comment les nouvelles méthodes d'exploitation de corpus et de visualisation de données permettent de redéfinir les concepts d'innovation et de transmission patrimoniale, instaurant une nouvelle écologie cognitive où la technologie ne sert plus seulement à archiver, mais à régénérer le sens commun et l'identité territoriale.
+
+### Résonances Bibliographiques
+
+Les travaux de Khaldoun Zreik s'articulent autour d'une réflexion critique sur l'intégration des technologies dans les écosystèmes humains :
+
+*   **La transition urbaine et temporelle :** L'auteur théorise le glissement de la *Smart City* vers la *Post-Digital City*, où la technologie devient un environnement invisible mais structurant [@zreik:hal-04440700]. Cette réflexion s'étend à la perception du temps dans la conception [@zreik:hal-04440493] et à la relation dématérialisée entre l'homme et son territoire dans l'HyperUrbain [@zreik:hal-04436908].
+*   **Patrimoine et Humanités Numériques :** La notion de *Smart Heritage* est centrale pour comprendre l'hybridation entre héritage culturel et dispositifs interactifs [@bouhai:hal-04427437]. Cette approche est complétée par une vigilance éthique concernant la protection des savoirs traditionnels face aux risques de captation numérique [@torresyepez:hal-04450093].
+*   **Méthodologies de la conception et de la donnée :** L'innovation pédagogique et la créativité à l'ère de l'hypermédia [@zreik:hal-01011841] sont soutenues par des méthodes algorithmiques avancées d'analyse de corpus et de visualisation, permettant de nouvelles formes de cartographie des savoirs [@torresyepez:hal-04450083].

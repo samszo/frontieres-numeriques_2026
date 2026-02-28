@@ -1,0 +1,37 @@
+```yaml
+---
+title: "Systèmes d'Information, Intelligence Économique et Humanités Numériques"
+categories:
+  - Economic Intelligence
+  - Knowledge Management
+  - Digital Humanities
+  - Information Systems
+---
+```
+
+## Malek Ghenima
+[{{< fa brands github >}} GitHub](https://www.idref.fr/236912232) 
+
+
+**Liens**
+[Profil Académique](https://scholar.google.com/scholar?q=Malek+Ghenima)
+
+**Résumé**
+Les travaux de Malek Ghenima explorent l'interconnexion entre les systèmes d'information et l'intelligence économique, en mettant l'accent sur la gestion des connaissances et la modélisation ontologique. Ses recherches analysent le rôle de l'acteur dans les processus décisionnels, de la veille stratégique à la valorisation du patrimoine dans les humanités numériques. Il s'intéresse particulièrement aux approches collaboratives, à l'enrichissement sémantique des contenus et à la personnalisation de la recherche d'information.
+
+**Résonances Bibliographiques**
+
+*   **Intelligence Économique et Processus Décisionnels**
+    *   *Systèmes d'information et Intelligence économique : enjeux et perspectives*
+    *   *From information to decision: information management methodology in decisional process*
+    *   *Modélisation centrée sur l'acteur dans une approche e-veille*
+
+*   **Gestion des Connaissances et Humanités Numériques**
+    *   *Concepts and Tools for Knowledge Management (KM)* (Actes ISKO-Maghreb)
+    *   *Knowledge Organization in the perspective of Digital Humanities*
+    *   *Capitalisation des connaissances sur l'objet image du patrimoine*
+
+*   **Sémantique et Approches Centrées Utilisateur**
+    *   *Enrichissement des contenus par la réindexation des usagers*
+    *   *Natural ontology representation based on NP's properties and semantic relations*
+    *   *Towards an architecture for personalized information retrieval implying the user's profile and votes*

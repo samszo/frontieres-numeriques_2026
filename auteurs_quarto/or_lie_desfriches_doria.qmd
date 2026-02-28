@@ -1,0 +1,42 @@
+---
+title: Orélie DESFRICHES DORIA
+categories:
+  - Humanités numériques
+  - Organisation des connaissances
+  - Esprit critique
+  - Datavisualisation
+  - Classification à facettes
+  - Controversies
+subtitle:"De l'analogie visuelle à l'esprit critique : Modéliser les controverses à l'ère numérique"
+bibliography: referenceAuteurs.bib
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/178282154](https://www.idref.fr/178282154) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux d'Orélie Desfriches Doria s'articulent autour de l'organisation des connaissances et des humanités numériques, interrogeant notamment la gestion de l'hétérogénéité documentaire @zacklad:hal-02924134 et la création de sens par le design @desfrichesdoria:hal-02298796. Ses recherches actuelles investissent le champ de l'éducation aux médias (EMI), explorant comment la modélisation et la cartographie des controverses peuvent structurer l'argumentation et favoriser l'esprit critique @desfrichesdoria:halshs-03252800, @debaz:hal-05029680.
+:::
+
+### Proposition
+
+**Titre : De l'analogie visuelle à l'esprit critique : Modéliser les controverses à l'ère numérique**
+
+**Résumé :**
+Cette intervention se propose d'explorer le rôle des outils de modélisation numérique comme supports analogiques au service de l'esprit critique. Dans un contexte où les formes et structures argumentatives évoluent rapidement sur le web, la capacité à représenter graphiquement la complexité devient un enjeu majeur pour les humanités numériques. En nous appuyant sur l'analyse des controverses et la visualisation de données, nous montrerons comment le passage de la donnée brute à sa forme visuelle constitue une opération analogique permettant de rendre intelligibles des débats sociétaux complexes. Nous interrogerons la tension entre la simplification nécessaire au design d'interface et l'exigence de nuance propre à la démarche scientifique. Cette approche vise à démontrer comment ces "technologies de l'analogie" peuvent devenir des leviers pédagogiques essentiels en Éducation aux Médias et à l'Information, pour accompagner les usages numériques et déconstruire la désinformation.
+
+### Résonances Bibliographiques
+
+**Organisation des connaissances et Humanités Numériques :**
+- @zacklad:hal-02924134
+- @desfrichesdoria:hal-02298796
+- @boukacemzeghmouri:hal-01973467
+
+**Éducation aux médias, Esprit critique et Controverses :**
+- @desfrichesdoria:halshs-03252800
+- @desfrichesdoria:halshs-04015756
+- @debaz:hal-05029680
+- @dessinges:hal-04015960

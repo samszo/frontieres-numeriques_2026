@@ -1,0 +1,29 @@
+```yaml
+title: "L'Avatar en Scène : Hybridation du Théâtre et du Jeu Vidéo"
+categories: [Avatar, Théâtre, Recherche-Création, Motion Capture, Réalité Mixte]
+```
+
+## Cédric Plessiet
+[{{< fa brands github >}} GitHub](https://www.idref.fr/145033902) [{{< fa brands github >}} GitHub](https://orcid.org/0000-0003-1208-4961) 
+
+
+**Liens**
+*   *Mises en scène spectaculaires et interactives de l’avatar*
+*   *De la Sculpture Matrice à l’Acteur Virtuel : Une réflexion sur une nouvelle classification*
+*   *Perceptions (théâtrales) de l'augmentation numérique*
+*   *MITMI Man-In-The-Middle Interaction*
+*   *Quand le jeu vidéo est le catalyseur d'expérimentations théâtrales*
+
+**Résumé**
+Cédric Plessiet explore la convergence entre les technologies du jeu vidéo et les arts de la scène à travers une démarche de recherche-création. Ses travaux analysent la relation ontologique et fonctionnelle entre le manipulateur réel et l'entité virtuelle, redéfinissant l'avatar comme une « Sculpture Matrice » ou un « Acteur Virtuel ». Il interroge ainsi l'hybridité des espaces de représentation par le prisme de la capture de mouvement et de la prévisualisation temps réel.
+
+**Proposition d'intervention**
+**Titre :** *De la Marionnette à l'Algorithme : Analogies de l'incarnation numérique*
+
+Cette intervention propose d'examiner l'analogie entre le comédien et son double numérique dans le cadre de la conférence *Analogies & Technologies*. En s'appuyant sur ses travaux autour de la classification des personnages virtuels, Cédric Plessiet discutera des frontières poreuses entre le contrôle humain (marionnette numérique) et l'autonomie comportementale (IA). L'intervention mettra en lumière comment les technologies de *Motion Capture* et de réalité mixte ne sont pas de simples outils de visualisation, mais des mécanismes de traduction analogique qui convertissent l'intention scénique en performance numérique, transformant l'espace du théâtre en un continuum interconnecté.
+
+**Résonances Bibliographiques**
+*   **Sur l'ontologie de l'avatar :** *De la Sculpture Matrice à l’Acteur Virtuel : Une réflexion sur une nouvelle classification des relations entité virtuelle/manipulateur réel autour des notions d’origine du mouvement et de la décision.*
+*   **Sur l'espace scénique hybride :** *Interconnected Virtual Space and Theater: A Research–Creation Project on Theatrical Performance Space in the Network Era* et *Espace virtuel interconnecté et Théâtre.*
+*   **Sur l'interaction homme-machine :** *MITMI Man-In-The-Middle Interaction: The human back in the loop* et *Experiencing avatar direction in low cost theatrical mixed reality setup.*
+*   **Sur la méthodologie :** *Quand le jeu vidéo est le catalyseur d'expérimentations théâtrales (2014-2019).*

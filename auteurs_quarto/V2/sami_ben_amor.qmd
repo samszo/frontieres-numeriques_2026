@@ -1,0 +1,22 @@
+```yaml
+title: "Sami Ben Amor : Écosystèmes du savoir et IA générative"
+categories: [Éducation, IA, Systémique, Human-Autonomy Teaming]
+```
+
+## Sami Ben Amor
+
+[Google Scholar](https://scholar.google.com/scholar?q=Sami+Ben+Amor) | [ResearchGate](https://www.researchgate.net/search/publication?q=Sami+Ben+Amor)
+
+**Résumé**
+Sami Ben Amor interroge les mutations profondes de l'éducation et de la transmission des savoirs à l'ère de l'intelligence artificielle générative. Ses travaux adoptent une approche systémique pour analyser les tensions entre l'automatisation cognitive et le maintien d'une autonomie critique chez l'apprenant. Il explore la "nouvelle narration des connaissances" où la médiation numérique reconfigure les écosystèmes d'apprentissage, oscillant entre bien-être promis et risques de désappropriation intellectuelle.
+
+**Proposition d'intervention : "De la ressource à la génération : Écologie d'un savoir artificiel"**
+Dans le cadre de *Frontières Numériques 7*, l'intervention de Sami Ben Amor pourrait proposer une analogie audacieuse entre ses travaux sur la gestion systémique des ressources (déchets, transport, réseaux) et l'économie actuelle de la connaissance générée par l'IA.
+*   **Axe de réflexion :** Comment les modèles d'efficience et d'optimisation des réseaux (SemMEP, gestion de flux) s'appliquent-ils ou s'opposent-ils à la dynamique de l'apprentissage humain ?
+*   **Problématique :** Face à une "société générative" qui produit du contenu à l'échelle industrielle, comment éviter que le savoir ne devienne un "déchet" informationnel ? L'intervention analyserait le paradoxe de l'IA bienveillante : un outil conçu pour assister qui risque de substituer la compétence humaine, transformant l'apprenant en simple gestionnaire de flux plutôt qu'en producteur de sens.
+
+**Résonances Bibliographiques**
+*   **Sur l'écologie de l'attention et les savoirs :** Yves Citton, *Pour une écologie de l'attention*.
+*   **Sur la technique et l'éducation :** Bernard Stiegler, pour ses concepts sur la prolétarisation des savoirs et les pharmaka numériques.
+*   **Sur l'IA et l'autonomie :** Les travaux sur le "Human-Autonomy Teaming" (HAT) cités dans ses publications, mis en perspective avec l'éthique de l'IA de Luciano Floridi.
+*   **Analogie systémique :** La théorie des réseaux complexes appliquée aux sciences sociales (ex: Duncan Watts ou Albert-László Barabási) pour faire écho à l'analyse des "communautés" et des "écosystèmes socio-communicationnels".

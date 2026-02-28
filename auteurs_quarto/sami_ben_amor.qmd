@@ -1,0 +1,33 @@
+---
+title: Sami Ben Amor
+categories:
+  - Intelligence Artificielle
+  - Éthique de l'information
+  - Éducation
+  - Narration des connaissances
+
+subtitle:"L'IA générative comme nouveau narrateur épistémique : recomposition ou dissolution des savoirs ?"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/032001924](https://www.idref.fr/032001924) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Sami Ben Amor explore les mutations de l'acquisition et de la narration des connaissances à l'ère de l'intelligence artificielle générative [@amor:hal-04405427; @amor:hal-04394408]. Ses travaux, ancrés dans une approche éthique et pédagogique, questionnent l'impact de ces technologies sur les écosystèmes éducatifs et la redéfinition des compétences au XXIe siècle [@romero:hal-04013223; @amor:hal-04401405].
+:::
+
+### Proposition
+
+**Titre : L'IA générative comme nouveau narrateur épistémique : recomposition ou dissolution des savoirs ?**
+
+**Résumé :**
+Cette intervention propose d'analyser le basculement épistémologique induit par l'usage croissant des IA génératives dans les sphères éducatives et informationnelles. En passant d'une logique de recherche et de sélection d'information à une logique de génération de contenu, nous assistons à une transformation radicale de la "narration des connaissances". L'analogie de l'IA comme "assistant" ou "copilote" cognitif masque-t-elle une délégation intellectuelle risquée, où la synthèse algorithmique se substitue à l'effort d'intégration des savoirs ? Nous interrogerons les mécanismes par lesquels ces outils redéfinissent la notion de vérité, d'autorité informationnelle et de bien-être cognitif. Il s'agira de mettre en perspective les promesses d'une pédagogie augmentée face aux risques de standardisation de la pensée et d'érosion de l'esprit critique, dessinant ainsi les contours d'une nouvelle éthique de l'organisation des connaissances dans un monde synthétique.
+
+### Résonances Bibliographiques
+
+Les travaux de Sami Ben Amor sur la génération de contenu et l'acquisition des connaissances résonnent avec la pensée de Bernard Stiegler sur la grammatisation et la prolétarisation des savoirs [@Stiegler2016], où l'externalisation de la mémoire dans la machine (ici générative) menace la capacité de penser par soi-même. Cette "nouvelle narration" par l'IA peut être analysée sous le prisme de la cybernétique de Norbert Wiener [@Wiener1948], posant la question du contrôle et de la rétroaction dans les systèmes d'apprentissage humain-machine. Enfin, l'évolution des formes de vie et des écosystèmes communicationnels évoquée dans ses recherches rappelle l'approche simondonienne de l'individuation technique [@Simondon1958], où l'outil numérique ne doit pas aliéner l'humain mais participer à un couplage créatif et signifiant.

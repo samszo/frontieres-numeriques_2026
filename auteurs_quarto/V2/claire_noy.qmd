@@ -1,0 +1,42 @@
+---
+title: "Cartographies du sens : Médiation, Co-design et Topographies Numériques"
+categories:
+  - Médiation scientifique
+  - Cartes conceptuelles
+  - Co-design
+  - Humanités Numériques
+---
+
+## Claire NOY
+
+[Profil Académique / Publications](#) *Lien générique déduit du contexte*
+
+**Résumé**
+Claire Noy interroge les mutations de l'apprentissage et de la médiation des savoirs à l'ère du numérique et du "temps connecté". Ses travaux articulent une approche constructiviste de la communication avec des méthodologies visuelles et collaboratives, telles que les cartes conceptuelles et le co-design. Elle explore comment ces outils permettent de naviguer dans la complexité des données massives et de redéfinir la topographie des savoirs universitaires et urbains.
+
+**Proposition d'intervention**
+
+**Titre :** L'analogie topographique : Structurer le « marécage » informationnel par le co-design et la conceptualisation graphiques.
+
+**Argumentaire :**
+Dans le cadre de *Frontières Numériques 7*, cette intervention se propose d'explorer l'analogie entre la cognition humaine (la construction du sens) et la structuration des données technologiques (NoSQL, property graphs). En partant de la notion de « marécage » (swamp) évoquée dans les tags — symbolisant ici l'informe des Big Data ou des données manquantes — nous analyserons comment les démarches de médiation scientifique agissent comme des outils de cartographie.
+
+Claire Noy mettra en perspective l'usage des **cartes conceptuelles** non seulement comme outils pédagogiques, but comme métaphores structurantes pour comprendre les systèmes d'information complexes. Comment le passage d'une narration urbaine (co-design) à une modélisation de données (crowdsourcing spatial) illustre-t-il une nouvelle phénoménologie sociale ? L'intervention démontrera que la technologie ne se contente pas de stocker le savoir, mais qu'elle en modifie la topographie même, nécessitant une approche constructiviste pour transformer l'information brute en connaissance navigable.
+
+**Résonances Bibliographiques**
+
+*Sur la structuration et la visualisation des savoirs :*
+- Constitution d’une carte conceptuelle et processus de construction d’une recherche : un lien proactif.
+- Chapitre 10 : Vers une nouvelle topographie des savoirs universitaires.
+- Frontières et identification des données scientifiques.
+
+*Sur les interactions humaines et le co-design :*
+- Narrer et (re)penser l’ecosystème urbain : Narrating and (re)rethinking the urban ecosystem: outlines of a qualitative research in co-design.
+- Travail collaboratif et dynamique interactionnelle dans les situations technologiques d’enseignement à distance.
+- Une procédure innovante : le crowdsourcing spatial.
+
+*Sur la médiation et la société de communication :*
+- Médiation scientifique et rapport aux savoirs universitaires.
+- Penser les ressorts de l’apprentissage dans une société de la communication.
+- A la recherche du temps connecté.
+- Le débat médiatique sur les réseaux sociaux, vers une négociation collective de la réalité ?

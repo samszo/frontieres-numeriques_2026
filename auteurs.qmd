@@ -1,8 +1,9 @@
 ---
 title: "Intervenants"
 listing:
-  contents: auteurs_quarto
-  type: grid
+  contents:
+    - "auteurs_quarto/*.qmd"
+  type: default
   sort: "title"
   categories: true
 ---

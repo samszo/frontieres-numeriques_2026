@@ -6,20 +6,6 @@ format:
     include-in-header: banniere.html
     include-after-body: footer.html
 
-  pdf: 
-    papersize: A4    
-    geometry:
-          - top=40mm
-          - left=10mm
-          - heightrounded
-    toc: false
-    number-sections: false         
-    include-in-header: 
-         text: |
-            \usepackage{scrlayer-scrpage}
-            \clearpairofpagestyles
-            \cohead[{\includegraphics[width=5cm]{assets/img/logo_paris8_Couleurs officielles.png}}]{}
-
 bibliography: references.bib
 ---
 

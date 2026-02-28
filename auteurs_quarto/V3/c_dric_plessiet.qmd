@@ -1,0 +1,30 @@
+---
+title: Cédric Plessiet
+categories: [Avatars, Théâtre, Motion Capture, Jeu Vidéo, Réalité Mixte, Art Numérique]
+
+bibliography: referenceAuteurs.bib
+
+---
+
+#### Cédric Plessiet
+[{{< fa solid globe >}} https://www.idref.fr/145033902](https://www.idref.fr/145033902) [{{< fa solid globe >}} https://orcid.org/0000-0003-1208-4961](https://orcid.org/0000-0003-1208-4961) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux de Cédric Plessiet explorent l'intersection entre les arts de la scène et les technologies de l'avatar, en se concentrant sur la direction d'acteurs virtuels et la "Man-In-The-Middle Interaction" [@plessiet:hal-04420565]. Il analyse comment les moteurs de jeu vidéo deviennent des catalyseurs pour l'expérimentation théâtrale [@gagnere:hal-03959045], redéfinissant les perceptions de l'augmentation numérique [@gagnere:hal-02101604] et les traversées de frontières entre espaces physiques et virtuels [@gagnere:hal-04025004].
+:::
+
+### Proposition
+
+**Titre provisoire : De la Marionnette à l'Avatar : Analogies de la Présence Scénique à l'Ère du Temps Réel**
+
+Dans le cadre de l'axe "Analogies & Technologies", cette intervention propose d'examiner l'analogie fonctionnelle et esthétique entre la marionnette traditionnelle et l'avatar numérique piloté en temps réel. En s'appuyant sur les concepts de *Sculpture Matrice* et d'*Acteur Virtuel*, nous interrogerons comment les technologies de capture de mouvement (MoCap) et les moteurs de jeu vidéo ne sont pas de simples outils de simulation, mais des dispositifs de médiation réinventant la présence scénique. L'intervention analysera le paradigme du "Man-In-The-Middle", où l'opérateur technologique devient un acteur invisible mais essentiel, créant une boucle de rétroaction entre le geste humain et sa traduction numérique. Nous démontrerons comment les imperfections technologiques (latence, glitch) peuvent être réinvesties artistiquement pour souligner la fragilité de la condition humaine dans un environnement mixte.
+
+### Résonances Bibliographiques
+
+L'œuvre de recherche-création de Cédric Plessiet s'articule autour de la redéfinition des frontières entre le corps biologique et son extension numérique.
+
+*   **Frontières et Interfaces :** La réflexion initiale pose les bases d'une porosité entre les mondes, où les interfaces homme-machine ne sont plus des barrières mais des lieux de passage, comme illustré dans les "Traversées des frontières" [@gagnere:hal-04025004].
+*   **Perception de l'Augmentation :** Cette approche technologique est confrontée à la réalité du plateau via l'analyse des "Perceptions (théâtrales) de l'augmentation numérique", interrogeant comment l'analogie du réel se construit dans l'esprit du spectateur face à un avatar [@gagnere:hal-02101604].
+*   **L'Humain dans la Boucle :** Au cœur du dispositif, le concept de "MITMI Man-In-The-Middle Interaction" replace l'humain au centre du processus algorithmique, transformant la contrainte technique en levier de performance [@plessiet:hal-04420565].
+*   **Le Jeu Vidéo comme Méthode :** Enfin, l'ensemble de ces pratiques converge vers l'utilisation détournée des outils vidéoludiques, considérant que "le jeu vidéo est le catalyseur d'expérimentations théâtrales", hybridant ainsi les codes du *game design* avec la dramaturgie classique [@gagnere:hal-03959045].

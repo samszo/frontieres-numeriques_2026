@@ -1,0 +1,32 @@
+---
+title: Renée Bourassa
+categories: [Humanités numériques, Authenticité, Fake news, Musée, Digital, Illusion, Livre numérique]
+
+subtitle:"L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative"
+bibliography: referenceAuteurs.bib
+
+
+---
+
+
+
+[{{< fa solid globe >}} https://www.idref.fr/060604344](https://www.idref.fr/060604344) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Renée Bourassa interroge les frontières du réel et de la fiction au sein des dispositifs numériques, en explorant les tensions entre authenticité et illusion dans les espaces de médiation culturelle [@bourassa:hal-02299777]. Ses travaux récents analysent la "magicalité" des technologies contemporaines, des assistants virtuels aux *deepfakes*, mettant en lumière les nouvelles puissances du faux et les stratégies de tromperie de l'IA [@bourassa:hal-05196056; @bourassa:hal-05194869]. Elle participe également à la redéfinition des écologies éditoriales à travers l'étude du livre numérique [@audet:hal-01922682].
+:::
+
+### Proposition
+
+**Titre : L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative**
+
+**Résumé :**
+Dans le cadre de l'axe "Analogies & Technologies", cette intervention propose d'examiner la résurgence de l'analogie entre technologie et magie, exacerbée par les récentes avancées en intelligence artificielle et en simulation. En s'appuyant sur le concept de "magicalité", nous analyserons comment les interfaces contemporaines occultent leur complexité technique pour produire des effets de présence et d'immédiateté qui relèvent de l'illusionnisme.
+Nous explorerons comment ces dispositifs, en générant des simulacres hyperréalistes (deepfakes, avatars, agents conversationnels), ne se contentent plus d'imiter le réel mais cherchent à le supplanter, brouillant ainsi les frontières épistémiques entre le vrai et le faux. Cette communication interrogera les enjeux éthiques et sémiotiques de ces "arts trompeurs" : comment l'analogie de la magie sert-elle à naturaliser des technologies de contrôle ? De l'espace muséal aux plateformes sociales, nous discuterons des stratégies nécessaires pour développer une littératie critique face à ces nouvelles puissances de l'illusion numérique.
+
+### Résonances Bibliographiques
+
+Les travaux de Renée Bourassa s'articulent autour d'une critique des médiations technologiques. Sa réflexion sur l'espace liminaire de l'authenticité dans les dispositifs muséaux [@bourassa:hal-02299777] offre un point d'ancrage pour comprendre comment les institutions culturelles peuvent naviguer entre vérité historique et simulation numérique. Cette recherche s'étend aux phénomènes de désinformation et aux *fake news*, où elle décortique les mécanismes de la "post-vérité" et des arts trompeurs [@bourassa:hal-05194869].
+
+Ces analyses résonnent fortement avec ses études sur la magicalité et l'intelligence artificielle, où elle démontre que la simulation technique réactive des formes anciennes de pensée magique [@bourassa:hal-05196056]. Enfin, son approche collaborative sur l'écriture et le livre numérique [@audet:hal-01922682] témoigne d'une volonté de repenser les supports de connaissance face à la fluidité du digital, liant ainsi les enjeux de l'archive à ceux de la création contemporaine.
