@@ -7,7 +7,7 @@ categories:
   - Éditorialisation
   - Literacy
   - Technologies de l'information et de la communication
-subtitle:"La traduction du geste : Analogies techniques dans le récit interactif"
+subtitle: "La traduction du geste : Analogies techniques dans le récit interactif"
 bibliography: referenceAuteurs.bib
 
 
@@ -21,7 +21,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Serge Bouchardon explore les mutations de l'écriture et de la lecture numériques, en se focalisant sur la création littéraire interactive et sa transposition didactique. Ses travaux analysent les dispositifs d'éditorialisation pour la diffusion des savoirs en SHS [@valluy:hal-03790580] et étudient l'intégration des récits interactifs dans le secondaire pour développer de nouvelles compétences littératiques [@bouchardon:hal-03091085].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/59842)
+  - [lien vers le prompt](prompt_serge_bouchardon.txt)
+  - [lien vers la réponse](resume_serge_bouchardon.json)
+
+
 
 **Titre : La traduction du geste : Analogies techniques dans le récit interactif**
 

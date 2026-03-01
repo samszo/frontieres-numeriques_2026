@@ -8,7 +8,7 @@ categories:
   - Patents
   - E-Justice
 
-subtitle:"L'analogie prédictive : Des archives de brevets à l'intelligence artificielle multidimensionnelle"
+subtitle: "L'analogie prédictive : Des archives de brevets à l'intelligence artificielle multidimensionnelle"
 bibliography: referenceAuteurs.bib
 
 
@@ -23,7 +23,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Maroun Jneid s'articulent autour de la transformation numérique, allant de la modernisation des systèmes judiciaires @jneid:hal-03144705 à l'application avancée de l'intelligence artificielle. Il se spécialise notamment dans l'utilisation de réseaux de neurones multidimensionnels et d'architectures "Wide and Deep" pour l'aide à la décision, l'analyse de brevets et la prédiction de succès technologiques ou médicaux @saade:hal-03526959, @saade:hal-03017387.
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/68728)
+  - [lien vers le prompt](prompt_maroun_jneid.txt)
+  - [lien vers la réponse](resume_maroun_jneid.json)
+
+
 
 **Titre : L'analogie prédictive : Des archives de brevets à l'intelligence artificielle multidimensionnelle**
 

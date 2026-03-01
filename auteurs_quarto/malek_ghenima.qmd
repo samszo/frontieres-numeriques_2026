@@ -6,7 +6,7 @@ categories:
   - Digital Humanities
   - Information Systems
   - Collective Intelligence
-subtitle:"L'Analogie décisionnelle : Vers une convergence entre Intelligence Économique et Humanités Numériques"
+subtitle: "L'Analogie décisionnelle : Vers une convergence entre Intelligence Économique et Humanités Numériques"
 bibliography: referenceAuteurs.bib
 
 
@@ -20,7 +20,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Malek Ghenima se situent à l'intersection des systèmes d'information et de l'intelligence économique, avec un accent particulier sur le management des connaissances [@sidhom:hal-00927290]. Ses recherches explorent l'organisation des savoirs dans le contexte des humanités numériques [@sidhom:hal-01255488], tout en proposant des modélisations centrées sur l'acteur pour les processus de veille stratégique et de prise de décision [@rim:hal-00927284].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/62712)
+  - [lien vers le prompt](prompt_malek_ghenima.txt)
+  - [lien vers la réponse](resume_malek_ghenima.json)
+
+
 
 **Titre : L'Analogie décisionnelle : Vers une convergence entre Intelligence Économique et Humanités Numériques**
 

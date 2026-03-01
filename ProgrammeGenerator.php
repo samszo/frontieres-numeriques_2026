@@ -11,10 +11,12 @@ class ProgrammeGenerator {
     private $startTime = "09:00";
     private $lunchTime = "12:30";
     private $lunchDuration = 90; // minutes
+    private $fileNameContext;
 
-    public function __construct($propositions,$siteItem) {
+    public function __construct($propositions,$siteItem,$fileNameContext) {
         $this->propositions = $propositions;
         $this->siteItem = $siteItem;
+        $this->fileNameContext=$fileNameContext;
     }
 
     private function getSlug($name) {
@@ -42,8 +44,9 @@ class ProgrammeGenerator {
 
         $md .= "::: {.callout-note appearance='minimal'}" . PHP_EOL;
         $md .= "## Processus de génération du programme" . PHP_EOL . PHP_EOL;
-        $md .= "Ce programme regroupe les propositions générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilée dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr)." . PHP_EOL . PHP_EOL;
-        $md .= "Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le contexte du colloque. Le code du processus est accessible sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/genere_programme_to_quarto.php).".PHP_EOL . PHP_EOL;
+        $md .= "Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr)." . PHP_EOL . PHP_EOL;
+        $md .= "Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le [contexte du colloque](../auteurs_quarto/$this->fileNameContext)." . PHP_EOL . PHP_EOL;
+        $md .= "Le code et l'explication détaillée du processus sont accessibles sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/PROCESSUS_GENERATION.md).".PHP_EOL . PHP_EOL;
 
         $md .= ":::". PHP_EOL . PHP_EOL;
 
@@ -57,7 +60,7 @@ class ProgrammeGenerator {
             $md .= "# ".$dateStr[$numJour]." " . PHP_EOL . PHP_EOL;
 
             if($numJour == 0){
-                $md .= "## Accueil - Ouverture du colloque : ".date("H:i", $currentTime) . PHP_EOL . PHP_EOL;
+                $md .= "## Accueil - Ouverture du colloque : ".$this->formatDateHeure($currentTime) . PHP_EOL . PHP_EOL;
                 $md .= "  - Comité de programme et d'organisation : Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
                 $md .= "  - Présidents du colloque : ". PHP_EOL;
                 $md .= "    -  Samuel SZONIECKY, Université Paris 8, France" . PHP_EOL;
@@ -94,7 +97,7 @@ class ProgrammeGenerator {
                     //$md .= "| " . date("H:i", $currentTime) . " | **DÉJEUNER** | *Pause Gastronomique* | |" . PHP_EOL;
                     
                     $md .= "<tr class='dejeuner'>" . PHP_EOL;
-                    $md .= "<td>".date("H:i", $currentTime)."</td>" . PHP_EOL;
+                    $md .= "<td>".$this->formatDateHeure($currentTime)."</td>" . PHP_EOL;
                     $md .= "<td><b>DÉJEUNER</b></td>" . PHP_EOL;
                     $md .= "<td><i>Pause Gastronomique</i></td>" . PHP_EOL;
                     $md .= "<td></td>" . PHP_EOL;
@@ -109,7 +112,7 @@ class ProgrammeGenerator {
                     //$md .= "| " . date("H:i", $currentTime) . " | **PAUSE** | *Networking & Café* | |" . PHP_EOL;
 
                     $md .= "<tr class='pause'>" . PHP_EOL;
-                    $md .= "<td>".date("H:i", $currentTime)."</td>" . PHP_EOL;
+                    $md .= "<td>".$this->formatDateHeure($currentTime)."</td>" . PHP_EOL;
                     $md .= "<td><b>PAUSE</b></td>" . PHP_EOL;
                     $md .= "<td><i>Networking & Café</i></td>" . PHP_EOL;
                     $md .= "<td></td>" . PHP_EOL;
@@ -122,7 +125,7 @@ class ProgrammeGenerator {
                 $slug = $this->getSlug($prop['auteur']);
                 //$md .= "| " . date("H:i", $currentTime) . " | Communication | {$prop['auteur']} - *{$prop['titre']}* | [Consulter la proposition]({$this->auteursFolder}/{$slug}.qmd) |" . PHP_EOL;
                 $md .= "<tr>" . PHP_EOL;
-                $md .= "<td>".date("H:i", $currentTime)."</td>" . PHP_EOL;
+                $md .= "<td>".$this->formatDateHeure($currentTime)."</td>" . PHP_EOL;
                 $md .= "<td>Communication</td>" . PHP_EOL;
                 $md .= "<td>{$prop['auteur']} - <i>{$prop['titre']}</i></td>" . PHP_EOL;
                 $md .= "<td><a href='{$this->auteursFolder}/{$slug}.qmd'>Consulter la proposition</a></td>" . PHP_EOL;
@@ -141,7 +144,7 @@ class ProgrammeGenerator {
             $md .= PHP_EOL . "---" . PHP_EOL . PHP_EOL;
         }
         
-        $md .= "## Clôture | Synthèse des travaux : ".date("H:i", $currentTime) . PHP_EOL . PHP_EOL;
+        $md .= "## Synthèse des travaux - Clôture : ".$this->formatDateHeure($currentTime) . PHP_EOL . PHP_EOL;
         $md .= "  - Comité de programme et d'organisation : Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
         $md .= "  - Présidents du colloque : ". PHP_EOL;
         $md .= "    -  Samuel SZONIECKY, Université Paris 8, France" . PHP_EOL;
@@ -166,6 +169,10 @@ class ProgrammeGenerator {
         }
 
         return $dateStr;
+    }
+
+    function formatDateHeure($currentTime){
+        return date("H", $currentTime)." h ".date("i", $currentTime);
     }
 
     function getDate($d){

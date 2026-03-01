@@ -16,11 +16,14 @@ $context = false;
 if (!file_exists($outputFolder)) mkdir($outputFolder, 0777, true);
 
 //récupère les infos de l'événement
-$omkItem = fetchOmekaJson($omkApiUrl, "items/54151"); 
+$omkConfItem = fetchOmekaJson($omkApiUrl, "items/54151"); 
+//Récupère le slug du premier site
+$omkSite = fetchOmekaJson("", "",$omkConfItem["o:site"][0]["@id"]); 
+
 //$urlSiteConf = "https://samszo.github.io/frontieres-numeriques_2026/index.html";
-$fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'rawtext_'.$omkItem['o:title']))) . ".txt";
+$fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'rawtext_'.$omkConfItem['o:title']))) . ".txt";
 if (!file_exists($outputFolder . DIRECTORY_SEPARATOR . $fileName)){
-    $urlSiteConf = $omkItem["foaf:homepage"][0]["@id"];
+    $urlSiteConf = $omkConfItem["foaf:homepage"][0]["@id"];
     $distiller = new ContextDistiller($apiKey);
     $rawText = $distiller->fetchRawContent($urlSiteConf);
     file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, $rawText);
@@ -29,12 +32,12 @@ if (!file_exists($outputFolder . DIRECTORY_SEPARATOR . $fileName)){
 }
 
 if ($rawText) {
-    $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'context_'.$omkItem['o:title']))) . ".json";
-    if (!file_exists($outputFolder . DIRECTORY_SEPARATOR . $fileName)){
+    $fileNameContext = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'context_'.$omkConfItem['o:title']))) . ".json";
+    if (!file_exists($outputFolder . DIRECTORY_SEPARATOR . $fileNameContext)){
         $refinedContext = $distiller->distillContext($rawText);
-        file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, json_encode($refinedContext));
+        file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileNameContext, json_encode($refinedContext));
     }else{
-        $refinedContext = file_get_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName);
+        $refinedContext = file_get_contents($outputFolder . DIRECTORY_SEPARATOR . $fileNameContext);
         $refinedContext = json_decode($refinedContext,true);
     }
     if(isset($refinedContext['candidates'][0]['content']['parts'][0]['text'])){
@@ -52,14 +55,15 @@ if ($rawText) {
 }
 //
 if($context){
-    $generator = new ResumeGenerator($apiKey,$context,$omkItem,$outputFolder);
+    $generator = new ResumeGenerator($apiKey,$context,$omkConfItem,$outputFolder,$omkSite);
 
     //récupère les auteurs participant à l'événement
     /*demande trop de mémoire
     $query = "items?property[0][joiner]=and&property[0][property]=253&property[0][type]=res&property[0][text]=54151";
     $auteurs = fetchOmekaJson($omkApiUrl,$query);
     */
-    $csvFile = "http://localhost/omk_paragraphe/files/bulk_export/csv-20260301-083851.csv";
+    //via un bulkexport
+    $csvFile = $omkConfItem["bibo:authorList"][0]["@id"];// "http://localhost/omk_paragraphe/files/bulk_export/csv-20260301-083851.csv";
     if (($handle = fopen($csvFile, "r")) !== FALSE) {
         $headers = fgetcsv($handle, 1000, ",",'"',"\\");
         while ($data = fgetcsv($handle, 1000, ",",'"',"\\")){
@@ -83,31 +87,48 @@ if($context){
         $query = "items/".$id;
         $auteur = fetchOmekaJson($omkApiUrl,$query);
 
-        echo "Traitement : " . $auteur['o:title'] . "\n";
-        $md = $generator->generate($auteur);
-        
-        //récupère le titre
-        preg_match('/\*\*Titre\s*:\s*(.+?)\*\*/s', $md, $mTitre);
-        if (!empty($mTitre[1])) {
-            $titre = trim($mTitre[1]);
-        }else{
-            $titre = " --- ";
+        //ne regènere pas les auteurs avec un projetencours sciencesconf
+        $genere = true;
+        foreach ($auteur["labo:EventActor"] as $event) {
+            if(isset($event["@annotation"]) 
+                && isset($event["@annotation"]["foaf:currentProject"]) 
+                && $event["@annotation"]["foaf:currentProject"][0]["o:label"] == "sciencesconf.org")
+                $genere = false;
         }
-        //ajoute un sous titre
-        $md = str_replace("bibliography: referenceAuteurs.bib","subtitle:\"$titre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
+        if(!$genere){
+           echo "Pas de Traitement : " . $auteur['o:title'] . "<br>";
+        }else{
 
-        $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title']))) . ".qmd";
-        file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, $md);
-        $props[]=["auteur"=>$auteur['o:title'],"titre"=>$titre];
+            echo "Traitement : " . $auteur['o:title'] . "<br>";
+            $md = $generator->generate($auteur);
+            
+            //récupère le titre
+            preg_match('/\*\*Titre\s*:\s*(.+?)\*\*/s', $md, $mTitre);
+            if (!empty($mTitre[1])) {
+                $titre = trim($mTitre[1]);
+            }else{
+                $titre = " --- ";
+            }
+            //ajoute un sous titre
+            $subtitre = str_replace('"',"-",$titre);
+            $md = str_replace("bibliography: referenceAuteurs.bib","subtitle: \"$subtitre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
+
+            $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title']))) . ".qmd";
+            file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, $md);
+            $props[]=["auteur"=>$auteur['o:title'],"titre"=>$titre];
+        }        
+
     }
 
-    $program = new ProgrammeGenerator($props,$omkItem);
+    $program = new ProgrammeGenerator($props,$omkConfItem,$fileNameContext);
     $program->generate();
 
 }
 
-function fetchOmekaJson($baseUrl, $endpoint) {
-    $url = rtrim($baseUrl, '/') . '/api/' . ltrim($endpoint, '/');
+function fetchOmekaJson($baseUrl, $endpoint, $url="") {
+    if(!$url){
+        $url = rtrim($baseUrl, '/') . '/api/' . ltrim($endpoint, '/');
+    }
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,

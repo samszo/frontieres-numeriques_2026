@@ -7,15 +7,17 @@ toc: true
 ::: {.callout-note appearance='minimal'}
 ## Processus de génération du programme
 
-Ce programme regroupe les propositions générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilée dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr).
+Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr).
 
-Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour générer une proposition en lien avec le contexte du colloque.
+Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le [contexte du colloque](../auteurs_quarto/context_fronti_res_num_riques_7_analogies_technologies.json).
+
+Le code et l'explication détaillée du processus sont accessibles sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/PROCESSUS_GENERATION.md).
 
 :::
 
 # jeudi 04 juin 2026 
 
-## Accueil - Ouverture du colloque : 09:00
+## Accueil - Ouverture du colloque : 09 h 00
 
   - Comité de programme et d'organisation : Malek GHENIMA, Université de la Manouba, Tunisie
   - Présidents du colloque : 
@@ -35,79 +37,79 @@ Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [dé
 </thead>
 <tbody>
 <tr>
-<td>09:30</td>
+<td>09 h 30</td>
 <td>Communication</td>
 <td>Claire NOY - <i>L'analogie de la carte : topographie des savoirs et phénoménologie de l'acte numérique</i></td>
 <td><a href='auteurs_quarto/claire_noy.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10:00</td>
+<td>10 h 00</td>
 <td>Communication</td>
 <td>Orélie DESFRICHES DORIA - <i>De l'analogie visuelle à l'esprit critique : Modéliser les controverses à l'ère numérique</i></td>
 <td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10:30</td>
+<td>10 h 30</td>
 <td>Communication</td>
 <td>Samuel SZONIECKY - <i>L'analogie écosystémique comme méthode de conception : vers une topologie sémantique du vivant numérique</i></td>
 <td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
-<td>11:00</td>
+<td>11 h 00</td>
 <td><b>PAUSE</b></td>
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
 <tr>
-<td>11:30</td>
+<td>11 h 30</td>
 <td>Communication</td>
 <td>Khaldoun ZREIK - <i>L'analogie du "Smart" : Du territoire hyperurbain au patrimoine post-numérique</i></td>
 <td><a href='auteurs_quarto/khaldoun_zreik.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>12:00</td>
+<td>12 h 00</td>
 <td>Communication</td>
 <td>Imad SALEH - <i>De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence</i></td>
 <td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
-<td>12:30</td>
+<td>12 h 30</td>
 <td><b>DÉJEUNER</b></td>
 <td><i>Pause Gastronomique</i></td>
 <td></td>
 </tr>
 <tr>
-<td>14:00</td>
+<td>14 h 00</td>
 <td>Communication</td>
 <td>Youssef MEKOUAR - <i>De l'Index Sémantique au Jumeau Numérique : Visualiser l'Invisible Urbain</i></td>
 <td><a href='auteurs_quarto/youssef_mekouar.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>14:30</td>
+<td>14 h 30</td>
 <td>Communication</td>
 <td>Michel Durampart - <i>De la représentation à la réflexivité : analogies narratives face à l'IA générative</i></td>
 <td><a href='auteurs_quarto/michel_durampart.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
-<td>15:00</td>
+<td>15 h 00</td>
 <td><b>PAUSE</b></td>
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
 <tr>
-<td>15:30</td>
+<td>15 h 30</td>
 <td>Communication</td>
 <td>Renée Bourassa - <i>L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative</i></td>
 <td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16:00</td>
+<td>16 h 00</td>
 <td>Communication</td>
 <td>Sami Ben Amor - <i>L'IA générative comme nouveau narrateur épistémique : recomposition ou dissolution des savoirs ?</i></td>
 <td><a href='auteurs_quarto/sami_ben_amor.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16:30</td>
+<td>16 h 30</td>
 <td>Communication</td>
 <td>Philippe Bonfils - <i>Du masque au profil : Le pseudonyme et la responsabilité pénale aux frontières du numérique</i></td>
 <td><a href='auteurs_quarto/philippe_bonfils.qmd'>Consulter la proposition</a></td>
@@ -133,79 +135,79 @@ Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [dé
 </thead>
 <tbody>
 <tr>
-<td>09:00</td>
+<td>09 h 00</td>
 <td>Communication</td>
 <td>Alexandre Joux - <i>De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique</i></td>
 <td><a href='auteurs_quarto/alexandre_joux.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>09:30</td>
+<td>09 h 30</td>
 <td>Communication</td>
 <td>Stéphanie Lukasik - <i>Technologies de l'affect : Analogies d'autorité et frontières de la confiance numérique</i></td>
 <td><a href='auteurs_quarto/st_phanie_lukasik.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10:00</td>
+<td>10 h 00</td>
 <td>Communication</td>
 <td>Alexandra Salou - <i>Les frontières de la vérité : Analogie entre pratiques journalistiques et dispositifs de réinformation à l'ère des algorithmes</i></td>
 <td><a href='auteurs_quarto/alexandra_salou.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10:30</td>
+<td>10 h 30</td>
 <td>Communication</td>
 <td>Olivier Nannipieri - <i>Au-delà de l'analogie mimétique : redéfinir la mesure de la présence dans les espaces immersifs</i></td>
 <td><a href='auteurs_quarto/olivier_nannipieri.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
-<td>11:00</td>
+<td>11 h 00</td>
 <td><b>PAUSE</b></td>
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
 <tr>
-<td>11:30</td>
+<td>11 h 30</td>
 <td>Communication</td>
 <td>Bruno Bachimont - <i>Du support à la trace : L'analogie à l'épreuve de la discrétisation numérique</i></td>
 <td><a href='auteurs_quarto/bruno_bachimont.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>12:00</td>
+<td>12 h 00</td>
 <td>Communication</td>
 <td>Sylvie Leleu-Merviel - <i>De la trace à la médiation : analogies entre patrimoine minier et design du care</i></td>
 <td><a href='auteurs_quarto/sylvie_leleu-merviel.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
-<td>12:30</td>
+<td>12 h 30</td>
 <td><b>DÉJEUNER</b></td>
 <td><i>Pause Gastronomique</i></td>
 <td></td>
 </tr>
 <tr>
-<td>14:00</td>
+<td>14 h 00</td>
 <td>Communication</td>
 <td>Serge Bouchardon - <i>La traduction du geste : Analogies techniques dans le récit interactif</i></td>
 <td><a href='auteurs_quarto/serge_bouchardon.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>14:30</td>
+<td>14 h 30</td>
 <td>Communication</td>
 <td>Lise Verlaet - <i>De l'objet au système : analogies structurelles entre héritage technoscientifique et intelligence numérique</i></td>
 <td><a href='auteurs_quarto/lise_verlaet.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
-<td>15:00</td>
+<td>15 h 00</td>
 <td><b>PAUSE</b></td>
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
 <tr>
-<td>15:30</td>
+<td>15 h 30</td>
 <td>Communication</td>
 <td>Malek Ghenima - <i>L'Analogie décisionnelle : Vers une convergence entre Intelligence Économique et Humanités Numériques</i></td>
 <td><a href='auteurs_quarto/malek_ghenima.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16:00</td>
+<td>16 h 00</td>
 <td>Communication</td>
 <td>Cédric Plessiet - <i>L'Analogie de l'Incarnation : Vers une dramaturgie de l'avatar technologique</i></td>
 <td><a href='auteurs_quarto/c_dric_plessiet.qmd'>Consulter la proposition</a></td>
@@ -231,37 +233,37 @@ Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [dé
 </thead>
 <tbody>
 <tr>
-<td>09:00</td>
+<td>09 h 00</td>
 <td>Communication</td>
 <td>Georges Gagneré - <i>L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence</i></td>
 <td><a href='auteurs_quarto/georges_gagner_.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>09:30</td>
+<td>09 h 30</td>
 <td>Communication</td>
 <td>Chu-Yin Chen - <i>Écosystèmes Hybrides : De l'analogie du vivant à la symbiose technologique</i></td>
 <td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10:00</td>
+<td>10 h 00</td>
 <td>Communication</td>
 <td>Maroun Jneid - <i>L'analogie prédictive : Des archives de brevets à l'intelligence artificielle multidimensionnelle</i></td>
 <td><a href='auteurs_quarto/maroun_jneid.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10:30</td>
+<td>10 h 30</td>
 <td>Communication</td>
 <td>Nouria Harbi - <i>De l'intrusion système à la viralité sociale : analogies immunitaires pour la sécurité des données</i></td>
 <td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
-<td>11:00</td>
+<td>11 h 00</td>
 <td><b>PAUSE</b></td>
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
 <tr>
-<td>11:30</td>
+<td>11 h 30</td>
 <td>Communication</td>
 <td>Alessandro Leiduan - <i>La Smart City comme récit cybernétique : analogies esthétiques et fictions urbaines</i></td>
 <td><a href='auteurs_quarto/alessandro_leiduan.qmd'>Consulter la proposition</a></td>
@@ -272,7 +274,7 @@ Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [dé
 
 ---
 
-## Clôture | Synthèse des travaux : 12:00
+## Synthèse des travaux - Clôture : 12 h 00
 
   - Comité de programme et d'organisation : Malek GHENIMA, Université de la Manouba, Tunisie
   - Présidents du colloque : 

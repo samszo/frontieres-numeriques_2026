@@ -9,7 +9,7 @@ categories:
   - veracity
   - traceability
 
-subtitle:"De l'intrusion système à la viralité sociale : analogies immunitaires pour la sécurité des données"
+subtitle: "De l'intrusion système à la viralité sociale : analogies immunitaires pour la sécurité des données"
 bibliography: referenceAuteurs.bib
 
 
@@ -24,7 +24,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les recherches de Nouria Harbi s'articulent autour de la sécurité et de la qualité des données dans des environnements complexes. Ses travaux couvrent la confidentialité dans les entrepôts de données cloud [@elouazzani:hal-02059273], la traçabilité par étiquetage pour renforcer la sécurité [@chaoui:hal-04945627], ainsi que l'utilisation de l'intelligence artificielle pour la détection d'intrusions [@nguyen:hal-00631499] et l'analyse de la véracité des rumeurs sur les réseaux sociaux [@azri:hal-04750538].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/71488)
+  - [lien vers le prompt](prompt_nouria_harbi.txt)
+  - [lien vers la réponse](resume_nouria_harbi.json)
+
+
 
 **Titre : De l'intrusion système à la viralité sociale : analogies immunitaires pour la sécurité des données**
 

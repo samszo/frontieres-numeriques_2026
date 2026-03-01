@@ -9,7 +9,7 @@ categories:
   - Experience
   - audiovisuel
 
-subtitle:"De la trace à la médiation : analogies entre patrimoine minier et design du care"
+subtitle: "De la trace à la médiation : analogies entre patrimoine minier et design du care"
 bibliography: referenceAuteurs.bib
 
 
@@ -24,7 +24,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Sylvie Leleu-Merviel explorent la construction du sens et la qualité de l'information, depuis la rigueur méthodologique de la création multimédia [@huart:hal-00526521] jusqu'aux enjeux de médiation patrimoniale et culturelle [@chaudiron:hal-03822013]. Ses recherches analysent également l'expérience utilisateur en contextes situés, qu'il s'agisse de l'usage de tablettes au musée [@leleumerviel:hal-03683735] ou du design inclusif ("Care Design") pour des publics spécifiques comme les enfants avec TSA [@taisne:hal-04289306].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/59615)
+  - [lien vers le prompt](prompt_sylvie_leleu-merviel.txt)
+  - [lien vers la réponse](resume_sylvie_leleu-merviel.json)
+
+
 
 **Titre : De la trace à la médiation : analogies entre patrimoine minier et design du care**
 

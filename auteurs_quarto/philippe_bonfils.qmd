@@ -6,7 +6,7 @@ categories:
   - Justice des mineurs
   - Procédure pénale
 
-subtitle:"Du masque au profil : Le pseudonyme et la responsabilité pénale aux frontières du numérique"
+subtitle: "Du masque au profil : Le pseudonyme et la responsabilité pénale aux frontières du numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -21,7 +21,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Philippe Bonfils est un spécialiste reconnu du droit pénal et de la procédure pénale [@pin:hal-04981504], dont les travaux analysent en profondeur les mutations de la justice des mineurs [@bonfils:halshs-02450224; @bonfils:halshs-02245029]. Ses recherches interrogent les frontières de la personnalité juridique, notamment à travers le statut ambigu du pseudonyme [@bonfils:halshs-02205937], tout en défendant la fonction éducative de la peine [@bonfils:hal-01467481] face aux évolutions contemporaines de la délinquance.
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/55084)
+  - [lien vers le prompt](prompt_philippe_bonfils.txt)
+  - [lien vers la réponse](resume_philippe_bonfils.json)
+
+
 
 **Titre : Du masque au profil : Le pseudonyme et la responsabilité pénale aux frontières du numérique**
 

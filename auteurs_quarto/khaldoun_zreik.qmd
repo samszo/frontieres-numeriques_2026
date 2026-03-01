@@ -8,7 +8,7 @@ categories:
   - Humanités Numériques
   - BIM
 
-subtitle:"L'analogie du "Smart" : Du territoire hyperurbain au patrimoine post-numérique"
+subtitle: "L'analogie du -Smart- : Du territoire hyperurbain au patrimoine post-numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -23,7 +23,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Khaldoun Zreik interroge les mutations sociétales et cognitives induites par les technologies de l'information, naviguant de la conception hypermédia vers les enjeux de la "Data City" et du post-numérique [@zreik:hal-04440700]. Ses recherches récentes articulent la dématérialisation des relations territoriales [@zreik:hal-04436908] avec la valorisation du patrimoine via le concept de "Smart Heritage" [@bouhai:hal-04427437], tout en explorant les méthodologies numériques appliquées aux corpus complexes [@torresyepez:hal-04450083].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/930)
+  - [lien vers le prompt](prompt_khaldoun_zreik.txt)
+  - [lien vers la réponse](resume_khaldoun_zreik.json)
+
+
 
 **Titre : L'analogie du "Smart" : Du territoire hyperurbain au patrimoine post-numérique**
 

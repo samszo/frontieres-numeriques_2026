@@ -7,7 +7,7 @@ categories:
   - E-Justice
   - Humanités Numériques
 
-subtitle:"De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence"
+subtitle: "De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence"
 bibliography: referenceAuteurs.bib
 
 
@@ -22,7 +22,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les recherches d'Imad Saleh traversent les époques du numérique, depuis l'organisation structurelle des hypermédias @saleh:hal-02878221 jusqu'à l'omniprésence de l'Internet des objets @bouhai:hal-02103910. Il examine comment les technologies collaboratives, telles que le crowdsourcing appliqué à l'OCR @saleh:hal-02107965, et la transformation numérique des institutions, notamment via l'e-justice @jneid:hal-03144705, redéfinissent nos interactions avec l'information et l'espace public.
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/936)
+  - [lien vers le prompt](prompt_imad_saleh.txt)
+  - [lien vers la réponse](resume_imad_saleh.json)
+
+
 
 **Titre : De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence**
 

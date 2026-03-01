@@ -7,7 +7,7 @@ categories:
   - société de l'information
   - épistémologie
 
-subtitle:"De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique"
+subtitle: "De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique"
 bibliography: referenceAuteurs.bib
 
 
@@ -22,7 +22,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux d'Alexandre Joux explorent les mutations de l'épistémologie journalistique à l'ère du numérique, en analysant notamment les tensions entre les prétentions du Big Data et les pratiques du data journalisme [@joux:hal-03507883]. Il interroge la redéfinition de l'autorité et de l'objectivité face aux algorithmes génératifs comme ChatGPT [@joux:hal-04445932] et examine les enjeux de diversité culturelle au sein des plateformes de streaming [@joux:hal-02935508].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/57797)
+  - [lien vers le prompt](prompt_alexandre_joux.txt)
+  - [lien vers la réponse](resume_alexandre_joux.json)
+
+
 
 **Titre : De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique**
 

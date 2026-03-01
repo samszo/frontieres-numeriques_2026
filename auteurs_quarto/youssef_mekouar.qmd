@@ -9,7 +9,7 @@ categories:
   - Environment
   - CO2
   - Connected Objects
-subtitle:"De l'Index Sémantique au Jumeau Numérique : Visualiser l'Invisible Urbain"
+subtitle: "De l'Index Sémantique au Jumeau Numérique : Visualiser l'Invisible Urbain"
 bibliography: referenceAuteurs.bib
 
 
@@ -23,7 +23,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Youssef Mekouar se situent à l'intersection de l'ingénierie des données et de la visualisation sémantique. Il explore notamment les méthodes de visualisation augmentée pour la structuration de connaissances scientifiques [@mekouar:hal-03469855], tout en appliquant des modèles d'intelligence artificielle (hybrides CNN-LSTM) et l'IoT pour la modélisation et la cartographie des émissions de CO2 dans les environnements urbains complexes [@mekouar:hal-05196080].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/1102)
+  - [lien vers le prompt](prompt_youssef_mekouar.txt)
+  - [lien vers la réponse](resume_youssef_mekouar.json)
+
+
 
 **Titre : De l'Index Sémantique au Jumeau Numérique : Visualiser l'Invisible Urbain**
 

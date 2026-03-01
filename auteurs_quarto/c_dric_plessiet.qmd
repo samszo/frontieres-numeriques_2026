@@ -2,7 +2,7 @@
 title: Cédric Plessiet
 categories: [jeu vidéo, avatars, Motion capture, Performing arts, Théâtre, mixed reality, Art numérique]
 
-subtitle:"L'Analogie de l'Incarnation : Vers une dramaturgie de l'avatar technologique"
+subtitle: "L'Analogie de l'Incarnation : Vers une dramaturgie de l'avatar technologique"
 bibliography: referenceAuteurs.bib
 
 
@@ -17,7 +17,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Cédric Plessiet explorent la convergence entre les arts de la scène et les technologies immersives, analysant comment le jeu vidéo devient un catalyseur d'expérimentations théâtrales @gagnere:hal-03959045. Il étudie les perceptions de l'augmentation numérique sur scène @gagnere:hal-02101604 et développe des modèles d'interaction plaçant l'humain au cœur de la boucle technologique, notamment via le concept de "Man-In-The-Middle Interaction" @plessiet:hal-04420565, tout en questionnant la porosité des frontières entre espaces physiques et virtuels @gagnere:hal-04025004.
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/63049)
+  - [lien vers le prompt](prompt_c_dric_plessiet.txt)
+  - [lien vers la réponse](resume_c_dric_plessiet.json)
+
+
 
 **Titre : L'Analogie de l'Incarnation : Vers une dramaturgie de l'avatar technologique**
 

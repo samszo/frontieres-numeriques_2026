@@ -1,13 +1,14 @@
 ---
-title: "Intervenants"
+title: "Auteurs"
 listing:
   contents:
     - "auteurs_quarto/*.qmd"
-  type: default
+  type: grid
   sort: "title"
   sort-ui: true
   filter-ui: true
   page-size: 40  
   categories: true
+  fields: [title, subtitle, categories]
 ---
 Découvrez les contributions scientifiques au colloque.

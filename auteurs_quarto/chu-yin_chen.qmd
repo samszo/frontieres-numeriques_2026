@@ -7,7 +7,7 @@ categories:
   - Cocréation
   - Vie artificielle
 
-subtitle:"Écosystèmes Hybrides : De l'analogie du vivant à la symbiose technologique"
+subtitle: "Écosystèmes Hybrides : De l'analogie du vivant à la symbiose technologique"
 bibliography: referenceAuteurs.bib
 
 
@@ -22,7 +22,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Chu-Yin Chen explore les frontières de la création numérique par une approche symbiotique entre l'humain et les systèmes autonomes [@telesdecastroecosta:hal-04276965]. Ses travaux portent sur la collaboration énactive dans les espaces virtuels partagés [@martinez:hal-04429105], tout en analysant l'ergonomie du geste créatif [@fleury:hal-03841310] et la poétique du mouvement corporel sans paroles [@batras:hal-02523192].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/68088)
+  - [lien vers le prompt](prompt_chu-yin_chen.txt)
+  - [lien vers la réponse](resume_chu-yin_chen.json)
+
+
 
 **Titre : Écosystèmes Hybrides : De l'analogie du vivant à la symbiose technologique**
 

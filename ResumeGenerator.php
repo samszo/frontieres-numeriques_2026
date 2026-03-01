@@ -6,16 +6,18 @@ class ResumeGenerator {
     private $siteContext = "";// "Thème : Analogies & Technologies (7ème édition, Djerba, Tunisie). Axe 1: Bio-inspiration. Axe 2: Outil cognitif. Axe 3: Jumeaux numériques. Axe 4: Éthique.";
     private $siteBiblio = "";// "- Serres (1997, 2009)\n- Descola (2005)\n- Guattari (1992)\n- Citton (2010)\n- Hofstadter & Sander (2013)";
     private $siteAxes = "";// "- Serres (1997, 2009)\n- Descola (2005)\n- Guattari (1992)\n- Citton (2010)\n- Hofstadter & Sander (2013)";
-    private $siteItem;
+    private $omkItemConf;
+    private $omkSite;
     private $outputFolder;    
     private $bibFile;    
 
-    public function __construct($apiKey,$context,$siteItem,$outputFolder) {
+    public function __construct($apiKey,$context,$omkItemConf,$outputFolder,$omkSite) {
         $this->apiKey = $apiKey;
-        $this->siteContext = isset($context['context']) ? $context['context'] : "no";
-        $this->siteBiblio = isset($context['axes']) ? $context['axes'] : "no";;
-        $this->siteAxes = isset($context['biblio']) ? $context['biblio'] : "no";
-        $this->siteItem = $siteItem;
+        $this->siteContext = isset($context['CONTEXT']) ? $context['CONTEXT'] : "no";
+        $this->siteBiblio = isset($context['AXES']) ? $context['AXES'] : "no";;
+        $this->siteAxes = isset($context['BIBLIO']) ? $context['BIBLIO'] : "no";
+        $this->omkItemConf = $omkItemConf;
+        $this->omkSite = $omkSite;
         $this->outputFolder = $outputFolder;
     }
 
@@ -147,15 +149,15 @@ class ResumeGenerator {
 
     public function generate($auteur) {
 
-        $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'prompt_'.$auteur['o:title']))) . ".txt";
-        if (!file_exists($this->outputFolder . DIRECTORY_SEPARATOR . $fileName)){
+        $fileNamePrompt = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'prompt_'.$auteur['o:title']))) . ".txt";
+        if (!file_exists($this->outputFolder . DIRECTORY_SEPARATOR . $fileNamePrompt)){
             $pubs = $this->cleanPublications($auteur["foaf:publications"]);
             $motsclefs = $this->cleanMotsclefs($auteur["dcterms:subject"]);
-            $systemPrompt = "Tu es un curateur scientifique pour {$this->siteItem['o:title']}. CONTEXTE: {$this->siteContext}. AXES: {$this->siteAxes}. BIBLIO: {$this->siteBiblio}. 
+            $systemPrompt = "Tu es un curateur scientifique pour {$this->omkItemConf['o:title']}. CONTEXTE: {$this->siteContext}. AXES: {$this->siteAxes}. BIBLIO: {$this->siteBiblio}. 
                 MISSION: 1. YAML Quarto (title, categories). 2. Résumé en citant ces références via leurs clés BibTeX (3-4 lignes). 3. Proposition d'intervention dans la conférence. 4. Résonances Bibliographiques en citant ces références via leurs clés BibTeX. 
                 STRUCTURE: En-tête YAML, ## Nom, Liens, Résumé, Proposition, Résonances.";
                 
-            $systemPrompt = "Tu es un curateur scientifique pour {$this->siteItem['o:title']}. CONTEXTE: {$this->siteContext}. AXES: {$this->siteAxes}. BIBLIO: {$this->siteBiblio}. 
+            $systemPrompt = "Tu es un curateur scientifique pour {$this->omkItemConf['o:title']}. CONTEXTE: {$this->siteContext}. AXES: {$this->siteAxes}. BIBLIO: {$this->siteBiblio}. 
                 MISSION: 1. YAML Quarto (title, categories). 2. Résumé en citant ces références via leurs clés BibTeX (3-4 lignes). 3. Proposition d'intervention dans la conférence avec un titre et un résumé de 10 lignes. 4. Résonances Bibliographiques en citant ces références via leurs clés BibTeX. 
                 STRUCTURE DE SORTIE :
                     ---
@@ -185,9 +187,9 @@ class ResumeGenerator {
 
 
             $data = ["contents" => [["parts" => [["text" => $systemPrompt . "\n\nAUTEUR:". $auteur["o:title"]." \nPUBS: $pubs\nTAGS: $motsclefs"]]]]];
-            file_put_contents($this->outputFolder . DIRECTORY_SEPARATOR . $fileName, json_encode($data));
+            file_put_contents($this->outputFolder . DIRECTORY_SEPARATOR . $fileNamePrompt, json_encode($data));
         }else{
-            $data = json_decode(file_get_contents($this->outputFolder . DIRECTORY_SEPARATOR . $fileName));            
+            $data = json_decode(file_get_contents($this->outputFolder . DIRECTORY_SEPARATOR . $fileNamePrompt));            
         }
 
         $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'resume_'.$auteur['o:title']))) . ".json";
@@ -218,6 +220,11 @@ class ResumeGenerator {
             $md = str_replace("#### ".$auteur["o:title"],"#### ".$orgas[0]["orga"],$md);
         else
             $md = str_replace("#### ".$auteur["o:title"],"",$md);
+
+        //ajoute les références du Prompt
+        $dataLink = str_replace("api-context","s/".$this->omkSite["o:slug"],$this->omkSite["@context"])."/item/".$auteur["o:id"];
+        $md = str_replace("### Proposition","### Proposition générée\n\n  - [lien vers les données]($dataLink)\n  - [lien vers le prompt]($fileNamePrompt)\n  - [lien vers la réponse]($fileName)\n\n",$md);
+        
         return $md;
     }
 }

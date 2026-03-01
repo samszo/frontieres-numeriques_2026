@@ -6,7 +6,7 @@ categories:
   - point de vue
   - co-design
 
-subtitle:"L'analogie de la carte : topographie des savoirs et phénoménologie de l'acte numérique"
+subtitle: "L'analogie de la carte : topographie des savoirs et phénoménologie de l'acte numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -21,7 +21,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Claire Noy interrogent les mutations de la transmission des savoirs et la topographie des connaissances à l'ère numérique [@noy:hal-03920792; @noy:hal-02116491]. Son approche phénoménologique explore l'acte créatif, le rapport au temps connecté et l'usage de dispositifs comme les cartes conceptuelles pour structurer le sens et la recherche [@noy:hal-03901403; @noy:hal-04138013; @noy:hal-04291720].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/878)
+  - [lien vers le prompt](prompt_claire_noy.txt)
+  - [lien vers la réponse](resume_claire_noy.json)
+
+
 
 **Titre : L'analogie de la carte : topographie des savoirs et phénoménologie de l'acte numérique**
 

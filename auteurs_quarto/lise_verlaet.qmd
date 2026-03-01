@@ -8,7 +8,7 @@ categories:
   - Constructivisme
   - acculturation
 
-subtitle:"De l'objet au système : analogies structurelles entre héritage technoscientifique et intelligence numérique"
+subtitle: "De l'objet au système : analogies structurelles entre héritage technoscientifique et intelligence numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -23,7 +23,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Lise Verlaet explore les mutations des systèmes d'information en articulant les enjeux de la science ouverte et de l'édition scientifique [@verlaet:hal-01676350] avec les pratiques rédactionnelles des chercheurs [@dillaerts:hal-04152903]. Ses travaux récents, menés notamment avec Bruno Bachimont, théorisent le passage du numérique comme objet au numérique comme système [@verlaet:hal-04916571], tout en interrogeant la littératie nécessaire à la co-construction de notre héritage technoscientifique [@verlaet:hal-04821635].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/60508)
+  - [lien vers le prompt](prompt_lise_verlaet.txt)
+  - [lien vers la réponse](resume_lise_verlaet.json)
+
+
 
 **Titre : De l'objet au système : analogies structurelles entre héritage technoscientifique et intelligence numérique**
 

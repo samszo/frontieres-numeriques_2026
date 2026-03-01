@@ -1,0 +1,56 @@
+graph TD
+    Start([Démarrage<br/>genere_programme_to_quarto.php]) --> OmekaEvent["🔗 Récupération de l'événement<br/>(Omeka API)"]
+    
+    OmekaEvent --> CheckRaw{Contenu brut<br/>du site<br/>existe?}
+    CheckRaw -->|Non| FetchRaw["📥 ContextDistiller::<br/>fetchRawContent<br/>(Parse HTML)"]
+    CheckRaw -->|Oui| LoadRaw["📖 Charger le fichier<br/>rawtext_*.txt"]
+    
+    FetchRaw --> SaveRaw["💾 Sauvegarder<br/>rawtext_*.txt"]
+    SaveRaw --> CheckContext{Contexte<br/>distillé<br/>existe?}
+    LoadRaw --> CheckContext
+    
+    CheckContext -->|Non| DistillContext["🤖 ContextDistiller::<br/>distillContext<br/>(Gemini API)"]
+    CheckContext -->|Oui| LoadContext["📖 Charger le fichier<br/>context_*.json"]
+    
+    DistillContext --> SaveContext["💾 Sauvegarder<br/>context_*.json"]
+    SaveContext --> ParseContext["🔍 Extraire contexte,<br/>axes et biblio"]
+    LoadContext --> ParseContext
+    
+    ParseContext --> CreateGen["✅ Instancier<br/>ResumeGenerator"]
+    CreateGen --> FetchAuthors["📋 Récupérer liste CSV<br/>des auteurs"]
+    
+    FetchAuthors --> LoopStart{Pour chaque<br/>auteur}
+    
+    LoopStart -->|Auteur N| FetchAuteur["🔗 Récupération auteur<br/>depuis Omeka"]
+    FetchAuteur --> GeneratePrompt["📝 Construire prompt<br/>personnalisé"]
+    GeneratePrompt --> CallGemini["🤖 Appel Gemini API<br/>(gemini-3-pro-preview)"]
+    
+    CallGemini --> ParseOutput["🔍 Parser résumé IA<br/>(frontmatter Quarto)"]
+    ParseOutput --> ExtractTitle["🏷️ Extraire titre<br/>de la proposition"]
+    ExtractTitle --> SaveAuteur["💾 Sauvegarder<br/>auteur_*.qmd"]
+    
+    ParseOutput --> CollectProps["📦 Collector données<br/>(auteur, titre)"]
+    SaveAuteur --> CollectProps
+    
+    CollectProps --> LoopCheck{"Auteurs<br/>restants?"}
+    LoopCheck -->|Oui| LoopStart
+    LoopCheck -->|Non| CreateProgram["🏗️ Instancier<br/>ProgrammeGenerator"]
+    
+    CreateProgram --> ParseDates["📅 Parser dates<br/>de l'événement"]
+    ParseDates --> SplitProps["📊 Diviser propositions<br/>par jour/bloc"]
+    
+    SplitProps --> GenerateSchedule["⏰ Générer planning<br/>avec horaires"]
+    GenerateSchedule --> AddBreaks["☕ Insérer pauses<br/>et déjeuner"]
+    AddBreaks --> GenerateLinks["🔗 Générer liens<br/>vers fichiers auteurs"]
+    
+    GenerateLinks --> SaveProgram["💾 Sauvegarder<br/>programme.qmd"]
+    SaveProgram --> Success(["✅ Succès!<br/>Fichiers générés"])
+    
+    style Start fill:#90EE90
+    style Success fill:#90EE90
+    style OmekaEvent fill:#87CEEB
+    style FetchRaw fill:#FFB6C1
+    style DistillContext fill:#FFD700
+    style CallGemini fill:#FFD700
+    style SaveAuteur fill:#98FB98
+    style SaveProgram fill:#98FB98

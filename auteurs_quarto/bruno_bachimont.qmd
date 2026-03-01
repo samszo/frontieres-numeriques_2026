@@ -2,7 +2,7 @@
 title: Bruno Bachimont
 categories: [documents, ontologies, sémiotique, multimédia, chaînes éditoriales, audiovisual, Individuation, diagrammatique, Narration, Numérique, patrimoine culturel]
 
-subtitle:"Du support à la trace : L'analogie à l'épreuve de la discrétisation numérique"
+subtitle: "Du support à la trace : L'analogie à l'épreuve de la discrétisation numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -17,7 +17,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Bruno Bachimont interroge la médiation technique du sens, explorant comment la formalisation informatique, des ontologies médicales [@volot:hal-02489209] à l'instrumentation de la lecture savante [@bottini:hal-00341704], transforme l'intelligibilité du monde. Ses travaux portent sur la matérialité du numérique comme système [@verlaet:hal-04916571] et les défis de la préservation de l'intentionnalité dans les œuvres technologiques [@vincent:hal-01107051].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/59546)
+  - [lien vers le prompt](prompt_bruno_bachimont.txt)
+  - [lien vers la réponse](resume_bruno_bachimont.json)
+
+
 
 **Titre : Du support à la trace : L'analogie à l'épreuve de la discrétisation numérique**
 

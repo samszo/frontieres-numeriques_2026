@@ -6,7 +6,7 @@ categories:
   - communication
   - l’information et de la communication
 
-subtitle:"De la représentation à la réflexivité : analogies narratives face à l'IA générative"
+subtitle: "De la représentation à la réflexivité : analogies narratives face à l'IA générative"
 bibliography: referenceAuteurs.bib
 
 
@@ -21,7 +21,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Michel Durampart explorent les mutations des dispositifs communicationnels, de l'intégration de la littératie numérique et de l'IA dans la formation [@collet:halshs-04772108] aux enjeux des représentations au sein des interfaces numériques [@collet:hal-03211193]. Il interroge également l'évolution du récit et son antériorité en Sciences de l'Information et de la Communication [@durampart:hal-04394316], tout en analysant les dynamiques d'innovation institutionnelle [@pelissier:hal-02466230].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/40050)
+  - [lien vers le prompt](prompt_michel_durampart.txt)
+  - [lien vers la réponse](resume_michel_durampart.json)
+
+
 
 **Titre : De la représentation à la réflexivité : analogies narratives face à l'IA générative**
 

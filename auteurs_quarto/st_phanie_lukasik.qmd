@@ -1,18 +1,22 @@
 ---
 title: Stéphanie Lukasik
+author:
+  - name: Stéphanie Lukasik
+    affiliations:
+      - name: Ecole de journalisme et de communication d'Aix-Marseille, Aix Marseille Université, Institut Méditerranéen en Sciences de l’Information
+      - name: Université du Luxembourg
 categories:
   - Influenceurs
   - Confiance numérique
   - Journalisme
   - Désinformation
   - Régulation des plateformes
-subtitle:"Technologies de l'affect : Analogies d'autorité et frontières de la confiance numérique"
+subtitle: "IA et Newsinfluenceurs : la nouvelle réinformation"
 bibliography: referenceAuteurs.bib
 
 
 ---
 
-#### University of Luxembourg
 [{{< fa solid globe >}} https://www.idref.fr/254955991](https://www.idref.fr/254955991) 
 
 
@@ -20,7 +24,20 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Stéphanie Lukasik interrogent les mutations de la confiance et de la légitimité dans l'espace public numérique [@lukasik:hal-03665655], en se focalisant particulièrement sur la figure de l'influenceur comme nouvel acteur prescriptif face au journalisme traditionnel [@lukasik:hal-04611491]. Elle explore également les frontières éthiques et juridiques de ces pratiques, notamment concernant la protection des mineurs et la régulation des contenus [@lukasik:hal-04827835], ainsi que les dynamiques de "réinformation" aux lisières de la désinformation [@lukasik:hal-03424355].
 :::
 
-### Proposition
+### Proposition déposée sur scienceconf.org
+
+  - [lien vers la proposition](https://frontieresnum7.sciencesconf.org/716006)
+
+**Titre : IA et Newsinfluenceurs : la nouvelle réinformation**
+
+**Résumé :**
+La réinformation est une forme de désinformation qui se nourrit des inégalités de littératie médiatique. En effet, cette manipulation de l'information joue sur l'écart de connaissances des individus et le manque d'éducation à la mise en forme médiatique de l'information. Détournant le contenu journalistique afin de défendre une idéologie et d'influencer le comportement et les choix des individus, la réinformation est un processus de désinformation subtile amplifié par les réseaux socionumériques. Par leur désintermédiation, ces espaces de circulation d'informations à court terme constituent un terrain particulièrement fertile pour cette forme d'inégalité. Car, la réinformation constitue une désinformation complexe à identifier dès lors que les individus ne disposent pas des compétences nécessaires pour comprendre la manipulation.
+
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/58401)
+  - [lien vers le prompt](prompt_st_phanie_lukasik.txt)
+  - [lien vers la réponse](resume_st_phanie_lukasik.json)
 
 **Titre : Technologies de l'affect : Analogies d'autorité et frontières de la confiance numérique**
 

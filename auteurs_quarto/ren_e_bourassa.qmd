@@ -2,7 +2,7 @@
 title: Renée Bourassa
 categories: [Humanités numériques, Authenticité, Fake news, Musée, Digital, Illusion, Livre numérique]
 
-subtitle:"L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative"
+subtitle: "L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative"
 bibliography: referenceAuteurs.bib
 
 
@@ -17,7 +17,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Renée Bourassa interroge les frontières du réel et de la fiction au sein des dispositifs numériques, en explorant les tensions entre authenticité et illusion dans les espaces de médiation culturelle [@bourassa:hal-02299777]. Ses travaux récents analysent la "magicalité" des technologies contemporaines, des assistants virtuels aux *deepfakes*, mettant en lumière les nouvelles puissances du faux et les stratégies de tromperie de l'IA [@bourassa:hal-05196056; @bourassa:hal-05194869]. Elle participe également à la redéfinition des écologies éditoriales à travers l'étude du livre numérique [@audet:hal-01922682].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/52787)
+  - [lien vers le prompt](prompt_ren_e_bourassa.txt)
+  - [lien vers la réponse](resume_ren_e_bourassa.json)
+
+
 
 **Titre : L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative**
 

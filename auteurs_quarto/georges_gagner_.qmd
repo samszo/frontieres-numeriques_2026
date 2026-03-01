@@ -8,7 +8,7 @@ categories:
   - Recherche-Création
   - Unreal Engine
 
-subtitle:"L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence"
+subtitle: "L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence"
 bibliography: referenceAuteurs.bib
 
 
@@ -23,7 +23,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Georges Gagneré explore les hybridations entre la scène théâtrale et les technologies numériques, en se concentrant particulièrement sur la « direction d'avatar » et les dispositifs de réalité mixte en temps réel. Ses travaux, illustrés par le projet *L'Ombre* @gagnere:hal-04580393 et le développement de l'outil AKN_Regie @gagnere:hal-04571489, analysent comment la capture de mouvement et les moteurs de jeu (Unreal Engine) reconfigurent la dramaturgie et la présence de l'acteur via son double numérique.
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/63417)
+  - [lien vers le prompt](prompt_georges_gagner_.txt)
+  - [lien vers la réponse](resume_georges_gagner_.json)
+
+
 
 **Titre : L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence**
 

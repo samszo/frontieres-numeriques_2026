@@ -8,7 +8,7 @@ categories:
   - visualization
   - Interventions
 
-subtitle:"L'analogie écosystémique comme méthode de conception : vers une topologie sémantique du vivant numérique"
+subtitle: "L'analogie écosystémique comme méthode de conception : vers une topologie sémantique du vivant numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -23,7 +23,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Samuel Szoniecky explore la modélisation des écosystèmes de connaissances en s'appuyant sur des métaphores du vivant, telles que le jardin numérique @laborderie:hal-01258307 ou la métamorphose des archives @szoniecky:hal-04156629. Ses travaux mobilisent les technologies sémantiques et la visualisation de données pour cartographier les réseaux d'influences @szoniecky:hal-01220142 et structurer l'intelligence collective au sein des environnements numériques @szoniecky:hal-01098425.
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/897)
+  - [lien vers le prompt](prompt_samuel_szoniecky.txt)
+  - [lien vers la réponse](resume_samuel_szoniecky.json)
+
+
 
 **Titre : L'analogie écosystémique comme méthode de conception : vers une topologie sémantique du vivant numérique**
 

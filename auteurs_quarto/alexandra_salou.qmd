@@ -6,7 +6,7 @@ categories:
   - Réseaux socionumériques
   - Journalisme
   - Méthodes mixtes
-subtitle:"Les frontières de la vérité : Analogie entre pratiques journalistiques et dispositifs de réinformation à l'ère des algorithmes"
+subtitle: "Les frontières de la vérité : Analogie entre pratiques journalistiques et dispositifs de réinformation à l'ère des algorithmes"
 bibliography: referenceAuteurs.bib
 
 
@@ -20,7 +20,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux d'Alexandra Salou explorent les dynamiques de circulation de l'information sur les réseaux socionumériques, en se focalisant particulièrement sur les phénomènes de polarisation politique et d'homogénéisation des opinions via les algorithmes [@salou:hal-03695063]. À travers une approche méthodologique mixte [@salou:hal-04870814], elle analyse, souvent en collaboration avec Stéphanie Lukasik, la notion de « réinformation » comme objet frontière de la désinformation [@lukasik:hal-04151434], interrogeant la reconfiguration des pratiques journalistiques et la posture des publics face aux menaces hybrides [@lukasik:hal-04827795].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/58460)
+  - [lien vers le prompt](prompt_alexandra_salou.txt)
+  - [lien vers la réponse](resume_alexandra_salou.json)
+
+
 
 **Titre : Les frontières de la vérité : Analogie entre pratiques journalistiques et dispositifs de réinformation à l'ère des algorithmes**
 

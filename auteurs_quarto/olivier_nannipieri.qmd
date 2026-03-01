@@ -8,7 +8,7 @@ categories:
   - Measurement Scales
   - Phénoménologie
   - Immersion
-subtitle:"Au-delà de l'analogie mimétique : redéfinir la mesure de la présence dans les espaces immersifs"
+subtitle: "Au-delà de l'analogie mimétique : redéfinir la mesure de la présence dans les espaces immersifs"
 bibliography: referenceAuteurs.bib
 
 
@@ -22,7 +22,13 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux d'Olivier Nannipieri interrogent la validité des mesures de la présence au sein des environnements immersifs, en mettant en évidence les limites méthodologiques des échelles actuelles via des modèles d'équations structurelles [@nannipieri:hal-04404674; @nannipieri:hal-03175298]. Il explore également la nature phénoménologique de la "réalité du virtuel" [@nannipieri:hal-04396912] tout en appliquant ces réflexions aux taxonomies techniques et aux expériences utilisateurs en réalité augmentée [@fuchs:hal-00536787; @muratore:hal-01453221].
 :::
 
-### Proposition
+### Proposition générée
+
+  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/59105)
+  - [lien vers le prompt](prompt_olivier_nannipieri.txt)
+  - [lien vers la réponse](resume_olivier_nannipieri.json)
+
+
 
 **Titre : Au-delà de l'analogie mimétique : redéfinir la mesure de la présence dans les espaces immersifs**
 
