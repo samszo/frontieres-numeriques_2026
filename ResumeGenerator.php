@@ -19,6 +19,23 @@ class ResumeGenerator {
         $this->outputFolder = $outputFolder;
     }
 
+    private function cleanAffiliations($orgas, $limit=10){
+        $cleaned = []; 
+        foreach ($orgas as $o) {
+            if(count($cleaned) < $limit && $o["@annotation"] && $o["@annotation"]["curation:end"]){
+                $orga = $o["display_title"];
+                $end = $o["@annotation"]["curation:end"][0]["@value"];
+                $dateEnd = strtotime($end ?? "9999-12-31");
+                $cleaned[]=["orga"=>$orga,"end"=>$dateEnd];
+            }
+        }
+        usort($cleaned, function($a, $b) {
+                return $b["end"] <=> $a["end"]; // descending order (most recent first)
+            });        
+        return $cleaned;
+
+    }
+
     private function cleanPublications($publis, $limit = 10) {
         $cleaned = []; 
         $publis = array_map(fn($p) => [...$p, '@rank' => (int)($p['@rank'] ?? 999)], $publis);
@@ -195,7 +212,12 @@ class ResumeGenerator {
         if (!empty($socialLinks)) {
             $md = preg_replace('/(#### .*?\n)/', "$1$socialLinks\n\n", $md);
         }
-        $md = str_replace("#### ".$auteur["o:title"],"",$md);
+        //ajoute les affiliations
+        $orgas = $this->cleanAffiliations($auteur["labo:hasOrga"]);
+        if(count($orgas))
+            $md = str_replace("#### ".$auteur["o:title"],"#### ".$orgas[0]["orga"],$md);
+        else
+            $md = str_replace("#### ".$auteur["o:title"],"",$md);
         return $md;
     }
 }

@@ -9,7 +9,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Image numérique et réalité virtuelle
 [{{< fa solid globe >}} https://www.idref.fr/145033902](https://www.idref.fr/145033902) [{{< fa solid globe >}} https://orcid.org/0000-0003-1208-4961](https://orcid.org/0000-0003-1208-4961) 
 
 

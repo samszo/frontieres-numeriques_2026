@@ -16,7 +16,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Laboratoire de Recherche Sociétés & Humanités
 [{{< fa solid globe >}} https://www.idref.fr/035258748](https://www.idref.fr/035258748) [{{< fa solid globe >}} https://orcid.org/0000-0003-0972-2563](https://orcid.org/0000-0003-0972-2563) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:sylvie-leleu-merviel](https://hal.science/search/index/?q=authIdHal_s:sylvie-leleu-merviel) 
 
 

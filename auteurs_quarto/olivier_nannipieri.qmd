@@ -14,7 +14,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Institut Méditerranéen des Sciences de l'Information et de la Communication
 [{{< fa solid globe >}} https://www.idref.fr/177559748](https://www.idref.fr/177559748) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri](https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri) 
 
 

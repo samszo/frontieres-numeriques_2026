@@ -15,7 +15,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Laboratoire paragraphe
 [{{< fa solid globe >}} https://www.idref.fr/182295591](https://www.idref.fr/182295591) [{{< fa solid globe >}} https://orcid.org/0000-0002-7643-3342](https://orcid.org/0000-0002-7643-3342) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:samuel-szoniecky](https://hal.science/search/index/?q=authIdHal_s:samuel-szoniecky) 
 
 

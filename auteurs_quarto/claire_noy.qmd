@@ -13,7 +13,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Laboratoire d'Etudes  et de Recherches Appliquées en Sciences Sociales
 [{{< fa solid globe >}} https://www.idref.fr/091622409](https://www.idref.fr/091622409) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:claire-noy](https://hal.science/search/index/?q=authIdHal_s:claire-noy) 
 
 

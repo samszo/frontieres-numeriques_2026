@@ -1,4 +1,11 @@
 /* css styles */
+body { font-family: sans-serif; }
+.quarto-grid-item { border-radius: 12px; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.quarto-grid-item:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+.callout-note { border-left: 5px solid #c2080a; background:#4a4444; padding: 1em; }
+div.callout-note.callout {
+    border-left-color: #c2080a;
+}
 .navbar-logo {
     max-height: 64px;
 }
@@ -101,4 +108,14 @@
     padding: 6vh 0;
   }
 
+}
+caption{
+  font-size: xx-large;
+}
+
+.pause{
+      background-color: #4585ca;
+}
+.dejeuner{
+      background-color: #c2080a;
 }

@@ -59,7 +59,7 @@ if($context){
     $query = "items?property[0][joiner]=and&property[0][property]=253&property[0][type]=res&property[0][text]=54151";
     $auteurs = fetchOmekaJson($omkApiUrl,$query);
     */
-    $csvFile = "http://localhost/omk_paragraphe/files/bulk_export/csv-20260227-163101.csv";
+    $csvFile = "http://localhost/omk_paragraphe/files/bulk_export/csv-20260301-083851.csv";
     if (($handle = fopen($csvFile, "r")) !== FALSE) {
         $headers = fgetcsv($handle, 1000, ",",'"',"\\");
         while ($data = fgetcsv($handle, 1000, ",",'"',"\\")){

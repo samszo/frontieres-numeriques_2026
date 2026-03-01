@@ -5,6 +5,9 @@ listing:
     - "auteurs_quarto/*.qmd"
   type: default
   sort: "title"
+  sort-ui: true
+  filter-ui: true
+  page-size: 40  
   categories: true
 ---
 Découvrez les contributions scientifiques au colloque.

@@ -12,7 +12,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Institut Méditerranéen des Sciences de l'Information et de la Communication
 [{{< fa solid globe >}} https://www.idref.fr/280728492](https://www.idref.fr/280728492) 
 
 

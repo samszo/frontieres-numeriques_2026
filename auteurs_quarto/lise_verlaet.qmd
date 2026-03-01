@@ -15,7 +15,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Langage(s) HUmanités Média-tions Apprentissages Interactions Numérique
 [{{< fa solid globe >}} https://www.idref.fr/127453865](https://www.idref.fr/127453865) [{{< fa solid globe >}} https://orcid.org/0000-0002-3909-0184](https://orcid.org/0000-0002-3909-0184) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:lise-verlaet](https://hal.science/search/index/?q=authIdHal_s:lise-verlaet) 
 
 

@@ -13,7 +13,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### University of Technology of Compiègne Université de technologie de Compiègne
 [{{< fa solid globe >}} https://www.idref.fr/101521693](https://www.idref.fr/101521693) [{{< fa solid globe >}} https://orcid.org/0000-0002-4430-7130](https://orcid.org/0000-0002-4430-7130) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon](https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon) 
 
 
