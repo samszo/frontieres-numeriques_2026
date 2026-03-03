@@ -205,9 +205,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#avantages-de-cette-approche" id="toc-avantages-de-cette-approche" class="nav-link" data-scroll-target="#avantages-de-cette-approche">✨ Avantages de cette approche</a></li>
   <li><a href="#considérations" id="toc-considérations" class="nav-link" data-scroll-target="#considérations">⚠️ Considérations</a></li>
+  <li><a href="#nouveautés-depuis-mars-2026" id="toc-nouveautés-depuis-mars-2026" class="nav-link" data-scroll-target="#nouveautés-depuis-mars-2026">📝 Nouveautés (depuis mars 2026)</a></li>
   </ul></li>
   <li><a href="#exemple-de-commande-dexécution" id="toc-exemple-de-commande-dexécution" class="nav-link" data-scroll-target="#exemple-de-commande-dexécution">Exemple de commande d’exécution</a></li>
-  <li><a href="#fichiers-de-référence" id="toc-fichiers-de-référence" class="nav-link" data-scroll-target="#fichiers-de-référence">Fichiers de référence</a></li>
+  <li><a href="#historique-des-mises-à-jour" id="toc-historique-des-mises-à-jour" class="nav-link" data-scroll-target="#historique-des-mises-à-jour">Historique des mises à jour</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -247,7 +248,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre class="mermaid"><code>graph TD
     Start([Démarrage&lt;br/&gt;genere_programme_to_quarto.php]) --&gt; OmekaEvent["🔗 Récupération de l'événement&lt;br/&gt;(Omeka API)"]
     
-    OmekaEvent --&gt; CheckRaw{Contenu brut&lt;br/&gt;du site&lt;br/&gt;existe?}
+    OmekaEvent --&gt; GetSite["🔗 Récupération du site&lt;br/&gt;Omeka associé"]
+    GetSite --&gt; CheckRaw{Contenu brut&lt;br/&gt;du site&lt;br/&gt;existe?}
     CheckRaw --&gt;|Non| FetchRaw["📥 ContextDistiller::&lt;br/&gt;fetchRawContent&lt;br/&gt;(Parse HTML)"]
     CheckRaw --&gt;|Oui| LoadRaw["📖 Charger le fichier&lt;br/&gt;rawtext_*.txt"]
     
@@ -259,28 +261,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     CheckContext --&gt;|Oui| LoadContext["📖 Charger le fichier&lt;br/&gt;context_*.json"]
     
     DistillContext --&gt; SaveContext["💾 Sauvegarder&lt;br/&gt;context_*.json"]
-    SaveContext --&gt; ParseContext["🔍 Extraire contexte,&lt;br/&gt;axes et biblio"]
+    SaveContext --&gt; ParseContext["🔍 Extraire CONTEXTE,&lt;br/&gt;AXES, BIBLIO"]
     LoadContext --&gt; ParseContext
     
-    ParseContext --&gt; CreateGen["✅ Instancier&lt;br/&gt;ResumeGenerator"]
-    CreateGen --&gt; FetchAuthors["📋 Récupérer liste CSV&lt;br/&gt;des auteurs"]
+    ParseContext --&gt; CreateGen["✅ Instancier&lt;br/&gt;ResumeGenerator&lt;br/&gt;(avec site slug)"]
+    CreateGen --&gt; FetchAuthors["📋 Récupérer liste CSV&lt;br/&gt;des auteurs&lt;br/&gt;(depuis bibo:authorList)"]
     
     FetchAuthors --&gt; LoopStart{Pour chaque&lt;br/&gt;auteur}
     
     LoopStart --&gt;|Auteur N| FetchAuteur["🔗 Récupération auteur&lt;br/&gt;depuis Omeka"]
-    FetchAuteur --&gt; GeneratePrompt["📝 Construire prompt&lt;br/&gt;personnalisé"]
+    FetchAuteur --&gt; CheckFilter{"Projet en cours&lt;br/&gt;sur&lt;br/&gt;sciencesconf.org?"}
+    CheckFilter --&gt;|Oui| SkipAutor["⏭️ IGNORER auteur&lt;br/&gt;(déjà en projet)"]
+    CheckFilter --&gt;|Non| GeneratePrompt["📝 Construire prompt&lt;br/&gt;personnalisé&lt;br/&gt;(contexte + auteur)"]
+    SkipAutor --&gt; LoopCheck
     GeneratePrompt --&gt; CallGemini["🤖 Appel Gemini API&lt;br/&gt;(gemini-3-pro-preview)"]
     
-    CallGemini --&gt; ParseOutput["🔍 Parser résumé IA&lt;br/&gt;(frontmatter Quarto)"]
+    CallGemini --&gt; CheckMd{"Réponse&lt;br/&gt;valide?"}
+    CheckMd --&gt;|Vide| LoopCheck
+    CheckMd --&gt;|Oui| ParseOutput["🔍 Parser résumé IA&lt;br/&gt;(frontmatter Quarto)"]
     ParseOutput --&gt; ExtractTitle["🏷️ Extraire titre&lt;br/&gt;de la proposition"]
     ExtractTitle --&gt; SaveAuteur["💾 Sauvegarder&lt;br/&gt;auteur_*.qmd"]
     
-    ParseOutput --&gt; CollectProps["📦 Collector données&lt;br/&gt;(auteur, titre)"]
-    SaveAuteur --&gt; CollectProps
+    SaveAuteur --&gt; CollectProps["📦 Collecter données&lt;br/&gt;(auteur, titre)"]
     
     CollectProps --&gt; LoopCheck{"Auteurs&lt;br/&gt;restants?"}
     LoopCheck --&gt;|Oui| LoopStart
-    LoopCheck --&gt;|Non| CreateProgram["🏗️ Instancier&lt;br/&gt;ProgrammeGenerator"]
+    LoopCheck --&gt;|Non| CreateProgram["🏗️ Instancier&lt;br/&gt;ProgrammeGenerator&lt;br/&gt;(avec fileNameContext)"]
     
     CreateProgram --&gt; ParseDates["📅 Parser dates&lt;br/&gt;de l'événement"]
     ParseDates --&gt; SplitProps["📊 Diviser propositions&lt;br/&gt;par jour/bloc"]
@@ -295,9 +301,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     style Start fill:#90EE90
     style Success fill:#90EE90
     style OmekaEvent fill:#87CEEB
+    style GetSite fill:#87CEEB
     style FetchRaw fill:#FFB6C1
     style DistillContext fill:#FFD700
     style CallGemini fill:#FFD700
+    style CheckFilter fill:#FFB6C1
+    style SkipAutor fill:#FF6B6B
     style SaveAuteur fill:#98FB98
     style SaveProgram fill:#98FB98</code></pre>
 <hr>
@@ -313,20 +322,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="resumegenerator.php" class="level3">
 <h3 class="anchored" data-anchor-id="resumegenerator.php">2. <strong>ResumeGenerator.php</strong></h3>
 <p>Classe qui génère les fiches auteur individuelles avec propositions.</p>
-<p><strong>Fonctions principales :</strong> - <code>generate($auteur)</code> : Pour chaque auteur : - Récupère les données depuis Omeka (affiliations, publications, mots-clés) - Construit un prompt personnalisé incluant le contexte du colloque - Appelle Google Gemini (gemini-3-pro-preview) - Génère un document Quarto Markdown avec frontmatter - Gère la bibliographie en BibTeX (récupération depuis HAL/DOI)</p>
+<p><strong>Constructeur :</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">function</span> <span class="bu">__construct</span>(<span class="va">$apiKey</span><span class="ot">,</span> <span class="va">$context</span><span class="ot">,</span> <span class="va">$omkItemConf</span><span class="ot">,</span> <span class="va">$outputFolder</span><span class="ot">,</span> <span class="va">$omkSite</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><code>$apiKey</code> : Clé API Google Gemini</li>
+<li><code>$context</code> : Array avec clés <code>CONTEXTE</code>, <code>AXES</code>, <code>BIBLIO</code> (extraites du JSON distillé)</li>
+<li><code>$omkItemConf</code> : Item Omeka de l’événement (pour métadonnées)</li>
+<li><code>$outputFolder</code> : Dossier de sortie (<code>auteurs_quarto</code>)</li>
+<li><code>$omkSite</code> : Information du site Omeka associé</li>
+</ul>
+<p><strong>Fonctions principales :</strong> - <code>generate($auteur)</code> : Pour chaque auteur : - Récupère les données depuis Omeka (affiliations, publications, mots-clés) - Construit un prompt personnalisé incluant le contexte du colloque et le site slug - Appelle Google Gemini (gemini-3-pro-preview) - Génère un document Quarto Markdown avec frontmatter - Gère la bibliographie en BibTeX (récupération depuis HAL/DOI) - Retourne la fiche générée ou <code>false</code> en cas d’erreur</p>
 <p><strong>Gestion des publications :</strong> - <code>fetchBibtexFromHal($halId)</code> : Récupère le BibTeX depuis l’API HAL - <code>fetchBibtexFromDoi($doi)</code> : Récupère le BibTeX depuis l’API DOI.org - <code>isDuplicate($newEntry)</code> : Vérifie les doublons dans le fichier <code>.bib</code></p>
 <p><strong>Sorties :</strong> - <code>auteur_*.qmd</code> : Fiche auteur au format Quarto - <code>referenceAuteurs.bib</code> : Bibliographie consolidée en BibTeX</p>
 </section>
 <section id="programmegenerator.php" class="level3">
 <h3 class="anchored" data-anchor-id="programmegenerator.php">3. <strong>ProgrammeGenerator.php</strong></h3>
 <p>Classe qui synthétise les fiches auteur en programme global de conférence.</p>
-<p><strong>Fonctions principales :</strong> - <code>generate()</code> : Crée le programme avec : - Division des propositions en 3 jours (Conceptions/Créations/Expérimentations) - Calcul automatique des horaires (slots de 30 min, pauses toutes les 4 interventions) - Insertion des repas et accueil/clôture - Génération de tables HTML avec liens vers les fiches auteur</p>
+<p><strong>Constructeur :</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">function</span> <span class="bu">__construct</span>(<span class="va">$propositions</span><span class="ot">,</span> <span class="va">$siteItem</span><span class="ot">,</span> <span class="va">$fileNameContext</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><code>$propositions</code> : Array avec métadonnées de chaque auteur <code>["auteur"=&gt;..., "titre"=&gt;...]</code></li>
+<li><code>$siteItem</code> : Item Omeka de l’événement (pour dates, lieu, titre)</li>
+<li><code>$fileNameContext</code> : Nom du fichier du contexte distillé (utilisé dans la documentation)</li>
+</ul>
+<p><strong>Fonctions principales :</strong> - <code>generate()</code> : Crée le programme avec : - Division des propositions en 3 jours (Conceptions/Créations/Expérimentations) - Calcul automatique des horaires (slots de 30 min, pauses toutes les 4 interventions) - Insertion des repas et accueil/clôture - Génération de tables HTML avec liens vers les fiches auteur - Callout d’avertissement sur le statut provisoire du programme - Section expliquant le processus de génération</p>
 <p><strong>Paramètres configurables :</strong> - <code>$slotDuration</code> : 30 minutes par défaut - <code>$pauseDuration</code> : 30 minutes - <code>$interventionsBeforePause</code> : 4 interventions avant pause - <code>$startTime</code> : 09:00 - <code>$lunchTime</code> : 12:30 - <code>$lunchDuration</code> : 90 minutes</p>
 <p><strong>Sorties :</strong> - <code>programme.qmd</code> : Programme complet en Quarto Markdown</p>
 </section>
 <section id="genere_programme_to_quarto.php" class="level3">
 <h3 class="anchored" data-anchor-id="genere_programme_to_quarto.php">4. <strong>genere_programme_to_quarto.php</strong></h3>
 <p>Script orchestrateur qui coordonne l’ensemble du processus.</p>
+<p><strong>Flux d’exécution :</strong> 1. Récupère l’événement depuis Omeka (<code>items/54151</code>) 2. Récupère le site Omeka associé 3. Distille le contexte du site de l’événement 4. Instancie <code>ResumeGenerator</code> avec le contexte et le site 5. Boucle sur chaque auteur du CSV - Filtre : ignoré si déjà en projet “sciencesconf.org” - Génère la fiche avec <code>ResumeGenerator::generate()</code> - Sauvegarde le fichier <code>.qmd</code> et collecte les métadonnées 6. Instancie <code>ProgrammeGenerator</code> avec les propositions 7. Génère le programme final</p>
 <hr>
 </section>
 </section>
@@ -336,8 +362,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="étape-1-récupération-de-lévénement-omeka"><strong>Étape 1 : Récupération de l’événement (Omeka)</strong></h3>
 <ul>
 <li>URL API : <code>https://humanum-p8.fr/omk_paragraphe/api/items/54151</code></li>
-<li>Récupère : titre, dates, lieu, URL du site de l’événement</li>
-<li>Utilise : fonction <code>fetchOmekaJson()</code></li>
+<li>Récupère :
+<ul>
+<li>Titre, dates, lieu, URL du site de l’événement</li>
+<li>URL du site Omeka associé (<code>o:site[0]["@id"]</code>)</li>
+<li>URL du fichier CSV de la liste des auteurs (<code>bibo:authorList[0]["@id"]</code>)</li>
+</ul></li>
+<li>Utilise : fonction <code>fetchOmekaJson($baseUrl, $endpoint, $url="")</code> (accepte directement une URL complète)</li>
 </ul>
 </section>
 <section id="étape-2-extraction-du-contexte-du-site" class="level3">
@@ -349,49 +380,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Condition :</strong> Si <code>context_*.json</code> n’existe pas - <code>ContextDistiller::distillContext()</code> appelle Gemini avec Golden Prompt :</p>
 <pre><code>"Tu es un expert en analyse documentaire. 
 Analyse le texte et extrais :
-1. Problématique centrale
-2. 6 axes de recherche principaux  
-3. Bibliographie avec concepts associés
+1. Problématique centrale (CONTEXTE)
+2. 6 axes de recherche principaux (AXES)
+3. Bibliographie avec concepts associés (BIBLIO)
 
-Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
+Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <ul>
 <li>API : <code>gemini-3-pro-preview</code></li>
+<li>Structure JSON externe : <code>candidates[0].content.parts[0].text</code> contenant un bloc JSON interne</li>
 <li>Sauvegarde : <code>auteurs_quarto/context_*.json</code></li>
 </ul>
 </section>
 <section id="étape-4-génération-des-fiches-auteur" class="level3">
 <h3 class="anchored" data-anchor-id="étape-4-génération-des-fiches-auteur"><strong>Étape 4 : Génération des fiches auteur</strong></h3>
 <p><strong>Pour chaque auteur :</strong></p>
+<p><strong>Filtre d’exclusion :</strong> - Vérifie si l’auteur a un projet en cours sur <code>sciencesconf.org</code> - Si oui → <strong>Ignore</strong> cet auteur (pas de génération, pas d’ajout au programme) - Message : <code>"Pas de Traitement : [auteur]"</code></p>
+<p><strong>Processus (si non filtré) :</strong></p>
 <ol type="1">
 <li><strong>Récupération depuis Omeka</strong> :
 <ul>
 <li>Item ID depuis CSV bulk export</li>
 <li>Données : titre, affiliations, publications, mots-clés</li>
+<li>Annotations : statuts, dates, références</li>
 </ul></li>
 <li><strong>Construction du prompt</strong> :
 <ul>
-<li>Include contexte du colloque</li>
-<li>Include axes thématiques</li>
-<li>Include bibliographie</li>
-<li>Include données auteur (CV, publications)</li>
-<li>Template : “Propose une contribution sur [thème]”</li>
+<li>Include contexte du colloque (<code>CONTEXTE</code>, <code>AXES</code>, <code>BIBLIO</code>)</li>
+<li>Include slug du site Omeka (<code>$omkSite</code>)</li>
+<li>Include données auteur complet</li>
+<li>Template : “Propose une contribution sur [thème du colloque]”</li>
 </ul></li>
 <li><strong>Appel à l’IA (Gemini)</strong> :
 <ul>
 <li>Model : <code>gemini-3-pro-preview</code></li>
 <li>Génère : proposition structurée en Quarto Markdown</li>
+<li>Vérifie que la réponse n’est pas vide avec <code>if($md)</code></li>
 </ul></li>
 <li><strong>Gestion de la bibliographie</strong> :
 <ul>
 <li>Extrait DOI/HAL des publications</li>
-<li>Récupère BibTeX via APIs externes</li>
+<li>Récupère BibTeX via APIs externes (HAL, DOI.org)</li>
 <li>Fusionne dans <code>referenceAuteurs.bib</code></li>
-<li>Détecte et ignore les doublons</li>
+<li>Détecte et ignore les doublons avec <code>isDuplicate()</code></li>
+</ul></li>
+<li><strong>Extraction du titre</strong> :
+<ul>
+<li>Regex : <code>/\*\*Titre\s*:\s*(.+?)\*\*/s</code></li>
+<li>Pour extraction depuis le contenu généré par IA</li>
 </ul></li>
 <li><strong>Sauvegarde</strong> :
 <ul>
 <li>Fichier : <code>auteurs_quarto/auteur_*.qmd</code></li>
 <li>Format : Quarto avec frontmatter YAML + contenu Markdown</li>
+<li>Collecte métadonnées : <code>["auteur"=&gt;..., "titre"=&gt;...]</code></li>
 </ul></li>
 </ol>
 </section>
@@ -400,11 +441,11 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 <p><strong>Dans <code>ProgrammeGenerator::generate()</code> :</strong></p>
 <ol type="1">
 <li><p><strong>Division en jours</strong> :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">$jours</span> <span class="op">=</span> [</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Conceptions"</span> =&gt; <span class="fu">array_slice</span>(<span class="dv">0</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Créations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Expériementations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="op">*</span><span class="dv">2</span>)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="va">$jours</span> <span class="op">=</span> [</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Conceptions"</span> =&gt; <span class="fu">array_slice</span>(<span class="dv">0</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Créations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Expériementations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="op">*</span><span class="dv">2</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p><strong>Calcul des horaires</strong> :</p>
 <ul>
 <li>Début : 09:00</li>
@@ -511,9 +552,9 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 <h3 class="anchored" data-anchor-id="fichiers-de-configuration">Fichiers de configuration</h3>
 <ol type="1">
 <li><p><strong><code>key.php</code></strong> (non fourni pour sécurité)</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;?php</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="va">$apiKey</span> <span class="op">=</span> <span class="st">"YOUR_GOOGLE_GEMINI_API_KEY"</span><span class="ot">;</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">?&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;?php</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="va">$apiKey</span> <span class="op">=</span> <span class="st">"YOUR_GOOGLE_GEMINI_API_KEY"</span><span class="ot">;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">?&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p><strong><code>_quarto.yml</code></strong> : Configuration Quarto pour le rendu</p></li>
 <li><p><strong>CSV des auteurs</strong> : À générer depuis Omeka</p>
 <ul>
@@ -538,6 +579,11 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 <section id="paramètres-omeka" class="level3">
 <h3 class="anchored" data-anchor-id="paramètres-omeka">Paramètres Omeka</h3>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 32%">
+<col style="width: 24%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Paramètre</th>
@@ -549,7 +595,7 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 <tr class="odd">
 <td>URL Base</td>
 <td><code>http://localhost/omk_paragraphe</code></td>
-<td>À adapter</td>
+<td>À adapter pour instance distante</td>
 </tr>
 <tr class="even">
 <td>Item Event</td>
@@ -557,23 +603,43 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 <td>ID de l’événement colloque</td>
 </tr>
 <tr class="odd">
-<td>CSV Export</td>
-<td>Généré depuis Omeka</td>
-<td>Contient liste des auteurs</td>
+<td>Site associé</td>
+<td><code>o:site[0]["@id"]</code></td>
+<td>URL du site Omeka associé</td>
+</tr>
+<tr class="even">
+<td>Liste auteurs</td>
+<td><code>bibo:authorList[0]["@id"]</code></td>
+<td>URL du CSV bulk export</td>
+</tr>
+<tr class="odd">
+<td>Location</td>
+<td><code>curation:location[0]["@value"]</code></td>
+<td>Lieu de l’événement</td>
+</tr>
+<tr class="even">
+<td>Dates</td>
+<td><code>dcterms:date[0]["@value"]</code></td>
+<td>Format : “YYYY-MM-DD/YYYY-MM-DD”</td>
+</tr>
+<tr class="odd">
+<td>Homepage</td>
+<td><code>foaf:homepage[0]["@id"]</code></td>
+<td>URL du site de l’événement</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="paramètres-quarto" class="level3">
 <h3 class="anchored" data-anchor-id="paramètres-quarto">Paramètres Quarto</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># _quarto.yml</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> docs</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> cosmo</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># _quarto.yml</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> docs</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> cosmo</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
@@ -584,61 +650,68 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 │  genere_programme_to_quarto.php                 │
 └──────────────────┬──────────────────────────────┘
                    │
-        ┌──────────┴──────────┐
-        │                     │
-   ┌────▼─────┐        ┌─────▼────┐
-   │ Contexte │        │  Auteurs │
-   │ (1 seul) │        │(plusieurs)│
-   └────┬─────┘        └─────┬────┘
-        │                    │
-   ┌────▼──────────────────┐     │
-   │ContextDistiller::     │     │
-   │ • fetchRawContent()   │     │
-   │ • distillContext()    │     │
-   │ (Gemini API)          │     │
-   └────┬──────────────────┘     │
-        │                        │
-        ▼                        │
-   context_*.json                │
-        │                        │
-        │                    ┌───▼─────────────────┐
-        │                    │ BOUCLE POUR chaque  │
-        │                    │ ResumeGenerator::   │
-        │                    │ • generate()        │
-        │                    │ (Gemini API)        │
-        │                    │ • fetchBibtex*()    │
-        │                    │ • isDuplicate()     │
-        │                    └───┬─────────────────┘
-        │                        │
-        │                        ▼
-        │                    auteur_*.qmd
-        │                    ref_*.bib
-        │                    resume_*.json
-        │                        │
-        └────────────┬───────────┘
-                     │
-                ┌────▼──────────────────┐
-                │ ProgrammeGenerator::   │
-                │ • generate()           │
-                │ • getSlug()            │
-                │ • getPeriodeStr()      │
-                │ • getDate()            │
-                └────┬──────────────────┘
-                     │
-                     ▼
-                programme.qmd
-                     │
-                     ▼
-         ┌───────────────────────┐
-         │ QUARTO RENDER         │
-         │ quarto render         │
-         └───────────────────────┘
-                     │
-                     ▼
-         ┌───────────────────────┐
-         │ SITE STATIC HTML      │
-         │ docs/ folder          │
-         └───────────────────────┘</code></pre>
+        ┌──────────┴──────────────────┐
+        │                             │
+   ┌────▼─────┐              ┌───────▼────────┐
+   │ Contexte │              │  Auteurs &amp; Site │
+   │ (1 seul) │              │ (plusieurs)     │
+   └────┬─────┘              └───────┬────────┘
+        │                            │
+   ┌────▼──────────────────┐         │
+   │ ContextDistiller::     │         │
+   │ • fetchRawContent()   │         │
+   │ • distillContext()    │         │
+   │ (Gemini API)          │         │
+   └────┬──────────────────┘         │
+        │                            │
+        ▼                            │
+   context_*.json                    │
+        │                            │
+        │                      ┌─────▼──────────────────┐
+        │                      │ BOUCLE POUR chaque     │
+        │                      │ auteur:                │
+        │                      │ ├─ FILTRE              │
+        │                      │ │ (sciencesconf.org?)  │
+        │                      │ │ │                    │
+        │                      │ │ ├─ OUI → IGNORER     │
+        │                      │ │ ├─ NON ↓             │
+        │                      │ │                      │
+        │                      │ ├─ ResumeGenerator::   │
+        │                      │ │ • generate()        │
+        │                      │ │ (Gemini API)        │
+        │                      │ │ • fetchBibtex*()    │
+        │                      │ │ • isDuplicate()     │
+        │                      │ └────────┬────────────┘
+        │                                 │
+        │                                 ▼
+        │                            auteur_*.qmd
+        │                            ref_*.bib
+        │                            resume_*.json
+        │                                 │
+        └─────────────────┬───────────────┘
+                          │
+                     ┌────▼──────────────────┐
+                     │ ProgrammeGenerator::   │
+                     │ • generate()           │
+                     │ • getSlug()            │
+                     │ • getPeriodeStr()      │
+                     │ • getDate()            │
+                     └────┬──────────────────┘
+                          │
+                          ▼
+                     programme.qmd
+                          │
+                          ▼
+              ┌───────────────────────┐
+              │ QUARTO RENDER         │
+              │ quarto render         │
+              └───────────────────────┘
+                          │
+                          ▼
+              ┌───────────────────────┐
+              │ SITE STATIC HTML      │
+              │ docs/ folder          │
+              └───────────────────────┘</code></pre>
 <hr>
 </section>
 <section id="points-clés-du-processus" class="level2">
@@ -652,34 +725,76 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 <li><strong>Réutilisabilité</strong> : Cache des fichiers JSON/TXT pour éviter les appels redondants</li>
 <li><strong>Flexibilité</strong> : Paramètres de planification facilement ajustables</li>
 <li><strong>Traçabilité</strong> : Stockage des prompts et réponses complètes</li>
+<li><strong>Filtre intelligent</strong> : Exclusion automatique des auteurs déjà en projet sur sciencesconf.org</li>
+<li><strong>Scalabilité</strong> : Générateurs multiples peuvent être parallélisés</li>
 </ul>
 </section>
 <section id="considérations" class="level3">
 <h3 class="anchored" data-anchor-id="considérations">⚠️ Considérations</h3>
 <ul>
-<li><strong>Coûts API</strong> : Chaque auteur = 1 appel Gemini (frais de token)</li>
+<li><strong>Coûts API</strong> : Chaque auteur généré = 1 appel Gemini (frais de token)</li>
+<li><strong>Filtre sciencesconf</strong> : Certains auteurs peuvent être ignorés si déjà en projet</li>
 <li><strong>Dépendances critiques</strong> : Omeka S et Gemini API doivent être accessibles</li>
-<li><strong>Manuelle réactive</strong> : Les fichiers <code>.json</code> et <code>.qmd</code> doivent être validés avant rendu final</li>
+<li><strong>Validation réactive</strong> : Les fichiers <code>.json</code> et <code>.qmd</code> doivent être validés avant rendu final</li>
 <li><strong>Limites de contexte</strong> : Texte brut limité à 50 000 caractères pour Gemini</li>
 <li><strong>Rate limiting</strong> : Respecter les limites de l’API Gemini</li>
+<li><strong>Structure JSON</strong> : Le contexte externe Gemini enveloppe un JSON interne à extraire</li>
+</ul>
+</section>
+<section id="nouveautés-depuis-mars-2026" class="level3">
+<h3 class="anchored" data-anchor-id="nouveautés-depuis-mars-2026">📝 Nouveautés (depuis mars 2026)</h3>
+<ul>
+<li><strong>Récupération du site Omeka</strong> : Pour passer le slug du site au ResumeGenerator</li>
+<li><strong>Filtre sciencesconf.org</strong> : Evite la duplication pour les auteurs déjà en projet</li>
+<li><strong>URL dynamique CSV</strong> : Le chemin du CSV provient maintenant de <code>bibo:authorList</code></li>
+<li><strong>Paramètre fileNameContext</strong> : Passé au ProgrammeGenerator pour documentation</li>
+<li><strong>Gestion des erreurs</strong> : Vérification que la génération a réussi avant sauvegarde</li>
+<li><strong>Structure JSON normalisée</strong> : Clés majuscules <code>CONTEXTE</code>, <code>AXES</code>, <code>BIBLIO</code></li>
 </ul>
 <hr>
 </section>
 </section>
 <section id="exemple-de-commande-dexécution" class="level2">
 <h2 class="anchored" data-anchor-id="exemple-de-commande-dexécution">Exemple de commande d’exécution</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Depuis la racine du projet</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">php</span> genere_programme_to_quarto.php</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Puis compiler le site</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualiser le résultat</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="ex">open</span> docs/index.html</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Depuis la racine du projet</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">php</span> genere_programme_to_quarto.php</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Puis compiler le site</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualiser le résultat</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="ex">open</span> docs/index.html</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
-<section id="fichiers-de-référence" class="level2">
-<h2 class="anchored" data-anchor-id="fichiers-de-référence">Fichiers de référence</h2>
+<section id="historique-des-mises-à-jour" class="level2">
+<h2 class="anchored" data-anchor-id="historique-des-mises-à-jour">Historique des mises à jour</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 34%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Version</th>
+<th>Changements</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1er mars 2026</td>
+<td>v1.0</td>
+<td>Documentation initiale du processus</td>
+</tr>
+<tr class="even">
+<td>3 mars 2026</td>
+<td>v2.1</td>
+<td>✅ Récupération dynamique site Omeka<br>✅ Filtre sciencesconf.org<br>✅ URL CSV depuis Omeka<br>✅ Paramètre fileNameContext<br>✅ Gestion des erreurs de génération<br>✅ Structure JSON normalisée (CONTEXTE, AXES, BIBLIO)</td>
+</tr>
+</tbody>
+</table>
+<hr>
 <pre><code>/Users/samszo/Sites/frontieres-numeriques_2026/
 ├── ContextDistiller.php           # Distillation contexte
 ├── ResumeGenerator.php            # Génération fiches auteur
@@ -696,8 +811,9 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"</code></pre>
 ├── _quarto.yml                    # Config Quarto
 └── docs/                          # Sortie HTML générée</code></pre>
 <hr>
-<p><strong>Documentation mise à jour</strong> : 1er mars 2026<br>
-<strong>Dernière version du processus</strong> : Utilisation de <code>gemini-3-pro-preview</code></p>
+<p><strong>Documentation mise à jour</strong> : 3 mars 2026<br>
+<strong>Dernière version du processus</strong> : Utilisation de <code>gemini-3-pro-preview</code> avec filtre sciencesconf.org<br>
+<strong>Version stable</strong> : v2.1 (avec récupération dynamique des URLs Omeka)</p>
 
 
 </section>
