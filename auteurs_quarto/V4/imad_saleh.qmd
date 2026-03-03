@@ -1,0 +1,44 @@
+---
+title: Imad SALEH
+categories:
+  - Hypermédias
+  - IoT
+  - Crowdsourcing
+  - E-Justice
+  - Humanités Numériques
+
+subtitle: "De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+#### Laboratoire paragraphe
+[{{< fa solid globe >}} https://www.idref.fr/031975607](https://www.idref.fr/031975607) [{{< fa solid globe >}} https://orcid.org/0000-0001-5093-6497](https://orcid.org/0000-0001-5093-6497) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:imad-saleh](https://hal.science/search/index/?q=authIdHal_s:imad-saleh) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les recherches d'Imad Saleh traversent les époques du numérique, depuis l'organisation structurelle des hypermédias @saleh:hal-02878221 jusqu'à l'omniprésence de l'Internet des objets @bouhai:hal-02103910. Il examine comment les technologies collaboratives, telles que le crowdsourcing appliqué à l'OCR @saleh:hal-02107965, et la transformation numérique des institutions, notamment via l'e-justice @jneid:hal-03144705, redéfinissent nos interactions avec l'information et l'espace public.
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/936)
+  - [lien vers le prompt](prompt_imad_saleh.txt)
+  - [lien vers la réponse](resume_imad_saleh.json)
+
+
+
+**Titre : De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence**
+
+**Résumé :**
+Cette intervention propose d'interroger la transition conceptuelle et technique qui nous a menés des systèmes d'organisation de l'information sur le Web vers un environnement connecté ubiquitaire. En revisitant le concept d'« Hypermonde », nous analyserons comment les analogies initiales de navigation et d'agrégation documentaire ont muté pour s'incarner dans l'Internet des Objets. Nous mettrons en lumière le rôle crucial de l'intelligence collective comme médiation technologique, illustré par la correction participative dans les bibliothèques numériques. Enfin, nous discuterons des défis actuels de cette transformation dans des secteurs critiques comme l'éducation et la justice, en questionnant si ces évolutions constituent une rupture paradigmatique ou une continuité logique des structures hypertextuelles originelles.
+
+### Résonances Bibliographiques
+
+L'œuvre d'Imad Saleh offre un panorama des mutations technologiques où l'analogie entre le réseau d'information et le réseau physique devient centrale.
+
+*   **L'évolution des structures :** Ses premiers travaux sur les systèmes collaboratifs et l'organisation du Web, notamment avec *HyWebMap* [@saleh:hal-02878221; @saleh:hal-02878222], posent les bases d'une réflexion sur la structuration des connaissances qui s'étend plus tard à la vision globale de l'**Hypermonde** [@saleh:hal-01011407].
+*   **L'intelligence collective comme technologie :** L'approche participative est explorée comme une technologie sociale nécessaire pour pallier les manques de l'automatisation pure, comme le démontre l'étude sur le **crowdsourcing** pour la correction de l'OCR dans les bibliothèques numériques [@saleh:hal-02107965].
+*   **L'objet et l'institution connectés :** La réflexion s'élargit ensuite à la matérialité et à l'institution. D'une part, en questionnant la nature révolutionnaire de l'**Internet des Objets** [@bouhai:hal-02103910], et d'autre part, en analysant la transformation numérique (e-justice, e-learning) comme un processus d'adaptation institutionnelle face aux nouvelles temporalités technologiques [@jneid:hal-03144705; @saleh:hal-03147289].

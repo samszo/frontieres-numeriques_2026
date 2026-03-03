@@ -15,6 +15,8 @@ website:
         text: Accueil
       - href: programme.qmd
         text: Programme
+      - href: contributions.html
+        text: Contributions
       - href: auteurs.html
         text: Auteurs
       - about.qmd

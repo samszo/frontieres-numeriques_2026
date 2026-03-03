@@ -1,15 +1,9 @@
 ---
-title: Nouria Harbi
-categories:
-  - data warehouse
-  - cloud computing
-  - data security
-  - intrusion detection
-  - social media
-  - veracity
-  - traceability
+title: "Sécurité Cognitive et Frontières des Données : De l'Intrusion à la Rumeur"
+author: Nouria Harbi
+categories: [Data Security, Data Warehousing, Artificial Intelligence, Traceability]
 
-subtitle: "De l'intrusion système à la viralité sociale : analogies immunitaires pour la sécurité des données"
+subtitle: "Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données"
 bibliography: referenceAuteurs.bib
 
 
@@ -21,26 +15,25 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les recherches de Nouria Harbi s'articulent autour de la sécurité et de la qualité des données dans des environnements complexes. Ses travaux couvrent la confidentialité dans les entrepôts de données cloud [@elouazzani:hal-02059273], la traçabilité par étiquetage pour renforcer la sécurité [@chaoui:hal-04945627], ainsi que l'utilisation de l'intelligence artificielle pour la détection d'intrusions [@nguyen:hal-00631499] et l'analyse de la véracité des rumeurs sur les réseaux sociaux [@azri:hal-04750538].
+**Résumé :** Les travaux de Nouria Harbi se situent à l'intersection de la sécurité des systèmes d'information et de l'intelligence artificielle. Elle explore la protection des entrepôts de données dans les environnements dématérialisés comme le cloud [@elouazzani:hal-02059273], la détection d'intrusions via des algorithmes d'apprentissage (clustering flou, classifieurs bayésiens) [@nguyen:hal-00631499; @farid:hal-00503956], et s'intéresse plus récemment à la traçabilité [@chaoui:hal-04945627] ainsi qu'à la vérification de la véracité des contenus multimédias sur les réseaux sociaux [@azri:hal-04750538].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/71488)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/71488)
   - [lien vers le prompt](prompt_nouria_harbi.txt)
   - [lien vers la réponse](resume_nouria_harbi.json)
 
 
 
-**Titre : De l'intrusion système à la viralité sociale : analogies immunitaires pour la sécurité des données**
+**Titre : Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données**
 
 **Résumé :**
-Dans le cadre de *Frontières Numériques*, cette intervention propose d'explorer l'analogie entre les systèmes de défense informatique et les mécanismes de validation de l'information sociale. En croisant les méthodologies de détection d'intrusion par clustering flou [@nguyen:hal-00631499] avec les défis de la véracité des rumeurs sur les réseaux sociaux [@azri:hal-04750538], nous interrogerons la notion de "frontière" entre le vrai et le faux, le sain et le malveillant. Nous analyserons comment les protocoles de traçabilité et d'étiquetage, essentiels à la sécurité des données [@chaoui:hal-04945627], peuvent servir de modèles pour endiguer la désinformation. Cette approche comparative vise à déterminer si les architectures décisionnelles utilisées pour protéger les entrepôts de données dans le cloud [@elouazzani:hal-02059273] peuvent inspirer de nouvelles technologies de régulation de l'espace informationnel public.
+Cette intervention propose d'examiner comment les technologies de sécurité informatique et de qualité des données s'appuient sur des analogies biologiques et spatiales pour établir de nouvelles frontières numériques. En s'appuyant sur ses travaux en détection d'intrusion [@nguyen:hal-00631499], nous analyserons comment les algorithmes apprennent à distinguer le "soi" du "non-soi" numérique, mimant un système immunitaire qui filtre les anomalies au sein de frontières devenues poreuses (Cloud). L'intervention abordera également la frontière de la vérité à travers l'analyse des rumeurs [@azri:hal-04750538], où le dispositif technique agit non plus seulement comme une muraille, mais comme un organe de perception tentant de modéliser la fiabilité dans un flux d'informations chaotique. Nous montrerons comment la traçabilité par étiquetage [@chaoui:hal-04945627] constitue une tentative de "cartographie" dynamique pour stabiliser ces territoires numériques mouvants.
 
 ### Résonances Bibliographiques
 
-Les travaux de Nouria Harbi résonnent avec les thématiques de la conférence en interrogeant la fiabilité des traces numériques :
-
-*   **Frontières de la vérité et de l'authenticité :** L'analyse de la véracité des rumeurs via des caractéristiques multimodales (images/textes) [@azri:hal-04750538] pose la question technologique de la distinction entre l'original et la copie, ou le fait et la fabrication, au cœur des problématiques de frontières numériques.
-*   **Analogies biologiques et détection :** L'utilisation d'algorithmes de classification et de clustering pour la détection d'intrusions [@nguyen:hal-00631499] rappelle les mécanismes immunitaires de distinction entre le "soi" et le "non-soi", transposés ici à l'intégrité des systèmes d'information.
-*   **Trace et Mémoire :** La proposition d'une sécurité par la traçabilité complète et l'étiquetage [@chaoui:hal-04945627] fait écho à la nécessité de conserver une généalogie de la donnée pour en garantir la valeur et la confidentialité, notamment dans les environnements dématérialisés comme le cloud [@elouazzani:hal-02059273].
+*   **La frontière comme filtre actif :** Les travaux de Harbi sur la détection d'intrusion et le contrôle d'accès [@elouazzani:hal-02059283] opérationnalisent parfaitement la vision de **Debray (2013)** selon laquelle la frontière n'est pas un mur inerte, mais une "passoire" ou un régulateur. Ici, l'algorithme devient le médiateur qui décide de la perméabilité du système.
+*   **Frontières fluctuantes du Cloud :** L'étude de la sécurité dans le Cloud Computing [@elouazzani:hal-02059273] résonne avec le concept de **Noyer (2016)** sur les frontières comme zones fluctuantes et éthologies conceptuelles. La dématérialisation des entrepôts de données oblige à repenser la souveraineté et la localisation des données en dehors des limites physiques traditionnelles.
+*   **Bataille des signes et véracité :** L'analyse de la véracité des rumeurs sur les réseaux sociaux [@azri:hal-04750538] illustre concrètement la "bataille des signes" décrite par **Serres (1997)**. Il s'agit d'une lutte dans l'espace logiciel pour s'approprier le sens et distinguer le vrai du faux, où l'outil technologique tente de réguler le canal de communication.
+*   **Apprentissage et extension des catégories :** L'utilisation de classifieurs bayésiens et du clustering flou pour identifier des cyber-attaques [@farid:hal-00503956] s'inscrit dans la logique décrite par **Hofstadter & Sander (2013)**, où l'analogie sert de moteur à l'extension des catégories. L'IA apprend à reconnaître une attaque par analogie avec des motifs connus ou par déviation d'un modèle de normalité.

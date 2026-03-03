@@ -1,0 +1,39 @@
+---
+title: Serge Bouchardon
+categories:
+  - écriture numérique
+  - littérature numérique
+  - Narration
+  - Éditorialisation
+  - Literacy
+  - Technologies de l'information et de la communication
+subtitle: "La traduction du geste : Analogies techniques dans le récit interactif"
+bibliography: referenceAuteurs.bib
+
+
+---
+
+#### University of Technology of Compiègne Université de technologie de Compiègne
+[{{< fa solid globe >}} https://www.idref.fr/101521693](https://www.idref.fr/101521693) [{{< fa solid globe >}} https://orcid.org/0000-0002-4430-7130](https://orcid.org/0000-0002-4430-7130) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon](https://hal.science/search/index/?q=authIdHal_s:serge-bouchardon) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Serge Bouchardon explore les mutations de l'écriture et de la lecture numériques, en se focalisant sur la création littéraire interactive et sa transposition didactique. Ses travaux analysent les dispositifs d'éditorialisation pour la diffusion des savoirs en SHS [@valluy:hal-03790580] et étudient l'intégration des récits interactifs dans le secondaire pour développer de nouvelles compétences littératiques [@bouchardon:hal-03091085].
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/59842)
+  - [lien vers le prompt](prompt_serge_bouchardon.txt)
+  - [lien vers la réponse](resume_serge_bouchardon.json)
+
+
+
+**Titre : La traduction du geste : Analogies techniques dans le récit interactif**
+
+**Résumé :**
+Dans le cadre de « Frontières Numériques 7 », cette intervention se propose d'interroger l'analogie entre le geste technique et l'acte de lecture au sein des Récits Interactifs Numériques (IDN). La littérature numérique, en imposant une manipulation du dispositif, déplace la frontière traditionnelle entre l'auteur et le lecteur, transformant l'interaction en une analogie performative du sens. En s'appuyant sur les défis inhérents à la traduction de ces œuvres — qui nécessite une transposition autant linguistique que codique — et sur leur réception en contexte pédagogique, nous analyserons comment la technologie ne sert pas seulement de support, mais de structure analogique à la narration elle-même. Nous montrerons comment l'enseignement de ces objets hybrides permet de révéler les « boîtes noires » de l'écriture numérique, favorisant une littératie qui dépasse la simple compétence technique pour atteindre une compréhension critique des médiations technologiques.
+
+### Résonances Bibliographiques
+
+Les recherches de Serge Bouchardon s'ancrent profondément dans une réflexion sur la matérialité du numérique et ses implications épistémologiques. Ses travaux sur l'éditorialisation résonnent avec les problématiques actuelles de structuration et de légitimation des contenus académiques en accès ouvert, proposant des modèles innovants pour les sciences humaines [@valluy:hal-03790580]. De plus, son analyse de l'enseignement de la littérature numérique tisse des liens étroits entre les théories de la réception et les études logicielles, démontrant que l'introduction de récits interactifs en milieu scolaire est un levier essentiel pour appréhender les nouvelles modalités de lecture et d'écriture propres à notre environnement technologique [@bouchardon:hal-03091085].

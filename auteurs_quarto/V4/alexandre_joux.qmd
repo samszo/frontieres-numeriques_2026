@@ -1,0 +1,40 @@
+---
+title: Alexandre Joux
+categories:
+  - journalisme
+  - Big Data
+  - Fact-checking
+  - société de l'information
+  - épistémologie
+
+subtitle: "De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+#### Institut Méditerranéen des Sciences de l'Information et de la Communication
+[{{< fa solid globe >}} https://www.idref.fr/078868270](https://www.idref.fr/078868270) [{{< fa solid globe >}} https://orcid.org/0000-0003-4886-6949](https://orcid.org/0000-0003-4886-6949) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:alexandre-joux](https://hal.science/search/index/?q=authIdHal_s:alexandre-joux) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux d'Alexandre Joux explorent les mutations de l'épistémologie journalistique à l'ère du numérique, en analysant notamment les tensions entre les prétentions du Big Data et les pratiques du data journalisme [@joux:hal-03507883]. Il interroge la redéfinition de l'autorité et de l'objectivité face aux algorithmes génératifs comme ChatGPT [@joux:hal-04445932] et examine les enjeux de diversité culturelle au sein des plateformes de streaming [@joux:hal-02935508].
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/57797)
+  - [lien vers le prompt](prompt_alexandre_joux.txt)
+  - [lien vers la réponse](resume_alexandre_joux.json)
+
+
+
+**Titre : De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique**
+
+**Résumé :**
+Cette intervention propose d'analyser la reconfiguration de l'autorité journalistique sous le prisme des technologies de la donnée et de l'intelligence artificielle. En partant du constat que le Big Data et le journalisme portent des prétentions épistémologiques souvent irréconciliables [@joux:hal-03507883], nous explorerons l'analogie entre la « boîte noire » des sources institutionnelles en temps de crise sanitaire [@joux:hal-04054754] et l'opacité des algorithmes génératifs. Il s'agira de questionner comment la fonction de vérification et de *fact-checking* peut survivre à l'automatisation de la production discursive symbolisée par ChatGPT [@joux:hal-04445932]. Nous aborderons également la manière dont les écosystèmes numériques des médias, marqués par des stratégies de marque et de *data management* [@joux:hal-01921848], tentent de rétablir une "exception culturelle" et une légitimité face à l'hégémonie des plateformes mondialisées [@joux:hal-03668022].
+
+### Résonances Bibliographiques
+
+Les recherches d'Alexandre Joux s'articulent autour de la gestion critique des flux d'information, considérée comme une ressource essentielle. Si Patrice Christmann plaide pour une utilisation équitable des ressources géologiques [@christmann:hal-01288500], Joux transpose cette nécessité d'équité et de durabilité à l'écologie de l'information et de la culture. Il démontre comment le streaming musical [@joux:hal-02935508] ou la SVOD [@joux:hal-03668022] nécessitent une régulation pour préserver la diversité face à l'uniformisation algorithmique. Cette gestion des ressources informationnelles devient cruciale lors de crises systémiques, où le traitement médiatique oscille entre consensus professionnel et cacophonie des sources [@grondeau:hal-03612257; @joux:hal-03052016]. En définitive, ses travaux sur l'autorité de l'IA [@joux:hal-04445932] et l'épistémologie du journalisme [@joux:hal-05008261] soulignent l'urgence de définir une éthique de la médiation technologique.

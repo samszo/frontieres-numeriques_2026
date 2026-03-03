@@ -42,6 +42,10 @@ class ProgrammeGenerator {
         $md .= "toc: true" . PHP_EOL;
         $md .= "---" . PHP_EOL . PHP_EOL;
 
+        $md .= "::: {.callout-warning}" . PHP_EOL;
+        $md .= "Ce programme est toujours en cours de discussion avec les intervenants et le commité scientifique" . PHP_EOL;
+        $md .= ":::" . PHP_EOL;
+
         $md .= "::: {.callout-note appearance='minimal'}" . PHP_EOL;
         $md .= "## Processus de génération du programme" . PHP_EOL . PHP_EOL;
         $md .= "Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr)." . PHP_EOL . PHP_EOL;
@@ -61,7 +65,9 @@ class ProgrammeGenerator {
 
             if($numJour == 0){
                 $md .= "## Accueil - Ouverture du colloque : ".$this->formatDateHeure($currentTime) . PHP_EOL . PHP_EOL;
-                $md .= "  - Comité de programme et d'organisation : Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
+                $md .= "  - Comité de programme et d'organisation : " . PHP_EOL;
+                $md .= "    - Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
+                $md .= "    - Olivier Nannipieri, Institut Méditerranéen des Sciences de l'Information et de la Communication, France" . PHP_EOL;
                 $md .= "  - Présidents du colloque : ". PHP_EOL;
                 $md .= "    -  Samuel SZONIECKY, Université Paris 8, France" . PHP_EOL;
                 $md .= "    -  Imad SALEH, Université Paris 8, France" . PHP_EOL. PHP_EOL;
@@ -145,7 +151,9 @@ class ProgrammeGenerator {
         }
         
         $md .= "## Synthèse des travaux - Clôture : ".$this->formatDateHeure($currentTime) . PHP_EOL . PHP_EOL;
-        $md .= "  - Comité de programme et d'organisation : Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
+        $md .= "  - Comité de programme et d'organisation : " . PHP_EOL;
+        $md .= "    - Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
+        $md .= "    - Olivier Nannipieri, Institut Méditerranéen des Sciences de l'Information et de la Communication, France" . PHP_EOL;
         $md .= "  - Présidents du colloque : ". PHP_EOL;
         $md .= "    -  Samuel SZONIECKY, Université Paris 8, France" . PHP_EOL;
         $md .= "    -  Imad SALEH, Université Paris 8, France" . PHP_EOL. PHP_EOL;

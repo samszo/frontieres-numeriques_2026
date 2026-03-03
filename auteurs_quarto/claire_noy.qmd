@@ -1,12 +1,9 @@
 ---
-title: Claire NOY
-categories:
-  - carte conceptuelle
-  - contextualisation
-  - point de vue
-  - co-design
+title: "La Médiation des Savoirs comme Frontière Analogique : Cartographies et Négociations du Sens"
+author: Claire Noy
+categories: [Médiation scientifique, Frontières numériques, Cartographie conceptuelle, Épistémologie]
 
-subtitle: "L'analogie de la carte : topographie des savoirs et phénoménologie de l'acte numérique"
+subtitle: "Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens"
 bibliography: referenceAuteurs.bib
 
 
@@ -18,26 +15,27 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux de Claire Noy interrogent les mutations de la transmission des savoirs et la topographie des connaissances à l'ère numérique [@noy:hal-03920792; @noy:hal-02116491]. Son approche phénoménologique explore l'acte créatif, le rapport au temps connecté et l'usage de dispositifs comme les cartes conceptuelles pour structurer le sens et la recherche [@noy:hal-03901403; @noy:hal-04138013; @noy:hal-04291720].
+**Résumé :** Les travaux de Claire Noy interrogent la reconfiguration des frontières épistémiques et institutionnelles à l'ère du numérique, notamment la porosité croissante entre savoirs experts et profanes [@noy:hal-03920792; @noy:hal-03920721]. Elle analyse la médiation scientifique non plus comme une simple transmission, mais comme un processus de co-construction du sens, où les dispositifs graphiques comme les cartes conceptuelles jouent le rôle d'outils cognitifs d'appropriation et de structuration de la recherche [@noy:hal-04138013; @noy:hal-02116491]. Ses recherches explorent également la phénoménologie de l'acte créatif et la temporalité dans les environnements connectés [@noy:hal-03901403; @noy:hal-04291720].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/878)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85525)
   - [lien vers le prompt](prompt_claire_noy.txt)
   - [lien vers la réponse](resume_claire_noy.json)
 
 
 
-**Titre : L'analogie de la carte : topographie des savoirs et phénoménologie de l'acte numérique**
+**Titre : Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens**
 
 **Résumé :**
-Cette intervention propose d'explorer la notion de « frontières numériques » non comme des limites étanches, mais comme des zones de négociation et de traduction des savoirs. En s'appuyant sur une nouvelle topographie des savoirs universitaires [@noy:hal-03920792], nous analyserons comment les technologies de représentation, notamment la carte conceptuelle, agissent comme des analogies cognitives permettant de structurer une recherche proactive [@noy:hal-04138013]. Il s'agira de mettre en dialogue la phénoménologie sociale de l'acte créatif [@noy:hal-03901403] avec les contraintes temporelles du « temps connecté » [@noy:hal-04291720]. Nous questionnerons ainsi comment le numérique, en modifiant l'accès aux données scientifiques pour les profanes [@noy:hal-03920721], reconfigure les dynamiques d'apprentissage et de négociation de la réalité dans une société de communication [@noy:hal-04293906; @noy:hal-04441423].
+Cette intervention s'inscrit principalement dans l'**Axe 2 (L’Analogie comme outil cognitif et explicatif)** et l'**Axe 4 (Humanités Numériques)**. Nous proposons d'analyser comment la frontière numérique, loin d'être une limite étanche, fonctionne comme une « interface analogique » permettant la traduction et la médiation entre des régimes de savoirs hétérogènes (universitaires, profanes, algorithmiques). En s'appuyant sur l'usage de la carte conceptuelle comme outil heuristique, nous montrerons comment l'analogie visuelle et structurelle permet de « vectoriser le sens » dans le chaos informationnel. Il s'agira de démontrer que la conception de dispositifs de médiation numérique nécessite une approche analogiste, reliant les intériorités cognitives des apprenants aux physicalités des infrastructures de données, pour transformer l'accès à l'information en une véritable appropriation des connaissances, redéfinissant ainsi les territoires de l'autorité scientifique.
 
 ### Résonances Bibliographiques
 
-Les recherches de Claire Noy s'articulent autour de trois axes majeurs qui résonnent avec les thématiques de *Frontières Numériques* :
+La proposition de Claire Noy entre en dialogue direct avec les théoriciens de la frontière et de l'analogie mobilisés pour la conférence :
 
-*   **Topographie et Frontières des Savoirs :** L'auteure redéfinit l'espace universitaire et l'accès aux données, posant la question de la distinction entre expert et profane dans la diffusion numérique [@noy:hal-03920792; @noy:hal-03920721; @noy:hal-02116491].
-*   **Phénoménologie de l'Apprentissage et Créativité :** Elle examine les ressorts de l'apprentissage et l'acte créatif, utilisant notamment la carte conceptuelle comme outil de médiation entre la pensée et sa matérialisation technologique [@noy:hal-03901403; @noy:hal-04138013; @noy:hal-04293906].
-*   **Temporalité et Médiation :** Ses travaux récents interrogent notre rapport au temps dans un environnement connecté et la manière dont les réseaux sociaux participent à une négociation collective de la réalité [@noy:hal-04291720; @noy:hal-04441423].
+*   **La frontière comme interface active :** L'analyse de Noy sur les "nouvelles topographies des savoirs" [@noy:hal-03920792] résonne avec la vision de **Citton (2010)** définissant la frontière comme un tunnel ou une passerelle d'interopérabilité, et celle de **Debray (2013)** qui la voit comme une "passoire" (filtre/régulateur) plutôt qu'un mur. La frontière numérique devient ici le lieu de la "bataille des signes" décrite par **Serres (1997)**, où se joue l'appropriation du sens.
+*   **L'outil cognitif et la carte conceptuelle :** L'usage de la carte conceptuelle par Noy [@noy:hal-04138013] pour structurer la recherche illustre parfaitement la thèse de **Hofstadter & Sander (2013)** selon laquelle l'analogie est le moteur de l'apprentissage et de l'extension des catégories. Cette méthode graphique rejoint l'approche de **Szoniecky (2024)** sur la modélisation des connaissances par analogie écosystémique.
+*   **Médiation et Ontologie :** En traitant de la distinction expert/profane [@noy:hal-03920721], Noy aborde les "éthologies conceptuelles" de **Noyer (2016)**. Son approche de la médiation peut être vue comme une tentative de réconcilier les physicalités (outils numériques) et les intériorités (processus cognitifs), s'inscrivant dans l'ontologie analogiste évoquée par **Serres (2009)** et **Descola (2005)**.
+*   **Créativité et Contraintes :** Enfin, ses travaux sur l'acte créatif et la temporalité [@noy:hal-03901403; @noy:hal-04291720] dialoguent avec **Delannay (2025)** sur la capacité de l'analogie à vectoriser le sens tout en limitant les interprétations, offrant un contrepoint humaniste aux enjeux de monopole juridique soulevés par **Moulier Boutang (2010)**.

@@ -1,14 +1,9 @@
 ---
-title: Georges Gagneré
-categories:
-  - Théâtre
-  - Motion capture
-  - Avatars
-  - Réalité Mixte
-  - Recherche-Création
-  - Unreal Engine
+title: "L'Avatar comme Analogue Scénique : Hybridations et Frontières du Jeu d'Acteur"
+author: Georges Gagneré
+categories: [Théâtre, Réalité Mixte, Avatar, Recherche-Création, Capture de Mouvement]
 
-subtitle: "L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence"
+subtitle: "L’Avatar comme Analogue Scénique : Hybridations et Frontières du Jeu d'Acteur"
 bibliography: referenceAuteurs.bib
 
 
@@ -20,22 +15,26 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Georges Gagneré explore les hybridations entre la scène théâtrale et les technologies numériques, en se concentrant particulièrement sur la « direction d'avatar » et les dispositifs de réalité mixte en temps réel. Ses travaux, illustrés par le projet *L'Ombre* @gagnere:hal-04580393 et le développement de l'outil AKN_Regie @gagnere:hal-04571489, analysent comment la capture de mouvement et les moteurs de jeu (Unreal Engine) reconfigurent la dramaturgie et la présence de l'acteur via son double numérique.
+**Résumé :** Georges Gagneré explore les zones de contact entre les arts de la scène et les technologies numériques, en se focalisant sur la « direction d'avatar » comme extension de la direction d'acteur [@gagnere:hal-02523764]. Ses travaux de recherche-création, notamment autour du dispositif *AKN_Regie* [@gagnere:hal-04571489] et des performances en réalité mixte comme *The Wizard without Shadow* [@ternova:hal-04242403], interrogent la capture de mouvement non plus comme une technique d'enregistrement, mais comme un processus de médiation temps réel [@gagnere:hal-04580393].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/63417)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/63417)
   - [lien vers le prompt](prompt_georges_gagner_.txt)
   - [lien vers la réponse](resume_georges_gagner_.json)
 
 
 
-**Titre : L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence**
+**Titre : L’Avatar comme Analogue Scénique : Hybridations et Frontières du Jeu d'Acteur**
 
 **Résumé :**
-Cette intervention propose d'analyser les mutations de la mise en scène à l'ère de la prévisualisation temps réel et de la capture de mouvement. En s'appuyant sur le concept de « direction d'avatar » expérimenté dans des projets de recherche-création tels que *The Wizard without Shadow* @ternova:hal-04242403, nous interrogerons l'analogie opérante entre le comédien et sa marionnette numérique. Il s'agira de démontrer comment l'outil AKN_Regie @gagnere:hal-04571489 agit comme une passerelle technique et esthétique, permettant de synchroniser l'intention dramaturgique avec les flux de données numériques. Nous examinerons comment ces technologies ne se contentent pas d'augmenter la scène, mais redéfinissent l'ontologie de la présence théâtrale en créant un espace de jeu hybride où le corps biologique et l'image calculée dialoguent dans une immédiateté performative.
+Cette intervention s'inscrit principalement dans l'**Axe 3 (Modélisation et simulation : créer des analogues du réel)** tout en dialoguant avec les enjeux de créativité de l'**Axe 4**. Nous proposons d'analyser la relation acteur-avatar non pas sous l'angle de la copie mimétique, mais comme une construction analogique complexe où la technologie redéfinit la présence scénique. À travers l'analyse des projets *L'Ombre* et *AvatarStaging*, nous démontrerons comment la capture de mouvement opère une translation ontologique : le corps biologique de l'acteur est filtré par l'algorithme pour devenir une marionnette numérique, un « analogue » vivant évoluant dans un espace hybride. Cette frontière numérique n'est pas une barrière, mais une interface de négociation permanente entre l'intention dramatique humaine et les contraintes du moteur de jeu (Unreal Engine), créant ainsi une nouvelle grammaire de la mise en scène où le virtuel actualise les potentialités du geste physique.
 
 ### Résonances Bibliographiques
 
-Les travaux de Georges Gagneré s'inscrivent dans une refonte des outils du spectacle vivant par le prisme du numérique. L'élaboration de la plateforme **AKN_Regie** @gagnere:hal-04571489 matérialise cette convergence, facilitant l'intégration de moteurs de jeu comme Unreal Engine sur les plateaux de théâtre. Cette approche technique soutient une réflexion esthétique sur la **direction d'acteur** étendue à l'artiste numérique @gagnere:hal-02523764, transformant les méthodes de collaboration au sein des collectifs de création @gagnere:hal-04582486. Les expérimentations sur la **capture de mouvement** et la **réalité mixte**, visibles dans les captations de *L'Ombre* @gagnere:hal-04580392 et @gagnere:hal-04580393, ainsi que dans *The Wizard without Shadow* @ternova:hal-04242403, illustrent concrètement ces nouvelles écritures scéniques. Par ailleurs, ses recherches sur les **télélectures interactives** @gagnere:hal-04580446 préfiguraient déjà les enjeux actuels de la téléprésence et de la délocalisation de l'espace de jeu.
+Les travaux de Georges Gagneré sur l'interfaçage entre le corps de l'acteur et l'espace numérique résonnent profondément avec la conception de la frontière comme « crible » proposée par **Guattari (1992)**. Le dispositif de capture de mouvement agit ici comme cette interface sélective entre les « virtualités du chaos » (le mouvement brut, l'informe) et les « potentialités actuelles » (l'avatar incarné sur scène).
+
+Cette médiation technologique illustre parfaitement la vision de **Debray (2013)** pour qui la frontière est un « régulateur » et une « passoire » plutôt qu'un mur : le système *AKN_Regie* [@gagnere:hal-04571489] filtre le geste pour ne laisser passer que ce qui fait sens dramaturgique dans l'espace logiciel. Cela rejoint la « bataille des signes » décrite par **Serres (1997)**, où le metteur en scène doit s'approprier le canal numérique pour éviter que la technique ne vide le sujet de son sens théâtral.
+
+Enfin, l'approche de Gagneré s'inscrit dans ce que **Serres (2009)** nomme une « ontologie analogiste » reliant physicalités et intériorités : l'avatar n'est pas un simple objet, mais un analogue doté d'une intériorité prêtée par l'acteur, rappelant le parallélisme fondamental entre langage et outil souligné par **Leroi-Gourhan (1964)**. La scène mixte devient alors, selon les termes de **Citton (2010)**, un tunnel assurant une « communication non triviale » entre la chair et le code.

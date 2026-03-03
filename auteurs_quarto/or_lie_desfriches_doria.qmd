@@ -1,5 +1,5 @@
 ---
-title: Orélie Desfriches Doria
+title: "« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique"
 author:
   - name: Orélie Desfriches Doria
     affiliations:
@@ -10,6 +10,7 @@ author:
     affiliations:
       - name: Laboratoire paragraphe
       - name: Université Paris 8 Vincennes-Saint-Denis
+      
 categories:
   - Patrimoine immatériel
   - Mise en controverse
@@ -20,8 +21,10 @@ categories:
   - Datavisualisation
   - Classification à facettes
   - Controversies
-subtitle: "« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »"
+
+subtitle: "Des facettes aux frontières : la modélisation analogique comme dispositif critique"
 bibliography: referenceAuteurs.bib
+
 
 
 ---
@@ -31,9 +34,8 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux d'Orélie Desfriches Doria s'articulent autour de l'organisation des connaissances et des humanités numériques, interrogeant notamment la gestion de l'hétérogénéité documentaire @zacklad:hal-02924134 et la création de sens par le design @desfrichesdoria:hal-02298796. Ses recherches actuelles investissent le champ de l'éducation aux médias (EMI), explorant comment la modélisation et la cartographie des controverses peuvent structurer l'argumentation et favoriser l'esprit critique @desfrichesdoria:halshs-03252800, @debaz:hal-05029680.
+**Résumé :** Les travaux d'Orélie Desfriches Doria interrogent la médiation numérique en liant le design de l'information à la production de sens [@desfrichesdoria:hal-02298796]. Elle explore notamment comment la modélisation des connaissances et des controverses sert de levier pédagogique pour développer l'esprit critique [@desfrichesdoria:halshs-03252800], tout en analysant les structures documentaires complexes et l'hétérogénéité des classifications dans les écosystèmes numériques [@zacklad:hal-02924134].
 :::
-
 
 ### Proposition déposée sur scienceconf.org
 
@@ -52,29 +54,23 @@ Enfin un travail comparatif sur les termes employés dans les différentes publi
 
 Ce travail permettra d'observer les homologies sur le plan des réseaux d'actants, et sur le plan des termes employés par ces actants, en matière de publications sur le sujet du patrimoine immatériel. A travers ce travail de caractérisation des réseaux et de l'emploi de termes spécifiques, nous pourrons initier un travail critique d'analyse, sur la notion de patrimoine immatériel, ainsi que sur les caractéristiques de ses parties prenantes. Ainsi, en mettant cette notion en controverse, nous pourrons mieux la cerner, et en voir les apports et limites.
 
-
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/890)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85515)
   - [lien vers le prompt](prompt_or_lie_desfriches_doria.txt)
   - [lien vers la réponse](resume_or_lie_desfriches_doria.json)
 
 
 
-**Titre : De l'analogie visuelle à l'esprit critique : Modéliser les controverses à l'ère numérique**
+**Titre : Des facettes aux frontières : la modélisation analogique comme dispositif critique**
 
 **Résumé :**
-Cette intervention se propose d'explorer le rôle des outils de modélisation numérique comme supports analogiques au service de l'esprit critique. Dans un contexte où les formes et structures argumentatives évoluent rapidement sur le web, la capacité à représenter graphiquement la complexité devient un enjeu majeur pour les humanités numériques. En nous appuyant sur l'analyse des controverses et la visualisation de données, nous montrerons comment le passage de la donnée brute à sa forme visuelle constitue une opération analogique permettant de rendre intelligibles des débats sociétaux complexes. Nous interrogerons la tension entre la simplification nécessaire au design d'interface et l'exigence de nuance propre à la démarche scientifique. Cette approche vise à démontrer comment ces "technologies de l'analogie" peuvent devenir des leviers pédagogiques essentiels en Éducation aux Médias et à l'Information, pour accompagner les usages numériques et déconstruire la désinformation.
+Cette proposition s'inscrit transversalement dans l'Axe 2 (Outil cognitif) et l'Axe 3 (Modélisation) pour examiner comment la structuration de l'information agit comme une analogie performative définissant les frontières numériques. En partant du principe que « du design de la forme naît le sens », nous analyserons la modélisation (cartographies de controverses, classifications à facettes) non pas comme une simple réduction du réel, mais comme une construction analogique permettant d'appréhender la complexité. L'intervention démontrera que ces dispositifs techniques sont des frontières au sens d'interfaces actives : elles filtrent et organisent le chaos informationnel. L'enjeu est de comprendre comment ces analogies structurelles, en « vectorisant le sens », peuvent devenir des outils d'émancipation intellectuelle et d'esprit critique pour l'usager, transformant la frontière opaque de l'écran en un seuil d'intelligibilité.
 
 ### Résonances Bibliographiques
 
-**Organisation des connaissances et Humanités Numériques :**
-- @zacklad:hal-02924134
-- @desfrichesdoria:hal-02298796
-- @boukacemzeghmouri:hal-01973467
+La démarche d'Orélie Desfriches Doria, qui envisage le design comme vecteur de sens [@desfrichesdoria:hal-02298796], entre en résonance directe avec la conception de **Delannay (2025)** pour qui l'analogie vectorise le sens en limitant les interprétations. Cette structuration du sens par la forme rejoint la « bataille des signes » évoquée par **Serres (1997)**, où l'appropriation du canal numérique définit les nouvelles frontières du savoir.
 
-**Éducation aux médias, Esprit critique et Controverses :**
-- @desfrichesdoria:halshs-03252800
-- @desfrichesdoria:halshs-04015756
-- @debaz:hal-05029680
-- @dessinges:hal-04015960
+En matière d'organisation des connaissances, ses travaux sur la gestion de l'hétérogénéité documentaire et les classifications [@zacklad:hal-02924134] dialoguent avec l'approche de **Szoniecky (2024)** sur l'analogie des écosystèmes pour modéliser les connaissances, ainsi qu'avec **Bidan & Godé (2017)** sur l'analogie de l'urbanisme. Ici, la classification n'est pas un mur, mais un « crible » au sens de **Guattari (1992)**, une interface entre virtualités et potentialités actuelles.
+
+Enfin, l'usage de la modélisation comme outil d'esprit critique [@desfrichesdoria:halshs-03252800] illustre parfaitement la définition de la frontière par **Citton (2010)** (passerelle assurant une communication non triviale) et **Debray (2013)** (filtre régulateur). Face à l'évolution des formes argumentatives [@debaz:hal-05029680], l'approche analogiste devient, comme le suggère **Hofstadter & Sander (2013)**, le moteur essentiel de l'apprentissage et de l'extension des catégories conceptuelles dans un environnement numérique saturé.

@@ -1,13 +1,9 @@
 ---
-title: Alexandre Joux
-categories:
-  - journalisme
-  - Big Data
-  - Fact-checking
-  - société de l'information
-  - épistémologie
+title: "L'autorité à l'épreuve de l'analogie algorithmique : journalisme et frontières de la vérité"
+author: Alexandre Joux
+categories: [journalisme, Big Data, Autorité, ChatGPT, Fake news, Éthique]
 
-subtitle: "De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique"
+subtitle: "Simulacres d'Expertise : L'Analogie Conversationnelle comme Nouvelle Frontière de l'Autorité"
 bibliography: referenceAuteurs.bib
 
 
@@ -19,22 +15,27 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux d'Alexandre Joux explorent les mutations de l'épistémologie journalistique à l'ère du numérique, en analysant notamment les tensions entre les prétentions du Big Data et les pratiques du data journalisme [@joux:hal-03507883]. Il interroge la redéfinition de l'autorité et de l'objectivité face aux algorithmes génératifs comme ChatGPT [@joux:hal-04445932] et examine les enjeux de diversité culturelle au sein des plateformes de streaming [@joux:hal-02935508].
+**Résumé :** Les travaux d'Alexandre Joux interrogent les mutations épistémologiques du journalisme confronté à la mise en données du monde. Il analyse l'incompatibilité entre les prétentions du Big Data et l'idéal journalistique @Joux:2021, tout en explorant la redéfinition de l'autorité informationnelle face aux agents conversationnels comme ChatGPT [@joux:hal-04445932]. Ses recherches portent également sur les frontières économiques et culturelles des plateformes de streaming [@joux:hal-03668022].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/57797)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/57797)
   - [lien vers le prompt](prompt_alexandre_joux.txt)
   - [lien vers la réponse](resume_alexandre_joux.json)
 
 
 
-**Titre : De la donnée à l'algorithme : nouvelles frontières de l'autorité journalistique**
+**Titre : Simulacres d'Expertise : L'Analogie Conversationnelle comme Nouvelle Frontière de l'Autorité**
 
 **Résumé :**
-Cette intervention propose d'analyser la reconfiguration de l'autorité journalistique sous le prisme des technologies de la donnée et de l'intelligence artificielle. En partant du constat que le Big Data et le journalisme portent des prétentions épistémologiques souvent irréconciliables [@joux:hal-03507883], nous explorerons l'analogie entre la « boîte noire » des sources institutionnelles en temps de crise sanitaire [@joux:hal-04054754] et l'opacité des algorithmes génératifs. Il s'agira de questionner comment la fonction de vérification et de *fact-checking* peut survivre à l'automatisation de la production discursive symbolisée par ChatGPT [@joux:hal-04445932]. Nous aborderons également la manière dont les écosystèmes numériques des médias, marqués par des stratégies de marque et de *data management* [@joux:hal-01921848], tentent de rétablir une "exception culturelle" et une légitimité face à l'hégémonie des plateformes mondialisées [@joux:hal-03668022].
+Cette intervention s'inscrit dans l'**Axe 4 (Limites, Éthique et Créativité)**. Elle propose d'analyser comment les technologies d'intelligence artificielle générative, et spécifiquement ChatGPT, redéfinissent la frontière de l'autorité médiatique. En s'appuyant sur une analogie formelle avec la conversation humaine, ces outils opèrent un mimétisme discursif qui concurrence la légitimité journalistique traditionnelle. Nous montrerons que cette « autorité de l'interface » crée une zone de friction éthique majeure : là où le journalisme revendique une méthodologie de vérification des faits, l'IA oppose une plausibilité statistique sans référent réel. Il s'agira de comprendre comment ce déplacement transforme la frontière numérique d'un espace de médiation vérifiée en un espace de génération probabiliste, posant la question cruciale de la responsabilité éditoriale dans un écosystème où le créateur de contenu n'est plus un sujet humain mais un modèle mathématique.
 
 ### Résonances Bibliographiques
 
-Les recherches d'Alexandre Joux s'articulent autour de la gestion critique des flux d'information, considérée comme une ressource essentielle. Si Patrice Christmann plaide pour une utilisation équitable des ressources géologiques [@christmann:hal-01288500], Joux transpose cette nécessité d'équité et de durabilité à l'écologie de l'information et de la culture. Il démontre comment le streaming musical [@joux:hal-02935508] ou la SVOD [@joux:hal-03668022] nécessitent une régulation pour préserver la diversité face à l'uniformisation algorithmique. Cette gestion des ressources informationnelles devient cruciale lors de crises systémiques, où le traitement médiatique oscille entre consensus professionnel et cacophonie des sources [@grondeau:hal-03612257; @joux:hal-03052016]. En définitive, ses travaux sur l'autorité de l'IA [@joux:hal-04445932] et l'épistémologie du journalisme [@joux:hal-05008261] soulignent l'urgence de définir une éthique de la médiation technologique.
+Cette proposition tisse des liens étroits entre les recherches d'Alexandre Joux et les cadres théoriques de la conférence :
+
+*   **La bataille des signes et l'autorité :** L'analyse de Joux sur la remise en cause de l'autorité journalistique par ChatGPT [@joux:hal-04445932] résonne directement avec la vision de **Serres (1997)** [@Serres1997], pour qui l'espace logiciel est le lieu d'une bataille pour s'approprier le sens et le sujet. Ici, l'algorithme tente de s'approprier la posture d'expert.
+*   **La frontière comme filtre :** En opposant l'épistémologie du Big Data à celle du journalisme [@joux:hal-03507883], l'auteur illustre le concept de **Debray (2013)** [@Debray2013] où la frontière agit comme un régulateur (un "crible"). Le journaliste perd son rôle de filtre exclusif au profit de l'opacité algorithmique décrite par **LeCun (2022)** [@LeCun2022].
+*   **Appropriation et diversité :** Les travaux de Joux sur les plateformes de streaming et l'exception culturelle [@joux:hal-03668022] actualisent le paradoxe soulevé par **Moulier Boutang (2010)** [@moulierboutang2010] concernant la tension entre création comme bien public et monopoles juridiques ou technologiques.
+*   **L'analogie comme leurre :** Enfin, la capacité de l'IA à "vectoriser le sens" en limitant les interprétations par une réponse unique rejoint les préoccupations de **Delannay (2025)** [@Delannay2025], tout en exploitant le mécanisme d'extension des catégories par analogie décrit par **Hofstadter & Sander (2013)** [@HofstadterSander2013], mais ici sans la compréhension sémantique sous-jacente.

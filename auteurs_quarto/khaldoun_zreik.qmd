@@ -1,14 +1,9 @@
 ---
-title: Khaldoun ZREIK
-categories:
-  - Post-Numérique
-  - Smart Heritage
-  - Conception
-  - HyperUrbain
-  - Humanités Numériques
-  - BIM
+title: "De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique"
+author: Khaldoun Zreik
+categories: [Post-Numérique, HyperUrbain, Smart Heritage, Conception, Humanités Numériques]
 
-subtitle: "L'analogie du -Smart- : Du territoire hyperurbain au patrimoine post-numérique"
+subtitle: "De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique"
 bibliography: referenceAuteurs.bib
 
 
@@ -20,26 +15,30 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Khaldoun Zreik interroge les mutations sociétales et cognitives induites par les technologies de l'information, naviguant de la conception hypermédia vers les enjeux de la "Data City" et du post-numérique [@zreik:hal-04440700]. Ses recherches récentes articulent la dématérialisation des relations territoriales [@zreik:hal-04436908] avec la valorisation du patrimoine via le concept de "Smart Heritage" [@bouhai:hal-04427437], tout en explorant les méthodologies numériques appliquées aux corpus complexes [@torresyepez:hal-04450083].
+**Résumé :** 
+Dans un espace logiciel défini par une « bataille des signes » [@Serres1997], les frontières numériques ne sont plus des murs mais des passerelles d'interopérabilité [@Citton2010] et des interfaces de filtrage du chaos [@Guattari1992]. En dépassant la simple analogie techniciste de l'urbanisme des SI [@BidanGode2017], nous devons concevoir ces frontières comme des zones éthologiques fluctuantes [@Noyer2016] où la technologie ne se contente pas de modéliser le réel, mais redéfinit notre ontologie relationnelle.
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/930)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85479)
   - [lien vers le prompt](prompt_khaldoun_zreik.txt)
   - [lien vers la réponse](resume_khaldoun_zreik.json)
 
 
 
-**Titre : L'analogie du "Smart" : Du territoire hyperurbain au patrimoine post-numérique**
+**Titre : De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique**
 
 **Résumé :**
-Cette intervention propose d'explorer les frontières entre la modélisation technologique et l'expérience humaine située, à travers le prisme de l'ère post-numérique. En dépassant la simple numérisation de l'existant, nous analyserons comment les analogies computationnelles transforment notre rapport au temps et à l'espace, marquant le passage de la ville intelligente à une ville de données omniprésentes. Nous aborderons spécifiquement la tension entre la préservation du patrimoine culturel (matériel et immatériel) et sa "biopiraterie" ou réappropriation algorithmique potentielle. Il s'agira de démontrer comment les nouvelles méthodes d'exploitation de corpus et de visualisation de données permettent de redéfinir les concepts d'innovation et de transmission patrimoniale, instaurant une nouvelle écologie cognitive où la technologie ne sert plus seulement à archiver, mais à régénérer le sens commun et l'identité territoriale.
+
+Cette intervention interroge la transition de la « Smart City » vers la « Data City » et, *in fine*, vers l'ère du Post-Numérique où la technologie devient invisible et omniprésente. En nous appuyant sur le concept d'HyperUrbain, nous explorons comment l'analogie du système nerveux urbain, souvent utilisée pour justifier l'optimisation algorithmique, doit être dépassée pour inclure les dimensions affectives, patrimoniales et sociales. La frontière numérique ne sépare plus l'homme de son territoire ; elle dématérialise cette relation, créant une hybridation complexe. Face à la modélisation analogique des écosystèmes de connaissances, nous analyserons comment les dispositifs de médiation (Smart Heritage) et la conception architecturale doivent intégrer l'incertitude et la temporalité humaine pour éviter une simple réduction du citoyen à une donnée exploitable. Il s'agit de repenser la créativité et l'éthique au sein de ces nouvelles matrices territoriales pour garantir que la ville de demain reste une œuvre publique et non un monopole algorithmique.
 
 ### Résonances Bibliographiques
 
-Les travaux de Khaldoun Zreik s'articulent autour d'une réflexion critique sur l'intégration des technologies dans les écosystèmes humains :
+Les travaux de Khaldoun Zreik sur l'**HyperUrbain** et la dématérialisation de la relation Homme-Territoire [@zreik:hal-04436908] entrent en résonance directe avec la vision de la frontière comme « passoire » et régulateur proposée par **Debray** [@Debray2013]. Là où Debray théorise le filtre, Zreik observe comment les TIC et les réseaux sociaux redéfinissent physiquement et socialement l'espace urbain, transformant la frontière en une interface de médiation active.
 
-*   **La transition urbaine et temporelle :** L'auteur théorise le glissement de la *Smart City* vers la *Post-Digital City*, où la technologie devient un environnement invisible mais structurant [@zreik:hal-04440700]. Cette réflexion s'étend à la perception du temps dans la conception [@zreik:hal-04440493] et à la relation dématérialisée entre l'homme et son territoire dans l'HyperUrbain [@zreik:hal-04436908].
-*   **Patrimoine et Humanités Numériques :** La notion de *Smart Heritage* est centrale pour comprendre l'hybridation entre héritage culturel et dispositifs interactifs [@bouhai:hal-04427437]. Cette approche est complétée par une vigilance éthique concernant la protection des savoirs traditionnels face aux risques de captation numérique [@torresyepez:hal-04450093].
-*   **Méthodologies de la conception et de la donnée :** L'innovation pédagogique et la créativité à l'ère de l'hypermédia [@zreik:hal-01011841] sont soutenues par des méthodes algorithmiques avancées d'analyse de corpus et de visualisation, permettant de nouvelles formes de cartographie des savoirs [@torresyepez:hal-04450083].
+L'analyse de la **Data City** et du **Post-Numérique** [@zreik:hal-04440700] prolonge l'analogie de l'urbanisme appliquée aux systèmes d'information évoquée par **Bidan & Godé** [@BidanGode2017]. Zreik va plus loin en suggérant que l'analogie ne sert pas seulement à concevoir le système, mais qu'elle matérialise une nouvelle forme de cité où les flux de données (Big Data) deviennent la matière première, rejoignant ainsi l'idée de **Szoniecky** [@Szoniecky2024] sur l'analogie des écosystèmes pour modéliser les connaissances.
+
+Dans le domaine du **Smart Heritage** [@bouhai:hal-04427437], la numérisation du patrimoine culturel interroge les matrices ontologiques décrites par **Descola** [@Descola2005]. En créant des doubles numériques et des hyper-héritages, nous basculons dans une ontologie analogiste reliant les physicalités des artefacts à des intériorités numériques reconstruites, un processus qui nécessite une vigilance éthique face aux risques d'appropriation marchande soulignés par **Moulier Boutang** [@moulierboutang2010].
+
+Enfin, les préoccupations éthiques concernant la **biopiraterie du patrimoine immatériel** [@torresyepez:hal-04450093] illustrent concrètement la « bataille des signes » de **Serres** [@Serres1997]. Il s'agit ici de protéger le sens et le sujet contre une capture abusive par les dispositifs techniques, réaffirmant la nécessité de penser le temps de la conception [@zreik:hal-04440493] non comme une simple exécution algorithmique, mais comme un processus humaniste complexe.

@@ -13,9 +13,9 @@ class ResumeGenerator {
 
     public function __construct($apiKey,$context,$omkItemConf,$outputFolder,$omkSite) {
         $this->apiKey = $apiKey;
-        $this->siteContext = isset($context['CONTEXT']) ? $context['CONTEXT'] : "no";
-        $this->siteBiblio = isset($context['AXES']) ? $context['AXES'] : "no";;
-        $this->siteAxes = isset($context['BIBLIO']) ? $context['BIBLIO'] : "no";
+        $this->siteContext = isset($context['CONTEXTE']) ? implode(", ", $context['CONTEXTE']) : "no";
+        $this->siteAxes = isset($context['AXES']) ? implode(", ", $context['AXES']) : "no";;
+        $this->siteBiblio = isset($context['BIBLIO']) ? implode(", ", $context['BIBLIO']) : "no";
         $this->omkItemConf = $omkItemConf;
         $this->omkSite = $omkSite;
         $this->outputFolder = $outputFolder;
@@ -49,14 +49,16 @@ class ResumeGenerator {
                     $entry = $this->fetchBibtexFromHal($ref);
                 } elseif (strpos($ref, '10.') === 0 || strpos($ref, 'doi') === 0) {
                     $entry = $this->fetchBibtexFromDoi($ref);
+                } elseif (strpos($ref, 'sudoc') === 0) {
+                    $entry = $this->fetchBibtexFromSudoc($ref);
                 }
-                if ($entry) {
+                if (isset($entry)) {
                     if (!$this->isDuplicate($entry)) {
                         // On n'ajoute que si la clé est unique
                         file_put_contents($this->bibFile, $entry . "\n\n", FILE_APPEND);
-                        echo "✅ Ajoutée au .bib : " . $ref . "\n";
+                        echo "✅ Ajoutée au .bib : " . $ref . "<br>";
                     } else {
-                        echo "⏭️ Déjà présente (doublon ignoré) : " . $ref . "\n";
+                        echo "⏭️ Déjà présente (doublon ignoré) : " . $ref . "<br>";
                     }
                     // On conserve quand même l'entrée pour l'envoyer à l'IA 
                     // afin qu'elle puisse citer la clé même si elle était déjà dans le fichier
@@ -136,6 +138,24 @@ class ResumeGenerator {
         return ($status == 200) ? trim($bibtex) : false;
     }
 
+    private function fetchBibtexFromSudoc($ref) {
+        $id = str_replace('sudoc', '', $ref);
+        $url = "https://www.sudoc.fr/export/q=ppn&v=".$ref."&f=bibtex";
+
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        // On demande explicitement du BibTeX via les headers
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Accept: application/x-bibtex'
+        ]);
+
+        $bibtex = curl_exec($ch);
+        $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+        return ($status == 200) ? trim($bibtex) : false;
+    }
+
     private function cleanMotsclefs($motsclefs, $limit = 20) {
         $cleaned = []; 
         foreach ($motsclefs as $mc) {
@@ -151,19 +171,20 @@ class ResumeGenerator {
 
         $fileNamePrompt = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'prompt_'.$auteur['o:title']))) . ".txt";
         if (!file_exists($this->outputFolder . DIRECTORY_SEPARATOR . $fileNamePrompt)){
+            if(!isset($auteur["foaf:publications"]) || !isset($auteur["foaf:publications"])){
+                echo "Vous devez associé aux données Scanr la personne :".$auteur['o:title'] . "<br>";
+                return false;
+            }
             $pubs = $this->cleanPublications($auteur["foaf:publications"]);
             $motsclefs = $this->cleanMotsclefs($auteur["dcterms:subject"]);
             $systemPrompt = "Tu es un curateur scientifique pour {$this->omkItemConf['o:title']}. CONTEXTE: {$this->siteContext}. AXES: {$this->siteAxes}. BIBLIO: {$this->siteBiblio}. 
-                MISSION: 1. YAML Quarto (title, categories). 2. Résumé en citant ces références via leurs clés BibTeX (3-4 lignes). 3. Proposition d'intervention dans la conférence. 4. Résonances Bibliographiques en citant ces références via leurs clés BibTeX. 
-                STRUCTURE: En-tête YAML, ## Nom, Liens, Résumé, Proposition, Résonances.";
-                
-            $systemPrompt = "Tu es un curateur scientifique pour {$this->omkItemConf['o:title']}. CONTEXTE: {$this->siteContext}. AXES: {$this->siteAxes}. BIBLIO: {$this->siteBiblio}. 
-                MISSION: 1. YAML Quarto (title, categories). 2. Résumé en citant ces références via leurs clés BibTeX (3-4 lignes). 3. Proposition d'intervention dans la conférence avec un titre et un résumé de 10 lignes. 4. Résonances Bibliographiques en citant ces références via leurs clés BibTeX. 
+                MISSION: 1. YAML Quarto (title, categories). 2. Résumé en citant les références via leurs clés BibTeX (3-4 lignes). 3. Proposition d'intervention dans la conférence avec un titre et un résumé de 10 lignes. 4. Résonances Bibliographiques en croisant la bibliographie de la conférence et celle de l'auteur et en les citant via leurs clés BibTeX. 
                 STRUCTURE DE SORTIE :
                     ---
-                    title: AUTEUR
+                    title: [titre de la proposition]
+                    author: AUTEUR
                     categories: TAGS
-    
+
                     bibliography: referenceAuteurs.bib
 
                     ---

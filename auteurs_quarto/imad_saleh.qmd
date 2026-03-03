@@ -1,44 +1,42 @@
 ---
-title: Imad SALEH
-categories:
-  - Hypermédias
-  - IoT
-  - Crowdsourcing
-  - E-Justice
-  - Humanités Numériques
+title: "L'hybridation des espaces : de l'analogie du réseau à la réalité des frontières pervasives"
+author: Imad Saleh
+categories: [Systèmes d'information, Appropriation, IoT, Frontières Numériques, Inclusion numérique]
 
-subtitle: "De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence"
+subtitle: "Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique"
 bibliography: referenceAuteurs.bib
 
 
 
 ---
 
-#### Laboratoire paragraphe
-[{{< fa solid globe >}} https://www.idref.fr/031975607](https://www.idref.fr/031975607) [{{< fa solid globe >}} https://orcid.org/0000-0001-5093-6497](https://orcid.org/0000-0001-5093-6497) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:imad-saleh](https://hal.science/search/index/?q=authIdHal_s:imad-saleh) 
+#### Université de Tours
+[{{< fa solid globe >}} https://www.idref.fr/07158532X](https://www.idref.fr/07158532X) 
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les recherches d'Imad Saleh traversent les époques du numérique, depuis l'organisation structurelle des hypermédias @saleh:hal-02878221 jusqu'à l'omniprésence de l'Internet des objets @bouhai:hal-02103910. Il examine comment les technologies collaboratives, telles que le crowdsourcing appliqué à l'OCR @saleh:hal-02107965, et la transformation numérique des institutions, notamment via l'e-justice @jneid:hal-03144705, redéfinissent nos interactions avec l'information et l'espace public.
+**Résumé :** Les travaux d'Imad Saleh se situent au croisement des sciences de l'information et de la conception des dispositifs numériques, explorant notamment les dynamiques de l'Internet des Objets et des frontières numériques. Ses recherches sur l'appropriation des technologies par des publics variés (y compris les populations marginalisées) interrogent la manière dont les systèmes d'information restructurent les médiations sociales et culturelles.
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/936)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85474)
   - [lien vers le prompt](prompt_imad_saleh.txt)
   - [lien vers la réponse](resume_imad_saleh.json)
 
 
 
-**Titre : De l'Hypertexte à l'Hypermonde : Analogies de la structure, technologies de l'omniprésence**
+**Titre : Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique**
 
 **Résumé :**
-Cette intervention propose d'interroger la transition conceptuelle et technique qui nous a menés des systèmes d'organisation de l'information sur le Web vers un environnement connecté ubiquitaire. En revisitant le concept d'« Hypermonde », nous analyserons comment les analogies initiales de navigation et d'agrégation documentaire ont muté pour s'incarner dans l'Internet des Objets. Nous mettrons en lumière le rôle crucial de l'intelligence collective comme médiation technologique, illustré par la correction participative dans les bibliothèques numériques. Enfin, nous discuterons des défis actuels de cette transformation dans des secteurs critiques comme l'éducation et la justice, en questionnant si ces évolutions constituent une rupture paradigmatique ou une continuité logique des structures hypertextuelles originelles.
+Cette proposition s'inscrit principalement dans l'**Axe 4 (Limites, Éthique et Créativité)** et l'**Axe 3 (Modélisation et simulation)**. Elle vise à explorer comment l'analogie entre l'espace physique et l'espace numérique influence la conception des systèmes d'information et leur appropriation par les usagers. En s'appuyant sur des études de cas concernant l'impact des TIC sur des populations spécifiques (telles que les travailleurs immigrés ou les personnes âgées), nous analyserons les frontières invisibles que créent les interfaces modernes. Nous montrerons comment la modélisation des utilisateurs, souvent basée sur des analogies réductrices du comportement humain, peut générer des fractures numériques. L'intervention proposera de repenser l'analogie non plus comme une simplification du réel, mais comme un outil de médiation inclusive pour des environnements hybrides (IoT, Phygital).
 
 ### Résonances Bibliographiques
 
-L'œuvre d'Imad Saleh offre un panorama des mutations technologiques où l'analogie entre le réseau d'information et le réseau physique devient centrale.
+Les recherches d'Imad Saleh sur l'appropriation des systèmes d'information et les impacts sociaux des technologies entrent en résonance directe avec plusieurs axes théoriques de la conférence :
 
-*   **L'évolution des structures :** Ses premiers travaux sur les systèmes collaboratifs et l'organisation du Web, notamment avec *HyWebMap* [@saleh:hal-02878221; @saleh:hal-02878222], posent les bases d'une réflexion sur la structuration des connaissances qui s'étend plus tard à la vision globale de l'**Hypermonde** [@saleh:hal-01011407].
-*   **L'intelligence collective comme technologie :** L'approche participative est explorée comme une technologie sociale nécessaire pour pallier les manques de l'automatisation pure, comme le démontre l'étude sur le **crowdsourcing** pour la correction de l'OCR dans les bibliothèques numériques [@saleh:hal-02107965].
-*   **L'objet et l'institution connectés :** La réflexion s'élargit ensuite à la matérialité et à l'institution. D'une part, en questionnant la nature révolutionnaire de l'**Internet des Objets** [@bouhai:hal-02103910], et d'autre part, en analysant la transformation numérique (e-justice, e-learning) comme un processus d'adaptation institutionnelle face aux nouvelles temporalités technologiques [@jneid:hal-03144705; @saleh:hal-03147289].
+*   **L'analogie comme filtre et régulateur :** L'analyse des difficultés d'appropriation des TIC par des groupes spécifiques (migrants, personnes âgées) illustre parfaitement la définition de @debray2013, pour qui la frontière est une "passoire" ou un régulateur, et celle de @guattari1992 voyant le crible comme une interface de sélection. Les interfaces numériques agissent ici comme des frontières actives qui incluent ou excluent selon la maîtrise des codes analogiques.
+*   **Forces sociales et frontières :** En étudiant les "impacts" et le "niveau micro/macro" de l'adoption technologique, l'approche de Saleh rejoint @pomian1976 sur le fait que les frontières (ici l'accès au numérique) résultent de l'action de forces sociales et d'un équilibre instable.
+*   **Urbanisme et Systèmes d'Information :** Dans une perspective de gestion de projet SI et d'IoT, les travaux de Saleh peuvent être mis en perspective avec @bidan2017, qui appliquent l'analogie de l'urbanisme à la conception des systèmes. L'enjeu est de savoir si l'urbanisation numérique reproduit les ségrégations de l'urbanisme physique.
+*   **Vecteurs de sens et interprétation :** Les défis d'appropriation identifiés dans les tags (culturels, immigrés) soulignent l'importance de la médiation sémantique. Comme le suggère @delannay2025, l'analogie (ex: la métaphore du bureau ou du dossier) vectorise le sens mais limite les interprétations, ce qui peut devenir un obstacle cognitif majeur pour des populations éloignées des paradigmes occidentaux standards.
+*   **Ontologies et physicalités :** Enfin, l'intégration des technologies dans le quotidien (IoT) évoquée par l'expertise de l'auteur renvoie à @serres2009 et @descola2005 sur les matrices ontologiques : comment nos systèmes techniques tissent-ils une nouvelle ontologie reliant "physicalités" (le matériel, le capteur) et "intériorités" (l'intention de l'utilisateur, son identité culturelle) ?

@@ -1,13 +1,11 @@
 ---
-title: Malek Ghenima
-categories:
-  - Economic Intelligence
-  - Knowledge Management
-  - Digital Humanities
-  - Information Systems
-  - Collective Intelligence
-subtitle: "L'Analogie décisionnelle : Vers une convergence entre Intelligence Économique et Humanités Numériques"
+title: "L'organisation des connaissances comme dispositif analogique de décision"
+author: Malek Ghenima
+categories: [Economic Intelligence, Knowledge Management, Digital Humanities, Information Systems]
+
+subtitle: "Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs"
 bibliography: referenceAuteurs.bib
+
 
 
 ---
@@ -17,26 +15,27 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux de Malek Ghenima se situent à l'intersection des systèmes d'information et de l'intelligence économique, avec un accent particulier sur le management des connaissances [@sidhom:hal-00927290]. Ses recherches explorent l'organisation des savoirs dans le contexte des humanités numériques [@sidhom:hal-01255488], tout en proposant des modélisations centrées sur l'acteur pour les processus de veille stratégique et de prise de décision [@rim:hal-00927284].
+**Résumé :** Les travaux de Malek Ghenima se concentrent sur les systèmes d'information, l'intelligence économique et le management des connaissances @sidhom:hal-00927290. Il explore notamment la modélisation centrée sur l'acteur dans les processus de veille stratégique @rim:hal-00927284 et structure les frontières disciplinaires des Humanités Numériques à travers l'organisation des savoirs @sidhom:hal-01255488.
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/62712)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/62712)
   - [lien vers le prompt](prompt_malek_ghenima.txt)
   - [lien vers la réponse](resume_malek_ghenima.json)
 
 
 
-**Titre : L'Analogie décisionnelle : Vers une convergence entre Intelligence Économique et Humanités Numériques**
+**Titre : Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs**
 
 **Résumé :**
-Cette intervention propose d'analyser le rôle de l'analogie dans la chaîne de valeur de l'information, transformant le signal brut en connaissance stratégique. En s'appuyant sur les cadres de l'Intelligence Économique et du *Knowledge Management*, nous examinerons comment la modélisation centrée sur l'acteur permet de tisser des liens entre des champs sémantiques hétérogènes, essentiels aux processus de veille. Nous discuterons de la manière dont les outils numériques actuels, issus des travaux sur l'organisation des connaissances, facilitent ou contraignent l'identification de schémas analogiques nécessaires à la décision. L'objectif est de démontrer que l'efficience des systèmes d'information modernes réside dans leur capacité à hybrider l'intelligence collective humaine et les puissances de calcul pour interpréter la complexité informationnelle.
+Cette intervention propose d'examiner comment les systèmes d'Intelligence Économique (IE) et de gestion des connaissances fonctionnent comme des "dispositifs analogiques" de la cognition humaine. En s'appuyant sur la modélisation centrée sur l'acteur et les ontologies naturelles, nous analyserons comment les frontières numériques agissent non pas comme des barrières, mais comme des filtres interprétatifs transformant le chaos informationnel en décision stratégique. Il s'agira de démontrer que l'architecture des systèmes d'information, à l'ère des Humanités Numériques, reproduit par analogie les processus de sélection et d'organisation du vivant pour structurer la mémoire collective et anticiper les ruptures informationnelles.
 
 ### Résonances Bibliographiques
 
-Les propositions de Malek Ghenima s'ancrent dans une analyse approfondie des outils et concepts de gestion des connaissances :
+Les recherches de Malek Ghenima sur l'organisation des connaissances et l'intelligence collective entrent en résonance directe avec plusieurs axes de la conférence :
 
-*   La structure et l'organisation des savoirs à l'ère du numérique sont largement débattues dans ses directions d'ouvrages sur les **Humanités Numériques** [@sidhom:hal-01255488].
-*   Les méthodologies de **modélisation centrée sur l'acteur** dans les contextes de veille technologique (notamment sur les nanotechnologies) sont explicitées dans [@rim:hal-00927284].
-*   Les fondements théoriques du **Management des Connaissances (KM)** et leur application pratique au sein des systèmes d'information sont développés dans [@sidhom:hal-00927290] et [@sidhom:hal-00927711].
+*   **Le filtrage comme frontière :** L'approche de la "e-veille" et du filtrage de l'information @rim:hal-00927284 illustre parfaitement le concept de **Guattari (1992)** définissant le crible comme interface entre le chaos et les potentialités, ainsi que la vision de **Debray (2013)** pour qui la frontière est une "passoire" et un régulateur essentiel à la constitution du sens.
+*   **Modélisation et Analogies Systémiques :** La méthodologie de gestion de l'information dans les processus décisionnels développée par l'auteur fait écho à **Bidan & Godé (2017)** qui utilisent l'analogie de l'urbanisme pour concevoir les systèmes d'information. De même, l'utilisation d'ontologies pour représenter les connaissances rejoint les "matrices ontologiques" de **Descola (2005)** et l'approche écosystémique de **Szoniecky (2024)**.
+*   **Humanités Numériques et Interopérabilité :** En positionnant l'organisation des connaissances dans la perspective des Humanités Numériques @sidhom:hal-01255488, l'auteur répond à **Citton (2010)** sur la frontière vue comme une passerelle assurant une interopérabilité entre les disciplines.
+*   **L'outil comme extension cognitive :** La transformation de l'information en décision stratégique dans les travaux de Ghenima @sidhom:hal-00927711 rappelle la thèse de **Leroi-Gourhan (1964)** sur le parallélisme langage/outil et celle de **Hofstadter & Sander (2013)** où l'analogie (ici structurelle et organisationnelle) est le moteur de l'apprentissage et de l'extension des catégories.

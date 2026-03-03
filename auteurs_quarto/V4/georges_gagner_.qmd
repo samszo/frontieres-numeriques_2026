@@ -1,0 +1,41 @@
+---
+title: Georges Gagneré
+categories:
+  - Théâtre
+  - Motion capture
+  - Avatars
+  - Réalité Mixte
+  - Recherche-Création
+  - Unreal Engine
+
+subtitle: "L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+#### Image numérique et réalité virtuelle
+[{{< fa solid globe >}} https://www.idref.fr/071395016](https://www.idref.fr/071395016) [{{< fa solid globe >}} https://orcid.org/0000-0002-3930-1236](https://orcid.org/0000-0002-3930-1236) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Georges Gagneré explore les hybridations entre la scène théâtrale et les technologies numériques, en se concentrant particulièrement sur la « direction d'avatar » et les dispositifs de réalité mixte en temps réel. Ses travaux, illustrés par le projet *L'Ombre* @gagnere:hal-04580393 et le développement de l'outil AKN_Regie @gagnere:hal-04571489, analysent comment la capture de mouvement et les moteurs de jeu (Unreal Engine) reconfigurent la dramaturgie et la présence de l'acteur via son double numérique.
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/63417)
+  - [lien vers le prompt](prompt_georges_gagner_.txt)
+  - [lien vers la réponse](resume_georges_gagner_.json)
+
+
+
+**Titre : L'Avatar comme Double Scénique : Analogies du Jeu et Technologies de la Présence**
+
+**Résumé :**
+Cette intervention propose d'analyser les mutations de la mise en scène à l'ère de la prévisualisation temps réel et de la capture de mouvement. En s'appuyant sur le concept de « direction d'avatar » expérimenté dans des projets de recherche-création tels que *The Wizard without Shadow* @ternova:hal-04242403, nous interrogerons l'analogie opérante entre le comédien et sa marionnette numérique. Il s'agira de démontrer comment l'outil AKN_Regie @gagnere:hal-04571489 agit comme une passerelle technique et esthétique, permettant de synchroniser l'intention dramaturgique avec les flux de données numériques. Nous examinerons comment ces technologies ne se contentent pas d'augmenter la scène, mais redéfinissent l'ontologie de la présence théâtrale en créant un espace de jeu hybride où le corps biologique et l'image calculée dialoguent dans une immédiateté performative.
+
+### Résonances Bibliographiques
+
+Les travaux de Georges Gagneré s'inscrivent dans une refonte des outils du spectacle vivant par le prisme du numérique. L'élaboration de la plateforme **AKN_Regie** @gagnere:hal-04571489 matérialise cette convergence, facilitant l'intégration de moteurs de jeu comme Unreal Engine sur les plateaux de théâtre. Cette approche technique soutient une réflexion esthétique sur la **direction d'acteur** étendue à l'artiste numérique @gagnere:hal-02523764, transformant les méthodes de collaboration au sein des collectifs de création @gagnere:hal-04582486. Les expérimentations sur la **capture de mouvement** et la **réalité mixte**, visibles dans les captations de *L'Ombre* @gagnere:hal-04580392 et @gagnere:hal-04580393, ainsi que dans *The Wizard without Shadow* @ternova:hal-04242403, illustrent concrètement ces nouvelles écritures scéniques. Par ailleurs, ses recherches sur les **télélectures interactives** @gagnere:hal-04580446 préfiguraient déjà les enjeux actuels de la téléprésence et de la délocalisation de l'espace de jeu.

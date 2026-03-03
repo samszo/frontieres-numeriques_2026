@@ -1,14 +1,9 @@
 ---
-title: Samuel SZONIECKY
-categories:
-  - ontology
-  - humanités numériques
-  - intelligence collective
-  - écosystème de connaissances
-  - visualization
-  - Interventions
+title: "L'Analogie Écosystémique : du Jardin Numérique au Crible Sémantique"
+author: Samuel Szoniecky
+categories: [ontology, écosystème de connaissances, humanités numériques, intelligence collective, visualization]
 
-subtitle: "L'analogie écosystémique comme méthode de conception : vers une topologie sémantique du vivant numérique"
+subtitle: "Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés"
 bibliography: referenceAuteurs.bib
 
 
@@ -20,29 +15,32 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Samuel Szoniecky explore la modélisation des écosystèmes de connaissances en s'appuyant sur des métaphores du vivant, telles que le jardin numérique @laborderie:hal-01258307 ou la métamorphose des archives @szoniecky:hal-04156629. Ses travaux mobilisent les technologies sémantiques et la visualisation de données pour cartographier les réseaux d'influences @szoniecky:hal-01220142 et structurer l'intelligence collective au sein des environnements numériques @szoniecky:hal-01098425.
+**Résumé :** 
+Cette édition de Frontières Numériques interroge la porosité des limites technologiques à travers le prisme de l'analogie. Si la frontière agit comme un filtre régulateur ou une "passoire" [@debray2013] et un "crible" entre chaos et virtualités [@guattari1992], elle nécessite une ontologie analogiste pour relier physicalités et intériorités [@serres2009; @descola2005]. L'enjeu est de dépasser la simple accumulation pour modéliser des écosystèmes de connaissances [@szoniecky2024], où l'analogie devient le moteur cognitif étendant nos catégories de perception [@hofstadter2013].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/897)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85509)
   - [lien vers le prompt](prompt_samuel_szoniecky.txt)
   - [lien vers la réponse](resume_samuel_szoniecky.json)
 
 
 
-**Titre : L'analogie écosystémique comme méthode de conception : vers une topologie sémantique du vivant numérique**
+**Titre : Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés**
 
 **Résumé :**
 
-Cette intervention se propose d'examiner la puissance heuristique et opérationnelle de l'analogie biologique dans la conception des dispositifs technologiques. Au-delà de la simple métaphore littéraire du "jardin numérique" ou de la "pollinisation" des savoirs, nous analyserons comment les technologies du Web sémantique et les ontologies permettent d'instancier de véritables écosystèmes de connaissances. En nous appuyant sur les concepts de métamorphose archivistique et de topologie sémantique, nous démontrerons comment passer d'une logique de stockage statique à une dynamique d'interactions vivantes et évolutives. L'enjeu est de comprendre comment ces analogies, traduites en algorithmes et en interfaces de visualisation, peuvent favoriser l'émergence d'une intelligence collective et redéfinir les frontières entre l'auteur, le lecteur et la donnée dans les environnements numériques contemporains.
+Cette intervention se propose d'explorer comment l'analogie, loin d'être une simple figure de style, constitue une infrastructure cognitive et technique essentielle pour la conception de systèmes d'information complexes. En s'appuyant sur la métaphore du "jardin numérique" et des "écosystèmes de connaissances", nous analyserons comment ces modèles analogiques permettent de dépasser la rigidité des bases de données traditionnelles pour favoriser une médiation vivante et évolutive des savoirs. Nous montrerons comment la conception de dispositifs, vus comme des "cribles" sémantiques, permet de structurer l'intelligence collective et de cartographier les frontières fluctuantes de l'information. Il s'agira de démontrer que l'adoption d'une approche biomimétique et écosystémique dans l'éditorialisation numérique offre de nouvelles perspectives pour la valorisation des archives et la modélisation des interactions humaines, transformant ainsi les frontières numériques en zones fertiles d'hybridation et de créativité.
 
 ### Résonances Bibliographiques
 
-Les travaux de Samuel Szoniecky s'articulent autour de la tension féconde entre la modélisation technique rigoureuse et l'analogie humaniste.
+Les travaux de Samuel Szoniecky s'inscrivent au cœur de la thématique de la conférence en opérant une mise en pratique technique des concepts théoriques évoqués.
 
-*   **L'analogie du vivant et de l'espace :** Le concept central d'**écosystème d'information** traverse l'ensemble de l'œuvre, appliqué aussi bien aux ressources pédagogiques @szoniecky:hal-01098509 qu'aux dispositifs éditoriaux, où la métaphore du "jardinage" devient un outil de remédiatisation @laborderie:hal-01258307. Cette approche résonne avec la définition des frontières numériques comme des espaces mouvants à explorer @saleh:hal-04148459.
+*   **De la Frontière au Crible :** L'approche de la frontière non comme un mur mais comme un filtre régulateur chez Debray [@debray2013] et surtout comme un "crible" chez Guattari [@guattari1992] trouve une application directe dans les travaux de l'auteur sur la conception de cribles pour la mesure collective des impacts [@szoniecky:hal-04148480]. Ici, l'outil technologique devient l'interface active de la frontière.
 
-*   **La technologie comme outil de mesure et de trace :** L'analogie nécessite une infrastructure technologique pour exister. Cela se traduit par la création de générateurs hypertextuels basés sur des topologies sémantiques @szoniecky:hal-01098425 et d'outils de cartographie des influences @szoniecky:hal-01220142.
+*   **Métaphores et Jardins Numériques :** L'Axe 2 sur l'analogie comme outil cognitif et la vectorisation du sens par la métaphore [@delannay2025] résonnent avec la recherche sur les "jardins numériques" [@laborderie:hal-01258307]. L'auteur utilise l'analogie horticole pour repenser les dispositifs éditoriaux, transformant l'utilisateur en cultivateur de savoirs, ce qui prolonge l'idée de parallélisme entre langage et outil [@leroigourhan1964].
 
-*   **L'éthique et la valorisation :** Enfin, la dimension technologique est toujours ramenée à ses impacts sociétaux, que ce soit par la valorisation patrimoniale via la métamorphose des archives @szoniecky:hal-04156629 ou par la mise en place de "tamis" pour mesurer collectivement les impacts écologiques de l'activité numérique @szoniecky:hal-04148480.
+*   **Modélisation et Écosystèmes :** L'Axe 3 sur la modélisation du réel et les matrices ontologiques [@descola2005] dialoguent avec la conception d'écosystèmes d'information pour la médiation et la valorisation [@szoniecky:hal-04156629; @szoniecky:hal-01098509]. L'auteur dépasse la simple classification pour proposer des topologies sémantiques dynamiques [@szoniecky:hal-01098425], répondant ainsi au besoin de nouveaux dispositifs pour appréhender les "éthologies conceptuelles" mentionnées par Noyer [@noyer2016].
+
+*   **Visualisation et Bataille du Sens :** Enfin, la cartographie des réseaux d'influences proposée par l'auteur [@szoniecky:hal-01220142] offre un outillage pour visualiser la "bataille des signes" décrite par Serres [@serres1997], rendant perceptibles les frontières mouvantes et les zones d'appropriation du sens au sein des humanités numériques [@saleh:hal-04148459].

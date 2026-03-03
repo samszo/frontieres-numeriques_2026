@@ -1,38 +1,46 @@
 ---
-title: Renée Bourassa
-categories: [Humanités numériques, Authenticité, Fake news, Musée, Digital, Illusion, Livre numérique]
+title: "L'analogie magique : Simulacres et frontières de l'authenticité"
+author: Renée Bourassa
+categories: 
+  - Humanités Numériques
+  - Simulation
+  - Authenticité
+  - Illusion
+  - Médiation culturelle
 
-subtitle: "L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative"
+subtitle: "Les simulacres numériques : L'analogie magique comme frontière de l'authenticité"
 bibliography: referenceAuteurs.bib
 
 
----
 
+---
 
 #### University of Quebec
 [{{< fa solid globe >}} https://www.idref.fr/060604344](https://www.idref.fr/060604344) 
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Renée Bourassa interroge les frontières du réel et de la fiction au sein des dispositifs numériques, en explorant les tensions entre authenticité et illusion dans les espaces de médiation culturelle [@bourassa:hal-02299777]. Ses travaux récents analysent la "magicalité" des technologies contemporaines, des assistants virtuels aux *deepfakes*, mettant en lumière les nouvelles puissances du faux et les stratégies de tromperie de l'IA [@bourassa:hal-05196056; @bourassa:hal-05194869]. Elle participe également à la redéfinition des écologies éditoriales à travers l'étude du livre numérique [@audet:hal-01922682].
+**Résumé :** Renée Bourassa explore les mutations de l'authenticité à l'ère numérique en analysant les dispositifs de médiation comme des espaces liminaires, où la frontière entre le vrai et le faux devient poreuse [@bourassa:hal-02299777]. Ses travaux mobilisent l'analogie de la magie et de l'illusion pour théoriser la "magicalité" des interfaces contemporaines et de l'IA, considérées comme des simulacres [@bourassa:hal-05196056]. Elle interroge ainsi les enjeux éthiques des "arts trompeurs", du deepfake à la post-vérité, dans la fabrique du sens numérique [@bourassa:hal-05194869].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/52787)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/94674)
   - [lien vers le prompt](prompt_ren_e_bourassa.txt)
   - [lien vers la réponse](resume_ren_e_bourassa.json)
 
 
 
-**Titre : L'analogie magique : Simulacres et puissances de l'illusion à l'ère de l'IA générative**
+**Titre : Les simulacres numériques : L'analogie magique comme frontière de l'authenticité**
 
 **Résumé :**
-Dans le cadre de l'axe "Analogies & Technologies", cette intervention propose d'examiner la résurgence de l'analogie entre technologie et magie, exacerbée par les récentes avancées en intelligence artificielle et en simulation. En s'appuyant sur le concept de "magicalité", nous analyserons comment les interfaces contemporaines occultent leur complexité technique pour produire des effets de présence et d'immédiateté qui relèvent de l'illusionnisme.
-Nous explorerons comment ces dispositifs, en générant des simulacres hyperréalistes (deepfakes, avatars, agents conversationnels), ne se contentent plus d'imiter le réel mais cherchent à le supplanter, brouillant ainsi les frontières épistémiques entre le vrai et le faux. Cette communication interrogera les enjeux éthiques et sémiotiques de ces "arts trompeurs" : comment l'analogie de la magie sert-elle à naturaliser des technologies de contrôle ? De l'espace muséal aux plateformes sociales, nous discuterons des stratégies nécessaires pour développer une littératie critique face à ces nouvelles puissances de l'illusion numérique.
+
+Cette intervention se propose d'investiguer l'Axe 4 (Limites, Éthique et Créativité) en explorant l'analogie structurelle entre les technologies de simulation (IA, réalités mixtes) et les arts de l'illusion. En s'appuyant sur le concept de "magicalité", nous analyserons comment les frontières numériques ne sont pas de simples murs, mais des interfaces opérant comme des écrans de projection fantasmagorique. L'analogie de la magie permet de comprendre comment l'opacité algorithmique est travestie en immédiateté cognitive, créant un "simulacre" qui défie notre rapport à la vérité. Nous démontrerons que cette analogie technologique, loin d'être neutre, transforme la médiation des savoirs en une scène de théâtre où se joue une bataille pour l'authenticité. Face aux puissances du faux et à la générativité artificielle, comment redéfinir une éthique de la frontière qui distingue la modélisation du réel de sa falsification ?
 
 ### Résonances Bibliographiques
 
-Les travaux de Renée Bourassa s'articulent autour d'une critique des médiations technologiques. Sa réflexion sur l'espace liminaire de l'authenticité dans les dispositifs muséaux [@bourassa:hal-02299777] offre un point d'ancrage pour comprendre comment les institutions culturelles peuvent naviguer entre vérité historique et simulation numérique. Cette recherche s'étend aux phénomènes de désinformation et aux *fake news*, où elle décortique les mécanismes de la "post-vérité" et des arts trompeurs [@bourassa:hal-05194869].
+Les travaux de Renée Bourassa sur la **magicalité et la simulation** entrent en résonance directe avec l'approche ontologique de **Philippe Descola**, où les technologies numériques peuvent être vues comme réactivant une *ontologie analogiste* reliant les intériorités humaines aux physicalités de la machine [@Descola2005]. 
 
-Ces analyses résonnent fortement avec ses études sur la magicalité et l'intelligence artificielle, où elle démontre que la simulation technique réactive des formes anciennes de pensée magique [@bourassa:hal-05196056]. Enfin, son approche collaborative sur l'écriture et le livre numérique [@audet:hal-01922682] témoigne d'une volonté de repenser les supports de connaissance face à la fluidité du digital, liant ainsi les enjeux de l'archive à ceux de la création contemporaine.
+L'analyse de Bourassa sur les interfaces comme lieux de tension entre illusion et révélation fait écho à la définition de la frontière par **Yves Citton**, non pas comme barrière mais comme "passerelle et tunnel" assurant une communication non triviale [@Citton2010], ou encore au "crible" de **Félix Guattari**, interface filtrant le chaos des données pour en faire des potentialités actuelles [@Guattari1992].
+
+Enfin, sa critique des "arts trompeurs" et de la manipulation par l'IA [@bourassa:hal-05194869] s'inscrit dans la continuité de la "bataille des signes" décrite par **Michel Serres**, où l'enjeu de l'espace logiciel est l'appropriation du sens et du sujet [@Serres1997]. Là où **Hofstadter & Sander** voient l'analogie comme moteur d'apprentissage [@HofstadterSander2013], Bourassa nous avertit que l'analogie de la "magie technologique" peut aussi devenir un vecteur d'opacité, nécessitant, comme le suggère **Noyer**, de nouveaux dispositifs éditoriaux pour stabiliser ces zones fluctuantes [@Noyer2016].

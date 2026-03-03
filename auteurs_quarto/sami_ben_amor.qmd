@@ -1,14 +1,10 @@
 ---
-title: Sami Ben Amor
-categories:
-  - Intelligence Artificielle
-  - Éthique de l'information
-  - Éducation
-  - Narration des connaissances
+title: "L'Analogie Générative : Nouvelle Frontière de la Médiation des Savoirs"
+author: Sami Ben Amor
+categories: [IA Générative, Éthique, Médiation des Savoirs, Éducation, Humanités Numériques]
 
-subtitle: "L'IA générative comme nouveau narrateur épistémique : recomposition ou dissolution des savoirs ?"
+subtitle: "L'analogie générative : Entre prothèse cognitive et hallucination du réel"
 bibliography: referenceAuteurs.bib
-
 
 
 ---
@@ -18,22 +14,31 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Sami Ben Amor explore les mutations de l'acquisition et de la narration des connaissances à l'ère de l'intelligence artificielle générative [@amor:hal-04405427; @amor:hal-04394408]. Ses travaux, ancrés dans une approche éthique et pédagogique, questionnent l'impact de ces technologies sur les écosystèmes éducatifs et la redéfinition des compétences au XXIe siècle [@romero:hal-04013223; @amor:hal-04401405].
+**Résumé :** Les recherches de Sami Ben Amor se concentrent sur les mutations de l'organisation des connaissances et de l'éducation à l'ère de l'intelligence artificielle générative. Il analyse comment ces technologies transforment la narration des savoirs [@amor:hal-04394408] et interroge les paradoxes éthiques liés à leur intégration dans les écosystèmes d'apprentissage [@romero:hal-04013223], soulignant les défis d'une exploration cognitive médiée par des algorithmes [@amor:hal-04405427].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/54351)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/54351)
   - [lien vers le prompt](prompt_sami_ben_amor.txt)
   - [lien vers la réponse](resume_sami_ben_amor.json)
 
 
 
-**Titre : L'IA générative comme nouveau narrateur épistémique : recomposition ou dissolution des savoirs ?**
+**Titre : L'analogie générative : Entre prothèse cognitive et hallucination du réel**
 
 **Résumé :**
-Cette intervention propose d'analyser le basculement épistémologique induit par l'usage croissant des IA génératives dans les sphères éducatives et informationnelles. En passant d'une logique de recherche et de sélection d'information à une logique de génération de contenu, nous assistons à une transformation radicale de la "narration des connaissances". L'analogie de l'IA comme "assistant" ou "copilote" cognitif masque-t-elle une délégation intellectuelle risquée, où la synthèse algorithmique se substitue à l'effort d'intégration des savoirs ? Nous interrogerons les mécanismes par lesquels ces outils redéfinissent la notion de vérité, d'autorité informationnelle et de bien-être cognitif. Il s'agira de mettre en perspective les promesses d'une pédagogie augmentée face aux risques de standardisation de la pensée et d'érosion de l'esprit critique, dessinant ainsi les contours d'une nouvelle éthique de l'organisation des connaissances dans un monde synthétique.
+Cette intervention s'inscrit dans l'Axe 4 (Limites, Éthique et Créativité) et interroge la manière dont l'intelligence artificielle générative redéfinit les frontières de l'acquisition des connaissances. En proposant une analogie fonctionnelle du dialogue humain, les LLM (Large Language Models) créent une interface de médiation qui oscille entre "outil cognitif" et "fabrique d'illusions". Nous analyserons comment cette technologie, en mimant les processus discursifs, déplace la frontière entre la recherche d'information factuelle et la co-construction narrative du savoir. Il s'agira d'examiner les enjeux éthiques de cette "nouvelle narration des connaissances" où l'analogie n'est plus seulement un outil pédagogique, mais le mode opératoire même d'une machine qui simule la compréhension sans en posséder l'expérience sensible, redéfinissant ainsi l'autorité et la véracité dans les dispositifs éducatifs.
 
 ### Résonances Bibliographiques
 
-Les travaux de Sami Ben Amor sur la génération de contenu et l'acquisition des connaissances résonnent avec la pensée de Bernard Stiegler sur la grammatisation et la prolétarisation des savoirs [@Stiegler2016], où l'externalisation de la mémoire dans la machine (ici générative) menace la capacité de penser par soi-même. Cette "nouvelle narration" par l'IA peut être analysée sous le prisme de la cybernétique de Norbert Wiener [@Wiener1948], posant la question du contrôle et de la rétroaction dans les systèmes d'apprentissage humain-machine. Enfin, l'évolution des formes de vie et des écosystèmes communicationnels évoquée dans ses recherches rappelle l'approche simondonienne de l'individuation technique [@Simondon1958], où l'outil numérique ne doit pas aliéner l'humain mais participer à un couplage créatif et signifiant.
+Les travaux de Sami Ben Amor sur l'impact de l'IA générative dans l'éducation et la médiation des savoirs permettent de tisser des liens étroits avec le cadre théorique de la conférence :
+
+*   **L'analogie comme moteur d'apprentissage vs Simulation :**
+    L'approche de Ben Amor sur l'enseignement à l'ère de l'IA [@romero:hal-04013223] dialogue avec la thèse de **Hofstadter & Sander (2013)** qui posent l'analogie comme le cœur de la cognition. Cependant, là où Hofstadter voit un moteur d'extension des catégories humaines, Ben Amor met en garde contre une acquisition de connaissances médiée par une architecture de perception artificielle [@amor:hal-04401405], rappelant les structures de **LeCun (2022)**, qui risque de figer le sens plutôt que de l'ouvrir.
+
+*   **La bataille des signes et la narration :**
+    En explorant la "nouvelle narration des connaissances" par l'IA [@amor:hal-04394408], l'auteur réactualise la pensée de **Serres (1997)** sur la "bataille des signes" dans l'espace logiciel. L'IA générative devient ce nouveau canal d'appropriation du sens, agissant comme un "crible" au sens de **Guattari (1992)**, filtrant les virtualités du chaos informationnel pour produire des potentialités textuelles qui ne sont pas toujours alignées avec la vérité scientifique.
+
+*   **Frontières éthiques et appropriation :**
+    L'analyse des paradoxes entre bien-être individuel et collectif dans l'usage de l'IA (évoquée dans les publications de l'auteur) fait écho aux préoccupations de **Moulier Boutang (2010)** sur l'appropriation marchande de la création (ici, la connaissance commune ingérée par les modèles). La frontière numérique devient alors, comme le suggère **Delannay (2025)**, un vecteur qui limite les interprétations en imposant une "métaphore" standardisée de la réponse, défiant la vision de la frontière comme "passerelle" interdisciplinaire défendue par **Citton (2010)**.

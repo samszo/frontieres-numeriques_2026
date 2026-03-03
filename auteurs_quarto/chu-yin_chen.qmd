@@ -1,42 +1,42 @@
----
-title: Chu-Yin Chen
-categories: 
-  - Réalité virtuelle
-  - Art numérique
-  - Art interactif
-  - Cocréation
-  - Vie artificielle
 
-subtitle: "Écosystèmes Hybrides : De l'analogie du vivant à la symbiose technologique"
+---
+title: "Symbiose Énactive : L'Analogie du Geste dans les Espaces Partagés"
+author: Chu-Yin Chen
+categories: [Réalité virtuelle, Art numérique, Cocréation, Énaction, Symbiose]
+
+subtitle: "Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation"
 bibliography: referenceAuteurs.bib
 
 
 
 ---
 
+
 #### Image numérique et réalité virtuelle
 [{{< fa solid globe >}} https://www.idref.fr/068750897](https://www.idref.fr/068750897) 
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Chu-Yin Chen explore les frontières de la création numérique par une approche symbiotique entre l'humain et les systèmes autonomes [@telesdecastroecosta:hal-04276965]. Ses travaux portent sur la collaboration énactive dans les espaces virtuels partagés [@martinez:hal-04429105], tout en analysant l'ergonomie du geste créatif [@fleury:hal-03841310] et la poétique du mouvement corporel sans paroles [@batras:hal-02523192].
+**Résumé :** Les travaux de Chu-Yin Chen explorent les frontières de la création numérique à travers la réalité virtuelle et l'art interactif, en mettant l'accent sur une approche symbiotique entre l'humain et la machine. Elle analyse la cocréation avec des systèmes autonomes @telesdecastroecosta:hal-04276965 et la notion de "frontière transparente" dans les espaces virtuels partagés @martinez:hal-04429105. Ses recherches interrogent également le rôle du geste et de l'effacement dans le processus créatif immersif @fleury:hal-03841310 ainsi que la poétique du mouvement au-delà de la parole @batras:hal-02523192.
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/68088)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/68088)
   - [lien vers le prompt](prompt_chu-yin_chen.txt)
   - [lien vers la réponse](resume_chu-yin_chen.json)
 
 
 
-**Titre : Écosystèmes Hybrides : De l'analogie du vivant à la symbiose technologique**
+**Titre : Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation**
 
 **Résumé :**
-Cette intervention propose d'interroger le thème "Analogies & Technologies" sous l'angle de la vie artificielle et de la co-création performative. Nous examinerons comment les systèmes virtuels autonomes ne sont plus de simples outils, mais deviennent des partenaires créatifs fonctionnant par analogie avec les comportements biologiques. En s'appuyant sur des expériences de symbiose en temps réel, nous analyserons comment l'imprévisibilité algorithmique peut engendrer une forme de "lâcher prise" artistique. Nous aborderons également la notion de frontière numérique transparente, où l'espace virtuel devient un lieu de collaboration énactive, fusionnant l'intention humaine et la réponse technologique. Enfin, nous questionnerons la transposition du geste sensible—de l'effacement du trait à la poésie des signes—dans ces environnements immersifs, redéfinissant ainsi l'ontologie de l'œuvre d'art à l'ère du numérique.
+Cette intervention propose d'examiner comment la réalité virtuelle et les systèmes autonomes transforment la frontière numérique en une membrane perméable, favorisant une cocréation "symbiotique". En s'appuyant sur l'analogie entre les écosystèmes biologiques et les environnements virtuels, nous analyserons comment le geste humain, capturé et interprété par la machine, devient un langage analogique permettant de modéliser des imaginaires partagés. Nous démontrerons que la frontière n'est plus une limite technique, mais un espace d'énaction où la "bataille des signes" laisse place à une collaboration inattendue. En redéfinissant l'interface non comme un mur, mais comme un milieu connectif, nous interrogerons les implications éthiques et esthétiques d'une créativité où l'auteur humain accepte de "lâcher prise" face à l'autonomie algorithmique, créant ainsi une nouvelle forme d'ontologie analogiste hybride.
 
 ### Résonances Bibliographiques
 
-Les travaux de Chu-Yin Chen résonnent profondément avec la thématique des frontières et des analogies technologiques. La notion d'**analogie du vivant** est centrale dans son approche de la performance co-créée, où le système virtuel autonome agit comme un partenaire quasi-organique [@telesdecastroecosta:hal-04276965]. Cette dynamique se prolonge dans l'exploration des **espaces partagés**, où la technologie de réalité virtuelle tente de reproduire, voire d'augmenter, les conditions analogiques de la collaboration humaine via une "frontière numérique transparente" [@martinez:hal-04429105].
+Les recherches de Chu-Yin Chen sur la "frontière numérique transparente" @martinez:hal-04429105 entrent en résonance directe avec la vision de @Debray2013, pour qui la frontière agit comme un filtre ou une passoire plutôt qu'un mur, et celle de @Citton2010 qui la conçoit comme un tunnel de communication.
 
-Par ailleurs, l'analogie entre le **geste physique et sa trace numérique** est scrutée à travers l'étude de l'effacement dans le dessin en VR, questionnant l'ergonomie cognitive de l'outil technologique face aux habitudes créatives traditionnelles [@fleury:hal-03841310]. Enfin, la traduction technologique de l'expressivité humaine trouve une résonance particulière dans ses recherches sur la poésie sourde, où le mouvement devient langage au sein de l'interface numérique [@batras:hal-02523192].
+Son approche de la cocréation avec des systèmes autonomes @telesdecastroecosta:hal-04276965 incarne l'axe de la bio-inspiration cité par @Provost2020, où l'ingénierie mime le vivant pour générer de l'inattendu. Cette symbiose homme-machine réactualise le parallélisme fondamental entre le langage et l'outil théorisé par @LeroiGourhan1964, où le geste en réalité virtuelle devient l'outil cognitif par excellence.
+
+Enfin, l'exploration de l'effacement et de l'esquisse en VR @fleury:hal-03841310 suggère que l'analogie est le moteur de cet apprentissage créatif, rejoignant @hofstadter2013 sur l'extension des catégories, tout en s'inscrivant dans l'ontologie analogiste décrite par @Serres2009, reliant les physicalités du corps immergé aux intériorités de l'algorithme.

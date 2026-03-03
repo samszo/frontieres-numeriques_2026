@@ -9,6 +9,6 @@ listing:
   filter-ui: true
   page-size: 40  
   categories: true
-  fields: [title, subtitle, categories]
+  fields: [author, categories]
 ---
-Découvrez les contributions scientifiques au colloque.
+Découvrez les auteurs intervenants dans le colloque.

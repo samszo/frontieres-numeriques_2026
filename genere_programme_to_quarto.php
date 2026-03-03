@@ -6,7 +6,6 @@ require_once 'key.php';
 
 $csvFile = "liste_auteurs.csv";
 $outputFolder = "auteurs_quarto";
-$omkApiUrl = "https://humanum-p8.fr/omk_paragraphe";
 $omkApiUrl = "http://localhost/omk_paragraphe";
 $context = false;
 
@@ -102,20 +101,22 @@ if($context){
             echo "Traitement : " . $auteur['o:title'] . "<br>";
             $md = $generator->generate($auteur);
             
-            //récupère le titre
-            preg_match('/\*\*Titre\s*:\s*(.+?)\*\*/s', $md, $mTitre);
-            if (!empty($mTitre[1])) {
-                $titre = trim($mTitre[1]);
-            }else{
-                $titre = " --- ";
-            }
-            //ajoute un sous titre
-            $subtitre = str_replace('"',"-",$titre);
-            $md = str_replace("bibliography: referenceAuteurs.bib","subtitle: \"$subtitre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
+            if($md){
+                //récupère le titre
+                preg_match('/\*\*Titre\s*:\s*(.+?)\*\*/s', $md, $mTitre);
+                if (!empty($mTitre[1])) {
+                    $titre = trim($mTitre[1]);
+                }else{
+                    $titre = " --- ";
+                }
+                //ajoute un sous titre
+                $subtitre = str_replace('"',"-",$titre);
+                $md = str_replace("bibliography: referenceAuteurs.bib","subtitle: \"$subtitre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
 
-            $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title']))) . ".qmd";
-            file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, $md);
-            $props[]=["auteur"=>$auteur['o:title'],"titre"=>$titre];
+                $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title']))) . ".qmd";
+                file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, $md);
+                $props[]=["auteur"=>$auteur['o:title'],"titre"=>$titre];
+            }
         }        
 
     }

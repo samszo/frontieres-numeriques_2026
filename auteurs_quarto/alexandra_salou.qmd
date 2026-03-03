@@ -1,13 +1,12 @@
+
 ---
-title: Alexandra Salou
-categories:
-  - Désinformation
-  - Réinformation
-  - Réseaux socionumériques
-  - Journalisme
-  - Méthodes mixtes
-subtitle: "Les frontières de la vérité : Analogie entre pratiques journalistiques et dispositifs de réinformation à l'ère des algorithmes"
+title: "La réinformation : Une analogie dévoyée du réel au service de la polarisation algorithmique"
+author: Alexandra Salou
+categories: [Réinformation, Mimétisme institutionnel, Algorithmes, Frontières de la vérité, Méthodes mixtes]
+
+subtitle: "La réinformation comme mimétisme institutionnel : quand l'analogie structure la désinformation"
 bibliography: referenceAuteurs.bib
+
 
 
 ---
@@ -17,24 +16,28 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux d'Alexandra Salou explorent les dynamiques de circulation de l'information sur les réseaux socionumériques, en se focalisant particulièrement sur les phénomènes de polarisation politique et d'homogénéisation des opinions via les algorithmes [@salou:hal-03695063]. À travers une approche méthodologique mixte [@salou:hal-04870814], elle analyse, souvent en collaboration avec Stéphanie Lukasik, la notion de « réinformation » comme objet frontière de la désinformation [@lukasik:hal-04151434], interrogeant la reconfiguration des pratiques journalistiques et la posture des publics face aux menaces hybrides [@lukasik:hal-04827795].
+**Résumé :** 
+Cette édition explore la frontière numérique non comme un mur, mais comme un « crible » [@guattari1992] et une zone fluctuante [@noyer2016] régie par des analogies technologiques. En s'appuyant sur la bataille des signes dans l'espace logiciel [@serres1997] et l'analogie comme moteur cognitif [@hofstadter2013], nous interrogeons comment les matrices ontologiques [@descola2005] et les modèles génératifs [@lecun2022] redéfinissent la distinction entre le réel et sa simulation numérique.
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/58460)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/58460)
   - [lien vers le prompt](prompt_alexandra_salou.txt)
   - [lien vers la réponse](resume_alexandra_salou.json)
 
 
 
-**Titre : Les frontières de la vérité : Analogie entre pratiques journalistiques et dispositifs de réinformation à l'ère des algorithmes**
+**Titre : La réinformation comme mimétisme institutionnel : quand l'analogie structure la désinformation**
 
 **Résumé :**
-Cette communication propose d'interroger la porosité croissante des frontières entre l'information journalistique traditionnelle et les nouvelles formes de « réinformation » qui circulent sur les plateformes numériques. En s'appuyant sur une analyse des dispositifs de recommandation et leur rôle dans l'homogénéisation des opinions politiques [@salou:hal-03695063], nous explorerons comment la technologie favorise une analogie structurelle entre le fait vérifié et l'opinion militante. L'intervention mettra en lumière la manière dont les acteurs de la réinformation s'approprient les codes du journalisme pour légitimer des contenus polarisants, créant un flou cognitif pour les usagers-récepteurs en France, au Luxembourg et au Canada [@lukasik:hal-04442482]. Nous discuterons enfin des défis méthodologiques que pose l'étude de ces phénomènes hybrides [@salou:hal-04870814], où l'algorithme ne se contente pas de diffuser, mais participe activement à la construction de nouvelles frontières idéologiques.
+Cette intervention se situe à l'intersection de l'Axe 2 (L’Analogie comme outil cognitif) et de l'Axe 4 (Éthique et Limites). Elle propose d'analyser la « réinformation » non seulement comme une catégorie de désinformation, mais comme un processus analogique sophistiqué : elle mime les codes, les formats et la rhétorique du journalisme traditionnel pour créer une « frontière floue » de crédibilité. En étudiant l'homogénéisation des opinions et la polarisation algorithmique, nous démontrerons comment les dispositifs techniques agissent comme des filtres déformants, créant des « jumeaux numériques » idéologiques de l'actualité. L'enjeu est de comprendre comment cette analogie structurelle permet de franchir les barrières de la méfiance cognitive, transformant l'outil de médiation en vecteur de radicalisation au sein des écosystèmes socionumériques.
 
 ### Résonances Bibliographiques
 
-L'œuvre d'Alexandra Salou s'articule autour de la frontière ténue entre information et manipulation. Ses recherches initiales ancrent la problématique dans l'analyse politique locale, démontrant comment les réseaux sociaux agissent comme des vecteurs d'homogénéisation des opinions lors des campagnes électorales [@salou:hal-03175210; @salou:hal-03695063]. Cette base empirique lui permet d'élargir son spectre d'analyse vers le concept de « réinformation », qu'elle définit comme un objet frontière nécessitant une identification précise pour ne pas être confondu avec le journalisme traditionnel [@lukasik:hal-04151434].
+Les travaux d'Alexandra Salou sur la réinformation comme « objet frontière » [@lukasik:hal-04151434] entrent en résonance directe avec la conception de **Debray (2013)** qui définit la frontière comme une « passoire » ou un régulateur, plutôt qu'un mur infranchissable. Là où la réinformation tente de s'approprier le canal de la vérité, on retrouve la « bataille des signes » décrite par **Serres (1997)**, où l'espace logiciel devient le terrain d'une lutte pour l'appropriation du sens.
 
-Dans une perspective comparative internationale, ses travaux récents illustrent comment cette réinformation reconfigure les pratiques journalistiques elles-mêmes, obligeant les professionnels à se positionner face à des publics devenus producteurs de contenus concurrents [@lukasik:hal-04442482; @lukasik:hal-04827795]. Par ailleurs, l'auteure ne néglige pas l'importance des outils d'investigation, prônant l'usage de méthodes mixtes pour saisir la complexité de ces interactions numériques [@salou:hal-04870814]. Enfin, ses réflexions s'étendent aux frontières éducatives, interrogeant les usages émergents de l'intelligence artificielle par les étudiants, ce qui suggère une continuité dans son questionnement sur l'impact des technologies sur la connaissance et l'éthique numérique [@salou:hal-04827953].
+L'étude de l'impact des algorithmes de recommandation sur l'homogénéisation des opinions [@salou:hal-03695063] illustre concrètement le paradoxe soulevé par **Moulier Boutang (2010)** sur l'appropriation marchande et technique de l'information publique. De plus, l'approche méthodologique mixte défendue par l'auteure [@salou:hal-04870814] pour saisir ces phénomènes complexes répond à la nécessité d'éthologies conceptuelles et de nouveaux dispositifs d'observation prônés par **Noyer (2016)**.
+
+Enfin, l'analyse du mimétisme journalistique dans les pratiques de désinformation [@lukasik:hal-04827795] peut être lue à travers le prisme de l'ingénierie du vivant évoquée par **Provost, Kamili & Pitrou (2020)** : la réinformation opère un « bio-mimétisme » social, adoptant l'apparence de l'organisme sain (le média légitime) pour mieux infiltrer le corps social, exploitant ainsi l'analogie comme vecteur de sens limitant les interprétations critiques, tel que théorisé par **Delannay (2025)**.
+```

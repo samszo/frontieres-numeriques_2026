@@ -1,14 +1,9 @@
 ---
-title: Maroun Jneid
-categories:
-  - Neural Networks
-  - Decision Support
-  - Forecasting
-  - Digital Innovation
-  - Patents
-  - E-Justice
+title: "Réseaux de Neurones et Frontières Décisionnelles : De la E-Justice à la Prédiction Technologique"
+author: Maroun Jneid
+categories: [Neural Networks, Decision Support, Digital Innovation, E-Government]
 
-subtitle: "L'analogie prédictive : Des archives de brevets à l'intelligence artificielle multidimensionnelle"
+subtitle: "L'Analogie Neuronale comme Oracle : Redéfinir les frontières de la décision dans l'innovation et la justice"
 bibliography: referenceAuteurs.bib
 
 
@@ -20,26 +15,27 @@ bibliography: referenceAuteurs.bib
 
 
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux de Maroun Jneid s'articulent autour de la transformation numérique, allant de la modernisation des systèmes judiciaires @jneid:hal-03144705 à l'application avancée de l'intelligence artificielle. Il se spécialise notamment dans l'utilisation de réseaux de neurones multidimensionnels et d'architectures "Wide and Deep" pour l'aide à la décision, l'analyse de brevets et la prédiction de succès technologiques ou médicaux @saade:hal-03526959, @saade:hal-03017387.
+**Résumé :** Les travaux de Maroun Jneid explorent la transformation numérique des frontières institutionnelles, notamment dans le domaine de la justice électronique [@jneid:hal-03144705]. Parallèlement, il développe des modèles prédictifs basés sur des réseaux de neurones multidimensionnels pour anticiper le succès technologique et médical à partir de données de brevets, illustrant l'usage de l'intelligence artificielle comme outil d'aide à la décision stratégique [@saade:hal-03526959; @saade:hal-03017387; @saade:hal-03004809].
 :::
 
 ### Proposition générée
 
-  - [lien vers les données](http://localhost/omk_paragraphe/s/valorisations/item/68728)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/129411)
   - [lien vers le prompt](prompt_maroun_jneid.txt)
   - [lien vers la réponse](resume_maroun_jneid.json)
 
 
 
-**Titre : L'analogie prédictive : Des archives de brevets à l'intelligence artificielle multidimensionnelle**
+**Titre : L'Analogie Neuronale comme Oracle : Redéfinir les frontières de la décision dans l'innovation et la justice**
 
 **Résumé :**
-Dans le cadre de *Frontières Numériques*, cette intervention propose d'explorer l'analogie entre la mémoire documentaire technique (les brevets) et la capacité d'anticipation des réseaux de neurones. En s'appuyant sur des modèles d'apprentissage profond (Deep Learning) et des réseaux multidimensionnels, nous analyserons comment les données historiques peuvent être transmutées en vecteurs de prédiction pour le développement de produits innovants. Il s'agira de démontrer comment l'IA ne se contente pas de classer l'information, mais simule un processus cognitif d'évaluation du potentiel, que ce soit pour anticiper des revenus technologiques ou prédire l'efficacité de nouveaux traitements médicaux. Cette approche positionne l'algorithme comme un médiateur analogique capable de déceler les futurs possibles enfouis dans les bases de données actuelles.
+Cette intervention se situe au croisement de l'Axe 1 (Bio-inspiration) et de l'Axe 3 (Modélisation), en interrogeant comment les réseaux de neurones, analogies mathématiques du cerveau biologique, redessinent les frontières de la prise de décision humaine. En s'appuyant sur ses recherches en E-Justice et en prédiction de succès technologique via l'analyse de brevets, l'auteur démontrera comment ces dispositifs ne sont pas de simples calculateurs, mais des "machines à analogie" capables d'étendre nos catégories cognitives. Nous analyserons comment ces outils transforment la frontière entre l'incertitude du réel et la modélisation prédictive, agissant comme des filtres ou des tunnels décisionnels. L'intervention questionnera enfin les limites éthiques de cette délégation cognitive : en modélisant le succès futur ou l'accès au droit, ne risquons-nous pas d'enfermer l'innovation et la justice dans des boucles de rétroaction algorithmiques ?
 
 ### Résonances Bibliographiques
 
-Les recherches de Maroun Jneid illustrent la convergence entre la gestion des données massives et l'intelligence artificielle décisionnelle. 
+Les recherches de Maroun Jneid sur les réseaux de neurones et la transformation numérique entrent en résonance directe avec les thématiques de la conférence :
 
-*   **Transformation sectorielle :** Il examine les défis structurels de la numérisation institutionnelle, notamment à travers un modèle conceptuel pour l'e-justice @jneid:hal-03144705.
-*   **Architectures neuronales et Prédiction :** Le cœur de son expertise réside dans le déploiement de réseaux de neurones complexes (Wide & Deep, RNN) pour traiter des données hétérogènes. Ces modèles sont appliqués à la prédiction de succès technologiques basés sur les données de brevets @saade:hal-03004809.
-*   **Aide à la décision stratégique :** Ses travaux étendent ces capacités prédictives à l'estimation des revenus futurs des technologies @saade:hal-03017387 et, par analogie méthodologique, à la prédiction de traitements médicaux pour de nouvelles maladies, démontrant la flexibilité des réseaux multidimensionnels @saade:hal-03526959.
+*   **L'architecture neuronale et l'apprentissage :** L'utilisation par Jneid de réseaux de neurones profonds et récurrents pour prédire le succès technologique [@saade:hal-03004809] s'inscrit dans la lignée de l'architecture de la perception décrite par **@LeCun2022**. C'est ici l'analogie bio-inspirée (Axe 1) qui sert de moteur à l'apprentissage machine.
+*   **La frontière comme interface et tunnel :** Dans son analyse de la justice numérique [@jneid:hal-03144705], la frontière n'est plus un mur, mais devient une zone de passage et d'interopérabilité, rejoignant la vision de **@Citton2010** sur la frontière comme "passerelle et tunnel" et celle de **@Debray2013** sur la frontière comme "passoire" ou régulateur de flux.
+*   **L'analogie comme moteur de catégorisation :** En utilisant l'IA pour classer et prédire le succès de nouveaux produits médicaux [@saade:hal-03526959], les travaux de Jneid illustrent la thèse de **@HofstadterSander2013**, où l'analogie est le moteur fondamental de l'extension des catégories et de l'apprentissage.
+*   **Modélisation des connaissances :** L'analyse des données de brevets pour en extraire des tendances futures s'apparente à une modélisation écosystémique des connaissances, faisant écho à l'approche de **@Szoniecky2024**, où les liens analogiques structurent notre compréhension des systèmes complexes.
