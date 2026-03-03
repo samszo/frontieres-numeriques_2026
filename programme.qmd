@@ -5,7 +5,7 @@ toc: true
 ---
 
 ::: {.callout-warning}
-Ce programme est toujours en cours de discussion avec les intervenants et le commité scientifique
+Ce programme est toujours en cours de discussion avec les intervenants et le comité scientifique
 :::
 ::: {.callout-note appearance='minimal'}
 ## Processus de génération du programme

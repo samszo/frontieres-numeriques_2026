@@ -43,7 +43,7 @@ class ProgrammeGenerator {
         $md .= "---" . PHP_EOL . PHP_EOL;
 
         $md .= "::: {.callout-warning}" . PHP_EOL;
-        $md .= "Ce programme est toujours en cours de discussion avec les intervenants et le commité scientifique" . PHP_EOL;
+        $md .= "Ce programme est toujours en cours de discussion avec les intervenants et le comité scientifique" . PHP_EOL;
         $md .= ":::" . PHP_EOL;
 
         $md .= "::: {.callout-note appearance='minimal'}" . PHP_EOL;
