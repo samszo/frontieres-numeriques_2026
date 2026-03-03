@@ -30,7 +30,8 @@ Omeka API → Récupération → Distillation Contexte → Génération Fiches �
 graph TD
     Start([Démarrage<br/>genere_programme_to_quarto.php]) --> OmekaEvent["🔗 Récupération de l'événement<br/>(Omeka API)"]
     
-    OmekaEvent --> CheckRaw{Contenu brut<br/>du site<br/>existe?}
+    OmekaEvent --> GetSite["🔗 Récupération du site<br/>Omeka associé"]
+    GetSite --> CheckRaw{Contenu brut<br/>du site<br/>existe?}
     CheckRaw -->|Non| FetchRaw["📥 ContextDistiller::<br/>fetchRawContent<br/>(Parse HTML)"]
     CheckRaw -->|Oui| LoadRaw["📖 Charger le fichier<br/>rawtext_*.txt"]
     
@@ -42,28 +43,32 @@ graph TD
     CheckContext -->|Oui| LoadContext["📖 Charger le fichier<br/>context_*.json"]
     
     DistillContext --> SaveContext["💾 Sauvegarder<br/>context_*.json"]
-    SaveContext --> ParseContext["🔍 Extraire contexte,<br/>axes et biblio"]
+    SaveContext --> ParseContext["🔍 Extraire CONTEXTE,<br/>AXES, BIBLIO"]
     LoadContext --> ParseContext
     
-    ParseContext --> CreateGen["✅ Instancier<br/>ResumeGenerator"]
-    CreateGen --> FetchAuthors["📋 Récupérer liste CSV<br/>des auteurs"]
+    ParseContext --> CreateGen["✅ Instancier<br/>ResumeGenerator<br/>(avec site slug)"]
+    CreateGen --> FetchAuthors["📋 Récupérer liste CSV<br/>des auteurs<br/>(depuis bibo:authorList)"]
     
     FetchAuthors --> LoopStart{Pour chaque<br/>auteur}
     
     LoopStart -->|Auteur N| FetchAuteur["🔗 Récupération auteur<br/>depuis Omeka"]
-    FetchAuteur --> GeneratePrompt["📝 Construire prompt<br/>personnalisé"]
+    FetchAuteur --> CheckFilter{"Projet en cours<br/>sur<br/>sciencesconf.org?"}
+    CheckFilter -->|Oui| SkipAutor["⏭️ IGNORER auteur<br/>(déjà en projet)"]
+    CheckFilter -->|Non| GeneratePrompt["📝 Construire prompt<br/>personnalisé<br/>(contexte + auteur)"]
+    SkipAutor --> LoopCheck
     GeneratePrompt --> CallGemini["🤖 Appel Gemini API<br/>(gemini-3-pro-preview)"]
     
-    CallGemini --> ParseOutput["🔍 Parser résumé IA<br/>(frontmatter Quarto)"]
+    CallGemini --> CheckMd{"Réponse<br/>valide?"}
+    CheckMd -->|Vide| LoopCheck
+    CheckMd -->|Oui| ParseOutput["🔍 Parser résumé IA<br/>(frontmatter Quarto)"]
     ParseOutput --> ExtractTitle["🏷️ Extraire titre<br/>de la proposition"]
     ExtractTitle --> SaveAuteur["💾 Sauvegarder<br/>auteur_*.qmd"]
     
-    ParseOutput --> CollectProps["📦 Collector données<br/>(auteur, titre)"]
-    SaveAuteur --> CollectProps
+    SaveAuteur --> CollectProps["📦 Collecter données<br/>(auteur, titre)"]
     
     CollectProps --> LoopCheck{"Auteurs<br/>restants?"}
     LoopCheck -->|Oui| LoopStart
-    LoopCheck -->|Non| CreateProgram["🏗️ Instancier<br/>ProgrammeGenerator"]
+    LoopCheck -->|Non| CreateProgram["🏗️ Instancier<br/>ProgrammeGenerator<br/>(avec fileNameContext)"]
     
     CreateProgram --> ParseDates["📅 Parser dates<br/>de l'événement"]
     ParseDates --> SplitProps["📊 Diviser propositions<br/>par jour/bloc"]
@@ -78,9 +83,12 @@ graph TD
     style Start fill:#90EE90
     style Success fill:#90EE90
     style OmekaEvent fill:#87CEEB
+    style GetSite fill:#87CEEB
     style FetchRaw fill:#FFB6C1
     style DistillContext fill:#FFD700
     style CallGemini fill:#FFD700
+    style CheckFilter fill:#FFB6C1
+    style SkipAutor fill:#FF6B6B
     style SaveAuteur fill:#98FB98
     style SaveProgram fill:#98FB98
 ```
@@ -106,13 +114,24 @@ Classe responsable de l'analyse et de la distillation du contexte du colloque.
 ### 2. **ResumeGenerator.php**
 Classe qui génère les fiches auteur individuelles avec propositions.
 
+**Constructeur :**
+```php
+public function __construct($apiKey, $context, $omkItemConf, $outputFolder, $omkSite)
+```
+- `$apiKey` : Clé API Google Gemini
+- `$context` : Array avec clés `CONTEXTE`, `AXES`, `BIBLIO` (extraites du JSON distillé)
+- `$omkItemConf` : Item Omeka de l'événement (pour métadonnées)
+- `$outputFolder` : Dossier de sortie (`auteurs_quarto`)
+- `$omkSite` : Information du site Omeka associé
+
 **Fonctions principales :**
 - `generate($auteur)` : Pour chaque auteur :
   - Récupère les données depuis Omeka (affiliations, publications, mots-clés)
-  - Construit un prompt personnalisé incluant le contexte du colloque
+  - Construit un prompt personnalisé incluant le contexte du colloque et le site slug
   - Appelle Google Gemini (gemini-3-pro-preview)
   - Génère un document Quarto Markdown avec frontmatter
   - Gère la bibliographie en BibTeX (récupération depuis HAL/DOI)
+  - Retourne la fiche générée ou `false` en cas d'erreur
 
 **Gestion des publications :**
 - `fetchBibtexFromHal($halId)` : Récupère le BibTeX depuis l'API HAL
@@ -126,12 +145,22 @@ Classe qui génère les fiches auteur individuelles avec propositions.
 ### 3. **ProgrammeGenerator.php**
 Classe qui synthétise les fiches auteur en programme global de conférence.
 
+**Constructeur :**
+```php
+public function __construct($propositions, $siteItem, $fileNameContext)
+```
+- `$propositions` : Array avec métadonnées de chaque auteur `["auteur"=>..., "titre"=>...]`
+- `$siteItem` : Item Omeka de l'événement (pour dates, lieu, titre)
+- `$fileNameContext` : Nom du fichier du contexte distillé (utilisé dans la documentation)
+
 **Fonctions principales :**
 - `generate()` : Crée le programme avec :
   - Division des propositions en 3 jours (Conceptions/Créations/Expérimentations)
   - Calcul automatique des horaires (slots de 30 min, pauses toutes les 4 interventions)
   - Insertion des repas et accueil/clôture
   - Génération de tables HTML avec liens vers les fiches auteur
+  - Callout d'avertissement sur le statut provisoire du programme
+  - Section expliquant le processus de génération
 
 **Paramètres configurables :**
 - `$slotDuration` : 30 minutes par défaut
@@ -147,14 +176,29 @@ Classe qui synthétise les fiches auteur en programme global de conférence.
 ### 4. **genere_programme_to_quarto.php**
 Script orchestrateur qui coordonne l'ensemble du processus.
 
+**Flux d'exécution :**
+1. Récupère l'événement depuis Omeka (`items/54151`)
+2. Récupère le site Omeka associé
+3. Distille le contexte du site de l'événement
+4. Instancie `ResumeGenerator` avec le contexte et le site
+5. Boucle sur chaque auteur du CSV
+   - Filtre : ignoré si déjà en projet "sciencesconf.org"
+   - Génère la fiche avec `ResumeGenerator::generate()`
+   - Sauvegarde le fichier `.qmd` et collecte les métadonnées
+6. Instancie `ProgrammeGenerator` avec les propositions
+7. Génère le programme final
+
 ---
 
 ## Étapes détaillées
 
 ### **Étape 1 : Récupération de l'événement (Omeka)**
 - URL API : `https://humanum-p8.fr/omk_paragraphe/api/items/54151`
-- Récupère : titre, dates, lieu, URL du site de l'événement
-- Utilise : fonction `fetchOmekaJson()`
+- Récupère :
+  - Titre, dates, lieu, URL du site de l'événement
+  - URL du site Omeka associé (`o:site[0]["@id"]`)
+  - URL du fichier CSV de la liste des auteurs (`bibo:authorList[0]["@id"]`)
+- Utilise : fonction `fetchOmekaJson($baseUrl, $endpoint, $url="")` (accepte directement une URL complète)
 
 ### **Étape 2 : Extraction du contexte du site**
 **Condition :** Si `rawtext_*.txt` n'existe pas
@@ -172,43 +216,57 @@ Script orchestrateur qui coordonne l'ensemble du processus.
 ```
 "Tu es un expert en analyse documentaire. 
 Analyse le texte et extrais :
-1. Problématique centrale
-2. 6 axes de recherche principaux  
-3. Bibliographie avec concepts associés
+1. Problématique centrale (CONTEXTE)
+2. 6 axes de recherche principaux (AXES)
+3. Bibliographie avec concepts associés (BIBLIO)
 
-Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"
+Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"
 ```
 
 - API : `gemini-3-pro-preview`
+- Structure JSON externe : `candidates[0].content.parts[0].text` contenant un bloc JSON interne
 - Sauvegarde : `auteurs_quarto/context_*.json`
 
 ### **Étape 4 : Génération des fiches auteur**
 **Pour chaque auteur :**
 
+**Filtre d'exclusion :**
+- Vérifie si l'auteur a un projet en cours sur `sciencesconf.org`
+- Si oui → **Ignore** cet auteur (pas de génération, pas d'ajout au programme)
+- Message : `"Pas de Traitement : [auteur]"`
+
+**Processus (si non filtré) :**
+
 1. **Récupération depuis Omeka** :
    - Item ID depuis CSV bulk export
    - Données : titre, affiliations, publications, mots-clés
+   - Annotations : statuts, dates, références
 
 2. **Construction du prompt** :
-   - Include contexte du colloque
-   - Include axes thématiques
-   - Include bibliographie
-   - Include données auteur (CV, publications)
-   - Template : "Propose une contribution sur [thème]"
+   - Include contexte du colloque (`CONTEXTE`, `AXES`, `BIBLIO`)
+   - Include slug du site Omeka (`$omkSite`)
+   - Include données auteur complet
+   - Template : "Propose une contribution sur [thème du colloque]"
 
 3. **Appel à l'IA (Gemini)** :
    - Model : `gemini-3-pro-preview`
    - Génère : proposition structurée en Quarto Markdown
+   - Vérifie que la réponse n'est pas vide avec `if($md)`
 
 4. **Gestion de la bibliographie** :
    - Extrait DOI/HAL des publications
-   - Récupère BibTeX via APIs externes
+   - Récupère BibTeX via APIs externes (HAL, DOI.org)
    - Fusionne dans `referenceAuteurs.bib`
-   - Détecte et ignore les doublons
+   - Détecte et ignore les doublons avec `isDuplicate()`
 
-5. **Sauvegarde** :
+5. **Extraction du titre** :
+   - Regex : `/\*\*Titre\s*:\s*(.+?)\*\*/s`
+   - Pour extraction depuis le contenu généré par IA
+
+6. **Sauvegarde** :
    - Fichier : `auteurs_quarto/auteur_*.qmd`
    - Format : Quarto avec frontmatter YAML + contenu Markdown
+   - Collecte métadonnées : `["auteur"=>..., "titre"=>...]`
 
 ### **Étape 5 : Génération du programme**
 **Dans `ProgrammeGenerator::generate()` :**
@@ -294,9 +352,13 @@ Réponse en JSON : {contexte: ..., axes: ..., biblio: ...}"
 
 | Paramètre | Valeur | Note |
 |-----------|--------|------|
-| URL Base | `http://localhost/omk_paragraphe` | À adapter |
+| URL Base | `http://localhost/omk_paragraphe` | À adapter pour instance distante |
 | Item Event | `54151` | ID de l'événement colloque |
-| CSV Export | Généré depuis Omeka | Contient liste des auteurs |
+| Site associé | `o:site[0]["@id"]` | URL du site Omeka associé |
+| Liste auteurs | `bibo:authorList[0]["@id"]` | URL du CSV bulk export |
+| Location | `curation:location[0]["@value"]` | Lieu de l'événement |
+| Dates | `dcterms:date[0]["@value"]` | Format : "YYYY-MM-DD/YYYY-MM-DD" |
+| Homepage | `foaf:homepage[0]["@id"]` | URL du site de l'événement |
 
 ### Paramètres Quarto
 
@@ -321,61 +383,68 @@ format:
 │  genere_programme_to_quarto.php                 │
 └──────────────────┬──────────────────────────────┘
                    │
-        ┌──────────┴──────────┐
-        │                     │
-   ┌────▼─────┐        ┌─────▼────┐
-   │ Contexte │        │  Auteurs │
-   │ (1 seul) │        │(plusieurs)│
-   └────┬─────┘        └─────┬────┘
-        │                    │
-   ┌────▼──────────────────┐     │
-   │ContextDistiller::     │     │
-   │ • fetchRawContent()   │     │
-   │ • distillContext()    │     │
-   │ (Gemini API)          │     │
-   └────┬──────────────────┘     │
-        │                        │
-        ▼                        │
-   context_*.json                │
-        │                        │
-        │                    ┌───▼─────────────────┐
-        │                    │ BOUCLE POUR chaque  │
-        │                    │ ResumeGenerator::   │
-        │                    │ • generate()        │
-        │                    │ (Gemini API)        │
-        │                    │ • fetchBibtex*()    │
-        │                    │ • isDuplicate()     │
-        │                    └───┬─────────────────┘
-        │                        │
-        │                        ▼
-        │                    auteur_*.qmd
-        │                    ref_*.bib
-        │                    resume_*.json
-        │                        │
-        └────────────┬───────────┘
-                     │
-                ┌────▼──────────────────┐
-                │ ProgrammeGenerator::   │
-                │ • generate()           │
-                │ • getSlug()            │
-                │ • getPeriodeStr()      │
-                │ • getDate()            │
-                └────┬──────────────────┘
-                     │
-                     ▼
-                programme.qmd
-                     │
-                     ▼
-         ┌───────────────────────┐
-         │ QUARTO RENDER         │
-         │ quarto render         │
-         └───────────────────────┘
-                     │
-                     ▼
-         ┌───────────────────────┐
-         │ SITE STATIC HTML      │
-         │ docs/ folder          │
-         └───────────────────────┘
+        ┌──────────┴──────────────────┐
+        │                             │
+   ┌────▼─────┐              ┌───────▼────────┐
+   │ Contexte │              │  Auteurs & Site │
+   │ (1 seul) │              │ (plusieurs)     │
+   └────┬─────┘              └───────┬────────┘
+        │                            │
+   ┌────▼──────────────────┐         │
+   │ ContextDistiller::     │         │
+   │ • fetchRawContent()   │         │
+   │ • distillContext()    │         │
+   │ (Gemini API)          │         │
+   └────┬──────────────────┘         │
+        │                            │
+        ▼                            │
+   context_*.json                    │
+        │                            │
+        │                      ┌─────▼──────────────────┐
+        │                      │ BOUCLE POUR chaque     │
+        │                      │ auteur:                │
+        │                      │ ├─ FILTRE              │
+        │                      │ │ (sciencesconf.org?)  │
+        │                      │ │ │                    │
+        │                      │ │ ├─ OUI → IGNORER     │
+        │                      │ │ ├─ NON ↓             │
+        │                      │ │                      │
+        │                      │ ├─ ResumeGenerator::   │
+        │                      │ │ • generate()        │
+        │                      │ │ (Gemini API)        │
+        │                      │ │ • fetchBibtex*()    │
+        │                      │ │ • isDuplicate()     │
+        │                      │ └────────┬────────────┘
+        │                                 │
+        │                                 ▼
+        │                            auteur_*.qmd
+        │                            ref_*.bib
+        │                            resume_*.json
+        │                                 │
+        └─────────────────┬───────────────┘
+                          │
+                     ┌────▼──────────────────┐
+                     │ ProgrammeGenerator::   │
+                     │ • generate()           │
+                     │ • getSlug()            │
+                     │ • getPeriodeStr()      │
+                     │ • getDate()            │
+                     └────┬──────────────────┘
+                          │
+                          ▼
+                     programme.qmd
+                          │
+                          ▼
+              ┌───────────────────────┐
+              │ QUARTO RENDER         │
+              │ quarto render         │
+              └───────────────────────┘
+                          │
+                          ▼
+              ┌───────────────────────┐
+              │ SITE STATIC HTML      │
+              │ docs/ folder          │
+              └───────────────────────┘
 ```
 
 ---
@@ -390,14 +459,27 @@ format:
 - **Réutilisabilité** : Cache des fichiers JSON/TXT pour éviter les appels redondants
 - **Flexibilité** : Paramètres de planification facilement ajustables
 - **Traçabilité** : Stockage des prompts et réponses complètes
+- **Filtre intelligent** : Exclusion automatique des auteurs déjà en projet sur sciencesconf.org
+- **Scalabilité** : Générateurs multiples peuvent être parallélisés
 
 ### ⚠️ Considérations
 
-- **Coûts API** : Chaque auteur = 1 appel Gemini (frais de token)
+- **Coûts API** : Chaque auteur généré = 1 appel Gemini (frais de token)
+- **Filtre sciencesconf** : Certains auteurs peuvent être ignorés si déjà en projet
 - **Dépendances critiques** : Omeka S et Gemini API doivent être accessibles
-- **Manuelle réactive** : Les fichiers `.json` et `.qmd` doivent être validés avant rendu final
+- **Validation réactive** : Les fichiers `.json` et `.qmd` doivent être validés avant rendu final
 - **Limites de contexte** : Texte brut limité à 50 000 caractères pour Gemini
 - **Rate limiting** : Respecter les limites de l'API Gemini
+- **Structure JSON** : Le contexte externe Gemini enveloppe un JSON interne à extraire
+
+### 📝 Nouveautés (depuis mars 2026)
+
+- **Récupération du site Omeka** : Pour passer le slug du site au ResumeGenerator
+- **Filtre sciencesconf.org** : Evite la duplication pour les auteurs déjà en projet
+- **URL dynamique CSV** : Le chemin du CSV provient maintenant de `bibo:authorList`
+- **Paramètre fileNameContext** : Passé au ProgrammeGenerator pour documentation
+- **Gestion des erreurs** : Vérification que la génération a réussi avant sauvegarde
+- **Structure JSON normalisée** : Clés majuscules `CONTEXTE`, `AXES`, `BIBLIO`
 
 ---
 
@@ -416,7 +498,14 @@ open docs/index.html
 
 ---
 
-## Fichiers de référence
+## Historique des mises à jour
+
+| Date | Version | Changements |
+|------|---------|-----------|
+| 1er mars 2026 | v1.0 | Documentation initiale du processus |
+| 3 mars 2026 | v2.1 | ✅ Récupération dynamique site Omeka<br/>✅ Filtre sciencesconf.org<br/>✅ URL CSV depuis Omeka<br/>✅ Paramètre fileNameContext<br/>✅ Gestion des erreurs de génération<br/>✅ Structure JSON normalisée (CONTEXTE, AXES, BIBLIO) |
+
+---
 
 ```
 /Users/samszo/Sites/frontieres-numeriques_2026/
@@ -438,5 +527,6 @@ open docs/index.html
 
 ---
 
-**Documentation mise à jour** : 1er mars 2026  
-**Dernière version du processus** : Utilisation de `gemini-3-pro-preview`
+**Documentation mise à jour** : 3 mars 2026  
+**Dernière version du processus** : Utilisation de `gemini-3-pro-preview` avec filtre sciencesconf.org  
+**Version stable** : v2.1 (avec récupération dynamique des URLs Omeka)
