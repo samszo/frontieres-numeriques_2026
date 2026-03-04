@@ -1,0 +1,46 @@
+---
+title: "Modélisation systémique et médiation territoriale : l'analogie du flux"
+author: Hafida Boulekbache
+categories:
+  - BIM
+  - Intelligence territoriale
+  - Urbanisme durable
+  - Communication
+  - Modélisation
+
+subtitle: "Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+#### Université Polytechnique Hauts-de-France
+[{{< fa solid globe >}} https://www.idref.fr/072310561](https://www.idref.fr/072310561) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux de Hafida Boulekbache explorent les interfaces entre les systèmes d'information (GIS, BIM) et la gouvernance urbaine. Elle mobilise l'analyse systémique, une approche fondamentalement analogique, pour modéliser les flux (déchets, eau) et structurer la communication territoriale [@hijab:hal-04501882]. Ses recherches positionnent la modélisation numérique comme un outil de médiation et de valorisation patrimoniale [@chibane:hal-04452590], transformant la donnée technique en intelligence collective [@boulekbachemazouz:hal-03274681].
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/76679)
+  - [lien vers le prompt](prompt_hafida_boulekbache.txt)
+  - [lien vers la réponse](resume_hafida_boulekbache.json)
+
+
+
+**Titre : Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable**
+
+**Résumé :**
+Cette intervention s'inscrit principalement dans l'**Axe 3 (Modélisation et simulation)** et l'**Axe 2 (L'Analogie comme outil cognitif)**. Nous proposons d'analyser comment l'analogie systémique permet de concevoir le territoire non plus comme une simple géométrie spatiale, mais comme un organisme vivant régulé par des flux (hydrauliques, déchets, informationnels). En s'appuyant sur l'usage des Systèmes d'Information Géographique (SIG) et du BIM, il s'agira de démontrer que ces outils ne sont pas de simples représentations, mais des "analogues du réel" qui filtrent et vectorisent la décision politique et sociale. Nous interrogerons la frontière numérique qui s'érige entre la complexité du terrain et sa simplification modélisée, en montrant comment les dispositifs collaboratifs peuvent transformer cette frontière en interface de médiation pour une intelligence territoriale durable.
+
+### Résonances Bibliographiques
+
+L'œuvre de Hafida Boulekbache entre en résonance directe avec les problématiques de la conférence, notamment sur la fonction médiatrice des technologies de modélisation :
+
+*   **L'analogie urbaine des systèmes d'information :** L'approche de Boulekbache, qui applique l'analyse systémique à la gestion des réseaux d'assainissement et de déchets [@hijab:hal-04501870], illustre parfaitement la thèse de **Bidan & Godé (2017)** [@bidan2017] sur l'analogie de l'urbanisme appliquée à la conception des SI. Le territoire physique et le système numérique se co-construisent par homologie structurelle.
+*   **La frontière comme médiation et filtre :** En travaillant sur la "géo-communication" et les dispositifs collaboratifs [@hijab:hal-04501882], l'auteur opérationnalise la vision de **Debray (2013)** [@debray2013] où la frontière n'est pas un mur, mais un "filtre, régulateur". Le dispositif numérique (GIS/Web) devient ici le "crible" évoqué par **Guattari (1992)** [@guattari1992], triant les virtualités du chaos urbain pour en extraire des potentialités de gestion durable.
+*   **Modélisation et vecteurs de sens :** Dans ses travaux sur "Communiquer la ville" [@boulekbachemazouz:hal-03274681] et l'architecture communicationnelle [@Archi2018], Boulekbache rejoint **Delannay (2025)** [@delannay2025] sur le fait que l'outil (ici la carte ou le modèle 3D) "vectorise le sens en limitant les interprétations". La modélisation n'est jamais neutre ; elle impose une grille de lecture analogiste, comparable aux "matrices ontologiques" décrites par **Descola (2005)** [@descola2005], définissant ce qui est visible ou invisible dans l'espace public.
+*   **Écosystèmes de connaissances :** Enfin, l'approche participative de la valorisation du territoire [@chibane:hal-04452590] fait écho à **Szoniecky (2024)** [@szoniecky2024] sur l'analogie des écosystèmes pour modéliser les connaissances. Le territoire numérisé devient un milieu vivant d'interactions informationnelles, dépassant la simple superposition de couches géographiques.

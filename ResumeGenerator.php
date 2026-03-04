@@ -140,7 +140,7 @@ class ResumeGenerator {
 
     private function fetchBibtexFromSudoc($ref) {
         $id = str_replace('sudoc', '', $ref);
-        $url = "https://www.sudoc.fr/export/q=ppn&v=".$ref."&f=bibtex";
+        $url = "https://www.sudoc.fr/export/q=ppn&v=".$id."&f=bibtex";
 
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

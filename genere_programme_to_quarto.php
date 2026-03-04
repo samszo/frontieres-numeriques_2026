@@ -7,6 +7,7 @@ require_once 'key.php';
 $csvFile = "liste_auteurs.csv";
 $outputFolder = "auteurs_quarto";
 $omkApiUrl = "http://localhost/omk_paragraphe";
+$omkApiUrl = "https://humanum-p8.fr/paragraphe";
 $context = false;
 
 //$omkApiIdentity="2le19tgSwb9lhlNEEM72HWEjS993snkM";
@@ -18,6 +19,8 @@ if (!file_exists($outputFolder)) mkdir($outputFolder, 0777, true);
 $omkConfItem = fetchOmekaJson($omkApiUrl, "items/54151"); 
 //Récupère le slug du premier site
 $omkSite = fetchOmekaJson("", "",$omkConfItem["o:site"][0]["@id"]); 
+//récupère le titre du projet
+$currentProjet = $omkConfItem["foaf:currentProject"][0]["@value"];
 
 //$urlSiteConf = "https://samszo.github.io/frontieres-numeriques_2026/index.html";
 $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', 'rawtext_'.$omkConfItem['o:title']))) . ".txt";
@@ -63,13 +66,24 @@ if($context){
     */
     //via un bulkexport
     $csvFile = $omkConfItem["bibo:authorList"][0]["@id"];// "http://localhost/omk_paragraphe/files/bulk_export/csv-20260301-083851.csv";
-    if (($handle = fopen($csvFile, "r")) !== FALSE) {
-        $headers = fgetcsv($handle, 1000, ",",'"',"\\");
-        while ($data = fgetcsv($handle, 1000, ",",'"',"\\")){
+    $ch = curl_init($csvFile);
+    curl_setopt_array($ch, [
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_TIMEOUT => 60,
+    ]);
+    $response = curl_exec($ch);    
+    $auteurs = [];
+    $lines = str_getcsv($response, "\n");
+    $auteurs = [];
+    foreach ($lines as $k=>$line) {
+        $data = str_getcsv($line, ",");
+        if($k==0)$headers = $data;
+        elseif (!empty($data[0])) {
             $auteurs[] = $data[0];
         }
-        fclose($handle);
-    }    
+    }
     
     /*
     $query = "items/72730";
@@ -85,14 +99,20 @@ if($context){
 
         $query = "items/".$id;
         $auteur = fetchOmekaJson($omkApiUrl,$query);
+        $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title'])));
 
-        //ne regènere pas les auteurs avec un projetencours sciencesconf
+        //ne regènere pas les auteurs avec un projet en cours correspondant au site de la conférence car modifié à la main
+        //TODO :récupérer automatiquement les proposition de l'auteur
         $genere = true;
         foreach ($auteur["labo:EventActor"] as $event) {
-            if(isset($event["@annotation"]) 
-                && isset($event["@annotation"]["foaf:currentProject"]) 
-                && $event["@annotation"]["foaf:currentProject"][0]["o:label"] == "sciencesconf.org")
-                $genere = false;
+            if(isset($event["@annotation"]) && isset($event["@annotation"]["foaf:currentProject"])){
+                foreach ($event["@annotation"]["foaf:currentProject"] as $cp) {
+                    if($cp["o:label"]==$currentProjet){
+                        $genere = false;
+                        $md = file_get_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName.".qmd");
+                    }
+                }
+            } 
         }
         if(!$genere){
            echo "Pas de Traitement : " . $auteur['o:title'] . "<br>";
@@ -113,16 +133,23 @@ if($context){
                 $subtitre = str_replace('"',"-",$titre);
                 $md = str_replace("bibliography: referenceAuteurs.bib","subtitle: \"$subtitre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
 
-                $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title']))) . ".qmd";
-                file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName, $md);
-                $props[]=["auteur"=>$auteur['o:title'],"titre"=>$titre];
+                file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName. ".qmd", $md);
             }
-        }        
-
+        }
+        $props[]=["id"=>$auteur['o:id'],"auteur"=>$auteur['o:title'],"titre"=>$titre,'page'=>$outputFolder . DIRECTORY_SEPARATOR . $fileName.".html"];
     }
 
     $program = new ProgrammeGenerator($props,$omkConfItem,$fileNameContext);
     $program->generate();
+
+    // Export $props to CSV
+    $csvOutput = fopen($outputFolder . DIRECTORY_SEPARATOR . "programme.csv", "w");
+    fputcsv($csvOutput, ["id", "auteur", "titre", "page"]);
+    foreach ($props as $prop) {
+        fputcsv($csvOutput, [$prop["id"], $prop["auteur"], $prop["titre"], $prop["page"]]);
+    }
+    fclose($csvOutput);
+    echo "Programme exporté en CSV<br>";
 
 }
 
@@ -132,6 +159,7 @@ function fetchOmekaJson($baseUrl, $endpoint, $url="") {
     }
     $ch = curl_init($url);
     curl_setopt_array($ch, [
+        CURLOPT_SSL_VERIFYPEER => false,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_TIMEOUT => 60,

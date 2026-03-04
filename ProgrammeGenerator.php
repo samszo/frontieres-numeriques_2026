@@ -67,7 +67,7 @@ class ProgrammeGenerator {
                 $md .= "## Accueil - Ouverture du colloque : ".$this->formatDateHeure($currentTime) . PHP_EOL . PHP_EOL;
                 $md .= "  - Comité de programme et d'organisation : " . PHP_EOL;
                 $md .= "    - Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
-                $md .= "    - Olivier Nannipieri, Institut Méditerranéen des Sciences de l'Information et de la Communication, France" . PHP_EOL;
+                $md .= "    - Olivier NANNIPIERI, Institut Méditerranéen des Sciences de l'Information et de la Communication, France" . PHP_EOL;
                 $md .= "  - Présidents du colloque : ". PHP_EOL;
                 $md .= "    -  Samuel SZONIECKY, Université Paris 8, France" . PHP_EOL;
                 $md .= "    -  Imad SALEH, Université Paris 8, France" . PHP_EOL. PHP_EOL;
@@ -133,7 +133,7 @@ class ProgrammeGenerator {
                 $md .= "<tr>" . PHP_EOL;
                 $md .= "<td>".$this->formatDateHeure($currentTime)."</td>" . PHP_EOL;
                 $md .= "<td>Communication</td>" . PHP_EOL;
-                $md .= "<td>{$prop['auteur']} - <i>{$prop['titre']}</i></td>" . PHP_EOL;
+                $md .= "<td>".strtoupper($prop['auteur'])." - <i>{$prop['titre']}</i></td>" . PHP_EOL;
                 $md .= "<td><a href='{$this->auteursFolder}/{$slug}.qmd'>Consulter la proposition</a></td>" . PHP_EOL;
                 $md .= "</tr>" . PHP_EOL;
                 
@@ -153,7 +153,7 @@ class ProgrammeGenerator {
         $md .= "## Synthèse des travaux - Clôture : ".$this->formatDateHeure($currentTime) . PHP_EOL . PHP_EOL;
         $md .= "  - Comité de programme et d'organisation : " . PHP_EOL;
         $md .= "    - Malek GHENIMA, Université de la Manouba, Tunisie" . PHP_EOL;
-        $md .= "    - Olivier Nannipieri, Institut Méditerranéen des Sciences de l'Information et de la Communication, France" . PHP_EOL;
+        $md .= "    - Olivier NANNIPIERI, Institut Méditerranéen des Sciences de l'Information et de la Communication, France" . PHP_EOL;
         $md .= "  - Présidents du colloque : ". PHP_EOL;
         $md .= "    -  Samuel SZONIECKY, Université Paris 8, France" . PHP_EOL;
         $md .= "    -  Imad SALEH, Université Paris 8, France" . PHP_EOL. PHP_EOL;

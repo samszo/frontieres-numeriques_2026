@@ -1,6 +1,6 @@
 ---
 title: "Flux Physiques et Flux Sémantiques : L'analogie du réseau pour modéliser la ville et le savoir"
-author: Youssef MEKOUAR
+author: Youssef Mekouar
 categories: [IoT, Smart-City, Data-Visualization, Modélisation, Sémantique]
 
 subtitle: "Vers une écologie de la donnée : L'analogie systémique entre flux urbains et réseaux de connaissances"
