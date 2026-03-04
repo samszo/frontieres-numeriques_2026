@@ -176,29 +176,51 @@ public function __construct($propositions, $siteItem, $fileNameContext)
 ### 4. **genere_programme_to_quarto.php**
 Script orchestrateur qui coordonne l'ensemble du processus.
 
+**Configuration :**
+- URL Omeka locale : `http://localhost/omk_paragraphe` (développement)
+- URL Omeka distante : `https://humanum-p8.fr/paragraphe` (production)
+- SSL vérifié : Non (accepte certificats auto-signés)
+
 **Flux d'exécution :**
 1. Récupère l'événement depuis Omeka (`items/54151`)
-2. Récupère le site Omeka associé
-3. Distille le contexte du site de l'événement
-4. Instancie `ResumeGenerator` avec le contexte et le site
-5. Boucle sur chaque auteur du CSV
-   - Filtre : ignoré si déjà en projet "sciencesconf.org"
-   - Génère la fiche avec `ResumeGenerator::generate()`
-   - Sauvegarde le fichier `.qmd` et collecte les métadonnées
-6. Instancie `ProgrammeGenerator` avec les propositions
-7. Génère le programme final
+2. Récupère le site Omeka associé (`o:site[0]["@id"]`)
+3. Récupère le titre du projet courant (`foaf:currentProject`)
+4. Distille le contexte du site de l'événement
+5. Instancie `ResumeGenerator` avec le contexte et le site
+6. Récupère le CSV via cURL (résout les certificats HTTPS)
+   - Parse le CSV ligne par ligne avec `str_getcsv()`
+7. **Boucle sur chaque auteur du CSV**
+   - **Filtre intelligent** : Si auteur a le projet courant
+     - Charge le fichier `.qmd` existant (édité manuellement)
+     - N'appelle pas l'IA (économise jetons/budget)
+   - **Sinon** : Génère une nouvelle fiche avec IA
+   - Collecte métadonnées : `["id", "auteur", "titre", "page"]`
+8. Instancie `ProgrammeGenerator` avec les propositions
+9. Génère le programme final
+10. **Exporte les métadonnées en CSV** : `programme.csv`
 
 ---
 
 ## Étapes détaillées
 
 ### **Étape 1 : Récupération de l'événement (Omeka)**
-- URL API : `https://humanum-p8.fr/omk_paragraphe/api/items/54151`
+- URL API : `https://humanum-p8.fr/paragraphe/api/items/54151`
 - Récupère :
   - Titre, dates, lieu, URL du site de l'événement
   - URL du site Omeka associé (`o:site[0]["@id"]`)
+  - Titre du projet courant (`foaf:currentProject[0]["@value"]`)
   - URL du fichier CSV de la liste des auteurs (`bibo:authorList[0]["@id"]`)
+- **Gestion SSL** : Désactive vérification si certificat auto-signé
 - Utilise : fonction `fetchOmekaJson($baseUrl, $endpoint, $url="")` (accepte directement une URL complète)
+
+### **Étape 1b : Récupération du CSV des auteurs**
+- **Via cURL** (résout certificats HTTPS auto-signés)
+  - URL : Depuis `bibo:authorList[0]["@id"]` (dynamique)
+  - Option SSL : `CURLOPT_SSL_VERIFYPEER => false`
+- **Parsing** : `str_getcsv()` ligne par ligne
+  - Première ligne : headers ignorée
+  - Autres lignes : ID auteur en colonne 0
+- **Stockage** : Array `$auteurs[]` avec IDs
 
 ### **Étape 2 : Extraction du contexte du site**
 **Condition :** Si `rawtext_*.txt` n'existe pas
@@ -231,9 +253,14 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"
 **Pour chaque auteur :**
 
 **Filtre d'exclusion :**
-- Vérifie si l'auteur a un projet en cours sur `sciencesconf.org`
-- Si oui → **Ignore** cet auteur (pas de génération, pas d'ajout au programme)
-- Message : `"Pas de Traitement : [auteur]"`
+- Vérifie si l'auteur a un projet en cours **correspondant au projet courant de l'événement** (`foaf:currentProject`)
+- Si oui → **Récupère** le fichier `.qmd` existant (édité manuellement)
+  - Pas de nouvelle génération IA
+  - Le fichier local est conservé
+- Si non → Génère une nouvelle fiche IA
+- Message :
+  - Trouvé : `"Pas de Traitement : [auteur]"` (utilise version existante)
+  - Nouveau : `"Traitement : [auteur]"` (génère IA)
 
 **Processus (si non filtré) :**
 
@@ -264,11 +291,35 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"
    - Pour extraction depuis le contenu généré par IA
 
 6. **Sauvegarde** :
-   - Fichier : `auteurs_quarto/auteur_*.qmd`
-   - Format : Quarto avec frontmatter YAML + contenu Markdown
-   - Collecte métadonnées : `["auteur"=>..., "titre"=>...]`
+   - **Si nouveau** : 
+     - Fichier : `auteurs_quarto/auteur_*.qmd`
+     - Format : Quarto avec frontmatter YAML + contenu Markdown
+   - **Si existant** (filtre positif) :
+     - Charge depuis disque (déjà édité manuellement)
+     - Saute la génération IA
+   - Collecte métadonnées : `["id"=>[oid], "auteur"=>..., "titre"=>..., "page"=>...]`
 
-### **Étape 5 : Génération du programme**
+### **Étape 5 : Export des métadonnées en CSV**
+
+**Nouveau depuis 4 mars 2026**
+
+**Création de `programme.csv`** :
+- Colonnes : `id`, `auteur`, `titre`, `page`
+- Une ligne par auteur
+- Chemin : `auteurs_quarto/programme.csv`
+- Utilisé pour : 
+  - Synchronisation avec Omeka
+  - Tracking des modifications apportées aux fiches
+  - Audit des propositions
+
+**Format :**
+```csv
+id,auteur,titre,page
+72730,Samuel Szoniecky,Proposition 1,auteurs_quarto/samuel_szoniecky.html
+72731,Imad Saleh,Proposition 2,auteurs_quarto/imad_saleh.html
+```
+
+### **Étape 6 : Génération du programme**
 **Dans `ProgrammeGenerator::generate()` :**
 
 1. **Division en jours** :
@@ -301,9 +352,7 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"
 
 ---
 
-## Fichiers générés
-
-### Dossier `auteurs_quarto/`
+## Fichiers générés et métadonnées
 
 | Fichier | Type | Contenu |
 |---------|------|---------|
@@ -313,8 +362,9 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"
 | `auteur_*.qmd` | Quarto | Fiche auteur avec proposition (frontmatter + contenu) |
 | `resume_*.json` | JSON | Réponse complète de Gemini (pour débogage) |
 | `referenceAuteurs.bib` | BibTeX | Bibliographie consolidée |
+| `programme.csv` | CSV | Métadonnées des propositions (id, auteur, titre, page) |
 
-### Racine du projet
+**Racine du projet**
 
 | Fichier | Type | Contenu |
 |---------|------|---------|
@@ -352,12 +402,15 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"
 
 | Paramètre | Valeur | Note |
 |-----------|--------|------|
-| URL Base | `http://localhost/omk_paragraphe` | À adapter pour instance distante |
+| URL Base Local | `http://localhost/omk_paragraphe` | Développement (sans SSL) |
+| URL Base Distant | `https://humanum-p8.fr/paragraphe` | Production (SSL auto-signé) |
 | Item Event | `54151` | ID de l'événement colloque |
 | Site associé | `o:site[0]["@id"]` | URL du site Omeka associé |
+| Projet courant | `foaf:currentProject[0]["@value"]` | Titre du projet (pour filtre) |
 | Liste auteurs | `bibo:authorList[0]["@id"]` | URL du CSV bulk export |
 | Location | `curation:location[0]["@value"]` | Lieu de l'événement |
 | Dates | `dcterms:date[0]["@value"]` | Format : "YYYY-MM-DD/YYYY-MM-DD" |
+| Homepage | `foaf:homepage[0]["@id"]` | URL du site de l'événement |
 | Homepage | `foaf:homepage[0]["@id"]` | URL du site de l'événement |
 
 ### Paramètres Quarto
@@ -459,27 +512,39 @@ format:
 - **Réutilisabilité** : Cache des fichiers JSON/TXT pour éviter les appels redondants
 - **Flexibilité** : Paramètres de planification facilement ajustables
 - **Traçabilité** : Stockage des prompts et réponses complètes
-- **Filtre intelligent** : Exclusion automatique des auteurs déjà en projet sur sciencesconf.org
+- **Filtre intelligent** : Exclusion automatique des auteurs en projet courant (charge version existante)
 - **Scalabilité** : Générateurs multiples peuvent être parallélisés
+- **Économies de jetons** : Les fiches existantes ne sont pas régénérées par IA
+- **Interopérabilité** : Export CSV pour synchronisation Omeka
 
 ### ⚠️ Considérations
 
 - **Coûts API** : Chaque auteur généré = 1 appel Gemini (frais de token)
-- **Filtre sciencesconf** : Certains auteurs peuvent être ignorés si déjà en projet
+- **Filtre par projet courant** : Certains auteurs peuvent être ignorés si déjà en projet correspondant
 - **Dépendances critiques** : Omeka S et Gemini API doivent être accessibles
 - **Validation réactive** : Les fichiers `.json` et `.qmd` doivent être validés avant rendu final
 - **Limites de contexte** : Texte brut limité à 50 000 caractères pour Gemini
 - **Rate limiting** : Respecter les limites de l'API Gemini
 - **Structure JSON** : Le contexte externe Gemini enveloppe un JSON interne à extraire
+- **Certificats SSL** : Les certificats auto-signés de `humanum-p8.fr` sont acceptés
 
-### 📝 Nouveautés (depuis mars 2026)
+### 📝 Nouvelles fonctionnalités
 
+**Depuis 1er mars 2026 :**
 - **Récupération du site Omeka** : Pour passer le slug du site au ResumeGenerator
-- **Filtre sciencesconf.org** : Evite la duplication pour les auteurs déjà en projet
 - **URL dynamique CSV** : Le chemin du CSV provient maintenant de `bibo:authorList`
 - **Paramètre fileNameContext** : Passé au ProgrammeGenerator pour documentation
 - **Gestion des erreurs** : Vérification que la génération a réussi avant sauvegarde
 - **Structure JSON normalisée** : Clés majuscules `CONTEXTE`, `AXES`, `BIBLIO`
+
+**Depuis 4 mars 2026 :**
+- **Filtre intelligent par projet** : Utilise `foaf:currentProject` au lieu de texte statique
+- **Récupération de fiches existantes** : Si auteur en projet courant, charge la version disque (édition manuelle)
+- **Lecture cURL du CSV** : Résout les certificats HTTPS auto-signés
+- **Export CSV du programme** : Nouvelle fonctionnalité `programme.csv`
+- **Métadonnées étendues** : Ajout de l'ID Omeka et de la page générée
+- **URL Omeka distante** : Support de `https://humanum-p8.fr/paragraphe`
+- **Support certificats SSL auto-signés** : `CURLOPT_SSL_VERIFYPEER => false`
 
 ---
 
@@ -504,6 +569,7 @@ open docs/index.html
 |------|---------|-----------|
 | 1er mars 2026 | v1.0 | Documentation initiale du processus |
 | 3 mars 2026 | v2.1 | ✅ Récupération dynamique site Omeka<br/>✅ Filtre sciencesconf.org<br/>✅ URL CSV depuis Omeka<br/>✅ Paramètre fileNameContext<br/>✅ Gestion des erreurs de génération<br/>✅ Structure JSON normalisée (CONTEXTE, AXES, BIBLIO) |
+| 4 mars 2026 | v2.5 | ✅ Filtre par `foaf:currentProject`<br/>✅ Récupération des fiches existantes<br/>✅ Lecture cURL du CSV (SSL auto-signé)<br/>✅ Export `programme.csv`<br/>✅ Métadonnées étendues (id, page)<br/>✅ URL distante `https://humanum-p8.fr/paragraphe`<br/>✅ Support certificats SSL auto-signés |
 
 ---
 
@@ -527,6 +593,6 @@ open docs/index.html
 
 ---
 
-**Documentation mise à jour** : 3 mars 2026  
-**Dernière version du processus** : Utilisation de `gemini-3-pro-preview` avec filtre sciencesconf.org  
-**Version stable** : v2.1 (avec récupération dynamique des URLs Omeka)
+**Documentation mise à jour** : 4 mars 2026  
+**Dernière version du processus** : v2.5 avec filtre intelligent et export CSV  
+**Version stable** : v2.5 (avec fiches existantes, CSV dynamique, SSL auto-signé)
