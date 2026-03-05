@@ -1,0 +1,46 @@
+---
+title: "De la page web à l'environnement tangible : analogies médiatrices en éducation"
+author: Luc Massou
+categories: 
+  - enseignement à distance
+  - sociotechniques
+  - pédagogiques
+  - Hypermédias
+  - Website
+  - culture numérique
+
+subtitle: "Médiations tangibles et frontières de l'écran : quand l'analogie façonne l'apprentissage"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/056521642](https://www.idref.fr/056521642) [{{< fa solid globe >}} https://orcid.org/0000-0002-8474-6787](https://orcid.org/0000-0002-8474-6787) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:luc-massou](https://hal.science/search/index/?q=authIdHal_s:luc-massou) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux de Luc Massou interrogent les mutations de l'enseignement supérieur sous le prisme des dispositifs sociotechniques et de la mondialisation [@remond:halshs-03087053]. Il analyse la structuration des savoirs via l'architecture des sites web [@massou:hal-04433976] et explore les frontières de l'apprentissage collaboratif au sein d'environnements tangibles augmentés [@massou:hal-01790977], tout en questionnant les phénomènes de non-usage et de résistance au numérique [@massou:halshs-03085628].
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/133695)
+  - [lien vers le prompt](prompt_luc_massou.txt)
+  - [lien vers la réponse](resume_luc_massou.json)
+
+
+
+**Titre : Médiations tangibles et frontières de l'écran : quand l'analogie façonne l'apprentissage**
+
+**Résumé :**
+Cette intervention se situe au croisement de l'Axe 2 (Outil cognitif) et de l'Axe 3 (Modélisation du réel). Nous proposons d'analyser comment les dispositifs numériques éducatifs, des sites web institutionnels aux environnements tangibles augmentés, mobilisent des analogies structurelles pour médiatiser les savoirs. Si le site web perpétue souvent l'analogie de la "page" et du "document", les interfaces tangibles tentent de briser cette frontière écranique pour renouer avec une manipulation physique analogue aux interactions du monde réel. En examinant les usages et les non-usages de ces technologies, nous montrerons que la frontière numérique n'est pas seulement technique mais cognitive : elle agit comme un filtre sélectif dépendant de la pertinence des analogies mobilisées pour l'apprenant. L'enjeu est de comprendre comment passer d'une frontière-mur à une frontière-passerelle favorisant une appropriation authentique des connaissances.
+
+### Résonances Bibliographiques
+
+Les recherches de Luc Massou sur les dispositifs numériques éducatifs entrent en résonance directe avec la conception de la frontière comme « passoire » ou filtre régulateur décrite par **Debray (2013)** [@Debray2013]. En analysant les sites web [@Masso2022], l'auteur illustre comment l'analogie vectorise le sens et limite les interprétations, rejoignant les travaux de **Delannay (2025)** [@Delannay2025] sur la métaphore de la page ou du bureau comme guide cognitif.
+
+L'étude des environnements tangibles augmentés [@massou:hal-01790977] s'inscrit dans la continuité du parallélisme fondamental entre langage et outil posé par **Leroi-Gourhan (1964)** [@LeroiGourhan1964], où la technique extériorise la cognition. Ces dispositifs visent à créer des « analogues du réel » pour faciliter l'apprentissage, ce qui fait écho à **Hofstadter & Sander (2013)** [@HofstadterSander2013] considérant l'analogie comme le moteur même de l'extension des catégories intellectuelles.
+
+Enfin, l'approche critique des non-usages [@massou:halshs-03085628] rappelle la vision de **Citton (2010)** [@Citton2010] : pour que la frontière numérique agisse comme une passerelle d'interopérabilité des savoirs plutôt que comme une zone d'exclusion, les dispositifs doivent dépasser la simple appropriation marchande ou technocratique dénoncée par **Moulier Boutang (2010)** [@moulierboutang2010] pour s'ancrer dans des pratiques pédagogiques signifiantes.

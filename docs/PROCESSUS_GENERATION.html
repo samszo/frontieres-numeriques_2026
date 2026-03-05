@@ -183,16 +183,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#étapes-détaillées" id="toc-étapes-détaillées" class="nav-link" data-scroll-target="#étapes-détaillées">Étapes détaillées</a>
   <ul class="collapse">
   <li><a href="#étape-1-récupération-de-lévénement-omeka" id="toc-étape-1-récupération-de-lévénement-omeka" class="nav-link" data-scroll-target="#étape-1-récupération-de-lévénement-omeka"><strong>Étape 1 : Récupération de l’événement (Omeka)</strong></a></li>
+  <li><a href="#étape-1b-récupération-du-csv-des-auteurs" id="toc-étape-1b-récupération-du-csv-des-auteurs" class="nav-link" data-scroll-target="#étape-1b-récupération-du-csv-des-auteurs"><strong>Étape 1b : Récupération du CSV des auteurs</strong></a></li>
   <li><a href="#étape-2-extraction-du-contexte-du-site" id="toc-étape-2-extraction-du-contexte-du-site" class="nav-link" data-scroll-target="#étape-2-extraction-du-contexte-du-site"><strong>Étape 2 : Extraction du contexte du site</strong></a></li>
   <li><a href="#étape-3-distillation-du-contexte-ia" id="toc-étape-3-distillation-du-contexte-ia" class="nav-link" data-scroll-target="#étape-3-distillation-du-contexte-ia"><strong>Étape 3 : Distillation du contexte (IA)</strong></a></li>
   <li><a href="#étape-4-génération-des-fiches-auteur" id="toc-étape-4-génération-des-fiches-auteur" class="nav-link" data-scroll-target="#étape-4-génération-des-fiches-auteur"><strong>Étape 4 : Génération des fiches auteur</strong></a></li>
-  <li><a href="#étape-5-génération-du-programme" id="toc-étape-5-génération-du-programme" class="nav-link" data-scroll-target="#étape-5-génération-du-programme"><strong>Étape 5 : Génération du programme</strong></a></li>
+  <li><a href="#étape-5-export-des-métadonnées-en-csv" id="toc-étape-5-export-des-métadonnées-en-csv" class="nav-link" data-scroll-target="#étape-5-export-des-métadonnées-en-csv"><strong>Étape 5 : Export des métadonnées en CSV</strong></a></li>
+  <li><a href="#étape-6-génération-du-programme" id="toc-étape-6-génération-du-programme" class="nav-link" data-scroll-target="#étape-6-génération-du-programme"><strong>Étape 6 : Génération du programme</strong></a></li>
   </ul></li>
-  <li><a href="#fichiers-générés" id="toc-fichiers-générés" class="nav-link" data-scroll-target="#fichiers-générés">Fichiers générés</a>
-  <ul class="collapse">
-  <li><a href="#dossier-auteurs_quarto" id="toc-dossier-auteurs_quarto" class="nav-link" data-scroll-target="#dossier-auteurs_quarto">Dossier <code>auteurs_quarto/</code></a></li>
-  <li><a href="#racine-du-projet" id="toc-racine-du-projet" class="nav-link" data-scroll-target="#racine-du-projet">Racine du projet</a></li>
-  </ul></li>
+  <li><a href="#fichiers-générés-et-métadonnées" id="toc-fichiers-générés-et-métadonnées" class="nav-link" data-scroll-target="#fichiers-générés-et-métadonnées">Fichiers générés et métadonnées</a></li>
   <li><a href="#configuration-requise" id="toc-configuration-requise" class="nav-link" data-scroll-target="#configuration-requise">Configuration requise</a>
   <ul class="collapse">
   <li><a href="#fichiers-de-configuration" id="toc-fichiers-de-configuration" class="nav-link" data-scroll-target="#fichiers-de-configuration">Fichiers de configuration</a></li>
@@ -205,7 +203,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#avantages-de-cette-approche" id="toc-avantages-de-cette-approche" class="nav-link" data-scroll-target="#avantages-de-cette-approche">✨ Avantages de cette approche</a></li>
   <li><a href="#considérations" id="toc-considérations" class="nav-link" data-scroll-target="#considérations">⚠️ Considérations</a></li>
-  <li><a href="#nouveautés-depuis-mars-2026" id="toc-nouveautés-depuis-mars-2026" class="nav-link" data-scroll-target="#nouveautés-depuis-mars-2026">📝 Nouveautés (depuis mars 2026)</a></li>
+  <li><a href="#nouvelles-fonctionnalités" id="toc-nouvelles-fonctionnalités" class="nav-link" data-scroll-target="#nouvelles-fonctionnalités">📝 Nouvelles fonctionnalités</a></li>
   </ul></li>
   <li><a href="#exemple-de-commande-dexécution" id="toc-exemple-de-commande-dexécution" class="nav-link" data-scroll-target="#exemple-de-commande-dexécution">Exemple de commande d’exécution</a></li>
   <li><a href="#historique-des-mises-à-jour" id="toc-historique-des-mises-à-jour" class="nav-link" data-scroll-target="#historique-des-mises-à-jour">Historique des mises à jour</a></li>
@@ -352,7 +350,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="genere_programme_to_quarto.php" class="level3">
 <h3 class="anchored" data-anchor-id="genere_programme_to_quarto.php">4. <strong>genere_programme_to_quarto.php</strong></h3>
 <p>Script orchestrateur qui coordonne l’ensemble du processus.</p>
-<p><strong>Flux d’exécution :</strong> 1. Récupère l’événement depuis Omeka (<code>items/54151</code>) 2. Récupère le site Omeka associé 3. Distille le contexte du site de l’événement 4. Instancie <code>ResumeGenerator</code> avec le contexte et le site 5. Boucle sur chaque auteur du CSV - Filtre : ignoré si déjà en projet “sciencesconf.org” - Génère la fiche avec <code>ResumeGenerator::generate()</code> - Sauvegarde le fichier <code>.qmd</code> et collecte les métadonnées 6. Instancie <code>ProgrammeGenerator</code> avec les propositions 7. Génère le programme final</p>
+<p><strong>Configuration :</strong> - URL Omeka locale : <code>http://localhost/omk_paragraphe</code> (développement) - URL Omeka distante : <code>https://humanum-p8.fr/paragraphe</code> (production) - SSL vérifié : Non (accepte certificats auto-signés)</p>
+<p><strong>Flux d’exécution :</strong> 1. Récupère l’événement depuis Omeka (<code>items/54151</code>) 2. Récupère le site Omeka associé (<code>o:site[0]["@id"]</code>) 3. Récupère le titre du projet courant (<code>foaf:currentProject</code>) 4. Distille le contexte du site de l’événement 5. Instancie <code>ResumeGenerator</code> avec le contexte et le site 6. Récupère le CSV via cURL (résout les certificats HTTPS) - Parse le CSV ligne par ligne avec <code>str_getcsv()</code> 7. <strong>Boucle sur chaque auteur du CSV</strong> - <strong>Filtre intelligent</strong> : Si auteur a le projet courant - Charge le fichier <code>.qmd</code> existant (édité manuellement) - N’appelle pas l’IA (économise jetons/budget) - <strong>Sinon</strong> : Génère une nouvelle fiche avec IA - Collecte métadonnées : <code>["id", "auteur", "titre", "page"]</code> 8. Instancie <code>ProgrammeGenerator</code> avec les propositions 9. Génère le programme final 10. <strong>Exporte les métadonnées en CSV</strong> : <code>programme.csv</code></p>
 <hr>
 </section>
 </section>
@@ -361,14 +360,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="étape-1-récupération-de-lévénement-omeka" class="level3">
 <h3 class="anchored" data-anchor-id="étape-1-récupération-de-lévénement-omeka"><strong>Étape 1 : Récupération de l’événement (Omeka)</strong></h3>
 <ul>
-<li>URL API : <code>https://humanum-p8.fr/omk_paragraphe/api/items/54151</code></li>
+<li>URL API : <code>https://humanum-p8.fr/paragraphe/api/items/54151</code></li>
 <li>Récupère :
 <ul>
 <li>Titre, dates, lieu, URL du site de l’événement</li>
 <li>URL du site Omeka associé (<code>o:site[0]["@id"]</code>)</li>
+<li>Titre du projet courant (<code>foaf:currentProject[0]["@value"]</code>)</li>
 <li>URL du fichier CSV de la liste des auteurs (<code>bibo:authorList[0]["@id"]</code>)</li>
 </ul></li>
+<li><strong>Gestion SSL</strong> : Désactive vérification si certificat auto-signé</li>
 <li>Utilise : fonction <code>fetchOmekaJson($baseUrl, $endpoint, $url="")</code> (accepte directement une URL complète)</li>
+</ul>
+</section>
+<section id="étape-1b-récupération-du-csv-des-auteurs" class="level3">
+<h3 class="anchored" data-anchor-id="étape-1b-récupération-du-csv-des-auteurs"><strong>Étape 1b : Récupération du CSV des auteurs</strong></h3>
+<ul>
+<li><strong>Via cURL</strong> (résout certificats HTTPS auto-signés)
+<ul>
+<li>URL : Depuis <code>bibo:authorList[0]["@id"]</code> (dynamique)</li>
+<li>Option SSL : <code>CURLOPT_SSL_VERIFYPEER =&gt; false</code></li>
+</ul></li>
+<li><strong>Parsing</strong> : <code>str_getcsv()</code> ligne par ligne
+<ul>
+<li>Première ligne : headers ignorée</li>
+<li>Autres lignes : ID auteur en colonne 0</li>
+</ul></li>
+<li><strong>Stockage</strong> : Array <code>$auteurs[]</code> avec IDs</li>
 </ul>
 </section>
 <section id="étape-2-extraction-du-contexte-du-site" class="level3">
@@ -394,7 +411,7 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <section id="étape-4-génération-des-fiches-auteur" class="level3">
 <h3 class="anchored" data-anchor-id="étape-4-génération-des-fiches-auteur"><strong>Étape 4 : Génération des fiches auteur</strong></h3>
 <p><strong>Pour chaque auteur :</strong></p>
-<p><strong>Filtre d’exclusion :</strong> - Vérifie si l’auteur a un projet en cours sur <code>sciencesconf.org</code> - Si oui → <strong>Ignore</strong> cet auteur (pas de génération, pas d’ajout au programme) - Message : <code>"Pas de Traitement : [auteur]"</code></p>
+<p><strong>Filtre d’exclusion :</strong> - Vérifie si l’auteur a un projet en cours <strong>correspondant au projet courant de l’événement</strong> (<code>foaf:currentProject</code>) - Si oui → <strong>Récupère</strong> le fichier <code>.qmd</code> existant (édité manuellement) - Pas de nouvelle génération IA - Le fichier local est conservé - Si non → Génère une nouvelle fiche IA - Message : - Trouvé : <code>"Pas de Traitement : [auteur]"</code> (utilise version existante) - Nouveau : <code>"Traitement : [auteur]"</code> (génère IA)</p>
 <p><strong>Processus (si non filtré) :</strong></p>
 <ol type="1">
 <li><strong>Récupération depuis Omeka</strong> :
@@ -430,22 +447,39 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 </ul></li>
 <li><strong>Sauvegarde</strong> :
 <ul>
+<li><strong>Si nouveau</strong> :
+<ul>
 <li>Fichier : <code>auteurs_quarto/auteur_*.qmd</code></li>
 <li>Format : Quarto avec frontmatter YAML + contenu Markdown</li>
-<li>Collecte métadonnées : <code>["auteur"=&gt;..., "titre"=&gt;...]</code></li>
+</ul></li>
+<li><strong>Si existant</strong> (filtre positif) :
+<ul>
+<li>Charge depuis disque (déjà édité manuellement)</li>
+<li>Saute la génération IA</li>
+</ul></li>
+<li>Collecte métadonnées : <code>["id"=&gt;[oid], "auteur"=&gt;..., "titre"=&gt;..., "page"=&gt;...]</code></li>
 </ul></li>
 </ol>
 </section>
-<section id="étape-5-génération-du-programme" class="level3">
-<h3 class="anchored" data-anchor-id="étape-5-génération-du-programme"><strong>Étape 5 : Génération du programme</strong></h3>
+<section id="étape-5-export-des-métadonnées-en-csv" class="level3">
+<h3 class="anchored" data-anchor-id="étape-5-export-des-métadonnées-en-csv"><strong>Étape 5 : Export des métadonnées en CSV</strong></h3>
+<p><strong>Nouveau depuis 4 mars 2026</strong></p>
+<p><strong>Création de <code>programme.csv</code></strong> : - Colonnes : <code>id</code>, <code>auteur</code>, <code>titre</code>, <code>page</code> - Une ligne par auteur - Chemin : <code>auteurs_quarto/programme.csv</code> - Utilisé pour : - Synchronisation avec Omeka - Tracking des modifications apportées aux fiches - Audit des propositions</p>
+<p><strong>Format :</strong></p>
+<pre class="csv"><code>id,auteur,titre,page
+72730,Samuel Szoniecky,Proposition 1,auteurs_quarto/samuel_szoniecky.html
+72731,Imad Saleh,Proposition 2,auteurs_quarto/imad_saleh.html</code></pre>
+</section>
+<section id="étape-6-génération-du-programme" class="level3">
+<h3 class="anchored" data-anchor-id="étape-6-génération-du-programme"><strong>Étape 6 : Génération du programme</strong></h3>
 <p><strong>Dans <code>ProgrammeGenerator::generate()</code> :</strong></p>
 <ol type="1">
 <li><p><strong>Division en jours</strong> :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="va">$jours</span> <span class="op">=</span> [</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Conceptions"</span> =&gt; <span class="fu">array_slice</span>(<span class="dv">0</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Créations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Expériementations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="op">*</span><span class="dv">2</span>)</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="va">$jours</span> <span class="op">=</span> [</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Conceptions"</span> =&gt; <span class="fu">array_slice</span>(<span class="dv">0</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Créations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="ot">,</span> <span class="cn">split</span>)<span class="ot">,</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Expériementations"</span> =&gt; <span class="fu">array_slice</span>(<span class="cn">split</span><span class="op">*</span><span class="dv">2</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p><strong>Calcul des horaires</strong> :</p>
 <ul>
 <li>Début : 09:00</li>
@@ -474,10 +508,8 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <hr>
 </section>
 </section>
-<section id="fichiers-générés" class="level2">
-<h2 class="anchored" data-anchor-id="fichiers-générés">Fichiers générés</h2>
-<section id="dossier-auteurs_quarto" class="level3">
-<h3 class="anchored" data-anchor-id="dossier-auteurs_quarto">Dossier <code>auteurs_quarto/</code></h3>
+<section id="fichiers-générés-et-métadonnées" class="level2">
+<h2 class="anchored" data-anchor-id="fichiers-générés-et-métadonnées">Fichiers générés et métadonnées</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 37%">
@@ -522,11 +554,14 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <td>BibTeX</td>
 <td>Bibliographie consolidée</td>
 </tr>
+<tr class="odd">
+<td><code>programme.csv</code></td>
+<td>CSV</td>
+<td>Métadonnées des propositions (id, auteur, titre, page)</td>
+</tr>
 </tbody>
 </table>
-</section>
-<section id="racine-du-projet" class="level3">
-<h3 class="anchored" data-anchor-id="racine-du-projet">Racine du projet</h3>
+<p><strong>Racine du projet</strong></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -545,16 +580,15 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 </table>
 <hr>
 </section>
-</section>
 <section id="configuration-requise" class="level2">
 <h2 class="anchored" data-anchor-id="configuration-requise">Configuration requise</h2>
 <section id="fichiers-de-configuration" class="level3">
 <h3 class="anchored" data-anchor-id="fichiers-de-configuration">Fichiers de configuration</h3>
 <ol type="1">
 <li><p><strong><code>key.php</code></strong> (non fourni pour sécurité)</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;?php</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="va">$apiKey</span> <span class="op">=</span> <span class="st">"YOUR_GOOGLE_GEMINI_API_KEY"</span><span class="ot">;</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">?&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode php code-with-copy"><code class="sourceCode php"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;?php</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="va">$apiKey</span> <span class="op">=</span> <span class="st">"YOUR_GOOGLE_GEMINI_API_KEY"</span><span class="ot">;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">?&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p><strong><code>_quarto.yml</code></strong> : Configuration Quarto pour le rendu</p></li>
 <li><p><strong>CSV des auteurs</strong> : À générer depuis Omeka</p>
 <ul>
@@ -593,19 +627,29 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td>URL Base</td>
+<td>URL Base Local</td>
 <td><code>http://localhost/omk_paragraphe</code></td>
-<td>À adapter pour instance distante</td>
+<td>Développement (sans SSL)</td>
 </tr>
 <tr class="even">
+<td>URL Base Distant</td>
+<td><code>https://humanum-p8.fr/paragraphe</code></td>
+<td>Production (SSL auto-signé)</td>
+</tr>
+<tr class="odd">
 <td>Item Event</td>
 <td><code>54151</code></td>
 <td>ID de l’événement colloque</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Site associé</td>
 <td><code>o:site[0]["@id"]</code></td>
 <td>URL du site Omeka associé</td>
+</tr>
+<tr class="odd">
+<td>Projet courant</td>
+<td><code>foaf:currentProject[0]["@value"]</code></td>
+<td>Titre du projet (pour filtre)</td>
 </tr>
 <tr class="even">
 <td>Liste auteurs</td>
@@ -627,19 +671,24 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <td><code>foaf:homepage[0]["@id"]</code></td>
 <td>URL du site de l’événement</td>
 </tr>
+<tr class="even">
+<td>Homepage</td>
+<td><code>foaf:homepage[0]["@id"]</code></td>
+<td>URL du site de l’événement</td>
+</tr>
 </tbody>
 </table>
 </section>
 <section id="paramètres-quarto" class="level3">
 <h3 class="anchored" data-anchor-id="paramètres-quarto">Paramètres Quarto</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># _quarto.yml</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> docs</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> cosmo</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># _quarto.yml</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> docs</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> cosmo</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
@@ -725,45 +774,42 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <li><strong>Réutilisabilité</strong> : Cache des fichiers JSON/TXT pour éviter les appels redondants</li>
 <li><strong>Flexibilité</strong> : Paramètres de planification facilement ajustables</li>
 <li><strong>Traçabilité</strong> : Stockage des prompts et réponses complètes</li>
-<li><strong>Filtre intelligent</strong> : Exclusion automatique des auteurs déjà en projet sur sciencesconf.org</li>
+<li><strong>Filtre intelligent</strong> : Exclusion automatique des auteurs en projet courant (charge version existante)</li>
 <li><strong>Scalabilité</strong> : Générateurs multiples peuvent être parallélisés</li>
+<li><strong>Économies de jetons</strong> : Les fiches existantes ne sont pas régénérées par IA</li>
+<li><strong>Interopérabilité</strong> : Export CSV pour synchronisation Omeka</li>
 </ul>
 </section>
 <section id="considérations" class="level3">
 <h3 class="anchored" data-anchor-id="considérations">⚠️ Considérations</h3>
 <ul>
 <li><strong>Coûts API</strong> : Chaque auteur généré = 1 appel Gemini (frais de token)</li>
-<li><strong>Filtre sciencesconf</strong> : Certains auteurs peuvent être ignorés si déjà en projet</li>
+<li><strong>Filtre par projet courant</strong> : Certains auteurs peuvent être ignorés si déjà en projet correspondant</li>
 <li><strong>Dépendances critiques</strong> : Omeka S et Gemini API doivent être accessibles</li>
 <li><strong>Validation réactive</strong> : Les fichiers <code>.json</code> et <code>.qmd</code> doivent être validés avant rendu final</li>
 <li><strong>Limites de contexte</strong> : Texte brut limité à 50 000 caractères pour Gemini</li>
 <li><strong>Rate limiting</strong> : Respecter les limites de l’API Gemini</li>
 <li><strong>Structure JSON</strong> : Le contexte externe Gemini enveloppe un JSON interne à extraire</li>
+<li><strong>Certificats SSL</strong> : Les certificats auto-signés de <code>humanum-p8.fr</code> sont acceptés</li>
 </ul>
 </section>
-<section id="nouveautés-depuis-mars-2026" class="level3">
-<h3 class="anchored" data-anchor-id="nouveautés-depuis-mars-2026">📝 Nouveautés (depuis mars 2026)</h3>
-<ul>
-<li><strong>Récupération du site Omeka</strong> : Pour passer le slug du site au ResumeGenerator</li>
-<li><strong>Filtre sciencesconf.org</strong> : Evite la duplication pour les auteurs déjà en projet</li>
-<li><strong>URL dynamique CSV</strong> : Le chemin du CSV provient maintenant de <code>bibo:authorList</code></li>
-<li><strong>Paramètre fileNameContext</strong> : Passé au ProgrammeGenerator pour documentation</li>
-<li><strong>Gestion des erreurs</strong> : Vérification que la génération a réussi avant sauvegarde</li>
-<li><strong>Structure JSON normalisée</strong> : Clés majuscules <code>CONTEXTE</code>, <code>AXES</code>, <code>BIBLIO</code></li>
-</ul>
+<section id="nouvelles-fonctionnalités" class="level3">
+<h3 class="anchored" data-anchor-id="nouvelles-fonctionnalités">📝 Nouvelles fonctionnalités</h3>
+<p><strong>Depuis 1er mars 2026 :</strong> - <strong>Récupération du site Omeka</strong> : Pour passer le slug du site au ResumeGenerator - <strong>URL dynamique CSV</strong> : Le chemin du CSV provient maintenant de <code>bibo:authorList</code> - <strong>Paramètre fileNameContext</strong> : Passé au ProgrammeGenerator pour documentation - <strong>Gestion des erreurs</strong> : Vérification que la génération a réussi avant sauvegarde - <strong>Structure JSON normalisée</strong> : Clés majuscules <code>CONTEXTE</code>, <code>AXES</code>, <code>BIBLIO</code></p>
+<p><strong>Depuis 4 mars 2026 :</strong> - <strong>Filtre intelligent par projet</strong> : Utilise <code>foaf:currentProject</code> au lieu de texte statique - <strong>Récupération de fiches existantes</strong> : Si auteur en projet courant, charge la version disque (édition manuelle) - <strong>Lecture cURL du CSV</strong> : Résout les certificats HTTPS auto-signés - <strong>Export CSV du programme</strong> : Nouvelle fonctionnalité <code>programme.csv</code> - <strong>Métadonnées étendues</strong> : Ajout de l’ID Omeka et de la page générée - <strong>URL Omeka distante</strong> : Support de <code>https://humanum-p8.fr/paragraphe</code> - <strong>Support certificats SSL auto-signés</strong> : <code>CURLOPT_SSL_VERIFYPEER =&gt; false</code></p>
 <hr>
 </section>
 </section>
 <section id="exemple-de-commande-dexécution" class="level2">
 <h2 class="anchored" data-anchor-id="exemple-de-commande-dexécution">Exemple de commande d’exécution</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Depuis la racine du projet</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">php</span> genere_programme_to_quarto.php</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Puis compiler le site</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualiser le résultat</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="ex">open</span> docs/index.html</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Depuis la racine du projet</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="ex">php</span> genere_programme_to_quarto.php</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Puis compiler le site</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualiser le résultat</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="ex">open</span> docs/index.html</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 <section id="historique-des-mises-à-jour" class="level2">
@@ -792,6 +838,11 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 <td>v2.1</td>
 <td>✅ Récupération dynamique site Omeka<br>✅ Filtre sciencesconf.org<br>✅ URL CSV depuis Omeka<br>✅ Paramètre fileNameContext<br>✅ Gestion des erreurs de génération<br>✅ Structure JSON normalisée (CONTEXTE, AXES, BIBLIO)</td>
 </tr>
+<tr class="odd">
+<td>4 mars 2026</td>
+<td>v2.5</td>
+<td>✅ Filtre par <code>foaf:currentProject</code><br>✅ Récupération des fiches existantes<br>✅ Lecture cURL du CSV (SSL auto-signé)<br>✅ Export <code>programme.csv</code><br>✅ Métadonnées étendues (id, page)<br>✅ URL distante <code>https://humanum-p8.fr/paragraphe</code><br>✅ Support certificats SSL auto-signés</td>
+</tr>
 </tbody>
 </table>
 <hr>
@@ -811,9 +862,9 @@ Réponse en JSON : {CONTEXTE: [...], AXES: [...], BIBLIO: [...]}"</code></pre>
 ├── _quarto.yml                    # Config Quarto
 └── docs/                          # Sortie HTML générée</code></pre>
 <hr>
-<p><strong>Documentation mise à jour</strong> : 3 mars 2026<br>
-<strong>Dernière version du processus</strong> : Utilisation de <code>gemini-3-pro-preview</code> avec filtre sciencesconf.org<br>
-<strong>Version stable</strong> : v2.1 (avec récupération dynamique des URLs Omeka)</p>
+<p><strong>Documentation mise à jour</strong> : 4 mars 2026<br>
+<strong>Dernière version du processus</strong> : v2.5 avec filtre intelligent et export CSV<br>
+<strong>Version stable</strong> : v2.5 (avec fiches existantes, CSV dynamique, SSL auto-signé)</p>
 
 
 </section>

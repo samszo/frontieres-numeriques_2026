@@ -1,0 +1,40 @@
+---
+title: "L'analogie du symptôme : De la trace textuelle à la surveillance épidémiologique"
+author: Marc Tanti
+categories: [Big Data, Santé Publique, Surveillance, Méthodologie, Textual Analysis]
+
+subtitle: "Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie"
+bibliography: referenceAuteurs.bib
+
+
+
+---
+
+
+[{{< fa solid globe >}} https://www.idref.fr/15096871X](https://www.idref.fr/15096871X) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** Les travaux de Marc Tanti se situent à l'intersection de l'ingénierie des connaissances, de la santé publique et de l'analyse de données massives. Il explore notamment comment les institutions, y compris militaires, peuvent exploiter les mégadonnées du web social pour relever des défis méthodologiques en épidémiologie et en veille sanitaire [@belgacem:hal-04956773]. Son parcours témoigne également d'une réflexion sur la valorisation et la structuration de la recherche scientifique et technique [@Tanti2010], appliquant des méthodes mixtes à des cas concrets allant de la toxicologie aux troubles addictifs.
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/137040)
+  - [lien vers le prompt](prompt_marc_tanti.txt)
+  - [lien vers la réponse](resume_marc_tanti.json)
+
+
+
+**Titre : Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie**
+
+**Résumé :**
+Dans le cadre de l'axe "Modélisation et simulation", cette intervention propose d'analyser comment l'analogie entre le corps biologique et le corpus numérique transforme la surveillance sanitaire. En s'appuyant sur l'exploitation des mégadonnées du web social [@belgacem:hal-04956773], nous démontrerons que la détection de signaux faibles (intoxications alimentaires, troubles liés à l'alcool) repose sur une modélisation analogique où le texte devient symptôme. Cette approche nécessite de concevoir des "cribles" algorithmiques capables de distinguer le bruit du signal pathologique. Nous interrogerons les frontières méthodologiques et éthiques de cette transposition : jusqu'où peut-on assimiler les traces numériques à des marqueurs biologiques sans tomber dans un réductionnisme dangereux, transformant la veille sanitaire en un dispositif de contrôle social ?
+
+### Résonances Bibliographiques
+
+La démarche de Marc Tanti, qui consiste à extraire du sens sanitaire à partir du chaos des données sociales, résonne fortement avec la conception de la frontière comme "crible" chez **Guattari** [@Guattari1992], agissant comme une interface sélective entre les virtualités du chaos (le flux incessant du web social) et les potentialités actuelles (la détection d'une épidémie).
+
+Cette extraction de signaux d'alerte s'inscrit dans la "bataille des signes" décrite par **Serres** [@Serres1997], où l'espace logiciel devient le terrain d'une lutte pour s'approprier le sens des données de santé, souvent à l'insu des émetteurs. En transformant le langage naturel en indicateur épidémiologique, Tanti illustre le parallélisme fondamental entre langage et outil évoqué par **Leroi-Gourhan** [@LeroiGourhan1964], où l'algorithme devient le prolongement technique du diagnostic médical.
+
+Enfin, l'usage de ces méthodes par des institutions (comme les armées) pour modéliser des risques réels via des données virtuelles évoque les "matrices ontologiques" de **Descola** [@Descola2005], en créant une ontologie analogiste où les correspondances entre les mots (sur le web) et les maux (dans les corps) définissent une nouvelle frontière de la surveillance, fonctionnant non comme un mur, mais comme la "passoire" régulatrice théorisée par **Debray** [@Debray2013].

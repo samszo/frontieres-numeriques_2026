@@ -1,4 +1,7 @@
 <?php
+set_time_limit(180);
+error_reporting(E_ERROR);
+
 require_once 'ResumeGenerator.php';
 require_once 'ContextDistiller.php';
 require_once 'ProgrammeGenerator.php';
@@ -78,7 +81,7 @@ if($context){
     $lines = str_getcsv($response, "\n");
     $auteurs = [];
     foreach ($lines as $k=>$line) {
-        $data = str_getcsv($line, ",");
+        $data = str_getcsv($line, ",","\\");
         if($k==0)$headers = $data;
         elseif (!empty($data[0])) {
             $auteurs[] = $data[0];
