@@ -10,7 +10,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Sciences Economiques et Sociales de la Santé et Traitement de l'Information Médicale
 [{{< fa solid globe >}} https://www.idref.fr/15096871X](https://www.idref.fr/15096871X) 
 
 
@@ -20,7 +20,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/137040)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/137545)
   - [lien vers le prompt](prompt_marc_tanti.txt)
   - [lien vers la réponse](resume_marc_tanti.json)
 

@@ -16,7 +16,7 @@ bibliography: referenceAuteurs.bib
 
 ---
 
-
+#### Centre de recherche sur les médiations
 [{{< fa solid globe >}} https://www.idref.fr/056521642](https://www.idref.fr/056521642) [{{< fa solid globe >}} https://orcid.org/0000-0002-8474-6787](https://orcid.org/0000-0002-8474-6787) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:luc-massou](https://hal.science/search/index/?q=authIdHal_s:luc-massou) 
 
 
@@ -26,7 +26,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/133695)
+  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/138030)
   - [lien vers le prompt](prompt_luc_massou.txt)
   - [lien vers la réponse](resume_luc_massou.json)
 

@@ -68,13 +68,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>11 h 30</td>
 <td>Communication</td>
-<td>Alexandre Joux - <i>Simulacres d'Expertise : L'Analogie Conversationnelle comme Nouvelle Frontière de l'Autorité</i></td>
+<td>Alexandre Joux - <i>Le masque et la personne : L'analogie du pseudonyme comme frontière de la responsabilité pénale</i></td>
 <td><a href='auteurs_quarto/alexandre_joux.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
 <td>12 h 00</td>
 <td>Communication</td>
-<td>Stéphanie Lukasik - <i>Simulacres d'Expertise : L'Analogie Conversationnelle comme Nouvelle Frontière de l'Autorité</i></td>
+<td>Stéphanie Lukasik - <i>Le masque et la personne : L'analogie du pseudonyme comme frontière de la responsabilité pénale</i></td>
 <td><a href='auteurs_quarto/st_phanie_lukasik.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
@@ -125,18 +125,6 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td>Malek Ghenima - <i>Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs</i></td>
 <td><a href='auteurs_quarto/malek_ghenima.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr class='pause'>
-<td>17 h 30</td>
-<td><b>PAUSE</b></td>
-<td><i>Networking & Café</i></td>
-<td></td>
-</tr>
-<tr>
-<td>18 h 00</td>
-<td>Communication</td>
-<td>Cédric Plessiet - <i>L'Avatar Scénique : Analogie Corporelle et Frontières du Réel dans les Arts Vivants</i></td>
-<td><a href='auteurs_quarto/c_dric_plessiet.qmd'>Consulter la proposition</a></td>
-</tr>
 </tbody>
 </table>
 ```
@@ -160,26 +148,26 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>09 h 00</td>
 <td>Communication</td>
-<td>Georges Gagneré - <i>L’Avatar comme Analogue Scénique : Hybridations et Frontières du Jeu d'Acteur</i></td>
-<td><a href='auteurs_quarto/georges_gagner_.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr>
-<td>09 h 30</td>
-<td>Communication</td>
 <td>Chu-yin Chen - <i>Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation</i></td>
 <td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 00</td>
+<td>09 h 30</td>
 <td>Communication</td>
 <td>Nouria Harbi - <i>Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données</i></td>
 <td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 30</td>
+<td>10 h 00</td>
 <td>Communication</td>
 <td>Alessandro Leiduan - <i>Du récit à la simulation : La Smart City comme analogie narrative et frontière du réel</i></td>
 <td><a href='auteurs_quarto/alessandro_leiduan.qmd'>Consulter la proposition</a></td>
+</tr>
+<tr>
+<td>10 h 30</td>
+<td>Communication</td>
+<td>Sylvie Leleu-merviel - <i>L'Analogie du *Soin* : Vers une architecture de l'information empathique et mémorielle</i></td>
+<td><a href='auteurs_quarto/sylvie_leleu-merviel.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
 <td>11 h 00</td>
@@ -190,14 +178,14 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>11 h 30</td>
 <td>Communication</td>
-<td>Sylvie Leleu-merviel - <i>L'Analogie du *Soin* : Vers une architecture de l'information empathique et mémorielle</i></td>
-<td><a href='auteurs_quarto/sylvie_leleu-merviel.qmd'>Consulter la proposition</a></td>
+<td>Hafida Boulekbache - <i>Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable</i></td>
+<td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
 <td>12 h 00</td>
 <td>Communication</td>
-<td>Hafida Boulekbache - <i>Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable</i></td>
-<td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
+<td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
+<td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
 <td>12 h 30</td>
@@ -208,14 +196,14 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>14 h 00</td>
 <td>Communication</td>
-<td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
-<td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
+<td>Khaldoun Zreik - <i>De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique</i></td>
+<td><a href='auteurs_quarto/khaldoun_zreik.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
 <td>14 h 30</td>
 <td>Communication</td>
-<td>Khaldoun Zreik - <i>De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique</i></td>
-<td><a href='auteurs_quarto/khaldoun_zreik.qmd'>Consulter la proposition</a></td>
+<td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
+<td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
 <td>15 h 00</td>
@@ -226,23 +214,17 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>15 h 30</td>
 <td>Communication</td>
-<td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
-<td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr>
-<td>16 h 00</td>
-<td>Communication</td>
 <td>Orélie Desfriches Doria - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
 <td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16 h 30</td>
+<td>16 h 00</td>
 <td>Communication</td>
 <td>Claire Noy - <i>Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens</i></td>
 <td><a href='auteurs_quarto/claire_noy.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>17 h 00</td>
+<td>16 h 30</td>
 <td>Communication</td>
 <td>Renée Bourassa - <i>Les simulacres numériques : L'analogie magique comme frontière de l'authenticité</i></td>
 <td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
@@ -282,14 +264,14 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>10 h 00</td>
 <td>Communication</td>
-<td>Luc Massou - <i>Médiations tangibles et frontières de l'écran : quand l'analogie façonne l'apprentissage</i></td>
-<td><a href='auteurs_quarto/luc_massou.qmd'>Consulter la proposition</a></td>
+<td>Marc Tanti - <i>Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie</i></td>
+<td><a href='auteurs_quarto/marc_tanti.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
 <td>10 h 30</td>
 <td>Communication</td>
-<td>Marc Tanti - <i>Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie</i></td>
-<td><a href='auteurs_quarto/marc_tanti.qmd'>Consulter la proposition</a></td>
+<td>Luc Massou - <i>Médiations tangibles et frontières de l'écran : quand l'analogie façonne l'apprentissage</i></td>
+<td><a href='auteurs_quarto/luc_massou.qmd'>Consulter la proposition</a></td>
 </tr>
 </tbody>
 </table>

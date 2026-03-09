@@ -1,11 +1,16 @@
 ---
-title: "L'autorité à l'épreuve de l'analogie algorithmique : journalisme et frontières de la vérité"
-author: Alexandre Joux
-categories: [journalisme, Big Data, Autorité, ChatGPT, Fake news, Éthique]
+title: "La métaphore de la bulle, masque ou révélateur des logiques financières dans l'IA ? Une étude de cas sur les limites des approches interprétatives par substitution analogique"
+author: 
+  - name: Alexandre Joux
+    affiliations:
+      - name: IMSIC  (Institut méditerranéen des sciences de l'information et de la communication)
+      - name: "Aix-Marseille Université - AMU : EA7492"
+
+categories: [Bulle de l'IA, plateformes, économie politique de l'IA, substitution analogique, journalisme, Big Data, Autorité, ChatGPT, Fake news, Éthique]
+
 
 subtitle: "Simulacres d'Expertise : L'Analogie Conversationnelle comme Nouvelle Frontière de l'Autorité"
 bibliography: referenceAuteurs.bib
-
 
 
 ---
@@ -17,6 +22,16 @@ bibliography: referenceAuteurs.bib
 ::: {.callout-note appearance='minimal'}
 **Résumé :** Les travaux d'Alexandre Joux interrogent les mutations épistémologiques du journalisme confronté à la mise en données du monde. Il analyse l'incompatibilité entre les prétentions du Big Data et l'idéal journalistique @Joux:2021, tout en explorant la redéfinition de l'autorité informationnelle face aux agents conversationnels comme ChatGPT [@joux:hal-04445932]. Ses recherches portent également sur les frontières économiques et culturelles des plateformes de streaming [@joux:hal-03668022].
 :::
+
+### Proposition déposée sur scienceconf.org
+
+  - [lien vers la proposition](https://frontieresnum7.sciencesconf.org/718964)
+
+**Titre : "La métaphore de la bulle, masque ou révélateur des logiques financières dans l'IA ? Une étude de cas sur les limites des approches interprétatives par substitution analogique**
+
+**Résumé :**
+Cette communication explore la métaphore de la « bulle » financière autour de l'IA et les limites de la substitution analogique comme outil cognitif. Si la « bulle » de l'IA souligne peut-être une certaine irrationalité de certains investissements, elle masque aussi ce qu'une approche fondée sur l'économie politique de la communication permet de révéler. Malgré le « gonflement » des valorisations en apparence superficiel se dessine en effet un pari sur l'émergence de super-plateformes et la mise en place de nouvelles dépendances grâce au déploiement de l'IA.
+
 
 ### Proposition générée
 
