@@ -3,7 +3,7 @@ title: "L'organisation des connaissances comme dispositif analogique de décisio
 author: Malek Ghenima
 categories: [Economic Intelligence, Knowledge Management, Digital Humanities, Information Systems]
 
-subtitle: "Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs"
+subtitle: "L'intelligence des traces : Vers une analogie écosystémique de la médiation scientifique"
 bibliography: referenceAuteurs.bib
 
 

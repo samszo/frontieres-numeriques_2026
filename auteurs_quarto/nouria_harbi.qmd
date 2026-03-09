@@ -3,7 +3,7 @@ title: "Sécurité Cognitive et Frontières des Données : De l'Intrusion à la 
 author: Nouria Harbi
 categories: [Data Security, Data Warehousing, Artificial Intelligence, Traceability]
 
-subtitle: "Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données"
+subtitle: "Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation"
 bibliography: referenceAuteurs.bib
 
 

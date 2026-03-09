@@ -3,7 +3,7 @@ title: "L'Analogie Écosystémique : du Jardin Numérique au Crible Sémantique"
 author: Samuel Szoniecky
 categories: [ontology, écosystème de connaissances, humanités numériques, intelligence collective, visualization]
 
-subtitle: "Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés"
+subtitle: "De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique"
 bibliography: referenceAuteurs.bib
 
 

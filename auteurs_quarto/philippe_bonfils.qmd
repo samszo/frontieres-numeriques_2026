@@ -8,7 +8,7 @@ categories:
   - Éthique
   - Frontières juridiques
 
-subtitle: "Le masque et la personne : L'analogie du pseudonyme comme frontière de la responsabilité pénale"
+subtitle: "L'analogie générative : Entre prothèse cognitive et hallucination du réel"
 bibliography: referenceAuteurs.bib
 
 

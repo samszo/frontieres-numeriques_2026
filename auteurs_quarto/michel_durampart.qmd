@@ -3,7 +3,7 @@ title: "Narrativité et Littératie de l'IA : L'Analogie comme Interface Critiqu
 author: Michel Durampart
 categories: [Littératie Numérique, Intelligence Artificielle, Représentations, Narrativité]
 
-subtitle: "Désenchanter la Boîte Noire : L'Analogie Narrative comme Vecteur de Littératie Artificielle"
+subtitle: "Les simulacres numériques : L'analogie magique comme frontière de l'authenticité"
 bibliography: referenceAuteurs.bib
 
 

@@ -3,7 +3,7 @@ title: "L'hybridation des espaces : de l'analogie du réseau à la réalité des
 author: Imad Saleh
 categories: [Systèmes d'information, Appropriation, IoT, Frontières Numériques, Inclusion numérique]
 
-subtitle: "Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique"
+subtitle: "Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable"
 bibliography: referenceAuteurs.bib
 
 

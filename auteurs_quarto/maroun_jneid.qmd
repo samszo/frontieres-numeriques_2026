@@ -3,7 +3,7 @@ title: "Réseaux de Neurones et Frontières Décisionnelles : De la E-Justice à
 author: Maroun Jneid
 categories: [Neural Networks, Decision Support, Digital Innovation, E-Government]
 
-subtitle: "L'Analogie Neuronale comme Oracle : Redéfinir les frontières de la décision dans l'innovation et la justice"
+subtitle: "Désenchanter la Boîte Noire : L'Analogie Narrative comme Vecteur de Littératie Artificielle"
 bibliography: referenceAuteurs.bib
 
 

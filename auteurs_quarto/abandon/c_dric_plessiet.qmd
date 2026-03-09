@@ -5,7 +5,7 @@ author: Cédric Plessiet
 categories: [Avatars, Théâtre, Réalité Mixte, Art Numérique, Capture de mouvement]
 
 subtitle: "L'Avatar Scénique : Analogie Corporelle et Frontières du Réel dans les Arts Vivants"
-bibliography: referenceAuteurs.bib
+bibliography: ../referenceAuteurs.bib
 
 
 

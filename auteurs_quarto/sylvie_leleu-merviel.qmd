@@ -3,7 +3,7 @@ title: "L'Analogie du Soin et la Médiation du Sens : Architecture de l'Informat
 author: Sylvie Leleu-Merviel
 categories: [information, multimédia, architecture de l'information, Experience, Care]
 
-subtitle: "L'Analogie du *Soin* : Vers une architecture de l'information empathique et mémorielle"
+subtitle: "Du récit à la simulation : La Smart City comme analogie narrative et frontière du réel"
 bibliography: referenceAuteurs.bib
 
 

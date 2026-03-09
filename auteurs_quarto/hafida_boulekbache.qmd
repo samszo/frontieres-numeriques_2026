@@ -8,7 +8,7 @@ categories:
   - Communication
   - Modélisation
 
-subtitle: "Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable"
+subtitle: "L'Analogie du *Soin* : Vers une architecture de l'information empathique et mémorielle"
 bibliography: referenceAuteurs.bib
 
 

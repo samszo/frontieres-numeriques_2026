@@ -4,7 +4,7 @@ author: Georges Gagneré
 categories: [Théâtre, Réalité Mixte, Avatar, Recherche-Création, Capture de Mouvement]
 
 subtitle: "L’Avatar comme Analogue Scénique : Hybridations et Frontières du Jeu d'Acteur"
-bibliography: referenceAuteurs.bib
+bibliography: ../referenceAuteurs.bib
 
 
 

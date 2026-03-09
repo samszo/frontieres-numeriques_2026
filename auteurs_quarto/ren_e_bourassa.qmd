@@ -8,7 +8,7 @@ categories:
   - Illusion
   - Médiation culturelle
 
-subtitle: "Les simulacres numériques : L'analogie magique comme frontière de l'authenticité"
+subtitle: "Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens"
 bibliography: referenceAuteurs.bib
 
 

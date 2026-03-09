@@ -3,7 +3,7 @@ title: "La Raison Narrative et l'Esthétique de la Smart City : Vers une Ontolog
 author: Alessandro Leiduan
 categories: [Smart City, Fiction, Transmédialité, Cybernétique, Narration]
 
-subtitle: "Du récit à la simulation : La Smart City comme analogie narrative et frontière du réel"
+subtitle: "Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données"
 bibliography: referenceAuteurs.bib
 
 

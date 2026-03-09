@@ -3,7 +3,7 @@ title: "La Médiation des Savoirs comme Frontière Analogique : Cartographies et
 author: Claire Noy
 categories: [Médiation scientifique, Frontières numériques, Cartographie conceptuelle, Épistémologie]
 
-subtitle: "Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens"
+subtitle: "« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »"
 bibliography: referenceAuteurs.bib
 
 

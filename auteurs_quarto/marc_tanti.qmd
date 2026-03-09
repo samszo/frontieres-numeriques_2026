@@ -3,7 +3,7 @@ title: "L'analogie du symptôme : De la trace textuelle à la surveillance épid
 author: Marc Tanti
 categories: [Big Data, Santé Publique, Surveillance, Méthodologie, Textual Analysis]
 
-subtitle: "Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie"
+subtitle: "L'Analogie Neuronale comme Oracle : Redéfinir les frontières de la décision dans l'innovation et la justice"
 bibliography: referenceAuteurs.bib
 
 

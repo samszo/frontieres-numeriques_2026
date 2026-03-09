@@ -3,7 +3,7 @@ title: "De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'
 author: Khaldoun Zreik
 categories: [Post-Numérique, HyperUrbain, Smart Heritage, Conception, Humanités Numériques]
 
-subtitle: "De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique"
+subtitle: "Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique"
 bibliography: referenceAuteurs.bib
 
 

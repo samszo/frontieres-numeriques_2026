@@ -9,7 +9,7 @@ categories:
   - Website
   - culture numérique
 
-subtitle: "Médiations tangibles et frontières de l'écran : quand l'analogie façonne l'apprentissage"
+subtitle: "Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie"
 bibliography: referenceAuteurs.bib
 
 

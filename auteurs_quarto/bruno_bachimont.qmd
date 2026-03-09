@@ -7,7 +7,7 @@ categories:
   - Document et Mémoire
   - Ontologies
 
-subtitle: "L'analogie à l'épreuve du discret : Le jugement humain face à la décision calculée"
+subtitle: "L'Analogie de la Présence : La frontière sensible entre immersion et simulation"
 bibliography: referenceAuteurs.bib
 
 

@@ -3,7 +3,7 @@ title: "L'Analogie de la Présence : La frontière sensible entre immersion et s
 author: Olivier Nannipieri
 categories: [Réalité virtuelle, Immersion, Presence, Réalité augmentée, Phénoménologie]
 
-subtitle: "L'Analogie de la Présence : La frontière sensible entre immersion et simulation"
+subtitle: "La réinformation comme mimétisme institutionnel : quand l'analogie structure la désinformation"
 bibliography: referenceAuteurs.bib
 
 

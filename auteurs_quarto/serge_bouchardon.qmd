@@ -3,7 +3,7 @@ title: "L'analogie du geste : Frontières mouvantes de la littératie numérique
 author: Serge Bouchardon
 categories: [Littérature numérique, Écriture numérique, Sémiotique, Éditorialisation]
 
-subtitle: "L'analogie du geste : Manipuler les frontières du récit interactif"
+subtitle: "L'analogie à l'épreuve du discret : Le jugement humain face à la décision calculée"
 bibliography: referenceAuteurs.bib
 
 

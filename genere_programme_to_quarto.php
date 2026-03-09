@@ -124,21 +124,20 @@ if($context){
             echo "Traitement : " . $auteur['o:title'] . "<br>";
             $md = $generator->generate($auteur);
             
-            if($md){
-                //récupère le titre
-                preg_match('/\*\*Titre\s*:\s*(.+?)\*\*/s', $md, $mTitre);
-                if (!empty($mTitre[1])) {
-                    $titre = trim($mTitre[1]);
-                }else{
-                    $titre = " --- ";
-                }
-                //ajoute un sous titre
-                $subtitre = str_replace('"',"-",$titre);
-                $md = str_replace("bibliography: referenceAuteurs.bib","subtitle: \"$subtitre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
+            //ajoute un sous titre
+            $subtitre = str_replace('"',"-",$titre);
+            $md = str_replace("bibliography: referenceAuteurs.bib","subtitle: \"$subtitre\"\nbibliography: referenceAuteurs.bib\n\n",$md);
 
-                file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName. ".qmd", $md);
-            }
+            file_put_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName. ".qmd", $md);
         }
+        //récupère le titre
+        preg_match('/\*\*Titre\s*:\s*(.+?)\*\*/s', $md, $mTitre);
+        if (!empty($mTitre[1])) {
+            $titre = trim($mTitre[1]);
+        }else{
+            $titre = " --- ";
+        }
+
         $props[]=["id"=>$auteur['o:id'],"auteur"=>$auteur['o:title'],"titre"=>$titre,'page'=>$outputFolder . DIRECTORY_SEPARATOR . $fileName.".html"];
     }
 

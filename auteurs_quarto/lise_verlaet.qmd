@@ -3,7 +3,7 @@ title: "L'intelligence des traces : Vers une analogie écosystémique de la méd
 author: Lise Verlaet
 categories: [Humanités numériques, Science ouverte, Éditorialisation, Web sémantique, Constructivisme]
 
-subtitle: "L'intelligence des traces : Vers une analogie écosystémique de la médiation scientifique"
+subtitle: "L'analogie du geste : Manipuler les frontières du récit interactif"
 bibliography: referenceAuteurs.bib
 
 
