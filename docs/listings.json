@@ -1,9 +1,8 @@
 [
   {
-    "listing": "/contributions.html",
+    "listing": "/auteurs.html",
     "items": [
       "/auteurs_quarto/khaldoun_zreik.html",
-      "/auteurs_quarto/luc_massou.html",
       "/auteurs_quarto/bruno_bachimont.html",
       "/auteurs_quarto/youssef_mekouar.html",
       "/auteurs_quarto/st_phanie_lukasik.html",
@@ -11,7 +10,6 @@
       "/auteurs_quarto/olivier_nannipieri.html",
       "/auteurs_quarto/sylvie_leleu-merviel.html",
       "/auteurs_quarto/samuel_szoniecky.html",
-      "/auteurs_quarto/serge_bouchardon.html",
       "/auteurs_quarto/marc_tanti.html",
       "/auteurs_quarto/philippe_bonfils.html",
       "/auteurs_quarto/ren_e_bourassa.html",
@@ -22,6 +20,7 @@
       "/auteurs_quarto/alessandro_leiduan.html",
       "/auteurs_quarto/alexandre_joux.html",
       "/auteurs_quarto/alexandra_salou.html",
+      "/auteurs_quarto/laurent_collet.html",
       "/auteurs_quarto/hafida_boulekbache.html",
       "/auteurs_quarto/michel_durampart.html",
       "/auteurs_quarto/maroun_jneid.html",
@@ -31,10 +30,9 @@
     ]
   },
   {
-    "listing": "/auteurs.html",
+    "listing": "/contributions.html",
     "items": [
       "/auteurs_quarto/khaldoun_zreik.html",
-      "/auteurs_quarto/luc_massou.html",
       "/auteurs_quarto/bruno_bachimont.html",
       "/auteurs_quarto/youssef_mekouar.html",
       "/auteurs_quarto/st_phanie_lukasik.html",
@@ -42,7 +40,6 @@
       "/auteurs_quarto/olivier_nannipieri.html",
       "/auteurs_quarto/sylvie_leleu-merviel.html",
       "/auteurs_quarto/samuel_szoniecky.html",
-      "/auteurs_quarto/serge_bouchardon.html",
       "/auteurs_quarto/marc_tanti.html",
       "/auteurs_quarto/philippe_bonfils.html",
       "/auteurs_quarto/ren_e_bourassa.html",
@@ -53,6 +50,7 @@
       "/auteurs_quarto/alessandro_leiduan.html",
       "/auteurs_quarto/alexandre_joux.html",
       "/auteurs_quarto/alexandra_salou.html",
+      "/auteurs_quarto/laurent_collet.html",
       "/auteurs_quarto/hafida_boulekbache.html",
       "/auteurs_quarto/michel_durampart.html",
       "/auteurs_quarto/maroun_jneid.html",

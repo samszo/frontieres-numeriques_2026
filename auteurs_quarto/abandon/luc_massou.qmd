@@ -10,7 +10,7 @@ categories:
   - culture numérique
 
 subtitle: "Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie"
-bibliography: referenceAuteurs.bib
+bibliography: "../referenceAuteurs.bib"
 
 
 

@@ -4,7 +4,7 @@ author: Serge Bouchardon
 categories: [Littérature numérique, Écriture numérique, Sémiotique, Éditorialisation]
 
 subtitle: "L'analogie à l'épreuve du discret : Le jugement humain face à la décision calculée"
-bibliography: referenceAuteurs.bib
+bibliography: "../referenceAuteurs.bib"
 
 
 

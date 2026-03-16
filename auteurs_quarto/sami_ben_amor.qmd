@@ -3,7 +3,7 @@ title: "L'Analogie Générative : Nouvelle Frontière de la Médiation des Savoi
 author: Sami Ben Amor
 categories: [IA Générative, Éthique, Médiation des Savoirs, Éducation, Humanités Numériques]
 
-subtitle: "Vers une écologie de la donnée : L'analogie systémique entre flux urbains et réseaux de connaissances"
+subtitle: "Les emprunts expérientiels de l'écriture numérique aux écritures analogiques et les analogies de support"
 bibliography: referenceAuteurs.bib
 
 

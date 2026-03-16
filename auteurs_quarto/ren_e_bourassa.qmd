@@ -1,6 +1,15 @@
 ---
 title: "L'analogie magique : Simulacres et frontières de l'authenticité"
-author: Renée Bourassa
+author:
+  - name: Renée Bourassa
+    affiliations:
+      - name: Université Laval, Québec, Canada
+  - name: Julien Voisin
+    affiliations:
+      - name: Centre interdisciplinaire de recherche en réadaptation et intégration sociale
+      - name: Centre thématique de recherche en neurosciences
+      - name: Université Laval, Québec, Canada
+
 categories: 
   - Humanités Numériques
   - Simulation
@@ -14,10 +23,6 @@ bibliography: referenceAuteurs.bib
 
 
 ---
-
-#### University of Quebec
-[{{< fa solid globe >}} https://www.idref.fr/060604344](https://www.idref.fr/060604344) 
-
 
 ::: {.callout-note appearance='minimal'}
 **Résumé :** Renée Bourassa explore les mutations de l'authenticité à l'ère numérique en analysant les dispositifs de médiation comme des espaces liminaires, où la frontière entre le vrai et le faux devient poreuse [@bourassa:hal-02299777]. Ses travaux mobilisent l'analogie de la magie et de l'illusion pour théoriser la "magicalité" des interfaces contemporaines et de l'IA, considérées comme des simulacres [@bourassa:hal-05196056]. Elle interroge ainsi les enjeux éthiques des "arts trompeurs", du deepfake à la post-vérité, dans la fabrique du sens numérique [@bourassa:hal-05194869].

@@ -102,6 +102,7 @@ if($context){
 
         $query = "items/".$id;
         $auteur = fetchOmekaJson($omkApiUrl,$query);
+        $auteurTitre = $auteur['o:title'];
         $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title'])));
 
         //ne regènere pas les auteurs avec un projet en cours correspondant au site de la conférence car modifié à la main
@@ -113,6 +114,19 @@ if($context){
                     if($cp["o:label"]==$currentProjet){
                         $genere = false;
                         $md = file_get_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName.".qmd");
+                        //vérifie s'il y a plusieurs auteurs
+                        if (preg_match('/^---\s*(.*?)\s*---/s', $md, $yamlMatch)) {
+                            $yaml = $yamlMatch[1];
+                        } else {
+                            $yaml = '';
+                        }
+                        if($yaml){
+                            $parsed = yaml_parse($yaml);
+                            if(count($parsed["author"])>1){
+                                $auteurTitre = implode(", ",array_map(function($a) { return $a["name"]; }, $parsed["author"]));
+                            } 
+                        }
+
                     }
                 }
             } 
@@ -138,7 +152,7 @@ if($context){
             $titre = " --- ";
         }
 
-        $props[]=["id"=>$auteur['o:id'],"auteur"=>$auteur['o:title'],"titre"=>$titre,'page'=>$outputFolder . DIRECTORY_SEPARATOR . $fileName.".html"];
+        $props[]=["id"=>$auteur['o:id'],"auteur"=>$auteur['o:title'],"auteurs"=>$auteurTitre,"titre"=>$titre,'page'=>$outputFolder . DIRECTORY_SEPARATOR . $fileName.".html"];
     }
 
     $program = new ProgrammeGenerator($props,$omkConfItem,$fileNameContext);
