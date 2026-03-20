@@ -25,7 +25,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/55084)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/55084)
   - [lien vers le prompt](prompt_philippe_bonfils.txt)
   - [lien vers la réponse](resume_philippe_bonfils.json)
 

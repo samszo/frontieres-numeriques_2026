@@ -20,7 +20,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/129411)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/129411)
   - [lien vers le prompt](prompt_maroun_jneid.txt)
   - [lien vers la réponse](resume_maroun_jneid.json)
 

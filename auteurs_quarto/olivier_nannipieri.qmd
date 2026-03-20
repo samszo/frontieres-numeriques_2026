@@ -1,22 +1,44 @@
 ---
-title: "L'Analogie de la Présence : La frontière sensible entre immersion et simulation"
-author: Olivier Nannipieri
-categories: [Réalité virtuelle, Immersion, Presence, Réalité augmentée, Phénoménologie]
-
-subtitle: "La réinformation comme mimétisme institutionnel : quand l'analogie structure la désinformation"
+title: "De quoi la métaphore de la chambre chinoise est-elle la métaphore ?"
+author:
+  - name: Tala Jammoul
+    affiliations:
+      - name: Univ Toulon, Aix Marseille Univ, IMSIC, Toulon, France
+  - name: Jessica Paris Cerbelle
+    affiliations:
+      - name: Univ Toulon, Aix Marseille Univ, IMSIC, Toulon, France
+  - name: Jacques Ghoul Samson
+    affiliations:
+      - name: Univ Toulon, Aix Marseille Univ, IMSIC, Toulon, France
+  - name: Olivier Nannipieri
+    affiliations:
+      - name: Univ Toulon, Aix Marseille Univ, IMSIC, Toulon, France
+categories: [Intelligence artificielle, Chambre chinoise, Machine de Turing, Métaphore, Analogie, Conscience, Intentionnalité, Réalité virtuelle, Immersion, Presence, Réalité augmentée, Phénoménologie]
+subtitle: "L'Analogie de la Présence : La frontière sensible entre immersion et simulation"
 bibliography: referenceAuteurs.bib
-
-
 
 ---
 
-#### Institut Méditerranéen des Sciences de l'Information et de la Communication
-[{{< fa solid globe >}} https://www.idref.fr/177559748](https://www.idref.fr/177559748) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri](https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri) 
-
-
 ::: {.callout-note appearance='minimal'}
 **Résumé :** Les travaux d'Olivier Nannipieri interrogent la phénoménologie des environnements virtuels et la validité des mesures de la présence [@nannipieri:hal-04404674]. Il explore la "réalité du virtuel" comme une expérience signifiante [@nannipieri:hal-04396912], propose des taxonomies fonctionnelles pour la réalité augmentée [@fuchs:hal-00536787] et analyse l'expérience immersive, notamment ludique et marketing, en soulignant les limites des métriques traditionnelles [@muratore:hal-01453221].
+[{{< fa solid globe >}} https://www.idref.fr/177559748](https://www.idref.fr/177559748) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri](https://hal.science/search/index/?q=authIdHal_s:olivier-nannipieri) 
 :::
+
+### Proposition déposée sur scienceconf.org
+
+  - [lien vers la proposition](https://frontieresnum7.sciencesconf.org/708468)
+
+**Titre : De quoi la métaphore de la chambre chinoise est-elle la métaphore ?**
+
+**Résumé :**
+Considérée comme un moyen de démontrer que l'IA n'a pas accès, à la différence de l'humain, à la compréhension, la métaphore de la chambre chinoise de John Searle est à l'IA ce que le paradoxe du chat de Schrödinger est à la physique quantique : une expérience de pensée incontournable. 
+
+L'objectif de cette proposition consiste à examiner sans présupposés (i.e. sans adopter une posture pro vs anti IA) la pertinence de cette métaphore relativement à la capacité qu'elle a ou aurait de démontrer que l'IA n'a pas accès à la compréhension de ses propres opérations notamment parce qu'elle n'est pas douée d'intentionnalité.
+
+Nous tenterons de démontrer, qu'en réalité, la métaphore de chambre chinoise constitue une tentative très limitée en regard de son objectif à au moins deux niveaux. Sur plan formel d'abord : la figure de la chambre chinoise n'est pas la plus pertinente pour attaquer l'IA forte. Sur le plan des fondements de la cette métaphore : cette expérience de pensée dérive d'un certain nombre de postulats qui relèvent moins de fondements scientifiques, que de préjugés ou de croyances. Nous tenterons de démontrer, notamment, que la question de ce que signifie "comprendre" est au coeur de ces croyances mais qu'elle demeure insuffisamment interrogée. 
+
+Par conséquent, il s'agira, après avoir présenté, dans un premier temps, la critique de l'IA forte chez John Searle incarnée par la métaphore de la chambre chinoise, d'en souligner les limites dans un second temps afin de tenter, in fine, de proposer une réponse à la question " qu'est-ce que 'comprendre' ?".
+
 
 ### Proposition générée
 

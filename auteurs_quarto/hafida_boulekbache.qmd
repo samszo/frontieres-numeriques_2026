@@ -25,7 +25,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/76679)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/76679)
   - [lien vers le prompt](prompt_hafida_boulekbache.txt)
   - [lien vers la réponse](resume_hafida_boulekbache.json)
 

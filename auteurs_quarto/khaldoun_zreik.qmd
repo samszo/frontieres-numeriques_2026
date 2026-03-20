@@ -21,7 +21,7 @@ Dans un espace logiciel défini par une « bataille des signes » [@Serres1997],
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85479)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/85479)
   - [lien vers le prompt](prompt_khaldoun_zreik.txt)
   - [lien vers la réponse](resume_khaldoun_zreik.json)
 

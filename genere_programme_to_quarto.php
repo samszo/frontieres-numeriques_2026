@@ -10,7 +10,7 @@ require_once 'key.php';
 $csvFile = "liste_auteurs.csv";
 $outputFolder = "auteurs_quarto";
 $omkApiUrl = "http://localhost/omk_paragraphe";
-$omkApiUrl = "https://humanum-p8.fr/paragraphe";
+$omkApiUrl = "https://paragraphe.humanum-p8.fr";
 $context = false;
 
 //$omkApiIdentity="2le19tgSwb9lhlNEEM72HWEjS993snkM";

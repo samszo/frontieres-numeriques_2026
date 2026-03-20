@@ -7,7 +7,7 @@ categories:
   - Document et Mémoire
   - Ontologies
 
-subtitle: "L'Analogie de la Présence : La frontière sensible entre immersion et simulation"
+subtitle: "De quoi la métaphore de la chambre chinoise est-elle la métaphore ?"
 bibliography: referenceAuteurs.bib
 
 
@@ -24,7 +24,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/59546)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/59546)
   - [lien vers le prompt](prompt_bruno_bachimont.txt)
   - [lien vers la réponse](resume_bruno_bachimont.json)
 

@@ -22,7 +22,7 @@ Cette édition explore la frontière numérique non comme un mur, mais comme un 
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/58460)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/58460)
   - [lien vers le prompt](prompt_alexandra_salou.txt)
   - [lien vers la réponse](resume_alexandra_salou.json)
 

@@ -20,7 +20,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/62712)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/62712)
   - [lien vers le prompt](prompt_malek_ghenima.txt)
   - [lien vers la réponse](resume_malek_ghenima.json)
 

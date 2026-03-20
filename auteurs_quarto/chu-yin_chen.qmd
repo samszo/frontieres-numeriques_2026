@@ -22,7 +22,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/68088)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/68088)
   - [lien vers le prompt](prompt_chu-yin_chen.txt)
   - [lien vers la réponse](resume_chu-yin_chen.json)
 

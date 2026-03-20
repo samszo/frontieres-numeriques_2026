@@ -20,7 +20,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/85474)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/85474)
   - [lien vers le prompt](prompt_imad_saleh.txt)
   - [lien vers la réponse](resume_imad_saleh.json)
 

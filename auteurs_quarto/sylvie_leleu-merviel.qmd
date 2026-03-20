@@ -20,7 +20,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/76632)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/76632)
   - [lien vers le prompt](prompt_sylvie_leleu-merviel.txt)
   - [lien vers la réponse](resume_sylvie_leleu-merviel.json)
 

@@ -104,7 +104,7 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>15 h 30</td>
 <td>Communication</td>
-<td>Olivier Nannipieri - <i>L'Analogie de la Présence : La frontière sensible entre immersion et simulation</i></td>
+<td>Tala Jammoul, Jessica Paris Cerbelle, Jacques Ghoul Samson, Olivier Nannipieri - <i>De quoi la métaphore de la chambre chinoise est-elle la métaphore ?</i></td>
 <td><a href='auteurs_quarto/olivier_nannipieri.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>

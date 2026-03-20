@@ -20,7 +20,7 @@ bibliography: referenceAuteurs.bib
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/1102)
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/1102)
   - [lien vers le prompt](prompt_youssef_mekouar.txt)
   - [lien vers la réponse](resume_youssef_mekouar.json)
 
