@@ -40,20 +40,6 @@ Nous tenterons de démontrer, qu'en réalité, la métaphore de chambre chinoise
 Par conséquent, il s'agira, après avoir présenté, dans un premier temps, la critique de l'IA forte chez John Searle incarnée par la métaphore de la chambre chinoise, d'en souligner les limites dans un second temps afin de tenter, in fine, de proposer une réponse à la question " qu'est-ce que 'comprendre' ?".
 
 
-### Proposition générée
-
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/59105)
-  - [lien vers le prompt](prompt_olivier_nannipieri.txt)
-  - [lien vers la réponse](resume_olivier_nannipieri.json)
-
-
-
-**Titre : L'Analogie de la Présence : La frontière sensible entre immersion et simulation**
-
-**Résumé :**
-
-Cette intervention se situe à la croisée de l'Axe 2 (Outil cognitif) et de l'Axe 3 (Modélisation et simulation). Elle propose d'analyser le concept de "Présence" non plus seulement comme une métrique de performance technique, mais comme un processus analogique fondamental par lequel l'utilisateur "fait frontière" avec le numérique. En s'appuyant sur la phénoménologie et les limites des échelles de mesure actuelles, nous montrerons que l'immersion est une analogie incarnée : le sujet traite les stimuli virtuels *comme si* ils étaient réels, transformant la frontière technologique en une interface perméable (une "passoire" ontologique). Nous discuterons comment la conception de ces dispositifs, de la réalité augmentée à la VR, ne consiste pas à copier le réel, mais à créer des "analogues crédibles" capables de supporter l'action et le sens, redéfinissant ainsi les territoires de l'expérience humaine.
-
 ### Résonances Bibliographiques
 
 Les travaux d'Olivier Nannipieri sur la "réalité du virtuel" [@nannipieri:hal-04396912] entrent en résonance directe avec la conception de la frontière comme « passoire » ou filtre régulateur chez **Debray (2013)** [@Debray2013] : l'écran n'est pas un mur, mais un seuil de médiation.
