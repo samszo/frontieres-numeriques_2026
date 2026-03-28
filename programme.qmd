@@ -246,7 +246,7 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr>
 <td>09 h 30</td>
 <td>Communication</td>
-<td>Renée Bourassa, Julien Voisin - <i>Les simulacres numériques : L'analogie magique comme frontière de l'authenticité</i></td>
+<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
 <td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>

@@ -3,7 +3,7 @@ title: "Narrativité et Littératie de l'IA : L'Analogie comme Interface Critiqu
 author: Michel Durampart
 categories: [Littératie Numérique, Intelligence Artificielle, Représentations, Narrativité]
 
-subtitle: "Les simulacres numériques : L'analogie magique comme frontière de l'authenticité"
+subtitle: "Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives"
 bibliography: referenceAuteurs.bib
 
 

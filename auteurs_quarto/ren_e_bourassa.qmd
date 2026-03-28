@@ -1,13 +1,8 @@
 ---
-title: "L'analogie magique : Simulacres et frontières de l'authenticité"
+title: "Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives"
 author:
   - name: Renée Bourassa
     affiliations:
-      - name: Université Laval, Québec, Canada
-  - name: Julien Voisin
-    affiliations:
-      - name: Centre interdisciplinaire de recherche en réadaptation et intégration sociale
-      - name: Centre thématique de recherche en neurosciences
       - name: Université Laval, Québec, Canada
 
 categories: 
@@ -17,24 +12,29 @@ categories:
   - Illusion
   - Médiation culturelle
 
-subtitle: "Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens"
+subtitle: "Les simulacres numériques : L'analogie magique comme frontière de l'authenticité"
 bibliography: referenceAuteurs.bib
-
-
-
 ---
 
-::: {.callout-note appearance='minimal'}
-**Résumé :** Renée Bourassa explore les mutations de l'authenticité à l'ère numérique en analysant les dispositifs de médiation comme des espaces liminaires, où la frontière entre le vrai et le faux devient poreuse [@bourassa:hal-02299777]. Ses travaux mobilisent l'analogie de la magie et de l'illusion pour théoriser la "magicalité" des interfaces contemporaines et de l'IA, considérées comme des simulacres [@bourassa:hal-05196056]. Elle interroge ainsi les enjeux éthiques des "arts trompeurs", du deepfake à la post-vérité, dans la fabrique du sens numérique [@bourassa:hal-05194869].
+::: {.callout-note appearance="minimal"}
+**Résumé :** Renée Bourassa est professeure titulaire à l’Université Laval (Canada). Chercheure membre de l’OBVIA, du CRIHN et du CRIalt, elle co-dirige le groupe de recherche ARCANES avec Jean-Marc Larrue. Ses présentes recherches portent sur l’IA générative et les pratiques narratives, pour en examiner les promesses et les enjeux. Cette orientation de recherche se situe dans le prolongement de ses travaux antérieurs sur les puissances du faux dans les arts trompeurs et l’espace social, qu’elle a mené de 2019 à 2025. Depuis 2005, elle travaille sur les dispositifs d’éditorialisation numérique ainsi que sur les fictions hypermédiatiques. Elle a dirigé plusieurs collectifs, dont Stratégies de tromperie et puissances du faux- Réflexions sur les pratiques artistiques et l’écosystème socionumérique contemporain, avec J-M Larrue, F. Richert et R. Besson, PUM. et le numéro 42 de la revue en ligne  Intermédialité intitulé Tromper/Deceiving [@bourassa2023]. De plus,  elle a à son actif de nombreuses publications sous forme de livres et d’articles.
 :::
+
+### Proposition déposée sur scienceconf.org
+
+-   [lien vers la proposition](https://frontieresnum7.sciencesconf.org/725914)
+
+**Titre : Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives**
+
+**Résumé :**
+
+Cette proposition explore l'analogie du simulacre en tant qu'agent conversationnel produit par intelligence artificielle, qui intervient dans les interfaces narratives à l'intersection des pratiques littéraires et performatives. Elle s'inscrit dans le cadre de nos recherches actuelles portant sur l'IA, le récit et les pratiques narratives. Ces entités artificielles, modélisées en analogie de la figure humaine, afin de l'imiter dans son apparence et son comportement, agit comme un miroir qui nous incite à repenser le Sujet en relation avec l'intériorité ou l'intentionnalité. En retraçant cet imaginaire dans la longue filiation du rêve de créer un double à l'image de l'humain [@chassay2009], nous examinerons de quelle façon cette analogie opère comme une figure performative : un personnage fictionnel ou un alter ego prenant l'apparence humaine, avec lequel il devient possible d'entrer en conversation dans les interactions humain-machine. L'entité artificielle agit ainsi comme un analogon du sujet en empruntant ses marques distinctives, par exemple en recourant au pronom « je » pour contrefaire la présence d'un être pensant et sentant, ou en revêtant une apparence humaine afin de susciter sympathie et adhésion affective. Cette stratégie d'imitation trouve sa formulation fondatrice dans le « jeu de l'imitation » proposé par Turing [@turing1950], qui posait déjà la question de la distinction entre humain et machine à travers la seule performance langagière. L'effet de présence en cause [@bourassa2013] exploite la propension à l'anthropomorphisme, biais cognitif par lequel nous attribuons, de façon analogique, des qualités humaines à des figures ou à des objets. Les agents conversationnels sont précisément conçus pour activer ce biais : le “je”, les formules empathiques, ou encore la simulation de processus cognitifs constituent autant de marqueurs langagiers qui déclenchent une projection affective chez la personne humaine — phénomène déjà observé dès 1966 par Weizenbaum avec le programme ELIZA, et désormais désigné comme « effet ELIZA ». Cette analogie peut aller d'une simple attribution d'intentions jusqu'à une identification projective plus profonde, par laquelle l'utilisateur prête à la machine des états intérieurs complexes, cognitifs et émotionnels. Ces enjeux soulèvent des questions éthiques importantes : la conception délibérée de ces interfaces joue sur les ressorts affectifs de l'interaction [@weizenbaum1976] de façon potentiellement trompeuse, en mettant en cause les frontières de l'authenticité [@bourassa:hal-05196056].
 
 ### Proposition générée
 
-  - [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/94674)
-  - [lien vers le prompt](prompt_ren_e_bourassa.txt)
-  - [lien vers la réponse](resume_ren_e_bourassa.json)
-
-
+-   [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/94674)
+-   [lien vers le prompt](prompt_ren_e_bourassa.txt)
+-   [lien vers la réponse](resume_ren_e_bourassa.json)
 
 **Titre : Les simulacres numériques : L'analogie magique comme frontière de l'authenticité**
 
@@ -44,7 +44,7 @@ Cette intervention se propose d'investiguer l'Axe 4 (Limites, Éthique et Créat
 
 ### Résonances Bibliographiques
 
-Les travaux de Renée Bourassa sur la **magicalité et la simulation** entrent en résonance directe avec l'approche ontologique de **Philippe Descola**, où les technologies numériques peuvent être vues comme réactivant une *ontologie analogiste* reliant les intériorités humaines aux physicalités de la machine [@Descola2005]. 
+Les travaux de Renée Bourassa sur la **magicalité et la simulation** entrent en résonance directe avec l'approche ontologique de **Philippe Descola**, où les technologies numériques peuvent être vues comme réactivant une *ontologie analogiste* reliant les intériorités humaines aux physicalités de la machine [@Descola2005].
 
 L'analyse de Bourassa sur les interfaces comme lieux de tension entre illusion et révélation fait écho à la définition de la frontière par **Yves Citton**, non pas comme barrière mais comme "passerelle et tunnel" assurant une communication non triviale [@Citton2010], ou encore au "crible" de **Félix Guattari**, interface filtrant le chaos des données pour en faire des potentialités actuelles [@Guattari1992].
 

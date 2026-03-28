@@ -2,6 +2,7 @@
   {
     "listing": "/auteurs.html",
     "items": [
+      "/auteurs_quarto/ren_e_bourassa.html",
       "/auteurs_quarto/khaldoun_zreik.html",
       "/auteurs_quarto/olivier_nannipieri.html",
       "/auteurs_quarto/bruno_bachimont.html",
@@ -12,7 +13,6 @@
       "/auteurs_quarto/samuel_szoniecky.html",
       "/auteurs_quarto/marc_tanti.html",
       "/auteurs_quarto/philippe_bonfils.html",
-      "/auteurs_quarto/ren_e_bourassa.html",
       "/auteurs_quarto/imad_saleh.html",
       "/auteurs_quarto/lise_verlaet.html",
       "/auteurs_quarto/malek_ghenima.html",
@@ -32,6 +32,7 @@
   {
     "listing": "/contributions.html",
     "items": [
+      "/auteurs_quarto/ren_e_bourassa.html",
       "/auteurs_quarto/khaldoun_zreik.html",
       "/auteurs_quarto/olivier_nannipieri.html",
       "/auteurs_quarto/bruno_bachimont.html",
@@ -42,7 +43,6 @@
       "/auteurs_quarto/samuel_szoniecky.html",
       "/auteurs_quarto/marc_tanti.html",
       "/auteurs_quarto/philippe_bonfils.html",
-      "/auteurs_quarto/ren_e_bourassa.html",
       "/auteurs_quarto/imad_saleh.html",
       "/auteurs_quarto/lise_verlaet.html",
       "/auteurs_quarto/malek_ghenima.html",
