@@ -3,6 +3,9 @@
     "listing": "/auteurs.html",
     "items": [
       "/auteurs_quarto/ren_e_bourassa.html",
+      "/auteurs_quarto/mar_a_in_s_laitano.html",
+      "/auteurs_quarto/bourassa-voisin.html",
+      "/auteurs_quarto/tsovinar-banuchyan.html",
       "/auteurs_quarto/khaldoun_zreik.html",
       "/auteurs_quarto/olivier_nannipieri.html",
       "/auteurs_quarto/bruno_bachimont.html",
@@ -12,10 +15,12 @@
       "/auteurs_quarto/sylvie_leleu-merviel.html",
       "/auteurs_quarto/samuel_szoniecky.html",
       "/auteurs_quarto/marc_tanti.html",
+      "/auteurs_quarto/c_dric_boudjema.html",
       "/auteurs_quarto/philippe_bonfils.html",
       "/auteurs_quarto/imad_saleh.html",
       "/auteurs_quarto/lise_verlaet.html",
       "/auteurs_quarto/malek_ghenima.html",
+      "/auteurs_quarto/nicolas_sauret.html",
       "/auteurs_quarto/claire_noy.html",
       "/auteurs_quarto/alessandro_leiduan.html",
       "/auteurs_quarto/alexandre_joux.html",
@@ -26,13 +31,17 @@
       "/auteurs_quarto/maroun_jneid.html",
       "/auteurs_quarto/chu-yin_chen.html",
       "/auteurs_quarto/nouria_harbi.html",
-      "/auteurs_quarto/or_lie_desfriches_doria.html"
+      "/auteurs_quarto/or_lie_desfriches_doria.html",
+      "/auteurs_quarto/audrey-bonjour.html"
     ]
   },
   {
     "listing": "/contributions.html",
     "items": [
       "/auteurs_quarto/ren_e_bourassa.html",
+      "/auteurs_quarto/mar_a_in_s_laitano.html",
+      "/auteurs_quarto/bourassa-voisin.html",
+      "/auteurs_quarto/tsovinar-banuchyan.html",
       "/auteurs_quarto/khaldoun_zreik.html",
       "/auteurs_quarto/olivier_nannipieri.html",
       "/auteurs_quarto/bruno_bachimont.html",
@@ -42,10 +51,12 @@
       "/auteurs_quarto/sylvie_leleu-merviel.html",
       "/auteurs_quarto/samuel_szoniecky.html",
       "/auteurs_quarto/marc_tanti.html",
+      "/auteurs_quarto/c_dric_boudjema.html",
       "/auteurs_quarto/philippe_bonfils.html",
       "/auteurs_quarto/imad_saleh.html",
       "/auteurs_quarto/lise_verlaet.html",
       "/auteurs_quarto/malek_ghenima.html",
+      "/auteurs_quarto/nicolas_sauret.html",
       "/auteurs_quarto/claire_noy.html",
       "/auteurs_quarto/alessandro_leiduan.html",
       "/auteurs_quarto/alexandre_joux.html",
@@ -56,7 +67,8 @@
       "/auteurs_quarto/maroun_jneid.html",
       "/auteurs_quarto/chu-yin_chen.html",
       "/auteurs_quarto/nouria_harbi.html",
-      "/auteurs_quarto/or_lie_desfriches_doria.html"
+      "/auteurs_quarto/or_lie_desfriches_doria.html",
+      "/auteurs_quarto/audrey-bonjour.html"
     ]
   }
 ]

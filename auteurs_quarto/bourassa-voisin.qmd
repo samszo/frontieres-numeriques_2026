@@ -1,0 +1,40 @@
+---
+title: "Cerveau et machine : les frontières d'une analogie productive"
+author:
+  - name: Renée Bourassa
+    affiliations:
+      - name: Université Laval, Québec, Canada
+  - name: Julien Voisin
+    affiliations:
+      - name: Université Laval, Québec, Canada
+
+categories:
+  - Cerveau
+  - Machine
+  - Analogie
+
+bibliography: referenceAuteurs.bib
+---
+
+
+### Proposition déposée sur scienceconf.org
+
+-   [lien vers la proposition](https://frontieresnum7.sciencesconf.org/727732)
+
+**Titre : Cerveau et machine : les frontières d'une analogie productive**
+
+**Résumé :**
+
+L'analogie entre le cerveau humain et la machine computationnelle structure depuis soixante-dix ans les sciences cognitives, l'intelligence artificielle et la philosophie de l'esprit. De McCulloch et Pitts (1943) aux grands modèles de langage contemporains, cette métaphore n'a cessé de se réinventer — et de se retourner : si la machine imite d'abord le neurone, c'est aujourd'hui le cerveau que l'on redécrit à l'aune de l'architecture transformer.
+Cette analogie constitue précisément une frontière du numérique au sens fort : non pas une limite extérieure et fixe, mais une zone de contact instable où se négocient les définitions mêmes de l'intelligence, du calcul et de l'humain. C'est là que le numérique atteint son propre bord — l'endroit où ses catégories (traitement, représentation, optimisation) rencontrent ce qu'elles ne peuvent réduire : la conscience, l'affect, l'incarnation.
+Nous distinguerons trois régimes dans lesquels l'analogie opère : heuristique (elle oriente la recherche), ontologique (elle prétend dire ce qu'est la cognition) et rhétorique (elle légitime certains discours sur l'IA). À partir des travaux de Dreyfus sur l'incarnation, de la critique de la « métaphore computationnelle » par Varela (The Embodied Mind, 1991) et des débats autour des LLM comme « perroquets stochastiques » (Bender et al., 2021), nous montrerons que l'analogie efface ce qu'elle ne peut capturer : temporalité vécue, affectivité, ancrage corporel — autant de dimensions qui signalent la frontière interne du paradigme numérique.
+Les neurosciences computationnelles et la théorie du cerveau bayésien (Friston, 2010) réactivent l'analogie sous une forme mathématiquement contrainte, sans pour autant combler le fossé entre traitement de l'information et expérience subjective. Ce résidu irréductible est lui-même révélateur : il indique où finit le numérique comme mode d'intelligibilité du monde.
+En conclusion, nous défendrons que cartographier cette frontière — plutôt que de la nier ou de la fétichiser — est une tâche épistémique et éthique urgente à l'heure où les discours sur l'IA tendent à naturaliser l'analogie jusqu'à l'effacer.
+
+### Références clefs
+
+    • McCulloch & Pitts, A Logical Calculus, 1943
+    • Dreyfus, What Computers Still Can't Do, MIT Press, 1992
+    • Varela, Thompson & Rosch, The Embodied Mind, MIT Press, 1991
+    • Friston, The free-energy principle, Nature Reviews Neuroscience, 2010
+    • Bender et al., On the Dangers of Stochastic Parrots, FAccT, 2021

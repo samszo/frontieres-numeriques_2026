@@ -1,0 +1,68 @@
+---
+title: "« Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique"
+author:
+  - name: Audrey Bonjour
+    affiliations:
+      - name: Univ Toulon, Aix Marseille Univ, IMSIC, Toulon, France
+
+categories: [Pollution numérique,Métaphore environnementale,Médiation sémiotique,Imaginaire socio‑technique,Éthique du numérique]
+
+bibliography: referenceAuteurs.bib
+---
+
+
+## Proposition déposée sur scienceconf.org
+
+-   [lien vers la proposition](https://frontieresnum7.sciencesconf.org/726065)
+
+**Titre : « Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique**
+
+**Résumé :**
+
+Dans les discours contemporains sur le numérique, l'analogie environnementale occupe une place centrale dans les dispositifs de médiation scientifique et socio‑technique. L'expression de « pollution numérique », aujourd'hui largement mobilisée dans les sphères académique, médiatique et institutionnelle, et récemment réactivée par l''essor de l'intelligence artificielle, constitue un observatoire privilégié des modalités par lesquelles se construisent les rapports entre analogie, production de sens et délimitation des frontières du numérique (Noyer, 2012).
+
+Inscrite dans l'axe 2 ― l'analogie comme outil cognitif et explicatif ― et plus précisément dans la thématique 3 ― métaphores numériques et médiation scientifique ―, cette communication s'ancre dans une approche en Sciences de l'Information et de la Communication, mobilisant conjointement les apports de la sémiotique, de l'analyse des discours et de la théorie des imaginaires socio‑techniques (Musso, 2009 ; Jeanneret, 2014).
+
+Nous formulons l'hypothèse selon laquelle la métaphore de la pollution numérique fonctionne comme un dispositif médiationnel à part entière, articulant trois dimensions indissociables — esthétique, esthésie et éthique — telles que conceptualisées par Jean‑Jacques Boutaud (2007). Appliquée au numérique, cette analogie ne se limite pas à rendre intelligibles des phénomènes techniques complexes — infrastructures invisibles, flux de données, calcul algorithmique, intelligence artificielle générative —, mais engage simultanément une expérience sensible, oriente des jugements de valeur et structure des régimes de visibilité, d'imputation et de responsabilité (Boutaud, 2013).
+
+Dans un premier temps, nous analyserons la circulation discursive de l'expression « pollution numérique » et de ses déclinaisons — pollution informationnelle, attentionnelle, algorithmique ou énergétique — dans les discours de médiation scientifique, environnementale et institutionnelle. En nous appuyant sur les travaux en SIC relatifs aux métaphores numériques, aux cadres interprétatifs et à la construction sociale des problèmes publics (Gusfield, 2009 ; Noyer, 2017), nous montrerons comment cette analogie opère un transfert de schèmes écologiques vers le champ numérique, contribuant à la formation d'un imaginaire fondé sur la dégradation, la saturation et le débordement.
+
+Dans un second temps, nous mobiliserons explicitement le triptyque esthétique / esthésie / éthique afin d'interroger les effets médiationnels de cette analogie. Sur le plan esthétique, la pollution numérique s'incarne dans des formes visuelles récurrentes : nuages de données sombres, écrans envahissants, déchets électroniques, figures de l'accumulation et du trop‑plein (Vial, 2015). Sur le plan esthésique, ces représentations sollicitent une expérience sensible marquée par l'inquiétude, la fatigue cognitive, la saturation attentionnelle ou la perte de maîtrise (Citton, 2014). Enfin, sur le plan éthique, la métaphore contribue à organiser une frontière normative entre usages jugés « responsables » et pratiques qualifiées de « polluantes », entre sobriété et excès, en résonance avec les travaux sur la prudence numérique et l'éducation aux médias et à l'information en contexte d'Anthropocène (Flipo, 2020).
+
+Cette analyse s'appuiera sur la constitution d'un corpus iconographique comparatif, conçu comme un objet sémiotique de recherche à part entière. Ce corpus sera composé de deux ensembles distincts : d'une part, des images issues des représentations classiques de la pollution environnementale (déchets, smog, nappes de pétrole, figures de l'accumulation et de la contamination) ; d'autre part, des images contemporaines mobilisées pour figurer la pollution numérique (data centers, câbles sous‑marins, écrans saturés, visualisations de données, iconographies de l'intelligence artificielle).
+
+L'analyse comparée de ces ensembles permettra de mettre en évidence les continuités formelles, symboliques et affectives entre pollution environnementale et pollution numérique, ainsi que les déplacements de sens induits par la transposition analogique (Peirce, 1978 ; Eco, 1988).
+
+Enfin, nous interrogerons les limites et les ambivalences de cette métaphore. Si l'analogie environnementale constitue un puissant outil de médiation scientifique, elle peut également engendrer des effets de naturalisation, de moralisation ou de simplification excessive des enjeux socio‑techniques, en tendant à invisibiliser leurs dimensions politiques, économiques et industrielles, particulièrement saillantes dans le contexte du développement de l'intelligence artificielle (Cardon, 2019).
+
+En ce sens, la « pollution numérique » apparaît comme une zone‑frontière sémiotique, au sens de Guattari et de Noyer, c'est‑à‑dire un espace de filtrage, de traduction et de tensions, dans lequel se négocient simultanément les significations, les responsabilités et les futurs possibles du numérique (Guattari, 1989 ; Noyer, 2012).
+
+### Bibliographie
+
+Boutaud, J.‑J. (2007). Sémiotique et communication. Du signe au sens partagé. Paris : L'Harmattan.
+
+Boutaud, J.‑J. (2013). Esthétique, esthésie, éthique : pour une approche sensible de la communication. Communication & Langages, 176, 61‑79.
+
+Cardon, D. (2019). Culture numérique. Paris : Presses de Sciences Po.
+
+Citton, Y. (2014). Pour une écologie de l'attention. Paris : Seuil.
+
+Eco, U. (1988). Sémiotique et philosophie du langage. Paris : Presses Universitaires de France.
+
+Flipo, F. (2020). La sobriété numérique. Paris : Buchet‑Chastel.
+
+Guattari, F. (1989). Les trois écologies. Paris : Galilée.
+
+Gusfield, J. (2009). La culture des problèmes publics. Paris : Economica.
+
+Jeanneret, Y. (2014). Critique de la trivialité. Les médiations de la communication, enjeu de pouvoir. Paris : Non Standard.
+
+Musso, P. (2009). Télécommunications et philosophie des réseaux. Paris : Presses Universitaires de France.
+
+Noyer, J. (2012). Les frontières du numérique : médiations, enjeux et tensions. Questions de communication, 21, 85‑106.
+
+Noyer, J. (2017). Problèmes publics et médiations numériques. Réseaux, 201, 97‑121.
+
+Peirce, C. S. (1978). Écrits sur le signe. Paris : Seuil.
+
+Vial, S. (2015). L'être et l'écran. Paris : Presses Universitaires de France.

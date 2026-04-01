@@ -4,7 +4,7 @@ title: "La réinformation : Une analogie dévoyée du réel au service de la pol
 author: Alexandra Salou
 categories: [Réinformation, Mimétisme institutionnel, Algorithmes, Frontières de la vérité, Méthodes mixtes]
 
-subtitle: "IA et Newsinfluenceurs : la nouvelle réinformation"
+subtitle: "L'analogie générative : Entre prothèse cognitive et hallucination du réel"
 bibliography: referenceAuteurs.bib
 
 

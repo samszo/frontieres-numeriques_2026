@@ -12,7 +12,6 @@ categories:
   - Illusion
   - Médiation culturelle
 
-subtitle: "Les simulacres numériques : L'analogie magique comme frontière de l'authenticité"
 bibliography: referenceAuteurs.bib
 ---
 
@@ -26,26 +25,33 @@ bibliography: referenceAuteurs.bib
 
 **Titre : Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives**
 
-**Résumé :**
-
-Cette proposition explore l'analogie du simulacre en tant qu'agent conversationnel produit par intelligence artificielle, qui intervient dans les interfaces narratives à l'intersection des pratiques littéraires et performatives. Elle s'inscrit dans le cadre de nos recherches actuelles portant sur l'IA, le récit et les pratiques narratives. Ces entités artificielles, modélisées en analogie de la figure humaine, afin de l'imiter dans son apparence et son comportement, agit comme un miroir qui nous incite à repenser le Sujet en relation avec l'intériorité ou l'intentionnalité. En retraçant cet imaginaire dans la longue filiation du rêve de créer un double à l'image de l'humain [@chassay2009], nous examinerons de quelle façon cette analogie opère comme une figure performative : un personnage fictionnel ou un alter ego prenant l'apparence humaine, avec lequel il devient possible d'entrer en conversation dans les interactions humain-machine. L'entité artificielle agit ainsi comme un analogon du sujet en empruntant ses marques distinctives, par exemple en recourant au pronom « je » pour contrefaire la présence d'un être pensant et sentant, ou en revêtant une apparence humaine afin de susciter sympathie et adhésion affective. Cette stratégie d'imitation trouve sa formulation fondatrice dans le « jeu de l'imitation » proposé par Turing [@turing1950], qui posait déjà la question de la distinction entre humain et machine à travers la seule performance langagière. L'effet de présence en cause [@bourassa2013] exploite la propension à l'anthropomorphisme, biais cognitif par lequel nous attribuons, de façon analogique, des qualités humaines à des figures ou à des objets. Les agents conversationnels sont précisément conçus pour activer ce biais : le “je”, les formules empathiques, ou encore la simulation de processus cognitifs constituent autant de marqueurs langagiers qui déclenchent une projection affective chez la personne humaine — phénomène déjà observé dès 1966 par Weizenbaum avec le programme ELIZA, et désormais désigné comme « effet ELIZA ». Cette analogie peut aller d'une simple attribution d'intentions jusqu'à une identification projective plus profonde, par laquelle l'utilisateur prête à la machine des états intérieurs complexes, cognitifs et émotionnels. Ces enjeux soulèvent des questions éthiques importantes : la conception délibérée de ces interfaces joue sur les ressorts affectifs de l'interaction [@weizenbaum1976] de façon potentiellement trompeuse, en mettant en cause les frontières de l'authenticité [@bourassa:hal-05196056].
-
-### Proposition générée
-
--   [lien vers les données](https://humanum-p8.fr/paragraphe/s/valorisations/item/94674)
--   [lien vers le prompt](prompt_ren_e_bourassa.txt)
--   [lien vers la réponse](resume_ren_e_bourassa.json)
-
-**Titre : Les simulacres numériques : L'analogie magique comme frontière de l'authenticité**
+Cette proposition explore l'analogie du simulacre en tant qu'agent conversationnel produit par intelligence artificielle, qui intervient dans les interfaces narratives à l'intersection des pratiques littéraires et performatives. Elle s'inscrit dans le cadre de nos recherches actuelles portant sur l'IA, le récit et les pratiques narratives. Ces entités artificielles, modélisées en analogie de la figure humaine, afin de l'imiter dans son apparence et son comportement, agissent comme un miroir qui nous incite à repenser le Sujet en relation avec l'intériorité ou l'intentionnalité. En retraçant cet imaginaire dans la longue filiation du rêve de créer un double à l'image de l'humain [@chassay2009], nous examinerons de quelle façon cette analogie opère comme une figure performative : un personnage fictionnel ou un alter ego prenant l'apparence humaine, avec lequel il devient possible d'entrer en conversation dans les interactions humain-machine. L'entité artificielle agit ainsi comme un analogon du sujet en empruntant ses marques distinctives, par exemple en recourant au pronom « je » pour contrefaire la présence d'un être pensant et sentant, ou en revêtant une apparence humaine afin de susciter sympathie et adhésion affective. Cette stratégie d'imitation trouve sa formulation fondatrice dans le « jeu de l'imitation » proposé par Turing [@turing1950], qui posait déjà la question de la distinction entre humain et machine à travers la seule performance langagière. L'effet de présence en cause [@bourassa2013] exploite la propension à l'anthropomorphisme, biais cognitif par lequel nous attribuons, de façon analogique, des qualités humaines à des figures ou à des objets. Les agents conversationnels sont précisément conçus pour activer ce biais : le “je”, les formules empathiques, ou encore la simulation de processus cognitifs constituent autant de marqueurs langagiers qui déclenchent une projection affective chez la personne humaine — phénomène déjà observé dès 1966 par Weizenbaum avec le programme ELIZA, et désormais désigné comme « effet ELIZA ». Cette analogie peut aller d'une simple attribution d'intentions jusqu'à une identification projective plus profonde, par laquelle l'utilisateur prête à la machine des états intérieurs complexes, cognitifs et émotionnels. Ces enjeux soulèvent des questions éthiques importantes : la conception délibérée de ces interfaces joue sur les ressorts affectifs de l'interaction [@weizenbaum1976] de façon potentiellement trompeuse, en mettant en cause les frontières de l'authenticité [@bourassa:hal-05196056].
 
 **Résumé :**
 
-Cette intervention se propose d'investiguer l'Axe 4 (Limites, Éthique et Créativité) en explorant l'analogie structurelle entre les technologies de simulation (IA, réalités mixtes) et les arts de l'illusion. En s'appuyant sur le concept de "magicalité", nous analyserons comment les frontières numériques ne sont pas de simples murs, mais des interfaces opérant comme des écrans de projection fantasmagorique. L'analogie de la magie permet de comprendre comment l'opacité algorithmique est travestie en immédiateté cognitive, créant un "simulacre" qui défie notre rapport à la vérité. Nous démontrerons que cette analogie technologique, loin d'être neutre, transforme la médiation des savoirs en une scène de théâtre où se joue une bataille pour l'authenticité. Face aux puissances du faux et à la générativité artificielle, comment redéfinir une éthique de la frontière qui distingue la modélisation du réel de sa falsification ?
+À la frontière du numérique, l'analogie du simulacre — figure artificielle imitant l'humain — est au cœur des agents conversationnels IA dans les interfaces narratives. Pas l’usage du « je », de formules empathiques et de simulation cognitive, ils activent notre propension à l'anthropomorphisme alors que nous leur attribuons une intentionnalité et une intériorité de façon projective. Ce mécanisme, fondé sur le « jeu de l'imitation » de Turing (1950), a été observé dès 1966 avec ELIZA — « l'effet ELIZA ». Il suscite une projection affective pouvant mener à une identification profonde. Ces dispositifs soulèvent des enjeux éthiques majeurs : en jouant sur les ressorts affectifs de l'interaction, ils brouillent les frontières de l'authenticité de façon potentiellement trompeuse.
 
-### Résonances Bibliographiques
+### Bibliographie
 
-Les travaux de Renée Bourassa sur la **magicalité et la simulation** entrent en résonance directe avec l'approche ontologique de **Philippe Descola**, où les technologies numériques peuvent être vues comme réactivant une *ontologie analogiste* reliant les intériorités humaines aux physicalités de la machine [@Descola2005].
+Baudrillard, J. (1981). Simulacres et simulation. Paris : Galilée.
 
-L'analyse de Bourassa sur les interfaces comme lieux de tension entre illusion et révélation fait écho à la définition de la frontière par **Yves Citton**, non pas comme barrière mais comme "passerelle et tunnel" assurant une communication non triviale [@Citton2010], ou encore au "crible" de **Félix Guattari**, interface filtrant le chaos des données pour en faire des potentialités actuelles [@Guattari1992].
+Bourassa, R., Larrue, J.-M. et Richert, F. (2023). « Magicalité, simulation et intelligence artificielle : formes et enjeux des puissances contemporaines de l'illusion ». Dans I. Saleh et als (dir.), H2PTM'23 : La fabrique du sens à l'ère de l'information numérique : enjeux et défis. Londres : ISTE Éditions, p. 148-163.
 
-Enfin, sa critique des "arts trompeurs" et de la manipulation par l'IA [@bourassa:hal-05194869] s'inscrit dans la continuité de la "bataille des signes" décrite par **Michel Serres**, où l'enjeu de l'espace logiciel est l'appropriation du sens et du sujet [@Serres1997]. Là où **Hofstadter & Sander** voient l'analogie comme moteur d'apprentissage [@HofstadterSander2013], Bourassa nous avertit que l'analogie de la "magie technologique" peut aussi devenir un vecteur d'opacité, nécessitant, comme le suggère **Noyer**, de nouveaux dispositifs éditoriaux pour stabiliser ces zones fluctuantes [@Noyer2016].
+Bourassa, R. (2013). « De la présence aux effets de présence : entre l'apparaître et l'apparence ». Dans Perrot, E. et Féral, J. (dir.), Le réel à l'épreuve des technologies, Rennes, Presses universitaires de Rennes, p. 129-147. https://doi.org/10.4000/books.pur.79581 OpenEdition
+
+Bourassa, R. (2013). « Figures du personnage virtuel ». Dans Bourassa, R. et Poissant, L. (dir.), Personnage virtuel et corps performatif : effets de présence, Ste-Foy, PUQ.
+
+Chassay, J.-F. et E. Després (2010). Humain, ou presque. Broché.
+
+Epley, N., Waytz, A. et Cacioppo, J. T. (2007). « On Seeing Human : A Three-Factor Theory of Anthropomorphism ». Psychological Review, 114(4), 864-886.
+
+Ricœur, P. (1990). Soi-même comme un autre. Paris : Seuil.
+
+Schaeffer, J.-M. (1999). Pourquoi la fiction ? Paris : Seuil.
+
+Tisseron, S. (2015). Le jour où mon robot m'aimera : vers l'empathie artificielle. Paris : Albin Michel.
+
+Turing, A. M. (1950). « Computing Machinery and Intelligence ». Mind, 59(236), 433-460.
+
+Weizenbaum, J. (1976). Computer Power and Human Reason : From Judgment to Calculation. San Francisco : W. H. Freeman.
+
