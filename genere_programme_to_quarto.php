@@ -107,31 +107,38 @@ if($context){
         $auteur = fetchOmekaJson($omkApiUrl,$query);
         $auteurTitre = $auteur['o:title'];
         $fileName = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '_', $auteur['o:title'])));
+        $dateSoutenance = "";
 
         //ne regènere pas les auteurs avec un projet en cours correspondant au site de la conférence car modifié à la main
         //TODO :récupérer automatiquement les proposition de l'auteur
         $genere = true;
         foreach ($auteur["labo:EventActor"] as $event) {
-            if(isset($event["@annotation"]) && isset($event["@annotation"]["foaf:currentProject"])){
-                foreach ($event["@annotation"]["foaf:currentProject"] as $cp) {
-                    if($cp["o:label"]==$currentProjet){
-                        $genere = false;
-                        $md = file_get_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName.".qmd");
-                        //vérifie s'il y a plusieurs auteurs
-                        if (preg_match('/^---\s*(.*?)\s*---/s', $md, $yamlMatch)) {
-                            $yaml = $yamlMatch[1];
-                        } else {
-                            $yaml = '';
-                        }
-                        if($yaml){
-                            $parsed = yaml_parse($yaml);
-                            if(count($parsed["author"])>1){
-                                $auteurTitre = implode(", ",array_map(function($a) { return $a["name"]; }, $parsed["author"]));
-                            } 
-                        }
+            if(isset($event["@annotation"])){
+                if(isset($event["@annotation"]["foaf:currentProject"])){
+                    foreach ($event["@annotation"]["foaf:currentProject"] as $cp) {
+                        if($cp["o:label"]==$currentProjet){
+                            $genere = false;
+                            $md = file_get_contents($outputFolder . DIRECTORY_SEPARATOR . $fileName.".qmd");
+                            //vérifie s'il y a plusieurs auteurs
+                            if (preg_match('/^---\s*(.*?)\s*---/s', $md, $yamlMatch)) {
+                                $yaml = $yamlMatch[1];
+                            } else {
+                                $yaml = '';
+                            }
+                            if($yaml){
+                                $parsed = yaml_parse($yaml);
+                                if(count($parsed["author"])>1){
+                                    $auteurTitre = implode(", ",array_map(function($a) { return $a["name"]; }, $parsed["author"]));
+                                } 
+                            }
 
+                        }
                     }
                 }
+                if(isset($event["@annotation"]["labo:dateSoutenance"])){
+                    $dateSoutenance = $event["@annotation"]["labo:dateSoutenance"][0]["@value"];
+                }
+
             } 
         }
         if(!$genere){
@@ -155,7 +162,7 @@ if($context){
             $titre = " --- ";
         }
 
-        $props[]=["id"=>$auteur['o:id'],"auteur"=>$auteur['o:title'],"auteurs"=>$auteurTitre,"titre"=>$titre,'page'=>$outputFolder . DIRECTORY_SEPARATOR . $fileName.".html"];
+        $props[]=["id"=>$auteur['o:id'],"auteur"=>$auteur['o:title'],"dateSoutenance"=>$dateSoutenance,"auteurs"=>$auteurTitre,"titre"=>$titre,'page'=>$outputFolder . DIRECTORY_SEPARATOR . $fileName.".html"];
     }
 
     $program = new ProgrammeGenerator($props,$omkConfItem,$fileNameContext);

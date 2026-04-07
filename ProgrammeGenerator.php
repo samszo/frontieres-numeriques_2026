@@ -130,8 +130,8 @@ class ProgrammeGenerator {
                 // Ligne d'intervention
                 $slug = $this->getSlug($prop['auteur']);
                 //$md .= "| " . date("H:i", $currentTime) . " | Communication | {$prop['auteur']} - *{$prop['titre']}* | [Consulter la proposition]({$this->auteursFolder}/{$slug}.qmd) |" . PHP_EOL;
-                $md .= "<tr>" . PHP_EOL;
-                $md .= "<td date='$currentTime'>".$this->formatDateHeure($currentTime)."</td>" . PHP_EOL;
+                $md .= "<tr id='dateSoutenance$currentTime'>" . PHP_EOL;
+                $md .= "<td>".$this->formatDateHeure($currentTime).$prop['dateSoutenance']."</td>" . PHP_EOL;
                 $md .= "<td>Communication</td>" . PHP_EOL;
                 $md .= "<td>".ucwords(strtolower($prop['auteurs']))." - <i>{$prop['titre']}</i></td>" . PHP_EOL;
                 $md .= "<td><a href='{$this->auteursFolder}/{$slug}.qmd'>Consulter la proposition</a></td>" . PHP_EOL;
