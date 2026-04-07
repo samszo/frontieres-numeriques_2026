@@ -1,12 +1,12 @@
 ---
-title: "Modélisation systémique et médiation territoriale : l'analogie du flux"
-author: Hafida Boulekbache
-categories:
-  - BIM
-  - Intelligence territoriale
-  - Urbanisme durable
-  - Communication
-  - Modélisation
+title: "Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable"
+author:
+  - name: Hafida Boulekbache
+    affiliations:
+      - name: Université Polytechnique Hauts-de-France
+      - name: LARSH - Laboratoire de Recherche Sociétés
+
+categories: [territoire, système, hybridation, analogies, architecture, croquis, BIM, Intelligence territoriale, Urbanisme durable, Communication, Modélisation]
 
 subtitle: "L'Analogie du *Soin* : Vers une architecture de l'information empathique et mémorielle"
 bibliography: referenceAuteurs.bib
@@ -23,15 +23,21 @@ bibliography: referenceAuteurs.bib
 **Résumé :** Les travaux de Hafida Boulekbache explorent les interfaces entre les systèmes d'information (GIS, BIM) et la gouvernance urbaine. Elle mobilise l'analyse systémique, une approche fondamentalement analogique, pour modéliser les flux (déchets, eau) et structurer la communication territoriale [@hijab:hal-04501882]. Ses recherches positionnent la modélisation numérique comme un outil de médiation et de valorisation patrimoniale [@chibane:hal-04452590], transformant la donnée technique en intelligence collective [@boulekbachemazouz:hal-03274681].
 :::
 
+### Proposition déposée sur scienceconf.org
+
+-   [lien vers la proposition](https://frontieresnum7.sciencesconf.org/729217)
+
+**Titre : Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable**
+
+
+
 ### Proposition générée
 
   - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/76679)
   - [lien vers le prompt](prompt_hafida_boulekbache.txt)
   - [lien vers la réponse](resume_hafida_boulekbache.json)
 
-
-
-**Titre : Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable**
+**Titre : Modélisation systémique et médiation territoriale : l'analogie du flux**
 
 **Résumé :**
 Cette intervention s'inscrit principalement dans l'**Axe 3 (Modélisation et simulation)** et l'**Axe 2 (L'Analogie comme outil cognitif)**. Nous proposons d'analyser comment l'analogie systémique permet de concevoir le territoire non plus comme une simple géométrie spatiale, mais comme un organisme vivant régulé par des flux (hydrauliques, déchets, informationnels). En s'appuyant sur l'usage des Systèmes d'Information Géographique (SIG) et du BIM, il s'agira de démontrer que ces outils ne sont pas de simples représentations, mais des "analogues du réel" qui filtrent et vectorisent la décision politique et sociale. Nous interrogerons la frontière numérique qui s'érige entre la complexité du terrain et sa simplification modélisée, en montrant comment les dispositifs collaboratifs peuvent transformer cette frontière en interface de médiation pour une intelligence territoriale durable.

@@ -42,19 +42,19 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 </thead>
 <tbody>
 <tr>
-<td>09 h 30</td>
+<td date='1775547000'>09 h 30</td>
 <td>Communication</td>
 <td>Renée Bourassa, Julien Voisin - <i>Cerveau et machine : les frontières d'une analogie productive</i></td>
 <td><a href='auteurs_quarto/bourassa-voisin.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 00</td>
+<td date='1775548800'>10 h 00</td>
 <td>Communication</td>
 <td>Audrey Bonjour - <i>« Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique</i></td>
 <td><a href='auteurs_quarto/audrey-bonjour.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 30</td>
+<td date='1775550600'>10 h 30</td>
 <td>Communication</td>
 <td>Tsovinar Banuchyan - <i>Corps, langage et double : la poésie interactive comme métaphore numérique et espace de médiation</i></td>
 <td><a href='auteurs_quarto/tsovinar-banuchyan.qmd'>Consulter la proposition</a></td>
@@ -66,13 +66,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>11 h 30</td>
+<td date='1775554200'>11 h 30</td>
 <td>Communication</td>
 <td>Youssef Mekouar - <i>Vers une écologie de la donnée : L'analogie systémique entre flux urbains et réseaux de connaissances</i></td>
 <td><a href='auteurs_quarto/youssef_mekouar.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>12 h 00</td>
+<td date='1775556000'>12 h 00</td>
 <td>Communication</td>
 <td>Laurent Collet - <i>Les emprunts expérientiels de l'écriture numérique aux écritures analogiques et les analogies de support</i></td>
 <td><a href='auteurs_quarto/laurent_collet.qmd'>Consulter la proposition</a></td>
@@ -84,13 +84,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>14 h 00</td>
+<td date='1775563200'>14 h 00</td>
 <td>Communication</td>
 <td>Sami Ben Amor - <i>L'analogie générative : Entre prothèse cognitive et hallucination du réel</i></td>
 <td><a href='auteurs_quarto/sami_ben_amor.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>14 h 30</td>
+<td date='1775565000'>14 h 30</td>
 <td>Communication</td>
 <td>Philippe Bonfils - <i>Le masque et la personne : L'analogie du pseudonyme comme frontière de la responsabilité pénale</i></td>
 <td><a href='auteurs_quarto/philippe_bonfils.qmd'>Consulter la proposition</a></td>
@@ -102,28 +102,22 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>15 h 30</td>
+<td date='1775568600'>15 h 30</td>
 <td>Communication</td>
 <td>Alexandre Joux - <i>"La métaphore de la bulle, masque ou révélateur des logiques financières dans l'IA ? Une étude de cas sur les limites des approches interprétatives par substitution analogique</i></td>
 <td><a href='auteurs_quarto/alexandre_joux.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16 h 00</td>
+<td date='1775570400'>16 h 00</td>
 <td>Communication</td>
 <td>Stéphanie Lukasik - <i>IA et Newsinfluenceurs : la nouvelle réinformation</i></td>
 <td><a href='auteurs_quarto/st_phanie_lukasik.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16 h 30</td>
+<td date='1775572200'>16 h 30</td>
 <td>Communication</td>
 <td>Tala Jammoul, Jessica Paris Cerbelle, Jacques Ghoul Samson, Olivier Nannipieri - <i>De quoi la métaphore de la chambre chinoise est-elle la métaphore ?</i></td>
 <td><a href='auteurs_quarto/olivier_nannipieri.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr>
-<td>17 h 00</td>
-<td>Communication</td>
-<td>Bruno Bachimont - <i>L'analogie à l'épreuve du discret : Le jugement humain face à la décision calculée</i></td>
-<td><a href='auteurs_quarto/bruno_bachimont.qmd'>Consulter la proposition</a></td>
 </tr>
 </tbody>
 </table>
@@ -146,25 +140,25 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 </thead>
 <tbody>
 <tr>
-<td>09 h 00</td>
+<td date='1775545200'>09 h 00</td>
 <td>Communication</td>
 <td>Lise Verlaet - <i>L'intelligence des traces : Vers une analogie écosystémique de la médiation scientifique</i></td>
 <td><a href='auteurs_quarto/lise_verlaet.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>09 h 30</td>
+<td date='1775547000'>09 h 30</td>
 <td>Communication</td>
 <td>Malek Ghenima - <i>Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs</i></td>
 <td><a href='auteurs_quarto/malek_ghenima.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 00</td>
+<td date='1775548800'>10 h 00</td>
 <td>Communication</td>
 <td>Chu-yin Chen - <i>Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation</i></td>
 <td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 30</td>
+<td date='1775550600'>10 h 30</td>
 <td>Communication</td>
 <td>Nouria Harbi - <i>Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données</i></td>
 <td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
@@ -176,16 +170,16 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>11 h 30</td>
-<td>Communication</td>
-<td>Alessandro Leiduan - <i>Du récit à la simulation : La Smart City comme analogie narrative et frontière du réel</i></td>
-<td><a href='auteurs_quarto/alessandro_leiduan.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr>
-<td>12 h 00</td>
+<td date='1775554200'>11 h 30</td>
 <td>Communication</td>
 <td>Sylvie Leleu-merviel - <i>L'Analogie du *Soin* : Vers une architecture de l'information empathique et mémorielle</i></td>
 <td><a href='auteurs_quarto/sylvie_leleu-merviel.qmd'>Consulter la proposition</a></td>
+</tr>
+<tr>
+<td date='1775556000'>12 h 00</td>
+<td>Communication</td>
+<td>Hafida Boulekbache - <i>Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable</i></td>
+<td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
 <td>12 h 30</td>
@@ -194,16 +188,16 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>14 h 00</td>
-<td>Communication</td>
-<td>Hafida Boulekbache - <i>Le territoire comme système : Analogies fonctionnelles et médiations numériques dans la ville durable</i></td>
-<td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr>
-<td>14 h 30</td>
+<td date='1775563200'>14 h 00</td>
 <td>Communication</td>
 <td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
 <td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
+</tr>
+<tr>
+<td date='1775565000'>14 h 30</td>
+<td>Communication</td>
+<td>Khaldoun Zreik - <i>De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique</i></td>
+<td><a href='auteurs_quarto/khaldoun_zreik.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
 <td>15 h 00</td>
@@ -212,19 +206,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>15 h 30</td>
-<td>Communication</td>
-<td>Khaldoun Zreik - <i>De la Smart City à l'HyperUrbain : L'analogie comme résilience dans l'ère Post-Numérique</i></td>
-<td><a href='auteurs_quarto/khaldoun_zreik.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr>
-<td>16 h 00</td>
+<td date='1775568600'>15 h 30</td>
 <td>Communication</td>
 <td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
 <td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>16 h 30</td>
+<td date='1775570400'>16 h 00</td>
 <td>Communication</td>
 <td>Orélie Desfriches Doria, Arthur Delecroix - <i>« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »</i></td>
 <td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
@@ -250,25 +238,25 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 </thead>
 <tbody>
 <tr>
-<td>09 h 00</td>
+<td date='1775545200'>09 h 00</td>
 <td>Communication</td>
 <td>Claire Noy - <i>Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens</i></td>
 <td><a href='auteurs_quarto/claire_noy.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>09 h 30</td>
+<td date='1775547000'>09 h 30</td>
 <td>Communication</td>
 <td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
 <td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 00</td>
+<td date='1775548800'>10 h 00</td>
 <td>Communication</td>
 <td>Michel Durampart - <i>Désenchanter la Boîte Noire : L'Analogie Narrative comme Vecteur de Littératie Artificielle</i></td>
 <td><a href='auteurs_quarto/michel_durampart.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr>
-<td>10 h 30</td>
+<td date='1775550600'>10 h 30</td>
 <td>Communication</td>
 <td>Maroun Jneid - <i>L'Analogie Neuronale comme Oracle : Redéfinir les frontières de la décision dans l'innovation et la justice</i></td>
 <td><a href='auteurs_quarto/maroun_jneid.qmd'>Consulter la proposition</a></td>
@@ -280,7 +268,7 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td></td>
 </tr>
 <tr>
-<td>11 h 30</td>
+<td date='1775554200'>11 h 30</td>
 <td>Communication</td>
 <td>Marc Tanti - <i>Le corps numérique comme champ de bataille : Filtrer le chaos informationnel pour détecter la pathologie</i></td>
 <td><a href='auteurs_quarto/marc_tanti.qmd'>Consulter la proposition</a></td>

@@ -4,7 +4,7 @@ author: Alessandro Leiduan
 categories: [Smart City, Fiction, Transmédialité, Cybernétique, Narration]
 
 subtitle: "Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données"
-bibliography: referenceAuteurs.bib
+bibliography: ../referenceAuteurs.bib
 
 
 
