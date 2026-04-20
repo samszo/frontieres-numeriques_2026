@@ -1,37 +1,58 @@
 ---
-title: "La Médiation des Savoirs comme Frontière Analogique : Cartographies et Négociations du Sens"
-author: Claire Noy
+title: "« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »"
+author:
+  - name: Claire Noy
+    affiliations:
+      - name: Laboratoire LERASS-CERIC
+      - name: Université Paul Valéry-Montpellier 3
+  - name: Alexandra Salou
+    affiliations:
+      - name: Institut mediterranéen des sciences de l'information et de la communication  (IMSIC)
+      - name: Aix Marseille Université
 categories: [Médiation scientifique, Frontières numériques, Cartographie conceptuelle, Épistémologie]
-
-subtitle: "« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »"
+subtitle: "La Médiation des Savoirs comme Frontière Analogique : Cartographies et Négociations du Sens"
 bibliography: referenceAuteurs.bib
 
-
-
 ---
+
+::: {.callout-note appearance='minimal'}
+**Bio Claire Noy :** Les travaux de Claire Noy interrogent la reconfiguration des frontières épistémiques et institutionnelles à l'ère du numérique, notamment la porosité croissante entre savoirs experts et profanes [@noy:hal-03920792; @noy:hal-03920721]. Elle analyse la médiation scientifique non plus comme une simple transmission, mais comme un processus de co-construction du sens, où les dispositifs graphiques comme les cartes conceptuelles jouent le rôle d'outils cognitifs d'appropriation et de structuration de la recherche [@noy:hal-04138013; @noy:hal-02116491]. Ses recherches explorent également la phénoménologie de l'acte créatif et la temporalité dans les environnements connectés [@noy:hal-03901403; @noy:hal-04291720].
+:::
 
 #### Laboratoire d'Etudes  et de Recherches Appliquées en Sciences Sociales
 [{{< fa solid globe >}} https://www.idref.fr/091622409](https://www.idref.fr/091622409) [{{< fa solid globe >}} https://hal.science/search/index/?q=authIdHal_s:claire-noy](https://hal.science/search/index/?q=authIdHal_s:claire-noy) 
 
-
 ::: {.callout-note appearance='minimal'}
-**Résumé :** Les travaux de Claire Noy interrogent la reconfiguration des frontières épistémiques et institutionnelles à l'ère du numérique, notamment la porosité croissante entre savoirs experts et profanes [@noy:hal-03920792; @noy:hal-03920721]. Elle analyse la médiation scientifique non plus comme une simple transmission, mais comme un processus de co-construction du sens, où les dispositifs graphiques comme les cartes conceptuelles jouent le rôle d'outils cognitifs d'appropriation et de structuration de la recherche [@noy:hal-04138013; @noy:hal-02116491]. Ses recherches explorent également la phénoménologie de l'acte créatif et la temporalité dans les environnements connectés [@noy:hal-03901403; @noy:hal-04291720].
+**Bio Alexandra Salou :** 
+Cette édition explore la frontière numérique non comme un mur, mais comme un « crible » [@guattari1992] et une zone fluctuante [@noyer2016] régie par des analogies technologiques. En s'appuyant sur la bataille des signes dans l'espace logiciel [@serres1997] et l'analogie comme moteur cognitif [@hofstadter2013], nous interrogeons comment les matrices ontologiques [@descola2005] et les modèles génératifs [@lecun2022] redéfinissent la distinction entre le réel et sa simulation numérique.
 :::
 
-### Proposition générée
+#### Institut Méditerranéen des Sciences de l'Information et de la Communication
+[{{< fa solid globe >}} https://www.idref.fr/280728492](https://www.idref.fr/280728492) 
+
+
+### Proposition déposée sur scienceconf.org
+
+  - [lien vers la proposition](https://frontieresnum7.sciencesconf.org/734301)
+
+**Titre : Frontière entre subjectivité narrée et expérience simulée**
+
+**Résumé :**
+Cette communication propose d'explorer la frontière entre subjectivité narrée et expérience simulée. Pour ce faire, nous avons fait une analyse de récits de doctorants et de textes automatisés par des modèles d'intelligence artificielle générative construits à partir de la contrainte suivante « Le jour où j'ai décidé de faire une thèse... ».
+À partir de la problématique, "Les IA génératives peuvent-elles produire des récits d'engagement crédibles, et que révèle cette capacité sur la frontière entre subjectivité humaine et textualité machinique ?" Notre analyse nous amène à démontrer que les IA ne reproduisent pas la forme sociale de l'expérience racontable ce qui signifie qu'elles sont capables d'imiter les codes de la vocation, mais restent dans l'impossibilité factuelle de produire une épaisseur existentielle. La frontière numérique réside indubitablement dans cette dialogique : entre récit vécu et textualité machinique, créativité et automatisation, identité et uniformisation.
+
+### Propositions générées pour Claire Noy
 
   - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/85525)
   - [lien vers le prompt](prompt_claire_noy.txt)
   - [lien vers la réponse](resume_claire_noy.json)
-
-
 
 **Titre : Cartographies et Analogies : La frontière numérique comme espace de médiation et de négociation du sens**
 
 **Résumé :**
 Cette intervention s'inscrit principalement dans l'**Axe 2 (L’Analogie comme outil cognitif et explicatif)** et l'**Axe 4 (Humanités Numériques)**. Nous proposons d'analyser comment la frontière numérique, loin d'être une limite étanche, fonctionne comme une « interface analogique » permettant la traduction et la médiation entre des régimes de savoirs hétérogènes (universitaires, profanes, algorithmiques). En s'appuyant sur l'usage de la carte conceptuelle comme outil heuristique, nous montrerons comment l'analogie visuelle et structurelle permet de « vectoriser le sens » dans le chaos informationnel. Il s'agira de démontrer que la conception de dispositifs de médiation numérique nécessite une approche analogiste, reliant les intériorités cognitives des apprenants aux physicalités des infrastructures de données, pour transformer l'accès à l'information en une véritable appropriation des connaissances, redéfinissant ainsi les territoires de l'autorité scientifique.
 
-### Résonances Bibliographiques
+### Résonances Bibliographiques pour Claire Noy
 
 La proposition de Claire Noy entre en dialogue direct avec les théoriciens de la frontière et de l'analogie mobilisés pour la conférence :
 
@@ -39,3 +60,24 @@ La proposition de Claire Noy entre en dialogue direct avec les théoriciens de l
 *   **L'outil cognitif et la carte conceptuelle :** L'usage de la carte conceptuelle par Noy [@noy:hal-04138013] pour structurer la recherche illustre parfaitement la thèse de **Hofstadter & Sander (2013)** selon laquelle l'analogie est le moteur de l'apprentissage et de l'extension des catégories. Cette méthode graphique rejoint l'approche de **Szoniecky (2024)** sur la modélisation des connaissances par analogie écosystémique.
 *   **Médiation et Ontologie :** En traitant de la distinction expert/profane [@noy:hal-03920721], Noy aborde les "éthologies conceptuelles" de **Noyer (2016)**. Son approche de la médiation peut être vue comme une tentative de réconcilier les physicalités (outils numériques) et les intériorités (processus cognitifs), s'inscrivant dans l'ontologie analogiste évoquée par **Serres (2009)** et **Descola (2005)**.
 *   **Créativité et Contraintes :** Enfin, ses travaux sur l'acte créatif et la temporalité [@noy:hal-03901403; @noy:hal-04291720] dialoguent avec **Delannay (2025)** sur la capacité de l'analogie à vectoriser le sens tout en limitant les interprétations, offrant un contrepoint humaniste aux enjeux de monopole juridique soulevés par **Moulier Boutang (2010)**.
+
+### Proposition générée poru Alexandra Salou
+
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/58460)
+  - [lien vers le prompt](prompt_alexandra_salou.txt)
+  - [lien vers la réponse](resume_alexandra_salou.json)
+
+
+
+**Titre : La réinformation comme mimétisme institutionnel : quand l'analogie structure la désinformation**
+
+**Résumé :**
+Cette intervention se situe à l'intersection de l'Axe 2 (L’Analogie comme outil cognitif) et de l'Axe 4 (Éthique et Limites). Elle propose d'analyser la « réinformation » non seulement comme une catégorie de désinformation, mais comme un processus analogique sophistiqué : elle mime les codes, les formats et la rhétorique du journalisme traditionnel pour créer une « frontière floue » de crédibilité. En étudiant l'homogénéisation des opinions et la polarisation algorithmique, nous démontrerons comment les dispositifs techniques agissent comme des filtres déformants, créant des « jumeaux numériques » idéologiques de l'actualité. L'enjeu est de comprendre comment cette analogie structurelle permet de franchir les barrières de la méfiance cognitive, transformant l'outil de médiation en vecteur de radicalisation au sein des écosystèmes socionumériques.
+
+### Résonances Bibliographiques pour Alexandra Salou
+
+Les travaux d'Alexandra Salou sur la réinformation comme « objet frontière » [@lukasik:hal-04151434] entrent en résonance directe avec la conception de **Debray (2013)** qui définit la frontière comme une « passoire » ou un régulateur, plutôt qu'un mur infranchissable. Là où la réinformation tente de s'approprier le canal de la vérité, on retrouve la « bataille des signes » décrite par **Serres (1997)**, où l'espace logiciel devient le terrain d'une lutte pour l'appropriation du sens.
+
+L'étude de l'impact des algorithmes de recommandation sur l'homogénéisation des opinions [@salou:hal-03695063] illustre concrètement le paradoxe soulevé par **Moulier Boutang (2010)** sur l'appropriation marchande et technique de l'information publique. De plus, l'approche méthodologique mixte défendue par l'auteure [@salou:hal-04870814] pour saisir ces phénomènes complexes répond à la nécessité d'éthologies conceptuelles et de nouveaux dispositifs d'observation prônés par **Noyer (2016)**.
+
+Enfin, l'analyse du mimétisme journalistique dans les pratiques de désinformation [@lukasik:hal-04827795] peut être lue à travers le prisme de l'ingénierie du vivant évoquée par **Provost, Kamili & Pitrou (2020)** : la réinformation opère un « bio-mimétisme » social, adoptant l'apparence de l'organisme sain (le média légitime) pour mieux infiltrer le corps social, exploitant ainsi l'analogie comme vecteur de sens limitant les interprétations critiques, tel que théorisé par **Delannay (2025)**.
