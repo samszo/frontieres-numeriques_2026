@@ -1,0 +1,42 @@
+---
+title: "Des environnements intelligents aux écosystèmes analogiques : l'Internet des Objets et le Web sémantique au service des Humanités Numériques"
+author: Ioan Roxin
+categories: [Internet of Things, Web sémantique, Humanités numériques, Médiation des savoirs, Ontologies]
+subtitle: "Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable"
+bibliography: referenceAuteurs.bib
+
+
+---
+
+#### Edition, Langages, Littératures, Informatique, Arts, Didactiques, Discours
+[{{< fa solid globe >}} https://www.idref.fr/082844941](https://www.idref.fr/082844941) [{{< fa solid globe >}} https://orcid.org/0000-0002-4143-4177](https://orcid.org/0000-0002-4143-4177) 
+
+
+::: {.callout-note appearance='minimal'}
+**Résumé :** 
+Cette proposition explore comment les ontologies sémantiques [@roxin:hal-00945144] et l'Internet des Objets [@bouchereau:hal-02178959] agissent comme des dispositifs analogiques structurant la médiation des savoirs. En croisant les humanités numériques avec les modélisations écosystémiques de la connaissance [@Szoniecky2024], nous montrons comment ces technologies transforment nos frontières informationnelles en réseaux de sens cognitifs [@HofstadterSander2013].
+:::
+
+### Proposition générée
+
+  - [lien vers les données](https://paragraphe.humanum-p8.fr/s/valorisations/item/83022)
+  - [lien vers le prompt](prompt_ioan_roxin.txt)
+  - [lien vers la réponse](resume_ioan_roxin.json)
+
+
+
+**Titre : Des environnements intelligents aux écosystèmes analogiques : l'Internet des Objets et le Web sémantique au service des Humanités Numériques**
+
+**Résumé :**
+
+S'inscrivant dans les axes 3 (Modélisation) et 4 (Humanités Numériques), cette proposition postule que les environnements connectés et le Web sémantique ne sont pas de simples infrastructures techniques, mais de véritables architectures analogiques du raisonnement humain. En s'appuyant sur l'annotation sémantique et l'Internet des Objets, nous démontrons comment ces dispositifs numériques opèrent une médiation des savoirs en traduisant les entités physiques en concepts interopérables. Cette modélisation du réel permet de réduire l'entropie informationnelle au sein des réseaux numériques et de créer des environnements d'apprentissage intelligents. Dès lors, la frontière entre l'objet physique et sa représentation numérique ne se conçoit plus comme une rupture, mais comme une passoire régulatrice et sémantique. L'enjeu est de comprendre comment ces systèmes d'organisation des connaissances redéfinissent l'épistémologie des humanités numériques en faisant de l'analogie logicielle le moteur principal de l'appréhension et de la transmission de notre réalité contemporaine.
+
+### Résonances Bibliographiques
+
+Les travaux de Roxin sur la structuration sémantique de l'information entrent en résonance profonde avec plusieurs penseurs de la frontière et de l'analogie :
+
+*   **Ontologies et écosystèmes de connaissances :** L'utilisation des outils sémantiques et des ontologies pour organiser l'édition numérique et diminuer l'entropie des réseaux [@roxin:hal-00945144; @szilagyi:hal-00701062; @andreys:hal-03624345] matérialise l'idée d'une analogie des écosystèmes appliquée à la modélisation des connaissances [@Szoniecky2024]. Ces architectures numériques s'inscrivent dans ce que l'on pourrait rapprocher des matrices ontologiques analogistes [@Descola2005], reliant la physicalité du réseau à l'intériorité des concepts.
+
+*   **L'Internet des objets comme membrane et crible :** La réflexion sur les objets connectés et les environnements intelligents comme nouveaux dispositifs de médiation des savoirs [@bouchereau:hal-02343707; @bouchereau:hal-02178959; @roxin:hal-03166087] illustre parfaitement la notion de frontière non pas comme un mur, mais comme une passoire ou un filtre [@Debray2013]. L'IoT agit ici comme un crible numérique [@Guattari1992] et une passerelle d'interopérabilité [@Citton2010] entre le monde physique et l'espace de la donnée.
+
+*   **Humanités numériques et batailles du sens :** L'implication de Roxin dans la définition épistémologique des Humanités Numériques [@roxin:hal-02331579; @roxin:hal-03174928] résonne avec la bataille des signes dans l'espace logiciel [@Serres1997]. Dans ces environnements, l'analogie et l'annotation sémantique deviennent les moteurs indispensables de l'apprentissage et de l'extension de nos catégories cognitives [@HofstadterSander2013], redéfinissant les frontières de l'innovation numérique [@boutaud:hal-01243494].
