@@ -4,3 +4,5 @@
 
 /.luarc.json
 key.php
+acceptations/*.pdf
+lettreAcceptation.log
