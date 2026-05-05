@@ -158,6 +158,12 @@ class ProgrammeGenerator {
         $md .= "    -  Samuel Szoniecky, Université Paris 8, France" . PHP_EOL;
         $md .= "    -  Imad Saleh, Université Paris 8, France" . PHP_EOL. PHP_EOL;
 
+        $md .= "## Découvrir Djerba : départ 13 h 30" . PHP_EOL . PHP_EOL;
+        $md .= "```{=html}" . PHP_EOL;
+        $md .= "<embed src='assets/docs/excursion_FN26.pdf' width='800px' height='600px' />" . PHP_EOL;
+        $md .= "```" . PHP_EOL;
+        $md .= "### Merci de vous inscrire avec ce document : [fiche d'inscription](assets/docs/Excursion_Inscription_FN26.docx)" . PHP_EOL . PHP_EOL;
+
         file_put_contents($this->outputFile, $md);
         echo "✅ Le fichier '$this->outputFile' a été généré avec succès." . PHP_EOL;
     }
