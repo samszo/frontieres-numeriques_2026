@@ -99,7 +99,6 @@ if($context){
     $props = [];
     $props[]=["id"=>"727732","auteur"=>"bourassa-voisin","auteurs"=>"Renée Bourassa, Julien Voisin","titre"=>"Cerveau et machine : les frontières d'une analogie productive",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "bourassa-voisin.html"];
     $props[]=["id"=>"726065","auteur"=>"audrey-bonjour","auteurs"=>"Audrey Bonjour","titre"=>"« Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "audrey-bonjour.html"];
-    $props[]=["id"=>"726188","auteur"=>"tsovinar-banuchyan","auteurs"=>"Tsovinar Banuchyan","titre"=>"Corps, langage et double : la poésie interactive comme métaphore numérique et espace de médiation",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "tsovinar-banuchyan.html"];
 
     foreach ($auteurs as $id) {        
 

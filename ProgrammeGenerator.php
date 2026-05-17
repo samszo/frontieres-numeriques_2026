@@ -7,9 +7,9 @@ class ProgrammeGenerator {
     private $siteItem;
     private $slotDuration = 30; // minutes
     private $pauseDuration = 30; // minutes
-    private $interventionsBeforePause = 4;
-    private $startTime = "09:00";
-    private $lunchTime = "12:30";
+    private $interventionsBeforePause = 3;
+    private $startTime = "10:00";
+    private $lunchTime = "13:00";
     private $lunchDuration = 90; // minutes
     private $fileNameContext;
 
@@ -32,7 +32,7 @@ class ProgrammeGenerator {
         $jours = [
             "Conceptions" => array_slice($this->propositions, 0, $split),
             "Créations" => array_slice($this->propositions, $split, $split),
-            "Expériementations" => array_slice($this->propositions, $split*2)
+            //"Expériementations" => array_slice($this->propositions, $split*2)
         ];        
 
         $dateStr = $this->getPeriodeStr($this->siteItem['dcterms:date'][0]['@value']);
@@ -157,6 +157,9 @@ class ProgrammeGenerator {
         $md .= "  - Présidents du colloque : ". PHP_EOL;
         $md .= "    -  Samuel Szoniecky, Université Paris 8, France" . PHP_EOL;
         $md .= "    -  Imad Saleh, Université Paris 8, France" . PHP_EOL. PHP_EOL;
+
+        $md .= PHP_EOL . "---" . PHP_EOL . PHP_EOL;
+        $md .= "# ".$dateStr[2]." " . PHP_EOL . PHP_EOL;
 
         $md .= "## Découvrir Djerba : départ 13 h 30" . PHP_EOL . PHP_EOL;
         $md .= "```{=html}" . PHP_EOL;
