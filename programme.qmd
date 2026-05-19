@@ -92,20 +92,20 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr id='dateSoutenance1779197400'>
 <td>15 h 30</td>
 <td>Communication</td>
-<td>Malek Ghenima - <i>Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs</i></td>
-<td><a href='auteurs_quarto/malek_ghenima.qmd'>Consulter la proposition</a></td>
+<td>Chu-yin Chen - <i>Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation</i></td>
+<td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1779199200'>
 <td>16 h 00</td>
 <td>Communication</td>
-<td>Chu-yin Chen - <i>Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation</i></td>
-<td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
+<td>Nouria Harbi - <i>Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données</i></td>
+<td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1779201000'>
 <td>16 h 30</td>
 <td>Communication</td>
-<td>Nouria Harbi - <i>Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données</i></td>
-<td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
+<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
+<td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
 </tr>
 </tbody>
 </table>
@@ -130,20 +130,20 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr id='dateSoutenance1779177600'>
 <td>10 h 00</td>
 <td>Communication</td>
-<td>Claire Noy, Alexandra Salou - <i>Frontière entre subjectivité narrée et expérience simulée</i></td>
-<td><a href='auteurs_quarto/claire_noy.qmd'>Consulter la proposition</a></td>
+<td>Ioan Roxin - <i>Des environnements intelligents aux écosystèmes analogiques : l'Internet des Objets et le Web sémantique au service des Humanités Numériques</i></td>
+<td><a href='auteurs_quarto/ioan_roxin.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1779179400'>
 <td>10 h 30</td>
 <td>Communication</td>
-<td>Ioan Roxin - <i>Des environnements intelligents aux écosystèmes analogiques : l'Internet des Objets et le Web sémantique au service des Humanités Numériques</i></td>
-<td><a href='auteurs_quarto/ioan_roxin.qmd'>Consulter la proposition</a></td>
+<td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
+<td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1779181200'>
 <td>11 h 00</td>
 <td>Communication</td>
-<td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
-<td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
+<td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
+<td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
 <td>11 h 30</td>
@@ -154,14 +154,14 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr id='dateSoutenance1779184800'>
 <td>12 h 00</td>
 <td>Communication</td>
-<td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
-<td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
+<td>Orélie Desfriches Doria, Arthur Delecroix - <i>« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »</i></td>
+<td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1779186600'>
 <td>12 h 30</td>
 <td>Communication</td>
-<td>Orélie Desfriches Doria, Arthur Delecroix - <i>« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »</i></td>
-<td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
+<td>Claire Noy, Alexandra Salou - <i>Frontière entre subjectivité narrée et expérience simulée</i></td>
+<td><a href='auteurs_quarto/claire_noy.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
 <td>13 h 00</td>
@@ -184,12 +184,6 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <tr id='dateSoutenance1779197400'>
 <td>15 h 30</td>
 <td>Communication</td>
-<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
-<td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr id='dateSoutenance1779199200'>
-<td>16 h 00</td>
-<td>Communication</td>
 <td>Marc Tanti, Fetta Belgacem - <i>L'analogie entre le corpus numérique et le corps biologique ou comment Filtrer le chaos informationnel pour détecter le signal "pathologique"</i></td>
 <td><a href='auteurs_quarto/marc_tanti.qmd'>Consulter la proposition</a></td>
 </tr>
@@ -199,7 +193,7 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 
 ---
 
-## Synthèse des travaux - Clôture : 16 h 30
+## Synthèse des travaux - Clôture : 16 h 00
 
   - Comité de programme et d'organisation : 
     - Malek Ghenima, Université de la Manouba, Tunisie

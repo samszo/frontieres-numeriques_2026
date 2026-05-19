@@ -4,7 +4,7 @@ title: "Symbiose Énactive : L'Analogie du Geste dans les Espaces Partagés"
 author: Chu-Yin Chen
 categories: [Réalité virtuelle, Art numérique, Cocréation, Énaction, Symbiose]
 
-subtitle: "Le crible et la carte : L'Intelligence Économique comme analogie cognitive de l'organisation des savoirs"
+subtitle: "De quoi la métaphore de la chambre chinoise est-elle la métaphore ?"
 bibliography: referenceAuteurs.bib
 
 
