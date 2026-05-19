@@ -27,7 +27,7 @@ class ProgrammeGenerator {
 
         // Répartition simple : moitié Jour 1, moitié Jour 2
         $total = count($this->propositions);
-        $split = ceil($total / 2.5);
+        $split = ceil($total / 2);
         
         $jours = [
             "Conceptions" => array_slice($this->propositions, 0, $split),
