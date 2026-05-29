@@ -1,22 +1,8 @@
 ---
-title: "**PROGRAMME PROVISOIRE** - Frontières Numériques 7 : Analogies & Technologies "
+title: "**PROGRAMME** - Frontières Numériques 7 : Analogies & Technologies "
 subtitle: " Djerba, Tunisie | du jeudi 04 juin 2026 au samedi 06 juin 2026 "
 toc: true
 ---
-
-::: {.callout-warning}
-Ce programme est toujours en cours de discussion avec les intervenants et le comité scientifique
-:::
-::: {.callout-note appearance='minimal'}
-## Processus de génération du programme
-
-Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr).
-
-Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le [contexte du colloque](../auteurs_quarto/context_fronti_res_num_riques_7_analogies_technologies.json).
-
-Le code et l'explication détaillée du processus sont accessibles sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/PROCESSUS_GENERATION.md).
-
-:::
 
 # jeudi 04 juin 2026 
 
@@ -41,13 +27,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 </tr>
 </thead>
 <tbody>
-<tr id='dateSoutenance1779179400'>
+<tr id='dateSoutenance1780043400'>
 <td>10 h 30</td>
 <td>Communication</td>
-<td>Renée Bourassa, Julien Voisin - <i>Cerveau et machine : les frontières d'une analogie productive</i></td>
-<td><a href='auteurs_quarto/bourassa-voisin.qmd'>Consulter la proposition</a></td>
+<td>Ramzi Turki - <i>La revue Fove'art nouveaux espaces de publications et de partages des Frontières numériques</i></td>
+<td><a href='auteurs_quarto/ramzi-turki.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779181200'>
+<tr id='dateSoutenance1780045200'>
 <td>11 h 00</td>
 <td>Communication</td>
 <td>Audrey Bonjour - <i>« Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique</i></td>
@@ -59,13 +45,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
-<tr id='dateSoutenance1779184800'>
+<tr id='dateSoutenance1780048800'>
 <td>12 h 00</td>
 <td>Communication</td>
 <td>Alexandre Joux - <i>"La métaphore de la bulle, masque ou révélateur des logiques financières dans l'IA ? Une étude de cas sur les limites des approches interprétatives par substitution analogique</i></td>
 <td><a href='auteurs_quarto/alexandre_joux.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779186600'>
+<tr id='dateSoutenance1780050600'>
 <td>12 h 30</td>
 <td>Communication</td>
 <td>Stéphanie Lukasik - <i>IA et Newsinfluenceurs : la nouvelle réinformation</i></td>
@@ -77,7 +63,7 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td><i>Pause Gastronomique</i></td>
 <td></td>
 </tr>
-<tr id='dateSoutenance1779193800'>
+<tr id='dateSoutenance1780057800'>
 <td>14 h 30</td>
 <td>Communication</td>
 <td>Tala Jammoul, Jessica Paris Cerbelle, Jacques Ghoul Samson, Olivier Nannipieri - <i>De quoi la métaphore de la chambre chinoise est-elle la métaphore ?</i></td>
@@ -89,23 +75,23 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
-<tr id='dateSoutenance1779197400'>
+<tr id='dateSoutenance1780061400'>
 <td>15 h 30</td>
 <td>Communication</td>
 <td>Chu-yin Chen - <i>Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation</i></td>
 <td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779199200'>
+<tr id='dateSoutenance1780063200'>
 <td>16 h 00</td>
 <td>Communication</td>
 <td>Nouria Harbi - <i>Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données</i></td>
 <td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779201000'>
-<td>16 h 30</td>
+<tr id='dateSoutenance1780065000'>
+<td>16 h 302026-06-05T14:00</td>
 <td>Communication</td>
-<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
-<td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
+<td>Hafida Boulekbache - <i>Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable</i></td>
+<td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
 </tr>
 </tbody>
 </table>
@@ -127,19 +113,19 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 </tr>
 </thead>
 <tbody>
-<tr id='dateSoutenance1779177600'>
+<tr id='dateSoutenance1780041600'>
 <td>10 h 00</td>
 <td>Communication</td>
 <td>Ioan Roxin - <i>Des environnements intelligents aux écosystèmes analogiques : l'Internet des Objets et le Web sémantique au service des Humanités Numériques</i></td>
 <td><a href='auteurs_quarto/ioan_roxin.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779179400'>
+<tr id='dateSoutenance1780043400'>
 <td>10 h 30</td>
 <td>Communication</td>
 <td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
 <td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779181200'>
+<tr id='dateSoutenance1780045200'>
 <td>11 h 00</td>
 <td>Communication</td>
 <td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
@@ -151,13 +137,13 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
-<tr id='dateSoutenance1779184800'>
+<tr id='dateSoutenance1780048800'>
 <td>12 h 00</td>
 <td>Communication</td>
 <td>Orélie Desfriches Doria, Arthur Delecroix - <i>« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »</i></td>
 <td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr id='dateSoutenance1779186600'>
+<tr id='dateSoutenance1780050600'>
 <td>12 h 30</td>
 <td>Communication</td>
 <td>Claire Noy, Alexandra Salou - <i>Frontière entre subjectivité narrée et expérience simulée</i></td>
@@ -169,11 +155,11 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td><i>Pause Gastronomique</i></td>
 <td></td>
 </tr>
-<tr id='dateSoutenance1779193800'>
+<tr id='dateSoutenance1780057800'>
 <td>14 h 30</td>
 <td>Communication</td>
-<td>Hafida Boulekbache - <i>Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable</i></td>
-<td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
+<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
+<td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
 <td>15 h 00</td>
@@ -181,7 +167,7 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
-<tr id='dateSoutenance1779197400'>
+<tr id='dateSoutenance1780061400'>
 <td>15 h 30</td>
 <td>Communication</td>
 <td>Marc Tanti, Fetta Belgacem - <i>L'analogie entre le corpus numérique et le corps biologique ou comment Filtrer le chaos informationnel pour détecter le signal "pathologique"</i></td>
@@ -213,4 +199,15 @@ Le code et l'explication détaillée du processus sont accessibles sur github [{
 <embed src='assets/docs/excursion_FN26.pdf' width='800px' height='600px' />
 ```
 ### Merci de vous inscrire avec ce document : [fiche d'inscription](assets/docs/Excursion_Inscription_FN26.docx)
+
+::: {.callout-note appearance='minimal'}
+## Processus de génération du programme
+
+Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr).
+
+Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le [contexte du colloque](../auteurs_quarto/context_fronti_res_num_riques_7_analogies_technologies.json).
+
+Le code et l'explication détaillée du processus sont accessibles sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/PROCESSUS_GENERATION.md).
+
+:::
 

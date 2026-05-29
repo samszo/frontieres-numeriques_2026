@@ -37,23 +37,10 @@ class ProgrammeGenerator {
 
         $dateStr = $this->getPeriodeStr($this->siteItem['dcterms:date'][0]['@value']);
         $md = "---" . PHP_EOL;
-        $md .= "title: \"**PROGRAMME PROVISOIRE** - {$this->siteItem['o:title']} \"" . PHP_EOL;
+        $md .= "title: \"**PROGRAMME** - {$this->siteItem['o:title']} \"" . PHP_EOL;
         $md .= "subtitle: \" {$this->siteItem['curation:location'][0]['@value']} | du {$dateStr[0]} au {$dateStr[count($dateStr)-1]} \"" . PHP_EOL;
         $md .= "toc: true" . PHP_EOL;
         $md .= "---" . PHP_EOL . PHP_EOL;
-
-        $md .= "::: {.callout-warning}" . PHP_EOL;
-        $md .= "Ce programme est toujours en cours de discussion avec les intervenants et le comité scientifique" . PHP_EOL;
-        $md .= ":::" . PHP_EOL;
-
-        $md .= "::: {.callout-note appearance='minimal'}" . PHP_EOL;
-        $md .= "## Processus de génération du programme" . PHP_EOL . PHP_EOL;
-        $md .= "Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr)." . PHP_EOL . PHP_EOL;
-        $md .= "Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le [contexte du colloque](../auteurs_quarto/$this->fileNameContext)." . PHP_EOL . PHP_EOL;
-        $md .= "Le code et l'explication détaillée du processus sont accessibles sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/PROCESSUS_GENERATION.md).".PHP_EOL . PHP_EOL;
-
-        $md .= ":::". PHP_EOL . PHP_EOL;
-
 
         $numJour = 0;
         foreach ($jours as $titre => $liste) {
@@ -166,6 +153,20 @@ class ProgrammeGenerator {
         $md .= "<embed src='assets/docs/excursion_FN26.pdf' width='800px' height='600px' />" . PHP_EOL;
         $md .= "```" . PHP_EOL;
         $md .= "### Merci de vous inscrire avec ce document : [fiche d'inscription](assets/docs/Excursion_Inscription_FN26.docx)" . PHP_EOL . PHP_EOL;
+
+        /*
+        $md .= "::: {.callout-warning}" . PHP_EOL;
+        $md .= "Ce programme est toujours en cours de discussion avec les intervenants et le comité scientifique" . PHP_EOL;
+        $md .= ":::" . PHP_EOL;
+        */
+
+        $md .= "::: {.callout-note appearance='minimal'}" . PHP_EOL;
+        $md .= "## Processus de génération du programme" . PHP_EOL . PHP_EOL;
+        $md .= "Ce programme regroupe les propositions déposées sur [sciencesconf.org](https://frontieresnum7.sciencesconf.org/submission/submit?lang=fr) et générées à partir des informations des auteurs présentes dans la base de données [Scanr](https://scanr.enseignementsup-recherche.gouv.fr/) et compilées dans le [site expériemental du Laboratoire Paragraphe](https://humanum-p8.fr/paragraphe/s/valorisations) pour plus de détails cf. [Module Omeka S Scanr](https://github.com/samszo/Omeka-S-module-Scanr)." . PHP_EOL . PHP_EOL;
+        $md .= "Pour chaque auteur, un prompt est généré et soumis à Google Gemini (cf. [détails du raisonnement](https://gemini.google.com/share/af57cb425119)) pour créer au format [Markdown Quarto](https://quarto.org/) une proposition en lien avec le [contexte du colloque](../auteurs_quarto/$this->fileNameContext)." . PHP_EOL . PHP_EOL;
+        $md .= "Le code et l'explication détaillée du processus sont accessibles sur github [{{< fa brands github >}} GitHub](https://github.com/samszo/frontieres-numeriques_2026/blob/main/PROCESSUS_GENERATION.md).".PHP_EOL . PHP_EOL;
+
+        $md .= ":::". PHP_EOL . PHP_EOL;
 
         file_put_contents($this->outputFile, $md);
         echo "✅ Le fichier '$this->outputFile' a été généré avec succès." . PHP_EOL;

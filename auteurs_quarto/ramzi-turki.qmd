@@ -1,0 +1,25 @@
+---
+title: "La revue Fove'art."
+author:
+  - name: Ramzi Turki
+    affiliations:
+      - name: Institut supérieur d’informatique et de multimédia de Sfax
+      - name: Université de Sfax
+categories: [Médiation scientifique, Frontières numériques, Revue]
+subtitle: "Nouveaux espaces de publications et de partages des Frontières numériques."
+bibliography: referenceAuteurs.bib
+
+---
+
+::: {.callout-note appearance='minimal'}
+**Bio Ramzi Turki :** Ramzi Turki est maître de conférences HDR à l’ISIMS, Université de Sfax, docteur HDR de l’Université Bordeaux-Montaigne, ancien vice-directeur, directeur des études et des stages à l’ISAMM, Université de Monastir, responsable de l’axe Arts visuels, design et nouvelles technologies du laboratoire Langage et traitement automatique, Université de Sfax. Il est artiste du multimédia et des réseaux. Il a publié des ouvrages et des articles variés sur les arts numériques, le Net art et les TIC. Engagé dans le numérique et les réseaux, Ramzi Turki et Cécile Croce ont fondé un groupe international de travail pour développer une Encyclopédie Numérique des Couleurs https://encyclopedienumeriquedescouleurs.com/. Il a dirigé : « L’atelier comme œuvre », Ligeia, Dossiers sur l’Art, 2023/2, Paris, Éditions Ligeia, N° 205-208, 160 pages. « Enseigner l’art », Ligeia, Dossiers sur l’Art, 2022/2, Paris, Éditions Ligeia, N° 197-200, 218 pages. « Art et biotechnologie, ou penser et repenser les pratiques artistiques à l’épreuve de la Covid-19 », Ligeia, Dossiers sur l’Art, (N° 186), Paris, Éditions Ligeia, 2021/2, « Le Net Art ; Hybridation et pratiques cybernétiques », Ligeia, Dossiers sur l’Art, 2020/2, Paris, Éditions Ligeia, N° 181-184, 256 pages, « L’expérience, moteur d’innovation pédagogique », (LLTA) Université de Sfax, Édition Contact, 2021. Il est l’auteur de : L’e-mail-art, création d’une nouvelle forme artistique, Paris, Édition Edilivre, 2015, 352 pages, préface d’Olivier Lussac, Avatars et Inter-réactions de l’Image Tridimensionnelle dans l’Espace Ouvert, Entre Réalité et Virtualité, Sfax, Nouha Édition, 2017, 210 pages, Les murs ont aussi des yeux qui nous regardent, le Net art et l’esthétique du partage, Paris, L’Harmattan, 2018, 241 pages, préface d’Yves Michaud. Il a co-dirigé avec A. Ségui Entraygues l’ouvrage collectif, « L’expérience, moteur d’innovation pédagogique », Tome 2, (LLTA) Université de Sfax, Edition Contact, 2023, 270 pages, et Avec Fatma Chafaii Brigui et Imen Menif, l’ouvrage collectif, La pédagogie à l’ère du numérique : les entraves & les enjeux, (LLTA) Université de Sfax, Edition Contact, 2023, 353 pages (Avec Fatma Chafaii Brigui et Imen Menif).
+:::
+
+
+**Titre : La revue Fove'art : Nouveaux espaces de publications et de partages des Frontières numériques.**
+
+**Résumé :**
+
+Dans le cadre du colloque **Frontières Numériques 2026**, cette communication présente la revue *Fove'art* comme un dispositif de médiation innovant. À l'intersection de la création et de la recherche, cette revue interroge les limites de la publication scientifique et artistique à l'ère des environnements numériques.
+
+La revue *Fove'art* se positionne comme un nouvel espace liminaire où les frontières entre auteurs, lecteurs et technologies s'estompent. En mobilisant des dispositifs de médiation scientifique originaux, elle explore comment le numérique transforme l'objet "revue" en un territoire d'expérimentation fluide. Cette proposition analyse les mécanismes de partage et de visibilité des savoirs au sein de ces nouveaux écosystèmes, en mettant l'accent sur les hybridations nécessaires à la valorisation des contenus à l'ère de l'intelligence collective.

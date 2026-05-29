@@ -97,7 +97,8 @@ if($context){
     //$auteurs=["63049"];
     
     $props = [];
-    $props[]=["id"=>"727732","auteur"=>"bourassa-voisin","auteurs"=>"Renée Bourassa, Julien Voisin","titre"=>"Cerveau et machine : les frontières d'une analogie productive",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "bourassa-voisin.html"];
+    //$props[]=["id"=>"727732","auteur"=>"bourassa-voisin","auteurs"=>"Renée Bourassa, Julien Voisin","titre"=>"Cerveau et machine : les frontières d'une analogie productive",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "bourassa-voisin.html"];
+    $props[]=["id"=>"726064","auteur"=>"ramzi-turki","auteurs"=>"Ramzi Turki","titre"=>"La revue Fove'art nouveaux espaces de publications et de partages des Frontières numériques",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "ramzi-turki.html"];
     $props[]=["id"=>"726065","auteur"=>"audrey-bonjour","auteurs"=>"Audrey Bonjour","titre"=>"« Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique",'page'=>$outputFolder . DIRECTORY_SEPARATOR . "audrey-bonjour.html"];
 
     foreach ($auteurs as $id) {        
