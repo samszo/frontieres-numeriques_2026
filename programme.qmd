@@ -6,7 +6,7 @@ toc: true
 
 # jeudi 04 juin 2026 
 
-## Accueil - Ouverture du colloque : 10 h 00
+## Accueil - Ouverture du colloque : 09 h 00
 
   - Comité de programme et d'organisation : 
     - Malek Ghenima, Université de la Manouba, Tunisie
@@ -28,70 +28,47 @@ toc: true
 </thead>
 <tbody>
 <tr id='dateSoutenance1780043400'>
-<td>10 h 30</td>
+<td>09 h 30</td>
 <td>Communication</td>
 <td>Ramzi Turki - <i>La revue Fove'art nouveaux espaces de publications et de partages des Frontières numériques</i></td>
 <td><a href='auteurs_quarto/ramzi-turki.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1780045200'>
-<td>11 h 00</td>
+<td>10 h 00</td>
 <td>Communication</td>
 <td>Audrey Bonjour - <i>« Pollution numérique » : métaphore environnementale, médiation sémiotique et frontière éthico‑esthétique du numérique</i></td>
 <td><a href='auteurs_quarto/audrey-bonjour.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='pause'>
-<td>11 h 30</td>
+<td>10 h 30</td>
 <td><b>PAUSE</b></td>
 <td><i>Networking & Café</i></td>
 <td></td>
 </tr>
 <tr id='dateSoutenance1780048800'>
-<td>12 h 00</td>
+<td>11 h 00</td>
 <td>Communication</td>
 <td>Alexandre Joux - <i>"La métaphore de la bulle, masque ou révélateur des logiques financières dans l'IA ? Une étude de cas sur les limites des approches interprétatives par substitution analogique</i></td>
 <td><a href='auteurs_quarto/alexandre_joux.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1780050600'>
-<td>12 h 30</td>
+<td>11 h 30</td>
 <td>Communication</td>
 <td>Stéphanie Lukasik - <i>IA et Newsinfluenceurs : la nouvelle réinformation</i></td>
 <td><a href='auteurs_quarto/st_phanie_lukasik.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr class='dejeuner'>
-<td>13 h 00</td>
-<td><b>DÉJEUNER</b></td>
-<td><i>Pause Gastronomique</i></td>
-<td></td>
-</tr>
-<tr id='dateSoutenance1780057800'>
-<td>14 h 30</td>
-<td>Communication</td>
-<td>Tala Jammoul, Jessica Paris Cerbelle, Jacques Ghoul Samson, Olivier Nannipieri - <i>De quoi la métaphore de la chambre chinoise est-elle la métaphore ?</i></td>
-<td><a href='auteurs_quarto/olivier_nannipieri.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr class='pause'>
-<td>15 h 00</td>
-<td><b>PAUSE</b></td>
-<td><i>Networking & Café</i></td>
-<td></td>
-</tr>
-<tr id='dateSoutenance1780061400'>
-<td>15 h 30</td>
-<td>Communication</td>
-<td>Chu-yin Chen - <i>Vers une Frontière Transparente : L'Analogie Énactive comme Interface de Cocréation</i></td>
-<td><a href='auteurs_quarto/chu-yin_chen.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr id='dateSoutenance1780063200'>
-<td>16 h 00</td>
-<td>Communication</td>
-<td>Nouria Harbi - <i>Le Filtre et la Trace : Analogies Immunitaires pour la Résilience des Données</i></td>
-<td><a href='auteurs_quarto/nouria_harbi.qmd'>Consulter la proposition</a></td>
-</tr>
 <tr id='dateSoutenance1780065000'>
-<td>16 h 302026-06-05T14:00</td>
+<td>12 h 00</td>
 <td>Communication</td>
 <td>Hafida Boulekbache - <i>Le territoire comme système : hybridation des analogies architecturales, du croquis aux modèles génératifs dans la ville durable</i></td>
 <td><a href='auteurs_quarto/hafida_boulekbache.qmd'>Consulter la proposition</a></td>
+</tr>
+
+<tr class='dejeuner'>
+<td>12 h 30</td>
+<td><b>DÉJEUNER</b></td>
+<td><i>Pause Gastronomique</i></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -113,65 +90,59 @@ toc: true
 </tr>
 </thead>
 <tbody>
-<tr id='dateSoutenance1780041600'>
-<td>10 h 00</td>
-<td>Communication</td>
-<td>Ioan Roxin - <i>Des environnements intelligents aux écosystèmes analogiques : l'Internet des Objets et le Web sémantique au service des Humanités Numériques</i></td>
-<td><a href='auteurs_quarto/ioan_roxin.qmd'>Consulter la proposition</a></td>
-</tr>
 <tr id='dateSoutenance1780043400'>
-<td>10 h 30</td>
+<td>09 h 00</td>
 <td>Communication</td>
 <td>Imad Saleh - <i>Interfaces pervasives et analogies du contrôle : Vers une éthique de l'appropriation technologique</i></td>
 <td><a href='auteurs_quarto/imad_saleh.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr id='dateSoutenance1780045200'>
-<td>11 h 00</td>
+<td>09 h 30</td>
 <td>Communication</td>
 <td>Samuel Szoniecky - <i>Architectures de l'analogie : concevoir des écosystèmes de connaissances comme des jardins partagés</i></td>
 <td><a href='auteurs_quarto/samuel_szoniecky.qmd'>Consulter la proposition</a></td>
 </tr>
-<tr class='pause'>
-<td>11 h 30</td>
-<td><b>PAUSE</b></td>
-<td><i>Networking & Café</i></td>
-<td></td>
-</tr>
 <tr id='dateSoutenance1780048800'>
-<td>12 h 00</td>
+<td>10 h 00</td>
 <td>Communication</td>
 <td>Orélie Desfriches Doria, Arthur Delecroix - <i>« Mise en controverse de la notion de « Patrimoine Immatériel » : vers une perspective critique. »</i></td>
 <td><a href='auteurs_quarto/or_lie_desfriches_doria.qmd'>Consulter la proposition</a></td>
 </tr>
+<tr class='pause'>
+<td>10 h 30</td>
+<td><b>PAUSE</b></td>
+<td><i>Networking & Café</i></td>
+<td></td>
+</tr>
 <tr id='dateSoutenance1780050600'>
-<td>12 h 30</td>
+<td>11 h 00</td>
 <td>Communication</td>
 <td>Claire Noy, Alexandra Salou - <i>Frontière entre subjectivité narrée et expérience simulée</i></td>
 <td><a href='auteurs_quarto/claire_noy.qmd'>Consulter la proposition</a></td>
+</tr>
+<tr id='dateSoutenance1780057800'>
+<td>11 h 30</td>
+<td>Communication</td>
+<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
+<td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
+</tr>
+<tr id='dateSoutenance1780061400'>
+<td>12 h 00</td>
+<td>Communication</td>
+<td>Marc Tanti, Fetta Belgacem - <i>L'analogie entre le corpus numérique et le corps biologique ou comment Filtrer le chaos informationnel pour détecter le signal "pathologique"</i></td>
+<td><a href='auteurs_quarto/marc_tanti.qmd'>Consulter la proposition</a></td>
+</tr>
+<tr id='dateSoutenance1780057800'>
+<td>12 h 30</td>
+<td>Communication</td>
+<td>Tala Jammoul, Jessica Paris Cerbelle, Jacques Ghoul Samson, Olivier Nannipieri - <i>De quoi la métaphore de la chambre chinoise est-elle la métaphore ?</i></td>
+<td><a href='auteurs_quarto/olivier_nannipieri.qmd'>Consulter la proposition</a></td>
 </tr>
 <tr class='dejeuner'>
 <td>13 h 00</td>
 <td><b>DÉJEUNER</b></td>
 <td><i>Pause Gastronomique</i></td>
 <td></td>
-</tr>
-<tr id='dateSoutenance1780057800'>
-<td>14 h 30</td>
-<td>Communication</td>
-<td>Renée Bourassa - <i>Analogie du simulacre et frontières de l'authenticité dans les interfaces narratives</i></td>
-<td><a href='auteurs_quarto/ren_e_bourassa.qmd'>Consulter la proposition</a></td>
-</tr>
-<tr class='pause'>
-<td>15 h 00</td>
-<td><b>PAUSE</b></td>
-<td><i>Networking & Café</i></td>
-<td></td>
-</tr>
-<tr id='dateSoutenance1780061400'>
-<td>15 h 30</td>
-<td>Communication</td>
-<td>Marc Tanti, Fetta Belgacem - <i>L'analogie entre le corpus numérique et le corps biologique ou comment Filtrer le chaos informationnel pour détecter le signal "pathologique"</i></td>
-<td><a href='auteurs_quarto/marc_tanti.qmd'>Consulter la proposition</a></td>
 </tr>
 </tbody>
 </table>
